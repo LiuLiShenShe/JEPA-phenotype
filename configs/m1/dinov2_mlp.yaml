@@ -1,0 +1,16 @@
+model: B2a
+feature_dim: 384
+time_dim: 10
+hidden_dim: 256
+dropout: 0.1
+learning_rate: 0.001
+weight_decay: 0.0001
+batch_size: 256
+max_epochs: 100
+patience: 18
+optimizer: AdamW
+loss: standardized_equal_target_huber_delta1
+selection: validation_plant_macro_mean_target_normalized_mae
+encoder: frozen_official_dinov2_vits14
+horizons: [2, 4, 8]
+seeds: [42, 43, 44]
