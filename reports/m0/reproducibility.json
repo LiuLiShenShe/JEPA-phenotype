@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "seed": 42,
+  "changed_files": [],
+  "sha256_before": {
+    "data/metadata/frames.csv": "44695a96c5f7fa0bfc46785f988f2b1493f8592dc3da2caeab2d4a8dca219b46",
+    "data/metadata/plants.csv": "a5f04f498a3a0c8dda77cec986b95b6d291b970ee2f0e878035b7c9ac610e24e",
+    "data/metadata/phenotypes.csv": "fcc6d76540bf1a5bd9370454528833c68660a5ac6bca14f0e5e3fcf70a52d2c2",
+    "data/metadata/leaf_instances.csv": "d962823b216cd1f3343307fe977adf2b8a288c5e95fba9d2b86f9a733b59c03f",
+    "data/metadata/data_issues.csv": "94db564450faff9e7c9c15a3f017a5ea0e620a5ff4974807cf2bff3ffb8c0400",
+    "data/metadata/dataset_statistics.json": "fd32c736ccde1d138d0ec87129e7cebdf6e9ebdbb17cc06c19d444bbfaaac258",
+    "splits/phenoleaf_plant_split_seed42.json": "195888c23b66772e99ddf506a0a16d2e72c7dd65948ab9ff753fa70bc1849b39",
+    "data/processed/temporal_windows.csv": "dbba493d78a2f1d8e6ac3cdc599aa60bfd2d16cd80301f3f6de58b4dca6bb037",
+    "reports/m0/split_statistics.csv": "7889b5f6a603f035589870c324dc5e6eaf4d262bb162a7f06fa5a2e2de4f1369",
+    "reports/m0/phenotype_statistics.json": "2a3db3b4b139a43e557785d8e4b2b399fdca70c4b7b8ede19d478f495db85b87"
+  },
+  "sha256_after": {
+    "data/metadata/frames.csv": "44695a96c5f7fa0bfc46785f988f2b1493f8592dc3da2caeab2d4a8dca219b46",
+    "data/metadata/plants.csv": "a5f04f498a3a0c8dda77cec986b95b6d291b970ee2f0e878035b7c9ac610e24e",
+    "data/metadata/phenotypes.csv": "fcc6d76540bf1a5bd9370454528833c68660a5ac6bca14f0e5e3fcf70a52d2c2",
+    "data/metadata/leaf_instances.csv": "d962823b216cd1f3343307fe977adf2b8a288c5e95fba9d2b86f9a733b59c03f",
+    "data/metadata/data_issues.csv": "94db564450faff9e7c9c15a3f017a5ea0e620a5ff4974807cf2bff3ffb8c0400",
+    "data/metadata/dataset_statistics.json": "fd32c736ccde1d138d0ec87129e7cebdf6e9ebdbb17cc06c19d444bbfaaac258",
+    "splits/phenoleaf_plant_split_seed42.json": "195888c23b66772e99ddf506a0a16d2e72c7dd65948ab9ff753fa70bc1849b39",
+    "data/processed/temporal_windows.csv": "dbba493d78a2f1d8e6ac3cdc599aa60bfd2d16cd80301f3f6de58b4dca6bb037",
+    "reports/m0/split_statistics.csv": "7889b5f6a603f035589870c324dc5e6eaf4d262bb162a7f06fa5a2e2de4f1369",
+    "reports/m0/phenotype_statistics.json": "2a3db3b4b139a43e557785d8e4b2b399fdca70c4b7b8ede19d478f495db85b87"
+  }
+}

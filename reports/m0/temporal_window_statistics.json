@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "frames_path": "/fj/JEPA-表型/data/metadata/frames.csv",
+  "split_path": "/fj/JEPA-表型/splits/phenoleaf_plant_split_seed42.json",
+  "history_length": 3,
+  "horizons": [
+    2,
+    4,
+    8
+  ],
+  "horizon_unit": "observation index offset, not days",
+  "counts": {
+    "usable_frames": 17056,
+    "plants_with_usable_frames": 318,
+    "windows": 44806,
+    "plants_with_windows": 318,
+    "skipped_target_labels": 0,
+    "skipped_invalid_history_endpoints": 28,
+    "skipped_invalid_targets": 10
+  },
+  "windows_by_split": {
+    "test": 5857,
+    "train": 31564,
+    "val": 7385
+  },
+  "windows_by_horizon": {
+    "2": 15782,
+    "4": 15148,
+    "8": 13876
+  },
+  "overlap": {
+    "allowed": true,
+    "note": "Windows from the same plant overlap by design; split assignment remains plant-level.",
+    "mean_windows_per_plant": 140.8993710691824,
+    "max_windows_per_plant": 436
+  }
+}

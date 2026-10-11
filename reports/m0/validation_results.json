@@ -1,0 +1,332 @@
+{
+  "status": "PASS",
+  "data_scope": "real_dataset",
+  "checks": [
+    {
+      "name": "Nonempty metadata",
+      "status": "PASS",
+      "details": {
+        "frames": 17082,
+        "plants": 318
+      }
+    },
+    {
+      "name": "Plant UID and file paths",
+      "status": "PASS",
+      "details": {
+        "id_errors": 0,
+        "path_errors": 0
+      }
+    },
+    {
+      "name": "RGB/mask one-to-one row uniqueness",
+      "status": "PASS",
+      "details": {
+        "frames": 17082,
+        "unique_pairs": 17082
+      }
+    },
+    {
+      "name": "Plant inventory matches frame inventory",
+      "status": "PASS",
+      "details": 318
+    },
+    {
+      "name": "Strict verified within-plant time order",
+      "status": "PASS",
+      "details": {
+        "problem_plants": [],
+        "reliable_plants": 318
+      }
+    },
+    {
+      "name": "Projected area ratios in [0,1]",
+      "status": "PASS",
+      "details": "all usable frames"
+    },
+    {
+      "name": "Illegal colors recorded and quarantined",
+      "status": "PASS",
+      "details": {
+        "quarantined_illegal_color_frames": 26
+      }
+    },
+    {
+      "name": "Phenotypes and canonical frames agree",
+      "status": "PASS",
+      "details": {
+        "phenotypes": 17082
+      }
+    },
+    {
+      "name": "Nonempty plant-level split with seed 42",
+      "status": "PASS",
+      "details": {
+        "train": 219,
+        "val": 53,
+        "test": 46
+      }
+    },
+    {
+      "name": "Plant split IDs disjoint and assignments consistent",
+      "status": "PASS",
+      "details": "train∩val = train∩test = val∩test = empty"
+    },
+    {
+      "name": "All usable images in exactly one plant split",
+      "status": "PASS",
+      "details": {
+        "assigned_images": 17056
+      }
+    },
+    {
+      "name": "Seed 42 split reproducibility",
+      "status": "PASS",
+      "details": "independently recomputed assignments"
+    },
+    {
+      "name": "Quarantined images excluded from split index",
+      "status": "PASS",
+      "details": 26
+    },
+    {
+      "name": "Nonempty unique windows for horizons 2/4/8",
+      "status": "PASS",
+      "details": {
+        "windows": 44806
+      }
+    },
+    {
+      "name": "All windows: same plant, future GT, original offsets",
+      "status": "PASS",
+      "details": {}
+    },
+    {
+      "name": "All eligible windows generated exactly once",
+      "status": "PASS",
+      "details": {
+        "expected": 44806,
+        "observed": 44806
+      }
+    },
+    {
+      "name": "Full-file independent audit",
+      "status": "PASS",
+      "details": {
+        "metadata_sha256": "44695a96c5f7fa0bfc46785f988f2b1493f8592dc3da2caeab2d4a8dca219b46",
+        "leaf_instances_sha256": "d962823b216cd1f3343307fe977adf2b8a288c5e95fba9d2b86f9a733b59c03f",
+        "status": "PASS",
+        "frames_audited": 17082,
+        "masks_independently_recomputed": 17082,
+        "archive_crc_comparison_enabled": true,
+        "archive_sha256": "608c7b07125281fb92517182c0873d1a9c87d696e2adedcb11c002173887de2f",
+        "archive_member_files": 34166,
+        "extra_archive_file_errors": [],
+        "frame_errors": [],
+        "invalid_color_frames": 26,
+        "invalid_color_pixels": 54418,
+        "quarantined_frames": 26,
+        "duplicate_rgb_file_groups": 0,
+        "duplicate_rgb_pixel_groups": 0,
+        "duplicate_mask_file_groups": 0,
+        "cross_plant_duplicate_rgb_groups": 0
+      }
+    },
+    {
+      "name": "Audit evidence matches current metadata",
+      "status": "PASS",
+      "details": "SHA-256 of canonical frames and leaf instances"
+    },
+    {
+      "name": "Every frame and mask audited",
+      "status": "PASS",
+      "details": 17082
+    },
+    {
+      "name": "Byte-identical full pipeline rerun",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "Full archive identity, extraction CRCs and provenance",
+      "status": "PASS",
+      "details": {
+        "archive_bytes": 5486793580,
+        "sha256": "608c7b07125281fb92517182c0873d1a9c87d696e2adedcb11c002173887de2f",
+        "source_mode": "hf-mirror"
+      }
+    },
+    {
+      "name": "Official repository commit pinned",
+      "status": "PASS",
+      "details": "0d9a24ff146d12cc8fca6bdfa2538d196754f456"
+    },
+    {
+      "name": "Automated pytest suite",
+      "status": "PASS",
+      "details": {
+        "tests": 21,
+        "results": {
+          "PASS": 21
+        }
+      }
+    },
+    {
+      "name": "Local review figures and selection coverage",
+      "status": "PASS",
+      "details": {
+        "png_files": 9,
+        "overlays": 12,
+        "growth_plants": 6,
+        "temporal_windows": 6
+      }
+    },
+    {
+      "name": "Acquisition identity independently confirms directory plant UID",
+      "status": "PASS",
+      "details": {
+        "source_acquisition_ids": 318,
+        "source_ids_shared_across_plant_uids": {},
+        "plants_with_multiple_source_ids": [],
+        "filename_genotype_conflict_frames": 0,
+        "filename_replicate_differs_from_directory_frames": 1632,
+        "plants_with_filename_replicate_alias": 65,
+        "policy": "Use curated genotype/replicate directory identity. Filename suffix replicate numbers can be reused across acquisitions; acquisition-prefix IDs are one-to-one with directory plant_uids."
+      }
+    },
+    {
+      "name": "Real Dataset samples and DataLoader on CPU",
+      "status": "PASS",
+      "details": [
+        {
+          "split": "train",
+          "horizon": 2,
+          "samples": 11104,
+          "plant_uid": "Ba4-1/rep_02",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "train",
+          "horizon": 4,
+          "samples": 10668,
+          "plant_uid": "Ba4-1/rep_02",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "train",
+          "horizon": 8,
+          "samples": 9792,
+          "plant_uid": "Ba4-1/rep_02",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "val",
+          "horizon": 2,
+          "samples": 2603,
+          "plant_uid": "Ba4-1/rep_01",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "val",
+          "horizon": 4,
+          "samples": 2497,
+          "plant_uid": "Ba4-1/rep_01",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "val",
+          "horizon": 8,
+          "samples": 2285,
+          "plant_uid": "Ba4-1/rep_01",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "test",
+          "horizon": 2,
+          "samples": 2075,
+          "plant_uid": "Ba4-1/rep_09",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "test",
+          "horizon": 4,
+          "samples": 1983,
+          "plant_uid": "Ba4-1/rep_09",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "split": "test",
+          "horizon": 8,
+          "samples": 1799,
+          "plant_uid": "Ba4-1/rep_09",
+          "shape": [
+            3,
+            3,
+            224,
+            224
+          ],
+          "status": "PASS"
+        },
+        {
+          "dataloader_batch_shape": [
+            2,
+            3,
+            3,
+            224,
+            224
+          ],
+          "device": "cpu",
+          "status": "PASS"
+        }
+      ]
+    }
+  ]
+}

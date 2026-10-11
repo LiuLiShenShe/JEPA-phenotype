@@ -1,0 +1,191 @@
+{
+  "status": "ok",
+  "real_data_available": false,
+  "data_scope": "synthetic_only",
+  "dataset_root": "data/synthetic_m0/leaf_dataset_colour",
+  "raw_dir": "data/synthetic_m0/leaf_dataset_colour/01_raw_dataset",
+  "mask_dir": "data/synthetic_m0/leaf_dataset_colour/02_leaf_labels",
+  "palette_path": "data/synthetic_m0/leaf_dataset_colour/leaves_unique_colours.xlsx",
+  "palette": {
+    "source": "xlsx",
+    "size": 31,
+    "colors": [
+      [
+        244,
+        64,
+        14
+      ],
+      [
+        48,
+        57,
+        249
+      ],
+      [
+        234,
+        250,
+        37
+      ],
+      [
+        24,
+        193,
+        65
+      ],
+      [
+        245,
+        130,
+        49
+      ],
+      [
+        231,
+        80,
+        219
+      ],
+      [
+        0,
+        182,
+        173
+      ],
+      [
+        115,
+        0,
+        218
+      ],
+      [
+        191,
+        239,
+        69
+      ],
+      [
+        255,
+        250,
+        200
+      ],
+      [
+        250,
+        190,
+        212
+      ],
+      [
+        66,
+        212,
+        244
+      ],
+      [
+        155,
+        99,
+        36
+      ],
+      [
+        220,
+        190,
+        255
+      ],
+      [
+        69,
+        158,
+        220
+      ],
+      [
+        255,
+        216,
+        177
+      ],
+      [
+        98,
+        2,
+        37
+      ],
+      [
+        227,
+        213,
+        12
+      ],
+      [
+        79,
+        159,
+        83
+      ],
+      [
+        170,
+        23,
+        101
+      ],
+      [
+        170,
+        255,
+        195
+      ],
+      [
+        169,
+        169,
+        169
+      ],
+      [
+        181,
+        111,
+        119
+      ],
+      [
+        144,
+        121,
+        171
+      ],
+      [
+        9,
+        125,
+        244
+      ],
+      [
+        184,
+        70,
+        30
+      ],
+      [
+        154,
+        35,
+        246
+      ],
+      [
+        229,
+        225,
+        238
+      ],
+      [
+        141,
+        254,
+        82
+      ],
+      [
+        31,
+        200,
+        209
+      ],
+      [
+        194,
+        217,
+        105
+      ]
+    ]
+  },
+  "counts": {
+    "rgb_files": 168,
+    "frame_rows": 168,
+    "usable_frames": 168,
+    "invalid_frames": 0,
+    "plants": 12,
+    "genotypes": 3
+  },
+  "timestamp": {
+    "reliable_plants": 12,
+    "unreliable_plants": 0
+  },
+  "issues": {
+    "total": 0,
+    "by_type": {}
+  },
+  "official_reference": {
+    "repository": "https://github.com/pisyntor/PhenoLeaf-TS",
+    "commit": "0d9a24ff146d12cc8fca6bdfa2538d196754f456",
+    "dataset": "https://huggingface.co/datasets/rick77a/PhenoLeaf_TS"
+  }
+}

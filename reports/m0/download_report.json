@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "started_at_utc": "2026-10-11T05:59:53.984317+00:00",
+  "data_root": "data/raw",
+  "archive_name": "PhenoLeaf-TS_DS.zip",
+  "official_repository": "https://github.com/pisyntor/PhenoLeaf-TS",
+  "official_repository_commit": "0d9a24ff146d12cc8fca6bdfa2538d196754f456",
+  "dataset_source": "https://huggingface.co/datasets/rick77a/PhenoLeaf_TS",
+  "download_method": "explicit mirror fallback with resumable HTTP download",
+  "source_mode": "hf-mirror",
+  "dataset_commit": "ee4c8dac44593a69c8a72e1ca09d686133161d92",
+  "expected_archive_sha256": "608c7b07125281fb92517182c0873d1a9c87d696e2adedcb11c002173887de2f",
+  "download_url": "https://hf-mirror.net/datasets/rick77a/PhenoLeaf_TS/resolve/main/PhenoLeaf-TS_DS.zip",
+  "mirror_headers_before_download": {
+    "status_code": "200",
+    "etag": "\"1080805516bf0a863c4cb2db561b0bdebb2262396e9fa967c081e88ee3f702a8\"",
+    "content_length": "5486793580",
+    "content_type": "application/zip"
+  },
+  "archive_reused": true,
+  "archive_path": "data/raw/PhenoLeaf-TS_DS.zip",
+  "archive_bytes": 5486793580,
+  "mirror_expected_archive_bytes": 5486793580,
+  "archive_sha256": "608c7b07125281fb92517182c0873d1a9c87d696e2adedcb11c002173887de2f",
+  "sha256_matches_hf_lfs": true,
+  "hub_metadata_verification": {
+    "metadata_url": "https://hf-mirror.com/api/datasets/rick77a/PhenoLeaf_TS/tree/ee4c8dac44593a69c8a72e1ca09d686133161d92",
+    "dataset_commit": "ee4c8dac44593a69c8a72e1ca09d686133161d92",
+    "archive": {
+      "type": "file",
+      "oid": "5253c8830d69cb8050116f18a7df62df14be17e4",
+      "size": 5486793580,
+      "lfs": {
+        "oid": "608c7b07125281fb92517182c0873d1a9c87d696e2adedcb11c002173887de2f",
+        "size": 5486793580,
+        "pointerSize": 135
+      },
+      "xetHash": "1080805516bf0a863c4cb2db561b0bdebb2262396e9fa967c081e88ee3f702a8",
+      "path": "PhenoLeaf-TS_DS.zip"
+    }
+  },
+  "archive_testzip": "passed",
+  "extracted_files": 0,
+  "extracted_root": "data/raw/PhenoLeaf-TS_DS",
+  "layout_verified": true,
+  "finished_at_utc": "2026-10-11T06:00:17.717173+00:00"
+}

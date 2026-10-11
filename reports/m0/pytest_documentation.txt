@@ -1,0 +1,47 @@
+### Run pytest with python -m
+
+Source: https://github.com/pytest-dev/pytest/blob/main/doc/en/announce/release-2.0.0.rst
+
+Run pytest from the command line using the Python interpreter. This invocation works on all Python versions >= 2.5.
+
+```bash
+python -m pytest      # on all pythons >= 2.5
+```
+
+--------------------------------
+
+### Run test with quiet mode
+
+Source: https://github.com/pytest-dev/pytest/blob/main/doc/en/getting-started.rst
+
+Execute the test function with quiet reporting mode using the -q/--quiet flag. The output shows one test passed.
+
+```pytest
+$ pytest -q test_sysexit.py
+.                                                                    [100%]
+1 passed in 0.12s
+```
+
+### How to write and report assertions in tests > Creating JUnitXML format files
+
+Source: https://github.com/pytest-dev/pytest/blob/main/doc/en/how-to/output.rst
+
+Creating JUnitXML format files
+----------------------------------------------------
+
+To create result files which can be read by Jenkins_ or other Continuous
+integration servers, use this invocation:
+
+.. code-block:: bash
+
+    pytest --junit-xml=path
+
+to create an XML file at ``path``.
+
+--------------------------------
+
+### Changelog > Improvements in existing functionality > #13700
+
+Source: https://github.com/pytest-dev/pytest/blob/main/doc/en/changelog.rst
+
+`--junitxml`  no longer prints the `generated xml file` summary at the end of the pytest session when `--quiet` is given.

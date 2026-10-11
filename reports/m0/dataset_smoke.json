@@ -1,0 +1,130 @@
+[
+  {
+    "split": "train",
+    "horizon": 2,
+    "samples": 11104,
+    "plant_uid": "Ba4-1/rep_02",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "train",
+    "horizon": 4,
+    "samples": 10668,
+    "plant_uid": "Ba4-1/rep_02",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "train",
+    "horizon": 8,
+    "samples": 9792,
+    "plant_uid": "Ba4-1/rep_02",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "val",
+    "horizon": 2,
+    "samples": 2603,
+    "plant_uid": "Ba4-1/rep_01",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "val",
+    "horizon": 4,
+    "samples": 2497,
+    "plant_uid": "Ba4-1/rep_01",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "val",
+    "horizon": 8,
+    "samples": 2285,
+    "plant_uid": "Ba4-1/rep_01",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "test",
+    "horizon": 2,
+    "samples": 2075,
+    "plant_uid": "Ba4-1/rep_09",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "test",
+    "horizon": 4,
+    "samples": 1983,
+    "plant_uid": "Ba4-1/rep_09",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "split": "test",
+    "horizon": 8,
+    "samples": 1799,
+    "plant_uid": "Ba4-1/rep_09",
+    "shape": [
+      3,
+      3,
+      224,
+      224
+    ],
+    "status": "PASS"
+  },
+  {
+    "dataloader_batch_shape": [
+      2,
+      3,
+      3,
+      224,
+      224
+    ],
+    "device": "cpu",
+    "status": "PASS"
+  }
+]

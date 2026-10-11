@@ -1,0 +1,24 @@
+{
+  "metadata_sha256": "44695a96c5f7fa0bfc46785f988f2b1493f8592dc3da2caeab2d4a8dca219b46",
+  "leaf_instances_sha256": "d962823b216cd1f3343307fe977adf2b8a288c5e95fba9d2b86f9a733b59c03f",
+  "status": "PASS",
+  "frames_audited": 17082,
+  "masks_independently_recomputed": 17082,
+  "archive_crc_comparison_enabled": true,
+  "archive_sha256": "608c7b07125281fb92517182c0873d1a9c87d696e2adedcb11c002173887de2f",
+  "archive_member_files": 34166,
+  "extra_archive_file_errors": [],
+  "frame_errors": [],
+  "invalid_color_frames": 26,
+  "invalid_color_pixels": 54418,
+  "quarantined_frames": 26,
+  "duplicate_rgb_file_groups": 0,
+  "duplicate_rgb_pixel_groups": 0,
+  "duplicate_mask_file_groups": 0,
+  "cross_plant_duplicate_rgb_groups": 0,
+  "duplicates": {
+    "rgb_files": {},
+    "rgb_pixels": {},
+    "masks": {}
+  }
+}

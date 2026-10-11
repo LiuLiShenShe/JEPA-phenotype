@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Raw/licensed dataset files must remain local.
+data/raw/*
+!data/raw/.gitkeep
+data/synthetic_m0/
+data/metadata/*.csv
+data/metadata/*.json
+data/processed/*.csv
+data/processed/*.parquet
+splits/*.json
+
+# Local QC images and generated large artifacts.
+reports/m0/figures/*
+reports/m0/synthetic_figures/*
+reports/m0/*.png
+reports/m0/*.pdf
+!reports/m0/figures/.gitkeep
+!reports/m0/synthetic_figures/.gitkeep
+
+# Local download/cache files.
+*.zip
+*.tar
+*.tar.gz
+.cache/
+hf_cache/
+*.extracting
+reports/m0/*.log

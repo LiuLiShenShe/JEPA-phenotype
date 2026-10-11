@@ -1,0 +1,424 @@
+{
+  "data_scope": "real_dataset",
+  "identity": {
+    "source_acquisition_ids": 318,
+    "source_ids_shared_across_plant_uids": {},
+    "plants_with_multiple_source_ids": [],
+    "filename_genotype_conflict_frames": 0,
+    "filename_replicate_differs_from_directory_frames": 1632,
+    "plants_with_filename_replicate_alias": 65,
+    "policy": "Use curated genotype/replicate directory identity. Filename suffix replicate numbers can be reused across acquisitions; acquisition-prefix IDs are one-to-one with directory plant_uids."
+  },
+  "distinct_image_sizes": 84,
+  "plant_lengths": {
+    "min": 12,
+    "max": 152,
+    "distribution": {
+      "12": 1,
+      "15": 1,
+      "16": 9,
+      "17": 3,
+      "18": 15,
+      "19": 12,
+      "20": 9,
+      "21": 5,
+      "22": 14,
+      "23": 11,
+      "24": 6,
+      "25": 7,
+      "26": 4,
+      "27": 5,
+      "28": 6,
+      "29": 2,
+      "30": 8,
+      "31": 4,
+      "32": 2,
+      "33": 2,
+      "34": 1,
+      "35": 2,
+      "36": 6,
+      "37": 1,
+      "38": 1,
+      "39": 1,
+      "40": 1,
+      "42": 2,
+      "43": 1,
+      "44": 2,
+      "45": 1,
+      "46": 1,
+      "48": 1,
+      "49": 2,
+      "51": 5,
+      "52": 1,
+      "55": 3,
+      "57": 4,
+      "59": 6,
+      "60": 1,
+      "61": 4,
+      "62": 2,
+      "63": 4,
+      "64": 1,
+      "65": 13,
+      "66": 2,
+      "67": 6,
+      "68": 3,
+      "69": 1,
+      "70": 1,
+      "71": 2,
+      "72": 3,
+      "73": 9,
+      "74": 3,
+      "75": 2,
+      "76": 4,
+      "77": 13,
+      "78": 2,
+      "79": 8,
+      "81": 5,
+      "82": 1,
+      "83": 5,
+      "84": 5,
+      "85": 6,
+      "86": 1,
+      "87": 1,
+      "88": 2,
+      "89": 5,
+      "91": 2,
+      "92": 1,
+      "93": 3,
+      "94": 1,
+      "95": 6,
+      "96": 4,
+      "97": 1,
+      "98": 1,
+      "99": 1,
+      "101": 1,
+      "104": 1,
+      "105": 3,
+      "107": 1,
+      "108": 1,
+      "117": 1,
+      "118": 1,
+      "128": 1,
+      "130": 1,
+      "133": 1,
+      "135": 1,
+      "143": 1,
+      "152": 1
+    }
+  },
+  "plants_with_size_changes": [
+    "Col-0/rep_32",
+    "Cvi-0/rep_25",
+    "Kz-9/rep_08",
+    "Ler-1/rep_28",
+    "Uk-1/rep_13"
+  ],
+  "size_change_events": [
+    {
+      "plant_uid": "Col-0/rep_32",
+      "previous_frame_idx": 49,
+      "frame_idx": 50,
+      "previous_size_wh": [
+        450,
+        432
+      ],
+      "size_wh": [
+        432,
+        450
+      ]
+    },
+    {
+      "plant_uid": "Cvi-0/rep_25",
+      "previous_frame_idx": 25,
+      "frame_idx": 26,
+      "previous_size_wh": [
+        450,
+        432
+      ],
+      "size_wh": [
+        432,
+        450
+      ]
+    },
+    {
+      "plant_uid": "Kz-9/rep_08",
+      "previous_frame_idx": 22,
+      "frame_idx": 23,
+      "previous_size_wh": [
+        450,
+        432
+      ],
+      "size_wh": [
+        432,
+        450
+      ]
+    },
+    {
+      "plant_uid": "Kz-9/rep_08",
+      "previous_frame_idx": 27,
+      "frame_idx": 28,
+      "previous_size_wh": [
+        432,
+        450
+      ],
+      "size_wh": [
+        450,
+        432
+      ]
+    },
+    {
+      "plant_uid": "Ler-1/rep_28",
+      "previous_frame_idx": 39,
+      "frame_idx": 40,
+      "previous_size_wh": [
+        450,
+        432
+      ],
+      "size_wh": [
+        432,
+        450
+      ]
+    },
+    {
+      "plant_uid": "Uk-1/rep_13",
+      "previous_frame_idx": 25,
+      "frame_idx": 26,
+      "previous_size_wh": [
+        450,
+        432
+      ],
+      "size_wh": [
+        432,
+        450
+      ]
+    }
+  ],
+  "observation_time_range": {
+    "first": "2022-05-11T12:09:27",
+    "last": "2022-09-09T23:02:51",
+    "timezone": "not provided by source"
+  },
+  "adjacent_intervals": {
+    "min_seconds": 10789.0,
+    "median_seconds": 21600.0,
+    "max_seconds": 431999.0
+  },
+  "horizon_elapsed_seconds": {
+    "2": {
+      "min_seconds": 39360.0,
+      "median_seconds": 46799.0,
+      "max_seconds": 442799.0
+    },
+    "4": {
+      "min_seconds": 86043.0,
+      "median_seconds": 86400.0,
+      "max_seconds": 529200.0
+    },
+    "8": {
+      "min_seconds": 172454.0,
+      "median_seconds": 172800.0,
+      "max_seconds": 702000.0
+    }
+  },
+  "quarantine": {
+    "frames": 26,
+    "plants": [
+      "Is-1/rep_24"
+    ],
+    "frame_indices": {
+      "Is-1/rep_24": [
+        105,
+        106,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ]
+    },
+    "invalid_color_pixels": 54418,
+    "distinct_illegal_colors": 7,
+    "illegal_rgb_colors": [
+      [
+        37,
+        3,
+        193
+      ],
+      [
+        91,
+        20,
+        124
+      ],
+      [
+        181,
+        220,
+        171
+      ],
+      [
+        191,
+        155,
+        14
+      ],
+      [
+        209,
+        136,
+        154
+      ],
+      [
+        218,
+        28,
+        13
+      ],
+      [
+        255,
+        0,
+        124
+      ]
+    ]
+  },
+  "split_labels": {
+    "train": {
+      "leaf_count_distribution": {
+        "3": 8,
+        "4": 984,
+        "5": 591,
+        "6": 1388,
+        "7": 1246,
+        "8": 1039,
+        "9": 1137,
+        "10": 1119,
+        "11": 1079,
+        "12": 803,
+        "13": 607,
+        "14": 589,
+        "15": 384,
+        "16": 323,
+        "17": 211,
+        "18": 132,
+        "19": 109,
+        "20": 81,
+        "21": 46,
+        "22": 36,
+        "23": 21,
+        "24": 21,
+        "25": 14,
+        "26": 13,
+        "27": 1
+      },
+      "growth_stage_distribution": {
+        "intermediate": 4541,
+        "mature": 4470,
+        "early": 2971
+      },
+      "windows_by_horizon": {
+        "2": 11104,
+        "4": 10668,
+        "8": 9792
+      }
+    },
+    "val": {
+      "leaf_count_distribution": {
+        "4": 203,
+        "5": 163,
+        "6": 317,
+        "7": 296,
+        "8": 215,
+        "9": 265,
+        "10": 275,
+        "11": 254,
+        "12": 204,
+        "13": 184,
+        "14": 110,
+        "15": 90,
+        "16": 72,
+        "17": 37,
+        "18": 23,
+        "19": 26,
+        "20": 20,
+        "21": 17,
+        "22": 22,
+        "23": 7,
+        "24": 7,
+        "25": 7,
+        "26": 1
+      },
+      "growth_stage_distribution": {
+        "early": 683,
+        "intermediate": 1051,
+        "mature": 1081
+      },
+      "windows_by_horizon": {
+        "2": 2603,
+        "4": 2497,
+        "8": 2285
+      }
+    },
+    "test": {
+      "leaf_count_distribution": {
+        "4": 125,
+        "5": 104,
+        "6": 219,
+        "7": 245,
+        "8": 206,
+        "9": 239,
+        "10": 216,
+        "11": 205,
+        "12": 164,
+        "13": 126,
+        "14": 93,
+        "15": 107,
+        "16": 58,
+        "17": 44,
+        "18": 33,
+        "19": 28,
+        "20": 20,
+        "21": 14,
+        "22": 7,
+        "23": 3,
+        "24": 2,
+        "25": 1
+      },
+      "growth_stage_distribution": {
+        "early": 448,
+        "intermediate": 906,
+        "mature": 905
+      },
+      "windows_by_horizon": {
+        "2": 2075,
+        "4": 1983,
+        "8": 1799
+      }
+    }
+  },
+  "quarantine_window_impact": {
+    "potential_windows_without_quality_exclusion": 44886,
+    "actual_windows": 44806,
+    "excluded_windows": 80,
+    "excluded_by_horizon": {
+      "2": 28,
+      "4": 26,
+      "8": 26
+    }
+  },
+  "zero_area_frames": 0,
+  "physical_area_warning": "Original dimensions vary across and within plants; projected pixels/ratios are image-space measurements, not calibrated physical area or LAI. Resize only historical RGB tensors, never GT areas."
+}

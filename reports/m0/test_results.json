@@ -1,0 +1,107 @@
+[
+  {
+    "name": "tests.test_audit::test_independent_full_audit_checks_every_mask_and_archive_member",
+    "status": "PASS",
+    "seconds": "1.157"
+  },
+  {
+    "name": "tests.test_audit::test_independent_audit_rejects_forged_phenotype",
+    "status": "PASS",
+    "seconds": "0.774"
+  },
+  {
+    "name": "tests.test_audit::test_independent_audit_detects_cross_plant_duplicate_pixels",
+    "status": "PASS",
+    "seconds": "0.772"
+  },
+  {
+    "name": "tests.test_audit::test_archive_extraction_rejects_traversal_and_preserves_existing_raw",
+    "status": "PASS",
+    "seconds": "0.004"
+  },
+  {
+    "name": "tests.test_audit::test_full_window_validator_rejects_cross_plant_history",
+    "status": "PASS",
+    "seconds": "0.588"
+  },
+  {
+    "name": "tests.test_metadata::test_metadata_scans_all_plants_and_assigns_dense_order",
+    "status": "PASS",
+    "seconds": "0.549"
+  },
+  {
+    "name": "tests.test_metadata::test_missing_mask_and_orphan_mask_are_not_silently_dropped",
+    "status": "PASS",
+    "seconds": "0.165"
+  },
+  {
+    "name": "tests.test_metadata::test_corruption_and_dimension_mismatch_are_reported",
+    "status": "PASS",
+    "seconds": "0.187"
+  },
+  {
+    "name": "tests.test_metadata::test_invalid_timestamp_quarantines_unverified_sequence",
+    "status": "PASS",
+    "seconds": "0.165"
+  },
+  {
+    "name": "tests.test_metadata::test_duplicate_timestamps_are_an_error",
+    "status": "PASS",
+    "seconds": "0.160"
+  },
+  {
+    "name": "tests.test_phenotypes::test_exact_palette_labels_and_area_ratio",
+    "status": "PASS",
+    "seconds": "0.571"
+  },
+  {
+    "name": "tests.test_phenotypes::test_invalid_mask_color_is_recorded_without_being_counted_as_a_leaf",
+    "status": "PASS",
+    "seconds": "0.002"
+  },
+  {
+    "name": "tests.test_phenotypes::test_workbook_string_rgb_layout_matches_official_palette",
+    "status": "PASS",
+    "seconds": "0.009"
+  },
+  {
+    "name": "tests.test_phenotypes::test_phenotype_pipeline_is_byte_reproducible",
+    "status": "PASS",
+    "seconds": "0.692"
+  },
+  {
+    "name": "tests.test_phenotypes::test_exact_instances_match_official_extractor",
+    "status": "PASS",
+    "seconds": "0.018"
+  },
+  {
+    "name": "tests.test_splits::test_plant_level_split_is_disjoint_and_reproducible",
+    "status": "PASS",
+    "seconds": "0.825"
+  },
+  {
+    "name": "tests.test_temporal_dataset::test_temporal_dataset_smoke_returns_history_tensor_and_future_target",
+    "status": "PASS",
+    "seconds": "0.583"
+  },
+  {
+    "name": "tests.test_temporal_dataset::test_quarantined_frames_do_not_compress_observation_horizons",
+    "status": "PASS",
+    "seconds": "0.734"
+  },
+  {
+    "name": "tests.test_temporal_dataset::test_getitem_never_opens_future_rgb_or_mask",
+    "status": "PASS",
+    "seconds": "0.555"
+  },
+  {
+    "name": "tests.test_temporal_dataset::test_dataloader_batches_resized_history_images",
+    "status": "PASS",
+    "seconds": "0.558"
+  },
+  {
+    "name": "tests.test_temporal_dataset::test_forged_cross_plant_window_is_rejected",
+    "status": "PASS",
+    "seconds": "0.563"
+  }
+]

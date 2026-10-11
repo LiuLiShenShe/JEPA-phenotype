@@ -1,0 +1,193 @@
+{
+  "status": "ok",
+  "palette": {
+    "source": "xlsx",
+    "size": 31,
+    "colors": [
+      [
+        244,
+        64,
+        14
+      ],
+      [
+        48,
+        57,
+        249
+      ],
+      [
+        234,
+        250,
+        37
+      ],
+      [
+        24,
+        193,
+        65
+      ],
+      [
+        245,
+        130,
+        49
+      ],
+      [
+        231,
+        80,
+        219
+      ],
+      [
+        0,
+        182,
+        173
+      ],
+      [
+        115,
+        0,
+        218
+      ],
+      [
+        191,
+        239,
+        69
+      ],
+      [
+        255,
+        250,
+        200
+      ],
+      [
+        250,
+        190,
+        212
+      ],
+      [
+        66,
+        212,
+        244
+      ],
+      [
+        155,
+        99,
+        36
+      ],
+      [
+        220,
+        190,
+        255
+      ],
+      [
+        69,
+        158,
+        220
+      ],
+      [
+        255,
+        216,
+        177
+      ],
+      [
+        98,
+        2,
+        37
+      ],
+      [
+        227,
+        213,
+        12
+      ],
+      [
+        79,
+        159,
+        83
+      ],
+      [
+        170,
+        23,
+        101
+      ],
+      [
+        170,
+        255,
+        195
+      ],
+      [
+        169,
+        169,
+        169
+      ],
+      [
+        181,
+        111,
+        119
+      ],
+      [
+        144,
+        121,
+        171
+      ],
+      [
+        9,
+        125,
+        244
+      ],
+      [
+        184,
+        70,
+        30
+      ],
+      [
+        154,
+        35,
+        246
+      ],
+      [
+        229,
+        225,
+        238
+      ],
+      [
+        141,
+        254,
+        82
+      ],
+      [
+        31,
+        200,
+        209
+      ],
+      [
+        194,
+        217,
+        105
+      ]
+    ]
+  },
+  "counts": {
+    "phenotype_rows": 17082,
+    "leaf_instance_rows": 165822,
+    "valid_phenotype_rows": 17056,
+    "warning_phenotype_rows": 26,
+    "invalid_color_frames": 26,
+    "issue_rows": 1761
+  },
+  "leaf_count": {
+    "min": 3,
+    "max": 27,
+    "mean": 9.707411310151036
+  },
+  "projected_area_px": {
+    "min": 250.0,
+    "max": 131626.0,
+    "mean": 19012.357042500877
+  },
+  "projected_area_ratio": {
+    "min": 0.001286008230452675,
+    "max": 0.47811494589061126,
+    "mean": 0.08638145296467051
+  },
+  "definitions": {
+    "leaf_count": "number of unique exact palette colours present in the mask",
+    "projected_area_px": "all non-black mask pixels, including invalid-colour pixels for transparent accounting",
+    "projected_area_ratio": "projected_area_px / (image_height * image_width)",
+    "not_physical_leaf_area": true
+  }
+}

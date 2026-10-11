@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-11T06:46:54.355226+00:00",
+  "stages": [
+    {
+      "command": [
+        "/fj/JEPA-\u8868\u578b/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "--junitxml=reports/m0/test_results.xml"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 14.36
+    },
+    {
+      "command": [
+        "/fj/JEPA-\u8868\u578b/.venv/bin/python",
+        "scripts/check_reproducibility.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 292.32
+    },
+    {
+      "command": [
+        "/fj/JEPA-\u8868\u578b/.venv/bin/python",
+        "scripts/audit_dataset.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 71.761
+    },
+    {
+      "command": [
+        "/fj/JEPA-\u8868\u578b/.venv/bin/python",
+        "scripts/visualize_m0.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 14.899
+    },
+    {
+      "command": [
+        "/fj/JEPA-\u8868\u578b/.venv/bin/python",
+        "scripts/summarize_m0.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.898
+    },
+    {
+      "command": [
+        "/fj/JEPA-\u8868\u578b/.venv/bin/python",
+        "scripts/validate_m0.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 9.0
+    }
+  ],
+  "finished_at_utc": "2026-10-11T06:53:37.596069+00:00"
+}

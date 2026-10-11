@@ -1,0 +1,11 @@
+Official PhenoLeaf-TS source reference used by this project:
+
+Repository: https://github.com/pisyntor/PhenoLeaf-TS
+Commit: 0d9a24ff146d12cc8fca6bdfa2538d196754f456
+
+The source archive was initially fetched from official GitHub URLs when Git
+transport timed out. A subsequent depth-1 fetch succeeded, and this checkout
+is now detached at the genuine official commit recorded above.
+
+The checkout is registered as a read-only submodule of LiuLiShenShe/JEPA-phenotype.
+Its official remote is used only for fetching; pushing is disabled locally.

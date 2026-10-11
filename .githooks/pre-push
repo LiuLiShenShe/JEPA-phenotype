@@ -1,0 +1,12 @@
+#!/bin/sh
+
+case "${2-}" in
+    https://github.com/LiuLiShenShe/JEPA-phenotype|https://github.com/LiuLiShenShe/JEPA-phenotype.git|git@github.com:LiuLiShenShe/JEPA-phenotype|git@github.com:LiuLiShenShe/JEPA-phenotype.git|ssh://git@github.com/LiuLiShenShe/JEPA-phenotype|ssh://git@github.com/LiuLiShenShe/JEPA-phenotype.git)
+        exit 0
+        ;;
+    *)
+        printf '%s\n' 'Push blocked: this project may only push to LiuLiShenShe/JEPA-phenotype.' >&2
+        printf 'Requested destination: %s\n' "${2-<missing>}" >&2
+        exit 1
+        ;;
+esac

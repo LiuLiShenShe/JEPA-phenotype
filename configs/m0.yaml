@@ -1,0 +1,12 @@
+seed: 42
+data_root: data/raw
+metadata_dir: data/metadata
+split_path: splits/phenoleaf_plant_split_seed42.json
+temporal_windows_path: data/processed/temporal_windows.csv
+history_length: 3
+forecast_horizons: [2, 4, 8]
+plant_uid_definition: "{genotype}/{replicate}"
+split_ratios:
+  train: 0.70
+  val: 0.15
+  test: 0.15

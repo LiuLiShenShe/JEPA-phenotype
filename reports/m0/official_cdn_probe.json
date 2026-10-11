@@ -1,0 +1,11 @@
+{
+  "resolver_url": "https://beta.hf-mirror.com/datasets/rick77a/PhenoLeaf_TS/resolve/ee4c8dac44593a69c8a72e1ca09d686133161d92/PhenoLeaf-TS_DS.zip",
+  "purpose": "Compare local archive bytes with the official Hugging Face CDN; this is not a substitute for the full archive SHA-256 check.",
+  "status_code": 206,
+  "final_host": "us.aws.cdn.hf.co",
+  "content_range": "bytes 0-1023/5486793580",
+  "bytes_compared": 1024,
+  "probe_sha256": "e81b13eb7de537c428ef6fb841b29040fcd0acd458abaa622d688b1de739cdf3",
+  "identical": true,
+  "status": "PASS"
+}

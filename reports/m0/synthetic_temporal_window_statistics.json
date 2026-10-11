@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "frames_path": "data/synthetic_m0/metadata/frames.csv",
+  "split_path": "splits/synthetic_plant_split_seed42.json",
+  "history_length": 3,
+  "horizons": [
+    2,
+    4,
+    8
+  ],
+  "horizon_unit": "observation index offset, not days",
+  "counts": {
+    "usable_frames": 168,
+    "plants_with_usable_frames": 12,
+    "windows": 264,
+    "plants_with_windows": 12,
+    "skipped_target_labels": 0
+  },
+  "windows_by_split": {
+    "test": 66,
+    "train": 132,
+    "val": 66
+  },
+  "windows_by_horizon": {
+    "2": 120,
+    "4": 96,
+    "8": 48
+  },
+  "overlap": {
+    "allowed": true,
+    "note": "Windows from the same plant overlap by design; split assignment remains plant-level.",
+    "mean_windows_per_plant": 22.0,
+    "max_windows_per_plant": 22
+  }
+}
