@@ -89,7 +89,7 @@ def main():
     judgment = "CONTINUE" if robust_temporal else "REVIEW"
     report = [
         "# M1 交付报告：植物二维时序表型预测 Baseline",
-        f"\n**工程验收：{status}**  \n**研究判断：{judgment}**  \n执行日期：{datetime.now():%Y-%m-%d}（Asia/Shanghai）。",
+        f"\n**工程验收：{status}**\n\n**研究判断：{judgment}**\n\n执行日期：{datetime.now():%Y-%m-%d}（Asia/Shanghai）。",
         "\n## 结论摘要",
         "- 完成 B0/B1/B1b 和两种冻结 DINOv2 RGB-only 模型，三个独立跨度、18 个神经网络主运行、46 株未见测试植物，保留全部困难样本。",
         "- GRU 并未一致、明显优于单帧 MLP；时序的增益不能由模型名或优于 Oracle 与否判定。建议先复核任务与时序证据，不主动进入 M2。" if not robust_temporal else "- 配对植株区间支持 GRU 的一致改进，具备进一步研究时序表征的证据，但尚不证明 JEPA 会优于已有模型。",

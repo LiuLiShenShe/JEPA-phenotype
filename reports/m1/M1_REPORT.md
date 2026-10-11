@@ -1,8 +1,10 @@
 # M1 交付报告：植物二维时序表型预测 Baseline
 
 
-**工程验收：PASS**  
-**研究判断：REVIEW**  
+**工程验收：PASS**
+
+**研究判断：REVIEW**
+
 执行日期：2026-10-11（Asia/Shanghai）。
 
 
