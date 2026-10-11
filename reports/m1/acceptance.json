@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "research_judgment": "REVIEW",
+  "checks": {
+    "m0_unchanged": true,
+    "independent_gpu_environment": true,
+    "simple_baselines_complete": true,
+    "feature_cache_verified": true,
+    "rgb_models_complete": true,
+    "all_three_horizons": true,
+    "all_unseen_test_plants": true,
+    "all_required_metrics": true,
+    "three_seeds": true,
+    "no_split_or_future_leakage": true,
+    "tests_all_passed": true,
+    "failure_cases_preserved": true,
+    "seven_visualizations": true,
+    "no_jepa_or_3d_training": true
+  },
+  "tests": {
+    "passed": 49,
+    "failed": 0,
+    "skipped": 0
+  },
+  "main_neural_runs": 18,
+  "simple_runs": 9,
+  "m0_original_data_hashes_unchanged": true,
+  "test_used_for_selection": false,
+  "jepa_trained": false,
+  "three_dimensional_experiments": false
+}

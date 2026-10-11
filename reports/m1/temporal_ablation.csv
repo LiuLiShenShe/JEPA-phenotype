@@ -1,0 +1,13 @@
+ablation,horizon,target,changed_minus_original_mae,ci95_low,ci95_high,note
+repeat_latest,2,leaf_count,0.04399103031670183,0.015159591519936412,0.07244697752496453,post hoc input intervention; not a retrained ablation
+repeat_latest,2,projected_area_ratio,0.0018172041314331502,0.0008598311525516371,0.0027639305806865634,post hoc input intervention; not a retrained ablation
+repeat_latest,4,leaf_count,0.01305584217829368,-0.013034540892837856,0.04036516085308697,post hoc input intervention; not a retrained ablation
+repeat_latest,4,projected_area_ratio,0.00015931845407036554,-0.0007167871732273153,0.0010248953453517145,post hoc input intervention; not a retrained ablation
+repeat_latest,8,leaf_count,-0.010029100655110021,-0.05147042126765993,0.03323655825505039,post hoc input intervention; not a retrained ablation
+repeat_latest,8,projected_area_ratio,0.0003851440214919028,-0.0006114098080257094,0.0013405596809990586,post hoc input intervention; not a retrained ablation
+reverse_history,2,leaf_count,0.0018775233086395094,-0.015967912974588324,0.020567379158002955,post hoc input intervention; not a retrained ablation
+reverse_history,2,projected_area_ratio,0.00142219765515993,0.0006037396133824573,0.002266073775995332,post hoc input intervention; not a retrained ablation
+reverse_history,4,leaf_count,0.02935384343001288,0.003696206852561804,0.053894858339625526,post hoc input intervention; not a retrained ablation
+reverse_history,4,projected_area_ratio,0.0036488534826131635,0.002152370879246662,0.005101520032528509,post hoc input intervention; not a retrained ablation
+reverse_history,8,leaf_count,0.04195932604154972,0.008653091798344894,0.07395157265276688,post hoc input intervention; not a retrained ablation
+reverse_history,8,projected_area_ratio,0.003859961012703812,0.0016634475036347491,0.005896098301526475,post hoc input intervention; not a retrained ablation

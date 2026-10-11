@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "phase": "initial",
+  "m0_unchanged": true,
+  "original_files_hashed": 34164,
+  "raw_hash_mismatches": [],
+  "protected_files_hashed": 63,
+  "m0_base_commit": "6058704b4046eec77a5092871991ff9e146dddb4",
+  "frames": 17082,
+  "valid_frames": 17056,
+  "quarantined_frames": 26,
+  "plants": 318,
+  "genotypes": 21,
+  "windows": 44806,
+  "counts": {
+    "train": {
+      "plants": 219,
+      "images": 11982,
+      "windows": 31564
+    },
+    "val": {
+      "plants": 53,
+      "images": 2815,
+      "windows": 7385
+    },
+    "test": {
+      "plants": 46,
+      "images": 2259,
+      "windows": 5857
+    }
+  },
+  "horizons": {
+    "2": 15782,
+    "4": 15148,
+    "8": 13876
+  },
+  "unique_image_sizes": 84,
+  "plants_with_variable_size": [
+    "Col-0/rep_32",
+    "Cvi-0/rep_25",
+    "Kz-9/rep_08",
+    "Ler-1/rep_28",
+    "Uk-1/rep_13"
+  ],
+  "horizon_unit": "original observation offset; never fixed days",
+  "time_unit": "uncalibrated timezone-naive wall-clock seconds",
+  "age_definition": "time since first recorded observation; sowing age unavailable",
+  "targets": [
+    "target_leaf_count",
+    "target_projected_area_ratio"
+  ],
+  "time_conditions_are_query_metadata": true
+}

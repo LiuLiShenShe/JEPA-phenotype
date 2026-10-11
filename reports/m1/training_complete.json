@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "models": [
+    "B2a",
+    "B2b"
+  ],
+  "runs": 18,
+  "horizons": [
+    2,
+    4,
+    8
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection_registry_sha256": "b12bfd4a9b7135ac8812cde8c847fe979126e4dd43b85f5c60e8d82da3a5292f",
+  "test_used_for_selection": false
+}

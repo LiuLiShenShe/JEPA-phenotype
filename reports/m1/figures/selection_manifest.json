@@ -1,0 +1,37 @@
+{
+  "preselected_plants": [
+    "TOU-J-3/rep_02",
+    "Kz-9/rep_31",
+    "Sav-0/rep_03",
+    "Kz-9/rep_20",
+    "TOU-I-17/rep_41",
+    "Go-0/rep_09"
+  ],
+  "rule": "first six SHA256(42:plant_uid); independent of prediction quality",
+  "failure_plants": [
+    "Go-0/rep_09",
+    "Is-1/rep_42",
+    "Kz-9/rep_43"
+  ],
+  "failure_rule": "worst +8 seed-averaged GRU target-normalized plant MAE; curves also displayed at +8",
+  "curve_seed_aggregation": "average predictions for display, not the main metric",
+  "ci_definition": "95% percentile bootstrap of 46 plants after averaging per-seed errors; 2000 replicates",
+  "error_vs_time": "6-hour bins, seed/window errors averaged within each plant/bin then across plants; bins with small count remain visible",
+  "source_data": [
+    "baseline_comparison.csv",
+    "plant_level_errors.csv",
+    "per_seed_metrics.csv",
+    "error_vs_time_source.csv",
+    "failure_cases.csv"
+  ],
+  "figures": [
+    "baseline_mae_leaf_count.pdf",
+    "baseline_mae_projected_area_ratio.pdf",
+    "error_vs_actual_time.pdf",
+    "genotype_error_distributions.pdf",
+    "growth_curves_failure_cases.pdf",
+    "growth_curves_preselected.pdf",
+    "horizon_comparison.pdf",
+    "training_validation_losses.pdf"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "locked_before_neural_test",
+  "test_used_for_selection": false,
+  "selection_split": "val",
+  "models": [
+    "B0",
+    "B1",
+    "B1b"
+  ],
+  "horizons": [
+    2,
+    4,
+    8
+  ],
+  "time_only_train_fit": true,
+  "split_sha256": "195888c23b66772e99ddf506a0a16d2e72c7dd65948ab9ff753fa70bc1849b39"
+}

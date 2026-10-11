@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "baseline_mae_leaf_count",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "+2 original observations",
+          "ylim": [
+            0.0,
+            4.069141725488907
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "+4 original observations",
+          "ylim": [
+            0.0,
+            4.069141725488907
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "+8 original observations",
+          "ylim": [
+            0.0,
+            4.069141725488907
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "baseline_mae_projected_area_ratio",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "+2 original observations",
+          "ylim": [
+            0.0,
+            0.08807883898753874
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "+4 original observations",
+          "ylim": [
+            0.0,
+            0.08807883898753874
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "+8 original observations",
+          "ylim": [
+            0.0,
+            0.08807883898753874
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "horizon_comparison",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "",
+          "ylim": [
+            0.5762748953510036,
+            3.261733482139144
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "",
+          "ylim": [
+            0.003603307747272865,
+            0.06744150178090744
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "growth_curves_preselected",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "TOU-J-3/rep_02 | +4 observations",
+          "ylim": [
+            7.15,
+            25.85
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "TOU-J-3/rep_02 | +4 observations",
+          "ylim": [
+            -0.002897582188776112,
+            0.4320076705804179
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Kz-9/rep_31 | +4 observations",
+          "ylim": [
+            3.035675348273773,
+            15.305762741195812
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Kz-9/rep_31 | +4 observations",
+          "ylim": [
+            -0.014488425999999999,
+            0.304256946
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Sav-0/rep_03 | +4 observations",
+          "ylim": [
+            3.355216712365281,
+            15.417658010540281
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Sav-0/rep_03 | +4 observations",
+          "ylim": [
+            -0.0008787140516023258,
+            0.24030447331752663
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Kz-9/rep_20 | +4 observations",
+          "ylim": [
+            2.4896378316563155,
+            15.65345140017568
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Kz-9/rep_20 | +4 observations",
+          "ylim": [
+            -0.01355147424591869,
+            0.2845809591642925
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "TOU-I-17/rep_41 | +4 observations",
+          "ylim": [
+            6.360526315789475,
+            16.76228070175439
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "TOU-I-17/rep_41 | +4 observations",
+          "ylim": [
+            0.01656789227524552,
+            0.2965432317964169
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Go-0/rep_09 | +4 observations",
+          "ylim": [
+            8.950023548226609,
+            29.210399881162143
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Go-0/rep_09 | +4 observations",
+          "ylim": [
+            0.041024278500842,
+            0.34864374426453126
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "growth_curves_failure_cases",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "Go-0/rep_09 | +8 observations",
+          "ylim": [
+            9.163166577579759,
+            27.573501870825055
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Go-0/rep_09 | +8 observations",
+          "ylim": [
+            0.04221348956460563,
+            0.32367031192549495
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Is-1/rep_42 | +8 observations",
+          "ylim": [
+            1.673682383040936,
+            24.870213815789473
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Is-1/rep_42 | +8 observations",
+          "ylim": [
+            0.008592667881927769,
+            0.28908231510509186
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Kz-9/rep_43 | +8 observations",
+          "ylim": [
+            5.155471942742915,
+            17.756413744049954
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "Kz-9/rep_43 | +8 observations",
+          "ylim": [
+            0.02614317455834011,
+            0.33104059359245996
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "genotype_error_distributions",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "",
+          "ylim": [
+            0.36457177530078355,
+            3.487183211721591
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "",
+          "ylim": [
+            0.0029138984815256334,
+            0.0385591670658833
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "training_validation_losses",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "B2a | +2 | 3 seeds",
+          "ylim": [
+            0.0028244720986622188,
+            0.20423902971482158
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "B2a | +4 | 3 seeds",
+          "ylim": [
+            0.005754567204510473,
+            0.19492613786362162
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "B2a | +8 | 3 seeds",
+          "ylim": [
+            0.010815623189547836,
+            0.22336660918043127
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "B2b | +2 | 3 seeds",
+          "ylim": [
+            0.003702843925037961,
+            0.10274477037225424
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "B2b | +4 | 3 seeds",
+          "ylim": [
+            0.004529629615692435,
+            0.10703050350320925
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "B2b | +8 | 3 seeds",
+          "ylim": [
+            0.004046305181348978,
+            0.12328138616836921
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    },
+    {
+      "figure": "error_vs_actual_time",
+      "status": "PASS",
+      "axes": [
+        {
+          "title": "",
+          "ylim": [
+            0.0,
+            4.707108017543948
+          ],
+          "data_outside_axis": 0
+        },
+        {
+          "title": "",
+          "ylim": [
+            0.0,
+            4.707108017543948
+          ],
+          "data_outside_axis": 0
+        }
+      ]
+    }
+  ],
+  "check": "all plotted line/errorbar values within axes; comparison/time plots include 18% upper margin"
+}
