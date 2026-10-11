@@ -1,0 +1,6 @@
+plant_uid,split,sizes,valid_frames,association_evaluable_on_test
+Col-0/rep_32,train,"[[450, 432], [432, 450]]",98,False
+Cvi-0/rep_25,train,"[[450, 432], [432, 450]]",76,False
+Kz-9/rep_08,train,"[[450, 432], [432, 450]]",67,False
+Ler-1/rep_28,train,"[[450, 432], [432, 450]]",78,False
+Uk-1/rep_13,train,"[[450, 432], [432, 450]]",71,False

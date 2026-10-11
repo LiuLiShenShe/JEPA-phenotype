@@ -1,0 +1,135 @@
+### Axes.errorbar(x, y, yerr=None, xerr=None, fmt='', *, ecolor=None, elinewidth=None, capsize=None, barsabove=False, lolims=False, uplims=False, xlolims=False, xuplims=False, errorevery=1, capthick=None, elinestyle=None, data=None, **kwargs)
+
+Source: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.errorbar.html
+
+Plots y versus x as lines and/or markers with attached errorbars. Supports customization of errorbar appearance, limits, and data subsetting.
+
+```APIDOC
+## Axes.errorbar(x, y, yerr=None, xerr=None, fmt='', *, ecolor=None, elinewidth=None, capsize=None, barsabove=False, lolims=False, uplims=False, xlolims=False, xuplims=False, errorevery=1, capthick=None, elinestyle=None, data=None, **kwargs)
+
+### Description
+Plot y versus x as lines and/or markers with attached errorbars. x, y define the data locations, xerr, yerr define the errorbar sizes. By default, this draws the data markers/lines as well as the errorbars. Use fmt='none' to draw errorbars without any data markers.
+
+### Method
+Axes.errorbar (Matplotlib method)
+
+### Parameters
+- **x, y** (float or array-like) - Required - The data positions.
+- **xerr, yerr** (float or array-like, shape(N,) or shape(2, N)) - Optional - The errorbar sizes. Scalar: symmetric +/- values for all data points. shape(N,): symmetric +/- values for each data point. shape(2, N): separate - and + values for each bar. First row contains lower errors, second row contains upper errors. None: no errorbar. All values must be >= 0.
+- **fmt** (str) - Optional, default: '' - The format for the data points / data lines. See plot for details. Use 'none' (case-insensitive) to plot errorbars without any data markers.
+- **ecolor** (color) - Optional, default: None - The color of the errorbar lines. If None, use the color of the line connecting the markers.
+- **elinewidth** (float) - Optional, default: None - The linewidth of the errorbar lines. If None, the linewidth of the current style is used.
+- **elinestyle** (str or tuple) - Optional, default: 'solid' - The linestyle of the errorbar lines. Valid values include {'-', '--', '-.', ':', '', (offset, on-off-seq)}. See Line2D.set_linestyle for a complete description.
+- **capsize** (float) - Optional, default: rcParams["errorbar.capsize"] (default: 0.0) - The length of the error bar caps in points.
+- **capthick** (float) - Optional, default: None - An alias to the keyword argument markeredgewidth (a.k.a. mew). This setting is a more sensible name for the property that controls the thickness of the error bar cap in points. For backwards compatibility, if mew or markeredgewidth are given, then they will over-ride capthick. This may change in future releases.
+- **barsabove** (bool) - Optional, default: False - If True, will plot the errorbars above the plot symbols. Default is below.
+- **lolims, uplims, xlolims, xuplims** (bool or array-like) - Optional, default: False - These arguments can be used to indicate that a value gives only upper/lower limits. In that case a caret symbol is used to indicate this. lims-arguments may be scalars, or array-likes of the same length as xerr and yerr. To use limits with inverted axes, set_xlim or set_ylim must be called before errorbar(). Note the tricky parameter names: setting e.g. lolims to True means that the y-value is a lower limit of the True value, so, only an upward-pointing arrow will be drawn!
+- **errorevery** (int or (int, int)) - Optional, default: 1 - Draws error bars on a subset of the data. errorevery=N draws error bars on the points (x[::N], y[::N]). errorevery=(start, N) draws error bars on the points (x[start::N], y[start::N]). e.g. errorevery=(6, 3) adds error bars to the data at (x[6], x[9], x[12], x[15], ...). Used to avoid overlapping error bars when two series share x-axis values.
+- **data** (indexable object) - Optional - If given, the following parameters also accept a string s, which is interpreted as data[s] if s is a key in data: x, y, xerr, yerr.
+- ****kwargs** - Optional - All other keyword arguments are passed on to the plot call drawing the markers. For example, this code makes big red squares with thick green edges: x, y, yerr = rand(3, 10); errorbar(x, y, yerr, marker='s', mfc='red', mec='green', ms=20, mew=4).
+
+### Returns
+- **ErrorbarContainer** - The container contains: data_line: A Line2D instance of x, y plot markers and/or line. caplines: A tuple of Line2D instances of the error bar caps. barlinecols: A tuple of LineCollection with the horizontal and vertical error ranges.
+
+### Notes
+- Added in version 3.7: Caps and error lines are drawn in polar coordinates on polar plots.
+- See Different ways of specifying error bars for an example on the usage of xerr and yerr.
+```
+
+--------------------------------
+
+### savefig with pad_inches="layout"
+
+Source: https://matplotlib.org/stable/release/prev_whats_new/whats_new_3.8.0.html
+
+Use with constrained or compressed layout to make savefig use the padding sizes defined on the layout engine.
+
+```python
+savefig(filename, bbox_inches="tight", pad_inches="layout")
+
+```
+
+--------------------------------
+
+### Add ConnectionPatch across Axes with constrained layout
+
+Source: https://matplotlib.org/stable/api/_as_gen/matplotlib.patches.ConnectionPatch.html
+
+Use this pattern when adding a ConnectionPatch across two Axes with constrained layout. Add the artist directly to the Figure instead of a specific Axes, or exclude it from the layout using con.set_in_layout(False).
+
+```python
+fig, ax = plt.subplots(1, 2, constrained_layout=True)
+con = ConnectionPatch(..., axesA=ax[0], axesB=ax[1])
+fig.add_artist(con)
+```
+
+--------------------------------
+
+### Errorbar subsampling with errorevery
+
+Source: https://matplotlib.org/stable/_downloads/32a1c40c0e4dc9c0f7195d80e8dfd0da/errorbar_subsample.ipynb
+
+Creates three subplots to compare errorbar rendering: all error bars, every 6th error bar, and a shifted subsampling using errorevery=(0, 6) and (3, 6). Requires matplotlib and numpy.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# example data
+x = np.arange(0.1, 4, 0.1)
+y1 = np.exp(-1.0 * x)
+y2 = np.exp(-0.5 * x)
+
+# example variable error bar values
+y1err = 0.1 + 0.1 * np.sqrt(x)
+y2err = 0.1 + 0.1 * np.sqrt(x/2)
+
+
+fig, (ax0, ax1, ax2) = plt.subplots(nrows=1, ncols=3, sharex=True,
+                                    figsize=(12, 6))
+
+ax0.set_title('all errorbars')
+ax0.errorbar(x, y1, yerr=y1err)
+ax0.errorbar(x, y2, yerr=y2err)
+
+ax1.set_title('only every 6th errorbar')
+ax1.errorbar(x, y1, yerr=y1err, errorevery=6)
+ax1.errorbar(x, y2, yerr=y2err, errorevery=6)
+
+ax2.set_title('second series shifted by 3')
+ax2.errorbar(x, y1, yerr=y1err, errorevery=(0, 6))
+ax2.errorbar(x, y2, yerr=y2err, errorevery=(3, 6))
+
+fig.suptitle('Errorbar subsampling')
+plt.show()
+```
+
+--------------------------------
+
+### Attach legends to bar, errorbar, and stem plots
+
+Source: https://matplotlib.org/stable/_downloads/4c0ce4a33804cb08f86ba70337fad464/legend_demo.ipynb
+
+Attaches legends to subplots for bar, errorbar, and stem plots. Uses a single figure with three subplots and a constrained layout. Each subplot calls its own legend() with labels set on the plotted elements.
+
+```python
+fig, axs = plt.subplots(3, 1, layout="constrained")
+top_ax, middle_ax, bottom_ax = axs
+
+top_ax.bar([0, 1, 2], [0.2, 0.3, 0.1], width=0.4, label="Bar 1",
+           align="center")
+top_ax.bar([0.5, 1.5, 2.5], [0.3, 0.2, 0.2], color="red", width=0.4,
+           label="Bar 2", align="center")
+top_ax.legend()
+
+middle_ax.errorbar([0, 1, 2], [2, 3, 1], xerr=0.4, fmt="s", label="test 1")
+middle_ax.errorbar([0, 1, 2], [3, 2, 4], yerr=0.3, fmt="o", label="test 2")
+middle_ax.errorbar([0, 1, 2], [1, 1, 3], xerr=0.4, yerr=0.3, fmt="^",
+                   label="test 3")
+middle_ax.legend()
+
+bottom_ax.stem([0.3, 1.5, 2.7], [1, 3.6, 2.7], label="stem test")
+bottom_ax.legend()
+
+plt.show()
+```

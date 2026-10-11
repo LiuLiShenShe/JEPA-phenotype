@@ -1,0 +1,98 @@
+{
+  "offset2": {
+    "fit_split": "train",
+    "rapid_leaf_change_per_day_q75": 1.846232744989102,
+    "elapsed_days_tertiles": [
+      6.0,
+      11.999976851851851
+    ],
+    "actual_hours_tertiles": [
+      11.000277777777779,
+      13.0
+    ],
+    "history_area_rate_tertiles": [
+      0.0031971737380966305,
+      0.017103625935646818
+    ]
+  },
+  "offset4": {
+    "fit_split": "train",
+    "rapid_leaf_change_per_day_q75": 1.0000115742080349,
+    "elapsed_days_tertiles": [
+      5.791643518518518,
+      11.70832175925926
+    ],
+    "actual_hours_tertiles": [
+      24.0,
+      24.000277777777775
+    ],
+    "history_area_rate_tertiles": [
+      0.0029866144450034176,
+      0.015744436522097352
+    ]
+  },
+  "offset8": {
+    "fit_split": "train",
+    "rapid_leaf_change_per_day_q75": 1.0,
+    "elapsed_days_tertiles": [
+      5.25,
+      11.000011574074074
+    ],
+    "actual_hours_tertiles": [
+      48.0,
+      48.00027777777778
+    ],
+    "history_area_rate_tertiles": [
+      0.002574287524656875,
+      0.013499703347266008
+    ]
+  },
+  "day3": {
+    "fit_split": "train",
+    "rapid_leaf_change_per_day_q75": 0.9998582380295319,
+    "elapsed_days_tertiles": [
+      5.125011574074074,
+      10.54164351851852
+    ],
+    "actual_hours_tertiles": [
+      72.0,
+      72.0
+    ],
+    "history_area_rate_tertiles": [
+      0.0025607108940441108,
+      0.013254123397797428
+    ]
+  },
+  "day5": {
+    "fit_split": "train",
+    "rapid_leaf_change_per_day_q75": 0.8,
+    "elapsed_days_tertiles": [
+      4.54167824074074,
+      9.458333333333334
+    ],
+    "actual_hours_tertiles": [
+      120.0,
+      120.00027777777778
+    ],
+    "history_area_rate_tertiles": [
+      0.0021042653682663893,
+      0.010095423525919292
+    ]
+  },
+  "day7": {
+    "fit_split": "train",
+    "rapid_leaf_change_per_day_q75": 0.7142857142857143,
+    "elapsed_days_tertiles": [
+      4.0,
+      8.458314043209876
+    ],
+    "actual_hours_tertiles": [
+      168.0,
+      168.0002777777778
+    ],
+    "history_area_rate_tertiles": [
+      0.0016936932701387007,
+      0.0071506005532328476
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "reason": "Evaluation default cuDNN TF32 differed from deterministic, TF32-disabled training; corrected inference flags without changing training/checkpoints/configuration.",
+  "original_source_snapshot": "outputs/m1_5/inference_provenance/engine_before_inference_fix.py",
+  "original_engine_sha256": "be3841280d60652d2a8ed30ae84e8f15f5a3d223dcb8cce45f4f5a67c5955488",
+  "corrected_engine_sha256": "b77b1187e0cfb4e7c8d4e80d2233b0b9d7b8ad3f40e2f9222f3c4a97b5b2954f",
+  "archived_predictions": "outputs/m1_5/predictions_before_precision_fix",
+  "archived_analysis": "outputs/m1_5/analysis_before_precision_fix",
+  "probe": {
+    "default_flags": {
+      "deterministic": false,
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "matched_training_flags": {
+      "deterministic": true,
+      "cudnn_tf32": false,
+      "matmul_tf32": false
+    },
+    "max_abs_difference": [
+      0.002056121826171875,
+      5.532801151275635e-05
+    ]
+  },
+  "training_function_unchanged": true,
+  "checkpoints_unchanged": true,
+  "model_selection_changed": false,
+  "post_hoc_hyperparameter_search": false,
+  "corrected_precision": {
+    "deterministic_algorithms": true,
+    "cudnn_tf32": false,
+    "matmul_tf32": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.11.15 (main, Mar 10 2026, 18:16:52) [Clang 21.1.4 ]",
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "torch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "cudnn": 91002,
+  "gpu_names": [
+    "NVIDIA RTX A6000",
+    "NVIDIA RTX A6000"
+  ],
+  "reused_environment": ".venv-m1",
+  "m0_environment_modified": false
+}

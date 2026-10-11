@@ -1,0 +1,57 @@
+{
+  "provider": "Agnes API",
+  "records": [
+    {
+      "figure": "capacity_control",
+      "png_sha256": "8a57be159b396f89063c78ebde3ed63996cba5f98667cfc1d2d4a804f7442649",
+      "status": "inspected",
+      "provider": "Agnes API",
+      "response": {
+        "description": "两面板垂直堆叠图。上方面板y轴为'Visible leaf count Paired MAE difference'（-0.10至0.15），下方面板y轴为'Projected area ratio Paired MAE difference'（-0.003至0.002）。共享x轴类别：offset2、offset4、offset8、day3、day5、day7。图例位于上方左上角，紫色=Genuine GRU - repeated-frame GRU，蓝色=Genuine GRU - single-frame MLP，显示95% plant-bootstrap CI误差棒。两面板均有y=0虚线参考线。底部附注：'Negative favors genuine history; seed-averaged errors, not an ensemble'",
+        "issues": [],
+        "has_blocking_visual_issue": false
+      }
+    },
+    {
+      "figure": "time_conditions",
+      "png_sha256": "571644750a3bc7289ef72628f46d4fd15577bc9a6a39cd745bb4d0eb65e80c24",
+      "status": "inspected",
+      "provider": "Agnes API",
+      "response": {
+        "description": "双面板折线图，左面板Y轴'Leaf-count MAE'（0.00-2.00），右面板Y轴'Area-ratio MAE'（0.00-0.04）。X轴统一标注'Original observation offset (not days)'，刻度仅标+2、+4、+8。标题'Time conditions: same MLP, three seeds; display offsets only within each task'。底部图例5系列：蓝=RGB only，绿=RGB+known actual interval，紫=RGB+observed time，金=RGB+relative time,no calendar，红=Time only neural。每点带误差棒。",
+        "issues": [
+          "X轴刻度标签仅有+2、+4、+8三个，缺失实际起始偏移量标注（非天数但无具体值），无法判断数据点数与完整范围",
+          "红色'Time only neural'曲线仅含约3个数据点且起始X位置与其他四条曲线明显不同，造成跨曲线对比存在系统性错位歧义",
+          "右面板Y轴数值精度较低（仅标0.00、0.01、0.02、0.03、0.04），红色误差棒跨度较大但纵轴比例尺不足以精确读取绝对MAE值"
+        ],
+        "has_blocking_visual_issue": false
+      }
+    },
+    {
+      "figure": "calendar_feasibility",
+      "png_sha256": "61a3104711cf9aff9fd7e2759f6bf87a7814d45981e142907d1531a09acbd618",
+      "status": "inspected",
+      "provider": "Agnes API",
+      "response": {
+        "description": "双面板折线图。左面板Y轴为'Independent plants with matched windows'（0–220+），右面板Y轴为'Absolute target matching error (hours)'（对称对数刻度，0–6），两面板X轴均为'Requested future days'（刻度3、5、7）。图例区分三个系列：train（蓝色）、val（绿色）、test（紫色），底部补充p95与max标记及'Fixed tolerance'虚线参考。标题注明'test performance not used; matching-error axis is symlog'。",
+        "issues": [
+          "右面板顶部y≈6处，train max（蓝方）、val max（绿方）、test max（紫方）三个方形标记完全重叠，且均被Fixed tolerance虚线穿过，无法区分各系列max值的具体位置"
+        ],
+        "has_blocking_visual_issue": false
+      }
+    },
+    {
+      "figure": "difficulty_day5",
+      "png_sha256": "b6f9a3066fe101b29a4ab2843d5e6c03b37dea2ff6a193bbfa1cc2a4dbabde32",
+      "status": "inspected",
+      "provider": "Agnes API",
+      "response": {
+        "description": "该图为三面板散点图，标题为'Day5 difficulty associations: strata overlap in plants; no causal attribution'。三个子图横坐标分别为观测叶龄阶段(early/mid/mature)、未来可见叶衰退(False/True)、快速变化(train Q75)(False/True)，纵坐标均为Plant-macro leaf-count MAE。图例显示三个模型系列：mlp_full(蓝色)、gru_full(绿色)、gru_repeat(紫色)。每个面板底部标注了各分组的植物样本量n。误差线表示置信区间或标准差。",
+        "issues": [
+          "中间面板纵坐标上限为2.5，而左右面板为约2.0，三面板y轴尺度不一致"
+        ],
+        "has_blocking_visual_issue": false
+      }
+    }
+  ]
+}

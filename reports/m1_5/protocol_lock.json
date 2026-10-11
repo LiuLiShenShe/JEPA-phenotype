@@ -1,0 +1,118 @@
+{
+  "created_utc": "2026-10-11T12:38:02.407580+00:00",
+  "protocol": {
+    "version": "m1.5-fixed-budget-v1",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "offsets": [
+      2,
+      4,
+      8
+    ],
+    "day_horizons": [
+      3,
+      5,
+      7
+    ],
+    "matching": {
+      "tolerance_hours": 6,
+      "rule": "nearest valid future timestamp; ties choose earlier timestamp then smaller original frame index",
+      "minimum_train_plants": 100,
+      "minimum_val_plants": 25,
+      "minimum_train_median_windows": 5,
+      "minimum_val_median_windows": 5,
+      "test_is_not_an_eligibility_gate": true
+    },
+    "training": {
+      "epochs": 100,
+      "early_stopping": false,
+      "selection": "validation plant-macro mean of train-scale normalized target MAEs",
+      "weight_decay": 0.0001,
+      "dropout": 0.1,
+      "hidden_dim": 256,
+      "difference_hidden_dim": 64,
+      "mlp_learning_rate": 0.001,
+      "mlp_batch_size": 512,
+      "gru_learning_rate": 0.0003,
+      "gru_batch_size": 256,
+      "loss": "train-standardized equal-target Huber delta=1, inverse-plant-window weighting",
+      "scheduler": "cosine to 0.1 of initial learning rate",
+      "gradient_clip": 5
+    },
+    "statistics": {
+      "bootstrap_replicates": 10000,
+      "permutation_replicates": 20000,
+      "seed": 20261011,
+      "unit": "independent plant; average per-seed plant errors before resampling",
+      "multiplicity": "Holm adjustment within capacity and time comparison families separately",
+      "primary_task": "day5",
+      "primary_target": "leaf_count",
+      "minimum_leaf_gain": 0.1,
+      "minimum_area_gain": 0.002,
+      "minimum_relative_gain": 0.05
+    },
+    "diagnostics": {
+      "rapid_leaf_change": "absolute leaf-count change per day exceeds the train 75th percentile for that task",
+      "stage": "last observed M0 leaf-count-derived stage: early <=6, intermediate 7-10, mature >=11",
+      "continuous_associations": "plant-level Spearman association with plant-bootstrap CI; descriptive, not causal"
+    },
+    "offset_models": [
+      "mlp_full",
+      "gru_full",
+      "gru_repeat",
+      "diff_full",
+      "mlp_rgb",
+      "gru_rgb",
+      "time_full",
+      "mlp_offset",
+      "gru_offset",
+      "time_offset",
+      "mlp_relative",
+      "gru_relative",
+      "time_relative"
+    ],
+    "day_models": [
+      "mlp_full",
+      "gru_full",
+      "gru_repeat",
+      "diff_full",
+      "mlp_rgb",
+      "gru_rgb",
+      "time_full"
+    ],
+    "day_simple_baselines": [
+      "B0",
+      "B1",
+      "B1b"
+    ],
+    "scope": "Exploratory after M1 test inspection. No JEPA, no 3D, no deletion of hard plants, no M0/M1 modification. No fresh hyperparameter search."
+  },
+  "protocol_sha256": "50889f886870a180787686eee4bf5eaa3b20b638768935a63beb3683821e0c27",
+  "eligible_days": [
+    3,
+    5,
+    7
+  ],
+  "eligibility_uses": [
+    "train",
+    "val"
+  ],
+  "test_model_performance_used": false,
+  "test_was_inspected_in_m1": true,
+  "data_fingerprints": {
+    "data/metadata/frames.csv": "44695a96c5f7fa0bfc46785f988f2b1493f8592dc3da2caeab2d4a8dca219b46",
+    "data/processed/temporal_windows.csv": "dbba493d78a2f1d8e6ac3cdc599aa60bfd2d16cd80301f3f6de58b4dca6bb037",
+    "splits/phenoleaf_plant_split_seed42.json": "195888c23b66772e99ddf506a0a16d2e72c7dd65948ab9ff753fa70bc1849b39",
+    "outputs/m1_5/calendar_windows.csv": "28b6760ba948799843b9b2393cdd15af7c1c713afdc3542de5c38465b0659013",
+    "reports/m1_5/calendar_feasibility.csv": "bfc95b3ca038b45e0abbff18de139378db9cb51d7afe47b45343141d6e9bed1a",
+    "reports/m1_5/calendar_windows_per_plant.csv": "ac28f9037f5e2d7f89e0d431f87afc96fd8c57e9ee078cea7f5cdaadd129beb2",
+    "reports/m1_5/calendar_stage_genotype_coverage.csv": "1b58ae440594e9b4d4f9a60a25ee8866c285bc9ac9c8fa22121438645d7e5a5a",
+    "reports/m1/feature_cache.json": "a385bc08fc5d73fffb8d018d35004ccf47f648fa9250aa8998a0798bd968d348",
+    "reports/m1/model_selection.json": "b12bfd4a9b7135ac8812cde8c847fe979126e4dd43b85f5c60e8d82da3a5292f"
+  },
+  "feature_matrix_sha256": "a9e031c1e8c6ecb2a0375e9256f12067759869af04e211ca7b5ae39516a2ba82",
+  "feature_dimension": 384
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "research_judgment": "REVIEW",
+  "neural_runs": 180,
+  "simple_runs": 9,
+  "tests": {
+    "tests": 67,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "legacy_unchanged": true,
+  "raw_files_checked": 34164,
+  "fixed_budget_capacity_pairs": 18,
+  "eligible_days": [
+    3,
+    5,
+    7
+  ],
+  "test_was_inspected_in_m1": true,
+  "test_used_for_training_or_selection": false,
+  "jepa_trained": false,
+  "three_dimensional_experiments": false,
+  "main_merged": false,
+  "code_committed": false,
+  "code_pushed": false,
+  "figure_visual_qa_inspected": 4,
+  "figure_visual_qa_blocking_issues": []
+}

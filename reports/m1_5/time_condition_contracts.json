@@ -1,0 +1,42 @@
+{
+  "shared_observed_slots": [
+    "elapsed_since_first_record_days",
+    "last_original_observation_index",
+    "history_gap1_days",
+    "history_gap2_days"
+  ],
+  "calendar_slots": [
+    "year_day_sin",
+    "year_day_cos",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "offset_full": {
+    "forecast_slot": "actual future interval from target metadata",
+    "known_at_deployment": "only if scheduled/requested in advance; not demonstrated by dataset",
+    "task_slot": "fixed original observation offset"
+  },
+  "offset_query": {
+    "forecast_slot": "zero; actual future time unavailable",
+    "task_slot": "fixed original observation offset",
+    "observed_calendar": true
+  },
+  "relative_offset_query": {
+    "forecast_slot": "zero",
+    "task_slot": "fixed original observation offset",
+    "calendar_slots": "all zero"
+  },
+  "days_full": {
+    "forecast_slot": "requested 3/5/7 days, known before prediction",
+    "task_slot": "fixed day-task identity, NOT actual target observation offset",
+    "actual_matching_interval_or_residual": "never input"
+  },
+  "rgb_only": {
+    "all_ten_time_slots": "zero",
+    "task_identity": "separate per-task model; no variable future time metadata"
+  },
+  "time_only_neural": {
+    "all_rgb_slots": "zero",
+    "time_slots": "same as matching RGB condition"
+  }
+}

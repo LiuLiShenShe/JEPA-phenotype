@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "capacity_control",
+      "panels": 2,
+      "source_csvs": [
+        "paired_comparisons.csv"
+      ],
+      "files": {
+        "svg": "c66818ba781e69eaa8efebe0389f3fa5b9b2511d49fcfccfdcc50bb977e700c0",
+        "pdf": "ba897f3200c5ae3a1ae6aa3403af4501a715f04c99bd6c33da41a9888f529b91",
+        "png": "8a57be159b396f89063c78ebde3ed63996cba5f98667cfc1d2d4a804f7442649"
+      },
+      "data_derived": true,
+      "raw_image_manipulation": false,
+      "panel_bounds": [
+        {
+          "ylim": [
+            -0.1395669450835488,
+            0.1707722800636356
+          ],
+          "finite_artist_y_min": -0.1095341168434987,
+          "finite_artist_y_max": 0.1407394518235855,
+          "within_axes": true
+        },
+        {
+          "ylim": [
+            -0.003852538937670704,
+            0.002160796666199104
+          ],
+          "finite_artist_y_min": -0.0032706032340704006,
+          "finite_artist_y_max": 0.0015788609625988,
+          "within_axes": true
+        }
+      ]
+    },
+    {
+      "figure": "time_conditions",
+      "panels": 2,
+      "source_csvs": [
+        "baseline_comparison.csv"
+      ],
+      "files": {
+        "svg": "e4a3b3474e9fa73f1bca17ab722d0376dafb77c31a9ef50a7a78aa195bc748e4",
+        "pdf": "68d7f5a27a75d7d960ae43af25fb71a573eb34a99469e7c9246b8c9bba831189",
+        "png": "571644750a3bc7289ef72628f46d4fd15577bc9a6a39cd745bb4d0eb65e80c24"
+      },
+      "data_derived": true,
+      "raw_image_manipulation": false,
+      "panel_bounds": [
+        {
+          "ylim": [
+            0.0,
+            2.0811015489097153
+          ],
+          "finite_artist_y_min": 0.8351812674948441,
+          "finite_artist_y_max": 1.763645380431962,
+          "within_axes": true,
+          "minimum_model_x_separation_pixels": 14.146092672759337,
+          "marker_width_pixels": 8.333333333333334,
+          "marker_centers_are_distinguishable": true
+        },
+        {
+          "ylim": [
+            0.0,
+            0.047747917156181534
+          ],
+          "finite_artist_y_min": 0.0085102931444077,
+          "finite_artist_y_max": 0.0404643365730352,
+          "within_axes": true,
+          "minimum_model_x_separation_pixels": 14.146092672759323,
+          "marker_width_pixels": 8.333333333333334,
+          "marker_centers_are_distinguishable": true
+        }
+      ]
+    },
+    {
+      "figure": "calendar_feasibility",
+      "panels": 2,
+      "source_csvs": [
+        "calendar_feasibility.csv"
+      ],
+      "files": {
+        "svg": "a79a05d08abef7780d36278cbda9b2c652fda45580570feb7d5e9a4c526eaafd",
+        "pdf": "ee1682610cf7f4a47a74cd489adad578ecd7ef462ce07000e95838cf32ab47b1",
+        "png": "61a3104711cf9aff9fd7e2759f6bf87a7814d45981e142907d1531a09acbd618"
+      },
+      "data_derived": true,
+      "raw_image_manipulation": false,
+      "panel_bounds": [
+        {
+          "ylim": [
+            0.0,
+            227.75
+          ],
+          "finite_artist_y_min": 44.0,
+          "finite_artist_y_max": 219.0,
+          "within_axes": true
+        },
+        {
+          "ylim": [
+            0.0,
+            9.0
+          ],
+          "finite_artist_y_min": 0.0030555555555555,
+          "finite_artist_y_max": 6.0,
+          "within_axes": true
+        }
+      ]
+    },
+    {
+      "figure": "difficulty_day5",
+      "panels": 3,
+      "source_csvs": [
+        "difficulty_stratified_errors.csv"
+      ],
+      "files": {
+        "svg": "0430f09a13a35665f403b6d8775f9e7b3d0027a34b23841ab3cbdf7ea72bec3c",
+        "pdf": "5adcfe305dfd0754f62a89074102ff7c156a3e6bb65104ffd72419bb409a4760",
+        "png": "b6f9a3066fe101b29a4ab2843d5e6c03b37dea2ff6a193bbfa1cc2a4dbabde32"
+      },
+      "data_derived": true,
+      "raw_image_manipulation": false,
+      "panel_bounds": [
+        {
+          "ylim": [
+            0.0,
+            2.254453056907481
+          ],
+          "finite_artist_y_min": 0.6801812688717968,
+          "finite_artist_y_max": 1.9603939625282447,
+          "within_axes": true
+        },
+        {
+          "ylim": [
+            0.0,
+            2.5642490545908605
+          ],
+          "finite_artist_y_min": 1.0701978831384542,
+          "finite_artist_y_max": 2.2297817866007485,
+          "within_axes": true
+        },
+        {
+          "ylim": [
+            0.0,
+            2.2856047326123226
+          ],
+          "finite_artist_y_min": 0.9797696368365516,
+          "finite_artist_y_max": 1.9874823761846283,
+          "within_axes": true
+        }
+      ]
+    }
+  ],
+  "source_unit": "independent plant",
+  "visual_qa": "separate report; source and rendering success do not certify visual inspection"
+}

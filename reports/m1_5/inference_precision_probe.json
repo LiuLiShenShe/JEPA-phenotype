@@ -1,0 +1,16 @@
+{
+  "default_flags": {
+    "deterministic": false,
+    "cudnn_tf32": true,
+    "matmul_tf32": false
+  },
+  "matched_training_flags": {
+    "deterministic": true,
+    "cudnn_tf32": false,
+    "matmul_tf32": false
+  },
+  "max_abs_difference": [
+    0.002056121826171875,
+    5.532801151275635e-05
+  ]
+}

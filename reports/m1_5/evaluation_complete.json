@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "tasks": [
+    "offset2",
+    "offset4",
+    "offset8",
+    "day3",
+    "day5",
+    "day7"
+  ],
+  "prediction_directories": 189,
+  "test_used_for_selection": false
+}

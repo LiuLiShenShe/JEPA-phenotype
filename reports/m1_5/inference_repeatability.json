@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "deterministic": true,
+  "tf32": false,
+  "results": [
+    {
+      "task": "offset4",
+      "model": "gru_repeat",
+      "windows": 32,
+      "same_gpu_max_abs_difference": 0.0,
+      "cross_gpu_max_abs_difference": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "day5",
+      "model": "gru_full",
+      "windows": 32,
+      "same_gpu_max_abs_difference": 0.0,
+      "cross_gpu_max_abs_difference": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}
