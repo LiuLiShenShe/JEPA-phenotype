@@ -1,0 +1,905 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "pair": [
+        "fold0",
+        17,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        17,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        17,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        17,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        42,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        42,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        42,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        42,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        93,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        93,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        93,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold0",
+        93,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        17,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        17,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        17,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        17,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        42,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        42,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        42,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        42,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        93,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        93,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        93,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold1",
+        93,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        17,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        17,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        17,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        17,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        42,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        42,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        42,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        42,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        93,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        93,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        93,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold2",
+        93,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        17,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        17,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        17,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        17,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        42,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        42,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        42,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        42,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        93,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        93,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        93,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "fold3",
+        93,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        17,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        17,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        17,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        17,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        42,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        42,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        42,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        42,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        93,
+        0.25,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        93,
+        0.5,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        93,
+        1.0,
+        "count"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    },
+    {
+      "pair": [
+        "official",
+        93,
+        1.0,
+        "segmentation"
+      ],
+      "checks": {
+        "initial_head_hash": true,
+        "epochs": true,
+        "optimizer_steps": true,
+        "trainable_parameters": true
+      },
+      "passed": true
+    }
+  ]
+}

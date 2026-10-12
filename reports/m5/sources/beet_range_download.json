@@ -1,0 +1,64 @@
+{
+  "url": "https://bonndata.uni-bonn.de/static/datafile/4273/BonnBeetClouds3Dv0.zip",
+  "bytes": 11149363555,
+  "preserved_prefix": 2137911296,
+  "seconds": 497.07174252253026,
+  "ranges": [
+    {
+      "index": 0,
+      "start": 2137911296,
+      "end": 3264342828,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 1,
+      "start": 3264342829,
+      "end": 4390774361,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 2,
+      "start": 4390774362,
+      "end": 5517205894,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 3,
+      "start": 5517205895,
+      "end": 6643637427,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 4,
+      "start": 6643637428,
+      "end": 7770068960,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 5,
+      "start": 7770068961,
+      "end": 8896500493,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 6,
+      "start": 8896500494,
+      "end": 10022932026,
+      "status": "COMPLETED",
+      "attempts": 1
+    },
+    {
+      "index": 7,
+      "start": 10022932027,
+      "end": 11149363554,
+      "status": "COMPLETED",
+      "attempts": 1
+    }
+  ]
+}

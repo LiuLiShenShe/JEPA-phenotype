@@ -1,0 +1,72 @@
+{
+  "milestone": "M5",
+  "date": "2026-10-12",
+  "exploratory": true,
+  "seeds": [17, 42, 93],
+  "partitions": ["official", "fold0", "fold1", "fold2", "fold3"],
+  "conditions": ["P0", "P2", "S500", "P3", "P4"],
+  "label_fractions": [0.25, 0.5, 1.0],
+  "label_budget_seed": 20261012,
+  "points": 2048,
+  "model": {
+    "num_groups": 64, "group_size": 32, "encoder_dim": 384,
+    "encoder_depth": 12, "encoder_heads": 6, "dropout": 0.1,
+    "attention_dropout": 0.05, "drop_path_rate": 0.25,
+    "predictor_dim": 192, "predictor_depth": 6, "predictor_heads": 6
+  },
+  "ssl": {
+    "maximum_steps": 500, "checkpoints": [0, 120, 500], "batch_size": 64,
+    "learning_rate": 0.001, "weight_decay": 0.05, "warmup_steps": 12,
+    "p4_candidate": {
+      "variance_weight": 1.0, "covariance_weight": 0.01,
+      "standard_deviation_floor": 0.1, "epsilon": 0.0001
+    },
+    "sampler": "source balanced, external species uniform; recognized cabbage physical IDs uniform then scans, other species scans uniform with unresolved plant identity disclosed; XYZ-only; no future/organ labels",
+    "source_proportions": {"Sugar4D": 0.5, "Crops3D": 0.25, "BonnBeetClouds3D": 0.25},
+    "selection": "fixed final 500; no downstream choice or weight search"
+  },
+  "budget_selection": {
+    "M5A": "official train only, seed17, scratch 2000-step horizon, checkpoints 0/120/500/2000",
+    "formal_steps": 500,
+    "train_only_amendment": "M5A stop rule required both variance and rank loss and missed high-variance low-rank degeneration. At 2000 pooled rank 1.525, leading eigenvalue 0.919. One documented pre-formal amendment reduces all matched runs to 500; no downstream M5 result used.",
+    "M5A_not_reused": "S500 is a new 500-horizon run; M5A500 checkpoint had 2000-horizon schedule",
+    "P4_trigger": "M5A500 token std <=0.5 initial and pooled rank <=0.9 initial; confirmed degeneration risk. One previously declared loss and weights only.",
+    "no_further_extension": true,
+    "hardware_amendment": "Two available physical A6000 GPUs may execute disjoint partition jobs for bounded wall time; same deterministic software and architecture; no other process killed. Not a speed benchmark."
+  },
+  "downstream": {
+    "epochs": 20, "batch_size": 64, "learning_rate": 0.0003,
+    "weight_decay": 0.0001, "gradient_clip": 5.0,
+    "mode": "finetune", "count_head": "M4 linear mean/max tokens plus 27 current geometry",
+    "count_selection": "minimum validation plant-macro MAE; ties earliest",
+    "segmentation_selection": "maximum validation plant-macro mIoU; ties earliest",
+    "segmentation_budget": 1.0,
+    "historical_controls": "reuse unmodified M4 P0/P2 20-epoch predictions/checkpoints at identical subsets/seeds; archival evidence, not new independent validation"
+  },
+  "primary": {
+    "task": "current visible annotated leaf count",
+    "metric": "plant-level Macro MAE",
+    "split": "official validation",
+    "label_fraction": 0.5,
+    "mode": "finetune",
+    "controls": ["P0", "P2", "S500"],
+    "minimum_absolute_improvement_leaves": 0.2,
+    "minimum_relative_improvement": 0.1,
+    "all_three_seeds_improve": true,
+    "minimum_improving_folds": 3,
+    "ci95_upper_below_zero": true,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261012,
+    "candidate_policy": "P3 primary; P4 single conditional rescue, must independently pass same controls; report both, no best-task selection",
+    "multiplicity": "intersection of all three control gates, no averaged scans as replicates; P4 is explicitly exploratory rescue, not a second confirmatory test"
+  },
+  "semantic_risk": {"minimum_drop_miou": 0.03, "paired_ci95_upper_below_zero": true, "scope": "official 100%-label auxiliary segmentation against P0; risk veto, not primary success"},
+  "representation_risk": {"official_all_three_seeds_minimum_pooled_rank": 2.0, "official_all_three_seeds_minimum_token_rank": 2.0, "hard_collapse_veto": true, "scope": "CONTINUE additionally requires no near-one-dimensional or zero-variance official encoder; LIMITED still reports risk explicitly"},
+  "leaf_probe": {"split": "train only", "purity": 0.8, "inputs": "frozen pretrained tokens; labels evaluation only", "metric": "same/different leaf cosine AUC and distance-matched centred pair margin", "not_instance_segmentation": true},
+  "test_policy": "No new test inference or test labels. Historical M4-informed 50% target is an exploratory hypothesis, not independent validation.",
+  "decision_policy": "JEPA-CONTINUE iff P3 or conditional P4 passes all fixed primary gates and semantic veto absent; JEPA-LIMITED iff a complete expanded model has positive primary mean and >=2/3 seed directions without semantic veto; otherwise JEPA-STOP. Incomplete data/metrics cannot establish CONTINUE and must be engineering PARTIAL.",
+  "stop_before_temporal_jepa": true,
+  "future_prediction": false,
+  "diffusion": false,
+  "push_or_merge": false
+}

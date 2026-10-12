@@ -1,0 +1,5 @@
+{
+  "claim": "No selecting a best label fraction after evaluation",
+  "budgets": "nested 6,12,24 physical training plants",
+  "spread": "seed SD or descriptive fold-by-seed SD; not confidence interval"
+}

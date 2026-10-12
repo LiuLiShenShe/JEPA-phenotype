@@ -1,0 +1,261 @@
+{
+  "data": {
+    "id": "10.6084/m9.figshare.27313272",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.6084/m9.figshare.27313272",
+      "prefix": "10.6084",
+      "suffix": "m9.figshare.27313272",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Zhu, Jianzhong",
+          "givenName": "Jianzhong",
+          "familyName": "Zhu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Zhai, Rf",
+          "givenName": "Rf",
+          "familyName": "Zhai",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-5859-8971",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Ren, He",
+          "givenName": "He",
+          "familyName": "Ren",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "xie, kai",
+          "givenName": "kai",
+          "familyName": "xie",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "du, aobo",
+          "givenName": "aobo",
+          "familyName": "du",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "he, xinwei",
+          "givenName": "xinwei",
+          "familyName": "he",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "cui, chenxi",
+          "givenName": "chenxi",
+          "familyName": "cui",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "wang, yinghua",
+          "givenName": "yinghua",
+          "familyName": "wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "ye, junli",
+          "givenName": "junli",
+          "familyName": "ye",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "wang, jiashi",
+          "givenName": "jiashi",
+          "familyName": "wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "jiang, xue",
+          "givenName": "xue",
+          "familyName": "jiang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "wang, yulong",
+          "givenName": "yulong",
+          "familyName": "wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "huang, chenglong",
+          "givenName": "chenglong",
+          "familyName": "huang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "yang, wanneng",
+          "givenName": "wanneng",
+          "familyName": "yang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Crops3D a diverse 3D crop dataset for realistic perception and segmentation toward agricultural applications"
+        }
+      ],
+      "publisher": "figshare",
+      "container": {},
+      "publicationYear": 2024,
+      "subjects": [
+        {
+          "subject": "Agricultural Engineering"
+        },
+        {
+          "subject": "Computer Vision"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2024-12-28",
+          "dateType": "Created"
+        },
+        {
+          "date": "2024-12-28",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2024",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsSupplementTo",
+          "relatedIdentifier": "10.1038/s41597-024-04290-0",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [
+        "9289027713 Bytes"
+      ],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Crops3D is a diverse crop point cloud dataset, featuring a wealth of 3D crop point clouds sourced from real agricultural scenarios. It is designed to facilitate perception and segmentation tasks related to crop point clouds.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC42MDg0L005LkZJR1NIQVJFLjI3MzEzMjcyPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+Smlhbnpob25nIFpodTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Smlhbnpob25nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlpodTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+UmYgWmhhaTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+UmY8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+WmhhaTwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwczovL29yY2lkLm9yZyI+MDAwMC0wMDAxLTU4NTktODk3MTwvbmFtZUlkZW50aWZpZXI+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkhlIFJlbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+SGU8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UmVuPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5rYWkgeGllPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5rYWk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+eGllPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5hb2JvIGR1PC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5hb2JvPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPmR1PC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT54aW53ZWkgaGU8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPnhpbndlaTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5oZTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+Y2hlbnhpIGN1aTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Y2hlbnhpPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPmN1aTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+eWluZ2h1YSB3YW5nPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT55aW5naHVhPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPndhbmc8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPmp1bmxpIHllPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5qdW5saTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT55ZTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+amlhc2hpIHdhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPmppYXNoaTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT53YW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT54dWUgamlhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPnh1ZTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5qaWFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+eXVsb25nIHdhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPnl1bG9uZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT53YW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5jaGVuZ2xvbmcgaHVhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPmNoZW5nbG9uZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5odWFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+d2FubmVuZyB5YW5nPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT53YW5uZW5nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPnlhbmc8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkNyb3BzM0QgYSBkaXZlcnNlIDNEIGNyb3AgZGF0YXNldCBmb3IgcmVhbGlzdGljIHBlcmNlcHRpb24gYW5kIHNlZ21lbnRhdGlvbiB0b3dhcmQgYWdyaWN1bHR1cmFsIGFwcGxpY2F0aW9uczwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5Dcm9wczNEIGlzIGEgZGl2ZXJzZSBjcm9wIHBvaW50IGNsb3VkIGRhdGFzZXQsIGZlYXR1cmluZyBhIHdlYWx0aCBvZiAzRCBjcm9wIHBvaW50IGNsb3VkcyBzb3VyY2VkIGZyb20gcmVhbCBhZ3JpY3VsdHVyYWwgc2NlbmFyaW9zLiBJdCBpcyBkZXNpZ25lZCB0byBmYWNpbGl0YXRlIHBlcmNlcHRpb24gYW5kIHNlZ21lbnRhdGlvbiB0YXNrcyByZWxhdGVkIHRvIGNyb3AgcG9pbnQgY2xvdWRzLjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3Q+QWdyaWN1bHR1cmFsIEVuZ2luZWVyaW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+Q29tcHV0ZXIgVmlzaW9uPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPHB1Ymxpc2hlcj5maWdzaGFyZTwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNDwvcHVibGljYXRpb25ZZWFyPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJDcmVhdGVkIj4yMDI0LTEyLTI4PC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiPjIwMjQtMTItMjg8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPkRhdGFzZXQ8L3Jlc291cmNlVHlwZT4KICA8c2l6ZXM+CiAgICA8c2l6ZT45Mjg5MDI3NzEzIEJ5dGVzPC9zaXplPgogIDwvc2l6ZXM+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1N1cHBsZW1lbnRUbyI+MTAuMTAzOC9zNDE1OTctMDI0LTA0MjkwLTA8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9wdWJsaWNkb21haW4vemVyby8xLjAvIj5DQzA8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CjwvcmVzb3VyY2U+",
+      "url": "https://springernature.figshare.com/articles/dataset/Crops3D_a_diverse_3D_crop_dataset_for_realistic_perception_and_segmentation_toward_agricultural_applications/27313272",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 1,
+      "citationsOverTime": [
+        {
+          "year": "2024",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2024-10-28T03:32:06.000Z",
+      "registered": "2024-12-28T08:02:07.000Z",
+      "published": "2024",
+      "updated": "2024-12-28T08:02:09.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "figshare.ars",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "otjm",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.6084/m9.figshare.27313272",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1038/s41597-024-04290-0",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

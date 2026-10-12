@@ -1,0 +1,31 @@
+{
+  "milestone": "M5-A",
+  "date": "2026-10-12",
+  "partition": "official",
+  "seed": 17,
+  "checkpoints": [0, 120, 500, 2000],
+  "maximum_steps": 2000,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.05,
+  "warmup_steps": 12,
+  "schedule": "fixed 2000-step cosine horizon; 120-step checkpoint is not the M4 120-step schedule",
+  "stop_rule": {
+    "hard_collapse": "token std < 0.01 and token effective rank < 2, or nonfinite loss/features",
+    "sustained_degradation": "at a checkpoint >= 500: pooled effective rank and pooled variance both <= 0.5 of preceding checkpoint and <= 0.5 of initial; stop longer unregularized extension",
+    "selection": "formal budget fixed to 2000 unless this stop rule triggers; otherwise stopped checkpoint, never downstream-selected"
+  },
+  "diagnostics": "all 384 training scans/24 plants, deterministic sample pairs, centred and uncentred, covariance entropy effective rank",
+  "inputs": "M4 train XYZ cache only; no labels, validation or test",
+  "model": "unmodified configs/m4/protocol.json model architecture",
+  "p4_candidate": {
+    "enabled_only_after_m5a_risk": true,
+    "risk_rule": "at selected checkpoint token std or pooled std <= 0.5 of initial, and pooled rank <= 0.9 of initial; or early stop",
+    "one_loss_only": "student context-token variance/covariance regularization, SmoothL1 JEPA unchanged",
+    "variance_weight": 1.0,
+    "covariance_weight": 0.01,
+    "standard_deviation_floor": 0.1,
+    "epsilon": 0.0001,
+    "selection": "no weight search; one preregistered setting only"
+  }
+}

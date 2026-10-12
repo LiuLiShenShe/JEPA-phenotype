@@ -1,0 +1,85 @@
+[
+  {
+    "name": "crops_repository",
+    "url": "https://api.github.com/repos/clawCa/Crops3D",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/clawCa/Crops3D",
+    "attempt": 1,
+    "bytes": 4852
+  },
+  {
+    "name": "crops_revision",
+    "url": "https://api.github.com/repos/clawCa/Crops3D/commits/main",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/clawCa/Crops3D/commits/main",
+    "attempt": 1,
+    "bytes": 5618
+  },
+  {
+    "name": "crops_readme",
+    "url": "https://raw.githubusercontent.com/clawCa/Crops3D/main/README.md",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/clawCa/Crops3D/main/README.md",
+    "attempt": 1,
+    "bytes": 4668
+  },
+  {
+    "name": "crops_metadata",
+    "url": "https://api.figshare.com/v2/articles/27313272",
+    "status": 403,
+    "final_url": "https://api.figshare.com/v2/articles/27313272",
+    "attempt": 1,
+    "bytes": 118,
+    "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "name": "crops_metadata",
+    "url": "https://api.figshare.com/v2/articles/27313272",
+    "status": 403,
+    "final_url": "https://api.figshare.com/v2/articles/27313272",
+    "attempt": 2,
+    "bytes": 118,
+    "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "name": "crops_metadata",
+    "url": "https://api.figshare.com/v2/articles/27313272",
+    "status": 403,
+    "final_url": "https://api.figshare.com/v2/articles/27313272",
+    "attempt": 3,
+    "bytes": 118,
+    "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "name": "crops_article",
+    "url": "https://www.nature.com/articles/s41597-024-04290-0",
+    "status": 200,
+    "final_url": "https://www.nature.com/articles/s41597-024-04290-0",
+    "attempt": 1,
+    "bytes": 413808
+  },
+  {
+    "name": "beet_metadata",
+    "url": "https://bonndata.uni-bonn.de/api/datasets/:persistentId/?persistentId=doi:10.60507/FK2/34W30T",
+    "status": 200,
+    "final_url": "https://bonndata.uni-bonn.de/api/datasets/:persistentId/?persistentId=doi:10.60507/FK2/34W30T",
+    "attempt": 1,
+    "bytes": 11431
+  },
+  {
+    "name": "beet_readme",
+    "url": "https://bonndata.uni-bonn.de/api/access/datafile/4278",
+    "status": 200,
+    "final_url": "https://bonndata.uni-bonn.de/api/access/datafile/4278",
+    "attempt": 1,
+    "bytes": 3051
+  },
+  {
+    "name": "beet_article",
+    "url": "https://arxiv.org/html/2312.14706",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2312.14706",
+    "attempt": 1,
+    "bytes": 123511
+  }
+]

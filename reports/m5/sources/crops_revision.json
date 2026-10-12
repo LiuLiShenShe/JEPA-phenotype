@@ -1,0 +1,101 @@
+{
+  "sha": "cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+  "node_id": "C_kwDOMTXaeNoAKGNmNWVkMmFiNDVmYzc4ZDg0Y2FkNmVjNGZlMjk2YzgyMmViNWQ3NTk",
+  "commit": {
+    "author": {
+      "name": "clawCa",
+      "email": "71144235+clawCa@users.noreply.github.com",
+      "date": "2026-02-14T06:50:58Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-14T06:50:58Z"
+    },
+    "message": "Add Baidu Netdisk mirror for dataset download\n\nAdded a Baidu Netdisk mirror link for dataset download.",
+    "tree": {
+      "sha": "83d8cd75bb16f26f9bc08c67bed3d4bed8ca970c",
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/trees/83d8cd75bb16f26f9bc08c67bed3d4bed8ca970c"
+    },
+    "url": "https://api.github.com/repos/clawCa/Crops3D/git/commits/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpkBtSCRC1aQ7uu5UhlAAA9bgQAID78gUx+/hr5UleiLnjV9pr\nzwLMjKGTaWG48ummOw3sGzpqyQBxU2rM1tJNlEQsvTTLsbTzTucLSUn1p6xSaoso\nUKlAaNQoOR2gymYx98IvsUnP8ciicHue+XfG7ugPhbta7FWxaXs5rxEklCbaVT0G\nG4hBPfDCDDA/h10YwvBsgR+wvEAoNFauqmDsWBQT4+Yvpi2uYECM+RnQGDqiuQAC\nGNSnoB5fHRdIlyBbZJFxlSQ9O82iYD3JkqfHjpGSnmy1o+oxzUlinHZBVJmMe6a/\nYwFks0ziN7z10VLwRYkgqvPgr+cBX12YywJa9VXPh9shgd3cDkpbBqOGxH76a42D\n7DckQjicLlu+CQrV+CZFMl4FMJm1v/tBg60ruL/2xJP7yEiCW0LEA4/5ezNwAJB1\nVUbZjouc8vOpY1h/2+ypPzbMHEEteRuLgIepJAHOGvO7gVwpPRMtJdA8uSHhNt4D\nF5BUzTiEKyGM+kU8kpMxhQfkyEJmbmGgJd49t9EybxVN7uc1NLnogeOatekcRgIA\nQ4yFRRal0NWhxebOogLnXTeequApN4llXRplIMULuBxuqDt0q1kVW2DR/wZFAbED\nO3HxYbna/Zw/RaV1nTGxB4mVxRuCSwM82zW+KNJ4xNmMOfX12YrOhPVxSelH/SIL\n+CA7BApGkcDOBdetdy06\n=NjfO\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 83d8cd75bb16f26f9bc08c67bed3d4bed8ca970c\nparent 9722ae5f247f26d63d13d8bac79c420d18685c8a\nauthor clawCa <71144235+clawCa@users.noreply.github.com> 1771051858 +0800\ncommitter GitHub <noreply@github.com> 1771051858 +0800\n\nAdd Baidu Netdisk mirror for dataset download\n\nAdded a Baidu Netdisk mirror link for dataset download.",
+      "verified_at": "2026-02-14T06:50:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/clawCa/Crops3D/commits/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+  "html_url": "https://github.com/clawCa/Crops3D/commit/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+  "comments_url": "https://api.github.com/repos/clawCa/Crops3D/commits/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759/comments",
+  "author": {
+    "login": "clawCa",
+    "id": 71144235,
+    "node_id": "MDQ6VXNlcjcxMTQ0MjM1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/71144235?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/clawCa",
+    "html_url": "https://github.com/clawCa",
+    "followers_url": "https://api.github.com/users/clawCa/followers",
+    "following_url": "https://api.github.com/users/clawCa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/clawCa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/clawCa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/clawCa/subscriptions",
+    "organizations_url": "https://api.github.com/users/clawCa/orgs",
+    "repos_url": "https://api.github.com/users/clawCa/repos",
+    "events_url": "https://api.github.com/users/clawCa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/clawCa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9722ae5f247f26d63d13d8bac79c420d18685c8a",
+      "url": "https://api.github.com/repos/clawCa/Crops3D/commits/9722ae5f247f26d63d13d8bac79c420d18685c8a",
+      "html_url": "https://github.com/clawCa/Crops3D/commit/9722ae5f247f26d63d13d8bac79c420d18685c8a"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "additions": 5,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "4c855192403224423668d63f7fe36f83bc67e7f7",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "changes": 5,
+      "blob_url": "https://github.com/clawCa/Crops3D/blob/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759/README.md",
+      "raw_url": "https://github.com/clawCa/Crops3D/raw/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759/README.md",
+      "contents_url": "https://api.github.com/repos/clawCa/Crops3D/contents/README.md?ref=cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+      "patch": "@@ -43,6 +43,11 @@ If you use Crops3D in your research, please cite our paper:\n \n The dataset is stored in the [figshare](https://figshare.com/) database and can be accessed and downloaded using the following DOI: [https://doi.org/10.6084/m9.figshare.27313272](https://doi.org/10.6084/m9.figshare.27313272).\n \n+For convenience, a Baidu Netdisk mirror is also provided below:\n+  \n+>**Download Link:** https://pan.baidu.com/s/15bfYFDQUpBN0Rv-kzWfu-g?pwd=5iev \n+\n+\n The dataset consists of a series of PLY and HDF5 files, compressed into a file named `Crops3D.zip`. It includes four main directories:\n \n ### 1. **Crops3D Directory**"
+    }
+  ]
+}

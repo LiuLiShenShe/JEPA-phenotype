@@ -1,0 +1,18 @@
+{
+  "fields": [
+    "x",
+    "y",
+    "z",
+    "nx",
+    "ny",
+    "nz",
+    "red",
+    "green",
+    "blue",
+    "plant_ids",
+    "confidence",
+    "leaf_ids",
+    "plot"
+  ],
+  "example": "train/patch_0_1.ply"
+}

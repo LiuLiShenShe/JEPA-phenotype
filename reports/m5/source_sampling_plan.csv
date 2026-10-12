@@ -1,0 +1,10 @@
+source,species,ssl_objects,independent_physical_plants,method,training_probability
+BonnBeetClouds3D,sugar_beet,128,128 released plant IDs; one fragment each,UAV camera + SfM,0.25
+Crops3D,Cabbage,137,14 identified across repeated scans,structured light / MVS,0.03125
+Crops3D,Cotton,123,unknown; not equal to scan count,FARO Focus S70 TLS,0.03125
+Crops3D,Maize,157,unknown; not equal to scan count,FARO Focus S70 TLS,0.03125
+Crops3D,Potato,82,unknown; not equal to scan count,FARO Focus S70 TLS,0.03125
+Crops3D,Rapeseed,105,unknown; not equal to scan count,FARO Focus S70 TLS,0.03125
+Crops3D,Rice,58,unknown; not equal to scan count,FARO Focus S70 TLS,0.03125
+Crops3D,Tomato,58,unknown; not equal to scan count,SfM greenhouse,0.03125
+Crops3D,Wheat,103,unknown; not equal to scan count,FARO Focus S70 TLS,0.03125

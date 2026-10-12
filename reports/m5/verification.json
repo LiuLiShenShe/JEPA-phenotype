@@ -1,0 +1,461 @@
+{
+  "status": "PASS",
+  "ssl_checkpoints": 45,
+  "downstream_runs": 300,
+  "probe_runs": 75,
+  "test_prediction_files": 0,
+  "external_diagnostic_encoders": 15,
+  "protocol_sha256": "6933ae2a7352da892577c5261da0b6bfd789d0827605f54208fd4bfbb90fab30",
+  "records": [
+    {
+      "partition": "official",
+      "seed": 17,
+      "condition": "S500",
+      "encoder_hash": "88f045284cfa076e0dc91a01d10bdb2f062e692304e14c95278dc9161a0812f1",
+      "encoder_checkpoint_sha256": "e77f7c2e543c0cd32a28c5cb5f166d645e87384cb0078092ce58471c8cb74ec4",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 17,
+      "condition": "P3",
+      "encoder_hash": "23f2a5c7da2ea8c89cfcca4822b0fae6aa7e304bb69a2ecdaf4c1ea1ea1630e5",
+      "encoder_checkpoint_sha256": "3c6a481ee76be0573caf3b54b06025b304730c32a2c6ee9da519899e6362968a",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 17,
+      "condition": "P4",
+      "encoder_hash": "e511fcc5388e2398e7018704cf1c48d88b4cec81c0fa4772b45de62fdc38e610",
+      "encoder_checkpoint_sha256": "d2f059b58c0d43bfd2bb5432d23fd2f719389337b114db06273c0fb02c1ae33d",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 42,
+      "condition": "S500",
+      "encoder_hash": "2ca7c31f8a725171e93eab27e5c9107bde1c2db2b679e48984924814f1f99b34",
+      "encoder_checkpoint_sha256": "3f98d008743f6ffedd7bc15031440bb8d9265188b825aed82a84fcab0e5b9f55",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 42,
+      "condition": "P3",
+      "encoder_hash": "4de25a8f092b24b443c5f741aedbefc739648cc18fadb82f172d635268a5ccd0",
+      "encoder_checkpoint_sha256": "5e6d7f1d30159d5031b9c8150960bc8ca5a5045ceee8460d2210826811cf8754",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 42,
+      "condition": "P4",
+      "encoder_hash": "e1407c35be660d9092599c451158478ec9c17f125d45406ac33575dc4952c898",
+      "encoder_checkpoint_sha256": "a7dfc615f74f7b54f0ccba981ff9ea47429cbd0e4af29ea69809f4d775685381",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 93,
+      "condition": "S500",
+      "encoder_hash": "ab2e75ec531512e7e16eb7b9f0e41aa6ac70f49272e5a65717d8dfa3295d5843",
+      "encoder_checkpoint_sha256": "7dcb14e33f90008d8f539ae5e3840c29847fd2415fd1a6af9bdd041c1fede77e",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 93,
+      "condition": "P3",
+      "encoder_hash": "a017e7f4b56b922bcfe4aea2c55bcd4c89e63e0d5a02dc96189b1ca3e012b4c8",
+      "encoder_checkpoint_sha256": "f4386efd63af4c948c1feb9ad63eb7e3f8f779f2e2f390f26b9905cf2b293352",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "official",
+      "seed": 93,
+      "condition": "P4",
+      "encoder_hash": "e49d9674b63d011c51fd025f2ca14fd2c80b84aff64d8a9bf54e5f3be4541ef4",
+      "encoder_checkpoint_sha256": "b7ab1b5f6f2063155b0302ea40f47b1a6b4b088863f8c743f9f1cb6ce83252e1",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 17,
+      "condition": "S500",
+      "encoder_hash": "1268d8b38dd1a5d132e8951dc7e264e5bbfbb0f5ecc1fabb89e96fade65347d7",
+      "encoder_checkpoint_sha256": "d3508cfd3d0f2ecb95515c7480da403bb8d45320618f238eeadf60d76f6661f4",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 17,
+      "condition": "P3",
+      "encoder_hash": "1b2c9b39c578b20a22fd6cf4d11011f8ece757a4510b6d628945d5c79399bfaa",
+      "encoder_checkpoint_sha256": "ee1f8619964c00877a06d91a4611f97bd0a15088a37149a72d3a415a08ee67f3",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 17,
+      "condition": "P4",
+      "encoder_hash": "1e44873d236ddc3a10056db90ff6ec5dc2c2193bdbde496f6c9907f9e1d0a0e1",
+      "encoder_checkpoint_sha256": "39afab1e5be48612d3464a4b541eb10a2adfa82d3f43c3eb43c173fd468a7927",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 42,
+      "condition": "S500",
+      "encoder_hash": "9d9006cd6e2464619cdd53a76a7866203ef7098dfcac3f694e371503c7ffe1d2",
+      "encoder_checkpoint_sha256": "10ba717d1dc09876516b2636d31d3803d610c0fdc63d882237adcaf61b46e91a",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 42,
+      "condition": "P3",
+      "encoder_hash": "a31223877f04494b946cd82aaad5777fc58743b0f3ebc3e3646daf5a7eea132c",
+      "encoder_checkpoint_sha256": "62df2a89fba74abf16d398e5863d9a5aeeb9f7ad204bba4f5b0a60e7377ccf7b",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 42,
+      "condition": "P4",
+      "encoder_hash": "d7e90247b2df5d17e33ed0936b22081a4851380e2b77a0b39cdafc851bc5e1a4",
+      "encoder_checkpoint_sha256": "99bed6dc601507725d7377dde7f02a9b79be0490ccc5223bd4510a2a0c5ed25b",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 93,
+      "condition": "S500",
+      "encoder_hash": "70094c719aab6755ef47853402c6e2546d191deccc922cb068cd9ee307b2987a",
+      "encoder_checkpoint_sha256": "26b394d1df513c2c0362a5b3b9c9c030f51b3c0849d71dc8dec61080bffb30fe",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 93,
+      "condition": "P3",
+      "encoder_hash": "fd83b46fbb9865c98a29f4aa9d88d87989d96e67b7daa603b61cdbf2ceb1a22e",
+      "encoder_checkpoint_sha256": "e43c263254ef7e385e0814628cb1635d3066b74c47b0d7c4202b4bc3bc570365",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold0",
+      "seed": 93,
+      "condition": "P4",
+      "encoder_hash": "2306ffaaf0d23ccb7ae4cc6b4e4f7cf248867a12f654fb64fd17780b4e4e5288",
+      "encoder_checkpoint_sha256": "f2a806f22db876f113aea3aab11bd4d5a2d1a2f76a90876fc9bc3d3fd7c608bb",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 17,
+      "condition": "S500",
+      "encoder_hash": "a991f631a639e1bebc53e9f06051ea9de33f1c737a9656fa903c870ff8b61063",
+      "encoder_checkpoint_sha256": "48e33bf933af321c006871eef8468c932ea47c53ccab61be65b23c965918f491",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 17,
+      "condition": "P3",
+      "encoder_hash": "c2fbd923d8b9872da44384c38edb8d73c0da518f61784c8b94169ae37824ce27",
+      "encoder_checkpoint_sha256": "d16d6ecec7913d79182e315f2c241cf5c05f6365f679c10a7cebbcea017ed2c3",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 17,
+      "condition": "P4",
+      "encoder_hash": "222a9bb3aeed1d00759c9e4e67264a389b1d58d280717cfe7303d98f909c9f33",
+      "encoder_checkpoint_sha256": "2771a6943f6e8b07b31e5bfb5c15a58edcdeb03c6a4e7d8e266017e3d2cc27c0",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 42,
+      "condition": "S500",
+      "encoder_hash": "b4edb89adabe36948672083519da8873d076c36e8426266734cdad9a296071d0",
+      "encoder_checkpoint_sha256": "2a08b0e0d9b1f0f93438fa7bb39270af505ec0e2126aacd945395b97907cdce9",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 42,
+      "condition": "P3",
+      "encoder_hash": "02b9af3da6b760f82321e7783cc1980ed0bb6f661c280fb0a6e99677e7f7c3dd",
+      "encoder_checkpoint_sha256": "de326b20f2c5ab48bebdcddad091a03b750638638c7ffcd6a5879cbf1dbdb04c",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 42,
+      "condition": "P4",
+      "encoder_hash": "cd3f4530caaf8ab3f6f9aff11581c7ebfb50a58f4457458a77f2f11fff520816",
+      "encoder_checkpoint_sha256": "4bd87f84d6b75636c86a1e30e3127ee0c07b144de104de209a8ec4d3bd07e62b",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 93,
+      "condition": "S500",
+      "encoder_hash": "f476ae487c3664bb50b2e1cd310ae167d5f782d9e3f5f98d8b9f3e24f53bed26",
+      "encoder_checkpoint_sha256": "0535bf86c906b6f044ccde79052ac9ae9dbfa043287b2b752577ccc2d87f1fa9",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 93,
+      "condition": "P3",
+      "encoder_hash": "b600a8acc862323e9837058e5665f970052f1d714641fed1dc0a0e4694fd842c",
+      "encoder_checkpoint_sha256": "0efa4897c1e9159085e483c519d04400c5c487265c7e97af84929db4ec2503e5",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold1",
+      "seed": 93,
+      "condition": "P4",
+      "encoder_hash": "24c79c1dcc8dff25e4b275410af2a3f733e2eb04cffb9a166dde7f57dc6e5d86",
+      "encoder_checkpoint_sha256": "4bd8a3c5aca32cab6ed013468630027aa88cfdd365d12e8a7ac879a33e18dfbe",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 17,
+      "condition": "S500",
+      "encoder_hash": "85b12d5999042321efa7150b54a3ae10d413f89c58822f7c943a5f7d5535c3f4",
+      "encoder_checkpoint_sha256": "fa76c9f295dcc3aa94ebdc30a2a35fa6cb61a31675d3170250edeae502d311b9",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 17,
+      "condition": "P3",
+      "encoder_hash": "cd3c822a7d86dbb54d0b990f3986daeaf9e6a2864cae233f40febea251710f88",
+      "encoder_checkpoint_sha256": "f2a4c10eab13345f6ad1829678b066484ebb5dcdd596c3145e639ef4a207735e",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 17,
+      "condition": "P4",
+      "encoder_hash": "defe091d9e10899195d41ac6f9d4ce34588508377f7b844723d83061071f6ddb",
+      "encoder_checkpoint_sha256": "e1ace2ae5645030fcd3631f227587202fd5da7c4f071a37975f92a635838ae4f",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 42,
+      "condition": "S500",
+      "encoder_hash": "c96a1d2d76f8096fb8f21d675ce75aa2122d817bafe1ed8a4c4e2f020220cd16",
+      "encoder_checkpoint_sha256": "a6dc398aeb9fe6f1cccc3f358bbffbe78ec73084e9f15031083ebf050b80f417",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 42,
+      "condition": "P3",
+      "encoder_hash": "5c2aba1a50699a2647c355fec96c3f094ef4a7f248d601c63958cf471bcb3b40",
+      "encoder_checkpoint_sha256": "cf0f39f004df67eb9d33f3bac2ea031d889d4f05ddcdd0f1b09a8db852ed4b2b",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 42,
+      "condition": "P4",
+      "encoder_hash": "23e25036d96181382ca6dcc2232a5c1f4039a6da969e40262300557402578229",
+      "encoder_checkpoint_sha256": "37fbff29ac7d94820f2827b34cc45303db67d52424004bfcbe64504258b4073b",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 93,
+      "condition": "S500",
+      "encoder_hash": "2ce6001e6691dcc3d9257d7382050f69adbe8d60662c4f73ac35214bfe583fee",
+      "encoder_checkpoint_sha256": "4a02f3433323a0b6fd4d32f8083c827d6c02f8ee260e80f8584217f818bcb75c",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 93,
+      "condition": "P3",
+      "encoder_hash": "69db499f8486d96b0e003d9355f93001c31a4285c05e9423a86ac12b87761fb9",
+      "encoder_checkpoint_sha256": "7e00eb80b0151eef853fe790aab46bc7cd01b8c7bc34596e2001c0679a8bbf99",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold2",
+      "seed": 93,
+      "condition": "P4",
+      "encoder_hash": "b1108f3b9632f233e8371f8d3f00771b3c45d9fee7b3bba2922eb346ca12702f",
+      "encoder_checkpoint_sha256": "00ea75adc62953752805c9db4e507a7e32bdf1d44336ba5f104c96d2203e556e",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 17,
+      "condition": "S500",
+      "encoder_hash": "53eed9731eab46d1d3d285e672363de717fc82c0401f4a91b5bdf9f1add847a2",
+      "encoder_checkpoint_sha256": "3f3b1543ac893066ab380a05a7e410b97042242a4d0fc2f7851fd2f94704a466",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 17,
+      "condition": "P3",
+      "encoder_hash": "4750557137894bb5f8f19f9c32c5ea66302514ec374f047e25097bf122b75cc6",
+      "encoder_checkpoint_sha256": "fd591a8bb4b105d0ef03d911537e6b06d35bf922cdc29f332e2fd0d942dc37df",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 17,
+      "condition": "P4",
+      "encoder_hash": "b885bd74db6f08969f2e4502b797f0f06fa1e6d6cf48735409df59b287fabe95",
+      "encoder_checkpoint_sha256": "828b875d4da3c0a1c0c2b8b0d395fd85e78ddc243ff4e6427a5b5bc1ad685e15",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 42,
+      "condition": "S500",
+      "encoder_hash": "2af9cbd1e0c32f0a809d5250df30314a1c76b8bf2d95bbcff59ac6aeb7305877",
+      "encoder_checkpoint_sha256": "467e1f57b8bc3e43a160123d6a8af1854410226a3a10bdcadc7c5ccb5d105b58",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 42,
+      "condition": "P3",
+      "encoder_hash": "d2eee70854784c901661e26d72c219c95a9bf636e1396e35b4cba43144a0e90a",
+      "encoder_checkpoint_sha256": "e18de376e3029502d57c26ff1dc7cc1a594948d391d4c38ea38a9d755546b971",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 42,
+      "condition": "P4",
+      "encoder_hash": "74d7f43a0d6a92cb58aa748b5ff2bf5446982d1bb5ffe44b83fe85ffd4630104",
+      "encoder_checkpoint_sha256": "bf67e1ef65216201fb50f545b860a1e2faa84bb759dc0774d4f3a0df1b4b144f",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 93,
+      "condition": "S500",
+      "encoder_hash": "65eaa6951b3c50044e6f71ae26e55f7a2effc7424d10dc5914a656a73b2c113b",
+      "encoder_checkpoint_sha256": "ef68fa628a21d0e6b6778d5e7d3b8c54df9d5ed9e6fe796f63cd9f9c0d3ef1d8",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 93,
+      "condition": "P3",
+      "encoder_hash": "8883bfd5120b28d626c234dfcef0b4e5a48b1005c25ca2ad2bbcdb041d3a9596",
+      "encoder_checkpoint_sha256": "4f1d382e828b474ce4412cbc4921fddb8c62d4a21ccd93cd896251c5652ec0a2",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    },
+    {
+      "partition": "fold3",
+      "seed": 93,
+      "condition": "P4",
+      "encoder_hash": "ea1d8e3f79ed772e6adc809e53385d21b63f2d24d301acf5e6bba3cd5b68015b",
+      "encoder_checkpoint_sha256": "4b745e7ccf50cfa4d468f7b984a86e63d5684001c2f9264d8974645901769fdf",
+      "steps": 500,
+      "ema_updates": 500,
+      "status": "PASS"
+    }
+  ]
+}

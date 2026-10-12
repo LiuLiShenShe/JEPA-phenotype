@@ -1,0 +1,125 @@
+{
+  "sha": "cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+  "url": "https://api.github.com/repos/clawCa/Crops3D/git/trees/cf5ed2ab45fc78d84cad6ec4fe296c822eb5d759",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c855192403224423668d63f7fe36f83bc67e7f7",
+      "size": 4668,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/4c855192403224423668d63f7fe36f83bc67e7f7"
+    },
+    {
+      "path": "all_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ca49dcc6cd87446d4a126452a707419a598fc2",
+      "size": 2849,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/d5ca49dcc6cd87446d4a126452a707419a598fc2"
+    },
+    {
+      "path": "build_oo3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2578db6ca025c4f0ef935584d79b9d7044849544",
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/trees/2578db6ca025c4f0ef935584d79b9d7044849544"
+    },
+    {
+      "path": "build_oo3d/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe9dea1580eaee996b2e5f1ac1d2d61ffc491e3e",
+      "size": 97,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/fe9dea1580eaee996b2e5f1ac1d2d61ffc491e3e"
+    },
+    {
+      "path": "build_oo3d/all_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ca49dcc6cd87446d4a126452a707419a598fc2",
+      "size": 2849,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/d5ca49dcc6cd87446d4a126452a707419a598fc2"
+    },
+    {
+      "path": "build_oo3d/corrupt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e320877121b031ca1d41972e6646af95f0e55cdd",
+      "size": 2647,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/e320877121b031ca1d41972e6646af95f0e55cdd"
+    },
+    {
+      "path": "build_oo3d/corrupt_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411d32a28915f888091d3162b7375239bc9d017e",
+      "size": 7356,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/411d32a28915f888091d3162b7375239bc9d017e"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5baa93b7dce75757f35d6f27684ff67f53007437",
+      "size": 14262,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/5baa93b7dce75757f35d6f27684ff67f53007437"
+    },
+    {
+      "path": "fps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07a1accd3d60657906181a5ca42edde95fcb89a6",
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/trees/07a1accd3d60657906181a5ca42edde95fcb89a6"
+    },
+    {
+      "path": "fps/fps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51d846bfbba1ee1bcb6c566a2c538217a874010",
+      "size": 2551,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/e51d846bfbba1ee1bcb6c566a2c538217a874010"
+    },
+    {
+      "path": "fps/pc_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "445c232473a999b7ebcb32048df5a71dc58fa5e3",
+      "size": 60471,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/445c232473a999b7ebcb32048df5a71dc58fa5e3"
+    },
+    {
+      "path": "plant2s3dis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc53e85064ec7a05416c735141b0f37b6780a94f",
+      "size": 3425,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/fc53e85064ec7a05416c735141b0f37b6780a94f"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de633aa2d669eb66ede9eb5cf71cb4df96f14867",
+      "size": 12156,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/de633aa2d669eb66ede9eb5cf71cb4df96f14867"
+    },
+    {
+      "path": "run_fps.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628ad459518092ee6b381cfdc65dd3b0767f17dd",
+      "size": 2933,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/628ad459518092ee6b381cfdc65dd3b0767f17dd"
+    },
+    {
+      "path": "run_ply2h5.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "433825ae4cdf82af10cecaeba036cde45bf2acbc",
+      "size": 4025,
+      "url": "https://api.github.com/repos/clawCa/Crops3D/git/blobs/433825ae4cdf82af10cecaeba036cde45bf2acbc"
+    }
+  ],
+  "truncated": false
+}

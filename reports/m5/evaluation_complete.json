@@ -1,0 +1,8 @@
+{
+  "expected_downstream_runs": 300,
+  "completed_downstream_runs": 300,
+  "complete": true,
+  "expected_probe_runs": 75,
+  "completed_probe_runs": 75,
+  "protocol_sha256": "6933ae2a7352da892577c5261da0b6bfd789d0827605f54208fd4bfbb90fab30"
+}

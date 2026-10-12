@@ -1,0 +1,128 @@
+### Implement PyTorch Exponential Moving Average (EMA) Training Loop
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/optim.md
+
+This Python code illustrates how to apply Exponential Moving Average (EMA) for model parameter averaging within a PyTorch training loop. It sets up an `AveragedModel` configured with an EMA decay rate using `get_ema_multi_avg_fn`. The EMA model's parameters are updated in every training step, and after training, batch normalization statistics are updated before using the EMA model for inference.
+
+```python
+loader, optimizer, model, loss_fn = ...
+ema_model = torch.optim.swa_utils.AveragedModel(model, \
+            multi_avg_fn=torch.optim.swa_utils.get_ema_multi_avg_fn(0.999))
+
+for epoch in range(300):
+      for input, target in loader:
+          optimizer.zero_grad()
+          loss_fn(model(input), target).backward()
+          optimizer.step()
+          ema_model.update_parameters(model)
+
+# Update bn statistics for the ema_model at the end
+torch.optim.swa_utils.update_bn(loader, ema_model)
+# Use ema_model to make predictions on test data
+preds = ema_model(test_input)
+```
+
+--------------------------------
+
+### Apply Single Learning Rate Scheduler in PyTorch Training
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/optim.md
+
+This Python example demonstrates the correct implementation of a single learning rate scheduler (e.g., `ExponentialLR`) within a PyTorch training loop. The scheduler's `step()` method is called after the optimizer's `step()` to ensure proper learning rate adjustment per epoch. It relies on `torch.optim` for optimization and `torch.optim.lr_scheduler` for scheduling.
+
+```python
+optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+scheduler = ExponentialLR(optimizer, gamma=0.9)
+
+for epoch in range(20):
+    for input, target in dataset:
+        optimizer.zero_grad()
+        output = model(input)
+        loss = loss_fn(output, target)
+        loss.backward()
+        optimizer.step()
+    scheduler.step()
+```
+
+--------------------------------
+
+### Save/restore CUDA RNG state across all devices
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/cuda/random.py
+
+For deterministic CUDA checkpoint resume, get_rng_state_all() captures the RNG state of every CUDA device into a list of ByteTensors, and set_rng_state_all() restores them. Save these tensors alongside the model/optimizer state_dicts in the checkpoint to reproduce the random sequence after resume.
+
+```python
+def get_rng_state_all() -> list[Tensor]:
+    r"""Return a list of ByteTensor representing the random number states of all devices."""
+    results = [get_rng_state(i) for i in range(device_count())]
+    return results
+
+
+def set_rng_state(new_state: Tensor, device: int | str | torch.device = "cuda") -> None:
+    r"""Set the random number generator state of the specified GPU.
+
+    Args:
+        new_state (torch.ByteTensor): The desired state
+        device (torch.device or int, optional): The device to set the RNG state.
+            Default: ``'cuda'`` (i.e., ``torch.device('cuda')``, the current CUDA device).
+    """
+    if not is_initialized():
+        with torch._C._DisableFuncTorch():
+            # Clone the state because the callback will be triggered
+            # later when CUDA is lazy initialized.
+            new_state = new_state.clone(memory_format=torch.contiguous_format)
+    if isinstance(device, str):
+        device = torch.device(device)
+    elif isinstance(device, int):
+        device = torch.device("cuda", device)
+
+    def cb():
+        idx = device.index
+        if idx is None:
+            idx = current_device()
+        default_generator = torch.cuda.default_generators[idx]
+        default_generator.set_state(new_state)
+
+    _lazy_call(cb)
+
+
+def set_rng_state_all(new_states: Iterable[Tensor]) -> None:
+    r"""Set the random number generator state of all devices.
+
+    Args:
+        new_states (Iterable of torch.ByteTensor): The desired state for each device.
+    """
+    for i, state in enumerate(new_states):
+        set_rng_state(state, i)
+```
+
+--------------------------------
+
+### Ensure Deterministic Matrix Multiplication with torch.bmm on CUDA (Python)
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/randomness.rst
+
+This snippet demonstrates how to achieve deterministic behavior for `torch.bmm` operations involving sparse-dense CUDA tensors. By setting `torch.use_deterministic_algorithms(True)`, PyTorch uses an alternate deterministic implementation. For CUDA versions 10.2+, also set `CUBLAS_WORKSPACE_CONFIG` as per NVIDIA documentation for full reproducibility.
+
+```python
+import torch
+torch.use_deterministic_algorithms(True)
+torch.bmm(torch.randn(2, 2, 2).to_sparse().cuda(), torch.randn(2, 2, 2).cuda())
+```
+
+--------------------------------
+
+### Initialize PyTorch AdamW Optimizers for Complex and Real Parameters
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/complex_numbers.md
+
+This Python code snippet demonstrates the initialization of two `torch.optim.AdamW` optimizers: one for a list of complex tensors and another for their `torch.view_as_real` representations. This setup illustrates how PyTorch internally treats complex parameters, ensuring that both optimizers compute similar updates.
+
+```python
+params = [torch.rand(2, 3, dtype=torch.complex64) for _ in range(5)]
+real_params = [torch.view_as_real(p) for p in params]
+
+complex_optim = torch.optim.AdamW(params)
+real_optim = torch.optim.AdamW(real_params)
+```

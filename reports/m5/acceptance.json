@@ -1,0 +1,52 @@
+{
+  "milestone": "M5",
+  "engineering_status": "PARTIAL",
+  "completed_executable_matrix": true,
+  "research_decision": "JEPA-STOP",
+  "source_identity_unit_audit": "PARTIAL: Crops3D native metric unit and non-cabbage physical IDs incompletely documented; exact geometry and acquisition audits do not establish all physical identities",
+  "checks": {
+    "downstream_complete": true,
+    "paired_fairness": "PASS",
+    "archive_protection": "PASS",
+    "checkpoint_restore": "PASS",
+    "tests": {
+      "tests_m5.xml": {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "tests_contracts.xml": {
+        "tests": 39,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "tests_all.xml": {
+        "tests": 147,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    "probe_complete": true,
+    "state_provenance_verification": "PASS",
+    "figure_source_qa": "PASS",
+    "figure_visual_qa": "PASS",
+    "p3_p4_preregistered": true,
+    "within_partition_sugar_validation_test_in_ssl": false,
+    "global_official_holdout_across_all_fold_models": false
+  },
+  "limitations": [
+    "Crops3D native units unresolved, input normalization dimensionless",
+    "non-cabbage independent plant identities unresolved",
+    "Bonn uses annotation-assisted partial-plant cropping",
+    "no untouched confirmatory Sugar4D test",
+    "M4 fold-local role rotation is retained; folds do not constitute a global official holdout"
+  ],
+  "next_stage_started": false,
+  "temporal_jepa": false,
+  "future_prediction": false,
+  "diffusion": false,
+  "git_push_merge_commit": false
+}

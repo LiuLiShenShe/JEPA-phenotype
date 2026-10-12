@@ -1,0 +1,1187 @@
+[
+  {
+    "name": "README.md",
+    "bytes": 188,
+    "crc32": 3301785676
+  },
+  {
+    "name": "phenotypic_trait_gt.yaml",
+    "bytes": 13799,
+    "crc32": 3256583251
+  },
+  {
+    "name": "test/",
+    "bytes": 0,
+    "crc32": 0
+  },
+  {
+    "name": "test/patch_11_22.ply",
+    "bytes": 76131128,
+    "crc32": 1932202617
+  },
+  {
+    "name": "test/patch_11_23.ply",
+    "bytes": 90753320,
+    "crc32": 136655579
+  },
+  {
+    "name": "test/patch_11_24.ply",
+    "bytes": 87905972,
+    "crc32": 3841513387
+  },
+  {
+    "name": "test/patch_11_39.ply",
+    "bytes": 82706636,
+    "crc32": 1537823317
+  },
+  {
+    "name": "test/patch_11_40.ply",
+    "bytes": 92800892,
+    "crc32": 1653869932
+  },
+  {
+    "name": "test/patch_13_19.ply",
+    "bytes": 76062584,
+    "crc32": 3428088828
+  },
+  {
+    "name": "test/patch_13_2.ply",
+    "bytes": 83616716,
+    "crc32": 419720459
+  },
+  {
+    "name": "test/patch_13_20.ply",
+    "bytes": 78572360,
+    "crc32": 2442661272
+  },
+  {
+    "name": "test/patch_13_21.ply",
+    "bytes": 81826940,
+    "crc32": 802669348
+  },
+  {
+    "name": "test/patch_13_3.ply",
+    "bytes": 84617192,
+    "crc32": 492109935
+  },
+  {
+    "name": "test/patch_13_4.ply",
+    "bytes": 84578096,
+    "crc32": 2560886569
+  },
+  {
+    "name": "test/patch_14_32.ply",
+    "bytes": 90156116,
+    "crc32": 2569614114
+  },
+  {
+    "name": "test/patch_14_33.ply",
+    "bytes": 90764120,
+    "crc32": 1658525005
+  },
+  {
+    "name": "test/patch_14_34.ply",
+    "bytes": 74044316,
+    "crc32": 3529237937
+  },
+  {
+    "name": "test/patch_14_49.ply",
+    "bytes": 85753784,
+    "crc32": 1416055043
+  },
+  {
+    "name": "test/patch_14_50.ply",
+    "bytes": 89969600,
+    "crc32": 3930334628
+  },
+  {
+    "name": "test/patch_14_51.ply",
+    "bytes": 76364707,
+    "crc32": 2698455192
+  },
+  {
+    "name": "test/patch_15_50.ply",
+    "bytes": 85299356,
+    "crc32": 2102575927
+  },
+  {
+    "name": "test/patch_15_51.ply",
+    "bytes": 65966767,
+    "crc32": 2731721817
+  },
+  {
+    "name": "test/patch_16_15.ply",
+    "bytes": 76436336,
+    "crc32": 2741416693
+  },
+  {
+    "name": "test/patch_16_16.ply",
+    "bytes": 76584152,
+    "crc32": 872776022
+  },
+  {
+    "name": "test/patch_16_17.ply",
+    "bytes": 58706804,
+    "crc32": 3721213101
+  },
+  {
+    "name": "test/patch_16_36.ply",
+    "bytes": 72005204,
+    "crc32": 3771795581
+  },
+  {
+    "name": "test/patch_16_37.ply",
+    "bytes": 80686100,
+    "crc32": 2263978770
+  },
+  {
+    "name": "test/patch_17_1.ply",
+    "bytes": 59182652,
+    "crc32": 3658506240
+  },
+  {
+    "name": "test/patch_17_2.ply",
+    "bytes": 74157644,
+    "crc32": 1231275786
+  },
+  {
+    "name": "test/patch_17_3.ply",
+    "bytes": 79827176,
+    "crc32": 3200976822
+  },
+  {
+    "name": "test/patch_18_19.ply",
+    "bytes": 77385116,
+    "crc32": 3598193752
+  },
+  {
+    "name": "test/patch_18_35.ply",
+    "bytes": 60260636,
+    "crc32": 3372919224
+  },
+  {
+    "name": "test/patch_18_36.ply",
+    "bytes": 81988076,
+    "crc32": 1752112137
+  },
+  {
+    "name": "test/patch_18_37.ply",
+    "bytes": 69870008,
+    "crc32": 3769444967
+  },
+  {
+    "name": "test/patch_19_33.ply",
+    "bytes": 83381276,
+    "crc32": 2438074776
+  },
+  {
+    "name": "test/patch_19_34.ply",
+    "bytes": 66764324,
+    "crc32": 1895088937
+  },
+  {
+    "name": "test/patch_19_49.ply",
+    "bytes": 80530760,
+    "crc32": 3742300615
+  },
+  {
+    "name": "test/patch_19_50.ply",
+    "bytes": 83048708,
+    "crc32": 451029808
+  },
+  {
+    "name": "test/patch_19_51.ply",
+    "bytes": 65443237,
+    "crc32": 2001842606
+  },
+  {
+    "name": "test/patch_20_16.ply",
+    "bytes": 83815436,
+    "crc32": 2400691692
+  },
+  {
+    "name": "test/patch_20_17.ply",
+    "bytes": 66591452,
+    "crc32": 345486733
+  },
+  {
+    "name": "test/patch_20_32.ply",
+    "bytes": 81783992,
+    "crc32": 2217085926
+  },
+  {
+    "name": "test/patch_20_33.ply",
+    "bytes": 83147888,
+    "crc32": 3327791654
+  },
+  {
+    "name": "test/patch_20_34.ply",
+    "bytes": 70249844,
+    "crc32": 589356564
+  },
+  {
+    "name": "test/patch_22_16.ply",
+    "bytes": 90204608,
+    "crc32": 799585740
+  },
+  {
+    "name": "test/patch_22_17.ply",
+    "bytes": 72984296,
+    "crc32": 4241620018
+  },
+  {
+    "name": "test/patch_22_31.ply",
+    "bytes": 97602284,
+    "crc32": 109812079
+  },
+  {
+    "name": "test/patch_22_32.ply",
+    "bytes": 91725320,
+    "crc32": 4139395105
+  },
+  {
+    "name": "test/patch_22_33.ply",
+    "bytes": 91352756,
+    "crc32": 4162050625
+  },
+  {
+    "name": "test/patch_22_34.ply",
+    "bytes": 75418112,
+    "crc32": 1177252328
+  },
+  {
+    "name": "test/patch_23_43.ply",
+    "bytes": 96204800,
+    "crc32": 1127920047
+  },
+  {
+    "name": "test/patch_23_44.ply",
+    "bytes": 96519728,
+    "crc32": 877122735
+  },
+  {
+    "name": "test/patch_23_45.ply",
+    "bytes": 94982636,
+    "crc32": 697007030
+  },
+  {
+    "name": "test/patch_24_10.ply",
+    "bytes": 89213744,
+    "crc32": 2014380484
+  },
+  {
+    "name": "test/patch_24_11.ply",
+    "bytes": 83551736,
+    "crc32": 2635748946
+  },
+  {
+    "name": "test/patch_24_8.ply",
+    "bytes": 93036080,
+    "crc32": 2666861813
+  },
+  {
+    "name": "test/patch_24_9.ply",
+    "bytes": 96415112,
+    "crc32": 1813806375
+  },
+  {
+    "name": "test/patch_25_18.ply",
+    "bytes": 74654660,
+    "crc32": 956669188
+  },
+  {
+    "name": "test/patch_25_19.ply",
+    "bytes": 93364580,
+    "crc32": 568587944
+  },
+  {
+    "name": "test/patch_25_20.ply",
+    "bytes": 95013056,
+    "crc32": 221924828
+  },
+  {
+    "name": "test/patch_25_21.ply",
+    "bytes": 95754116,
+    "crc32": 4284425698
+  },
+  {
+    "name": "train/",
+    "bytes": 0,
+    "crc32": 0
+  },
+  {
+    "name": "train/patch_0_1.ply",
+    "bytes": 86109585,
+    "crc32": 1815107207
+  },
+  {
+    "name": "train/patch_0_18.ply",
+    "bytes": 100478885,
+    "crc32": 3743385585
+  },
+  {
+    "name": "train/patch_0_35.ply",
+    "bytes": 98500425,
+    "crc32": 1457072133
+  },
+  {
+    "name": "train/patch_0_36.ply",
+    "bytes": 104987213,
+    "crc32": 3572774713
+  },
+  {
+    "name": "train/patch_10_18.ply",
+    "bytes": 77837541,
+    "crc32": 3150645634
+  },
+  {
+    "name": "train/patch_10_23.ply",
+    "bytes": 90039005,
+    "crc32": 2960478519
+  },
+  {
+    "name": "train/patch_10_24.ply",
+    "bytes": 98667405,
+    "crc32": 2600919160
+  },
+  {
+    "name": "train/patch_10_25.ply",
+    "bytes": 97144785,
+    "crc32": 2885603420
+  },
+  {
+    "name": "train/patch_10_41.ply",
+    "bytes": 105523397,
+    "crc32": 3429851527
+  },
+  {
+    "name": "train/patch_11_20.ply",
+    "bytes": 111421949,
+    "crc32": 3094609921
+  },
+  {
+    "name": "train/patch_11_21.ply",
+    "bytes": 115481829,
+    "crc32": 3766669298
+  },
+  {
+    "name": "train/patch_11_22.ply",
+    "bytes": 114145769,
+    "crc32": 3863316002
+  },
+  {
+    "name": "train/patch_11_23.ply",
+    "bytes": 113119205,
+    "crc32": 4084773981
+  },
+  {
+    "name": "train/patch_11_38.ply",
+    "bytes": 116936469,
+    "crc32": 3027278145
+  },
+  {
+    "name": "train/patch_11_39.ply",
+    "bytes": 114377429,
+    "crc32": 3789633138
+  },
+  {
+    "name": "train/patch_11_40.ply",
+    "bytes": 115726601,
+    "crc32": 3765841663
+  },
+  {
+    "name": "train/patch_12_33.ply",
+    "bytes": 106696789,
+    "crc32": 1466732413
+  },
+  {
+    "name": "train/patch_12_34.ply",
+    "bytes": 88165837,
+    "crc32": 3937453276
+  },
+  {
+    "name": "train/patch_13_19.ply",
+    "bytes": 113012813,
+    "crc32": 3890688294
+  },
+  {
+    "name": "train/patch_13_20.ply",
+    "bytes": 111868461,
+    "crc32": 3959259209
+  },
+  {
+    "name": "train/patch_13_21.ply",
+    "bytes": 111970981,
+    "crc32": 2113464367
+  },
+  {
+    "name": "train/patch_13_22.ply",
+    "bytes": 103740693,
+    "crc32": 741380824
+  },
+  {
+    "name": "train/patch_13_23.ply",
+    "bytes": 113338941,
+    "crc32": 3402750174
+  },
+  {
+    "name": "train/patch_13_37.ply",
+    "bytes": 114924921,
+    "crc32": 92623116
+  },
+  {
+    "name": "train/patch_14_35.ply",
+    "bytes": 80930653,
+    "crc32": 1985100328
+  },
+  {
+    "name": "train/patch_14_36.ply",
+    "bytes": 89087989,
+    "crc32": 2267351309
+  },
+  {
+    "name": "train/patch_14_37.ply",
+    "bytes": 77252473,
+    "crc32": 1220565855
+  },
+  {
+    "name": "train/patch_14_38.ply",
+    "bytes": 65657549,
+    "crc32": 1294664906
+  },
+  {
+    "name": "train/patch_15_32.ply",
+    "bytes": 104265305,
+    "crc32": 4236327946
+  },
+  {
+    "name": "train/patch_15_33.ply",
+    "bytes": 96554921,
+    "crc32": 1129401475
+  },
+  {
+    "name": "train/patch_15_34.ply",
+    "bytes": 86034697,
+    "crc32": 3352496695
+  },
+  {
+    "name": "train/patch_16_33.ply",
+    "bytes": 85980357,
+    "crc32": 64450831
+  },
+  {
+    "name": "train/patch_16_34.ply",
+    "bytes": 69917101,
+    "crc32": 1427752702
+  },
+  {
+    "name": "train/patch_16_49.ply",
+    "bytes": 96819097,
+    "crc32": 2069770640
+  },
+  {
+    "name": "train/patch_16_50.ply",
+    "bytes": 104787585,
+    "crc32": 3388102441
+  },
+  {
+    "name": "train/patch_16_51.ply",
+    "bytes": 89192977,
+    "crc32": 1006614565
+  },
+  {
+    "name": "train/patch_17_48.ply",
+    "bytes": 103299197,
+    "crc32": 1095769105
+  },
+  {
+    "name": "train/patch_17_49.ply",
+    "bytes": 111763125,
+    "crc32": 2522158215
+  },
+  {
+    "name": "train/patch_17_50.ply",
+    "bytes": 117382937,
+    "crc32": 3262420874
+  },
+  {
+    "name": "train/patch_17_51.ply",
+    "bytes": 92887365,
+    "crc32": 4025083673
+  },
+  {
+    "name": "train/patch_18_14.ply",
+    "bytes": 108118033,
+    "crc32": 2800135682
+  },
+  {
+    "name": "train/patch_18_15.ply",
+    "bytes": 114694361,
+    "crc32": 1629156688
+  },
+  {
+    "name": "train/patch_18_16.ply",
+    "bytes": 119268777,
+    "crc32": 475325940
+  },
+  {
+    "name": "train/patch_18_17.ply",
+    "bytes": 96264565,
+    "crc32": 2268984778
+  },
+  {
+    "name": "train/patch_19_27.ply",
+    "bytes": 118859709,
+    "crc32": 3029609235
+  },
+  {
+    "name": "train/patch_19_28.ply",
+    "bytes": 111324357,
+    "crc32": 3004771019
+  },
+  {
+    "name": "train/patch_19_29.ply",
+    "bytes": 119277797,
+    "crc32": 1153966644
+  },
+  {
+    "name": "train/patch_19_30.ply",
+    "bytes": 122335665,
+    "crc32": 2711920178
+  },
+  {
+    "name": "train/patch_19_31.ply",
+    "bytes": 116619889,
+    "crc32": 928053098
+  },
+  {
+    "name": "train/patch_1_1.ply",
+    "bytes": 97057445,
+    "crc32": 3230417431
+  },
+  {
+    "name": "train/patch_1_41.ply",
+    "bytes": 106002733,
+    "crc32": 2852645200
+  },
+  {
+    "name": "train/patch_1_42.ply",
+    "bytes": 105812213,
+    "crc32": 1314182061
+  },
+  {
+    "name": "train/patch_1_43.ply",
+    "bytes": 110599193,
+    "crc32": 1927777168
+  },
+  {
+    "name": "train/patch_1_44.ply",
+    "bytes": 109457129,
+    "crc32": 3848113996
+  },
+  {
+    "name": "train/patch_20_15.ply",
+    "bytes": 108961161,
+    "crc32": 4132500955
+  },
+  {
+    "name": "train/patch_20_16.ply",
+    "bytes": 107731317,
+    "crc32": 3780141942
+  },
+  {
+    "name": "train/patch_20_17.ply",
+    "bytes": 108097265,
+    "crc32": 2431734240
+  },
+  {
+    "name": "train/patch_21_1.ply",
+    "bytes": 87050789,
+    "crc32": 762857889
+  },
+  {
+    "name": "train/patch_21_18.ply",
+    "bytes": 88452541,
+    "crc32": 2832314910
+  },
+  {
+    "name": "train/patch_21_19.ply",
+    "bytes": 109899725,
+    "crc32": 675524545
+  },
+  {
+    "name": "train/patch_21_35.ply",
+    "bytes": 84724069,
+    "crc32": 1408313649
+  },
+  {
+    "name": "train/patch_21_36.ply",
+    "bytes": 110314249,
+    "crc32": 2316609850
+  },
+  {
+    "name": "train/patch_22_11.ply",
+    "bytes": 122868373,
+    "crc32": 1383597337
+  },
+  {
+    "name": "train/patch_22_27.ply",
+    "bytes": 117069921,
+    "crc32": 3152086887
+  },
+  {
+    "name": "train/patch_22_28.ply",
+    "bytes": 120511733,
+    "crc32": 3292430630
+  },
+  {
+    "name": "train/patch_22_29.ply",
+    "bytes": 119171625,
+    "crc32": 2423415146
+  },
+  {
+    "name": "train/patch_22_30.ply",
+    "bytes": 118008485,
+    "crc32": 2112851149
+  },
+  {
+    "name": "train/patch_23_17.ply",
+    "bytes": 89927289,
+    "crc32": 2456314228
+  },
+  {
+    "name": "train/patch_23_33.ply",
+    "bytes": 109401909,
+    "crc32": 280026200
+  },
+  {
+    "name": "train/patch_23_34.ply",
+    "bytes": 95120345,
+    "crc32": 1430212293
+  },
+  {
+    "name": "train/patch_23_50.ply",
+    "bytes": 110408717,
+    "crc32": 2837281727
+  },
+  {
+    "name": "train/patch_23_51.ply",
+    "bytes": 83583025,
+    "crc32": 1623465071
+  },
+  {
+    "name": "train/patch_24_18.ply",
+    "bytes": 81671745,
+    "crc32": 1379377772
+  },
+  {
+    "name": "train/patch_24_19.ply",
+    "bytes": 102723237,
+    "crc32": 3256291823
+  },
+  {
+    "name": "train/patch_24_20.ply",
+    "bytes": 106970865,
+    "crc32": 2768803020
+  },
+  {
+    "name": "train/patch_24_21.ply",
+    "bytes": 108853009,
+    "crc32": 1862047179
+  },
+  {
+    "name": "train/patch_25_35.ply",
+    "bytes": 79405217,
+    "crc32": 4100186645
+  },
+  {
+    "name": "train/patch_25_36.ply",
+    "bytes": 108588129,
+    "crc32": 486373598
+  },
+  {
+    "name": "train/patch_25_37.ply",
+    "bytes": 113412553,
+    "crc32": 2416465219
+  },
+  {
+    "name": "train/patch_25_38.ply",
+    "bytes": 109004809,
+    "crc32": 3431980562
+  },
+  {
+    "name": "train/patch_25_44.ply",
+    "bytes": 121570461,
+    "crc32": 1325083696
+  },
+  {
+    "name": "train/patch_26_10.ply",
+    "bytes": 107688329,
+    "crc32": 3531622473
+  },
+  {
+    "name": "train/patch_26_8.ply",
+    "bytes": 106382145,
+    "crc32": 1560149607
+  },
+  {
+    "name": "train/patch_26_9.ply",
+    "bytes": 109725177,
+    "crc32": 1195069965
+  },
+  {
+    "name": "train/patch_27_17.ply",
+    "bytes": 82508625,
+    "crc32": 2082038541
+  },
+  {
+    "name": "train/patch_27_32.ply",
+    "bytes": 95822673,
+    "crc32": 2386477265
+  },
+  {
+    "name": "train/patch_27_33.ply",
+    "bytes": 96180041,
+    "crc32": 328298818
+  },
+  {
+    "name": "train/patch_27_34.ply",
+    "bytes": 78364397,
+    "crc32": 4064300829
+  },
+  {
+    "name": "train/patch_28_48.ply",
+    "bytes": 54979409,
+    "crc32": 177013990
+  },
+  {
+    "name": "train/patch_28_49.ply",
+    "bytes": 54022981,
+    "crc32": 1466529461
+  },
+  {
+    "name": "train/patch_29_13.ply",
+    "bytes": 80748229,
+    "crc32": 2537658986
+  },
+  {
+    "name": "train/patch_29_14.ply",
+    "bytes": 84116429,
+    "crc32": 1351215146
+  },
+  {
+    "name": "train/patch_29_15.ply",
+    "bytes": 84732825,
+    "crc32": 2081394347
+  },
+  {
+    "name": "train/patch_2_10.ply",
+    "bytes": 100418385,
+    "crc32": 4232619560
+  },
+  {
+    "name": "train/patch_2_28.ply",
+    "bytes": 94587285,
+    "crc32": 1284517596
+  },
+  {
+    "name": "train/patch_2_29.ply",
+    "bytes": 103284237,
+    "crc32": 500095089
+  },
+  {
+    "name": "train/patch_2_30.ply",
+    "bytes": 102589653,
+    "crc32": 3441427729
+  },
+  {
+    "name": "train/patch_2_31.ply",
+    "bytes": 104218005,
+    "crc32": 4256650652
+  },
+  {
+    "name": "train/patch_2_46.ply",
+    "bytes": 104108049,
+    "crc32": 437715379
+  },
+  {
+    "name": "train/patch_2_47.ply",
+    "bytes": 103724193,
+    "crc32": 1393207473
+  },
+  {
+    "name": "train/patch_2_48.ply",
+    "bytes": 104935425,
+    "crc32": 4224497979
+  },
+  {
+    "name": "train/patch_2_7.ply",
+    "bytes": 98330761,
+    "crc32": 2584573599
+  },
+  {
+    "name": "train/patch_2_8.ply",
+    "bytes": 101994157,
+    "crc32": 1696535888
+  },
+  {
+    "name": "train/patch_2_9.ply",
+    "bytes": 102791701,
+    "crc32": 349436455
+  },
+  {
+    "name": "train/patch_30_18.ply",
+    "bytes": 100705441,
+    "crc32": 2337908099
+  },
+  {
+    "name": "train/patch_30_19.ply",
+    "bytes": 104544265,
+    "crc32": 3119186959
+  },
+  {
+    "name": "train/patch_30_20.ply",
+    "bytes": 111475761,
+    "crc32": 1406429404
+  },
+  {
+    "name": "train/patch_30_35.ply",
+    "bytes": 93590641,
+    "crc32": 282484569
+  },
+  {
+    "name": "train/patch_30_36.ply",
+    "bytes": 94933169,
+    "crc32": 139081755
+  },
+  {
+    "name": "train/patch_30_37.ply",
+    "bytes": 96469429,
+    "crc32": 1971058214
+  },
+  {
+    "name": "train/patch_3_18.ply",
+    "bytes": 101446445,
+    "crc32": 4150647790
+  },
+  {
+    "name": "train/patch_3_19.ply",
+    "bytes": 105188601,
+    "crc32": 1612523218
+  },
+  {
+    "name": "train/patch_3_35.ply",
+    "bytes": 95758433,
+    "crc32": 951981394
+  },
+  {
+    "name": "train/patch_3_36.ply",
+    "bytes": 107391021,
+    "crc32": 4022679179
+  },
+  {
+    "name": "train/patch_4_1.ply",
+    "bytes": 84061297,
+    "crc32": 1868981013
+  },
+  {
+    "name": "train/patch_4_18.ply",
+    "bytes": 75873865,
+    "crc32": 1916899261
+  },
+  {
+    "name": "train/patch_4_2.ply",
+    "bytes": 97863965,
+    "crc32": 1834808785
+  },
+  {
+    "name": "train/patch_4_35.ply",
+    "bytes": 77887349,
+    "crc32": 82961773
+  },
+  {
+    "name": "train/patch_4_39.ply",
+    "bytes": 92213661,
+    "crc32": 813759825
+  },
+  {
+    "name": "train/patch_4_40.ply",
+    "bytes": 96257437,
+    "crc32": 1704090211
+  },
+  {
+    "name": "train/patch_5_31.ply",
+    "bytes": 96482629,
+    "crc32": 998009000
+  },
+  {
+    "name": "train/patch_5_32.ply",
+    "bytes": 101687477,
+    "crc32": 4221368783
+  },
+  {
+    "name": "train/patch_5_33.ply",
+    "bytes": 98631149,
+    "crc32": 2046209431
+  },
+  {
+    "name": "train/patch_5_34.ply",
+    "bytes": 84357197,
+    "crc32": 3592687448
+  },
+  {
+    "name": "train/patch_5_48.ply",
+    "bytes": 105102185,
+    "crc32": 2599034923
+  },
+  {
+    "name": "train/patch_5_49.ply",
+    "bytes": 101182225,
+    "crc32": 779156180
+  },
+  {
+    "name": "train/patch_5_5.ply",
+    "bytes": 88741225,
+    "crc32": 967071077
+  },
+  {
+    "name": "train/patch_5_51.ply",
+    "bytes": 90599765,
+    "crc32": 1346205815
+  },
+  {
+    "name": "train/patch_5_6.ply",
+    "bytes": 91688653,
+    "crc32": 499112599
+  },
+  {
+    "name": "train/patch_6_17.ply",
+    "bytes": 106135613,
+    "crc32": 2074525334
+  },
+  {
+    "name": "train/patch_6_34.ply",
+    "bytes": 113184457,
+    "crc32": 4216777287
+  },
+  {
+    "name": "train/patch_6_51.ply",
+    "bytes": 108159804,
+    "crc32": 1051129519
+  },
+  {
+    "name": "train/patch_7_22.ply",
+    "bytes": 118886153,
+    "crc32": 3169175467
+  },
+  {
+    "name": "train/patch_7_23.ply",
+    "bytes": 113901877,
+    "crc32": 325991491
+  },
+  {
+    "name": "train/patch_7_5.ply",
+    "bytes": 111498509,
+    "crc32": 1815039100
+  },
+  {
+    "name": "train/patch_7_6.ply",
+    "bytes": 118924917,
+    "crc32": 250230830
+  },
+  {
+    "name": "train/patch_7_7.ply",
+    "bytes": 116566561,
+    "crc32": 76004393
+  },
+  {
+    "name": "train/patch_8_24.ply",
+    "bytes": 98468877,
+    "crc32": 2164538599
+  },
+  {
+    "name": "train/patch_8_25.ply",
+    "bytes": 95880489,
+    "crc32": 634639663
+  },
+  {
+    "name": "train/patch_8_26.ply",
+    "bytes": 100890681,
+    "crc32": 1360264553
+  },
+  {
+    "name": "train/patch_8_27.ply",
+    "bytes": 88995017,
+    "crc32": 1821126064
+  },
+  {
+    "name": "train/patch_8_41.ply",
+    "bytes": 98997405,
+    "crc32": 2811664811
+  },
+  {
+    "name": "train/patch_8_42.ply",
+    "bytes": 101700457,
+    "crc32": 672406356
+  },
+  {
+    "name": "train/patch_8_43.ply",
+    "bytes": 108009925,
+    "crc32": 2330877765
+  },
+  {
+    "name": "train/patch_8_44.ply",
+    "bytes": 100920161,
+    "crc32": 3203230756
+  },
+  {
+    "name": "train/patch_9_13.ply",
+    "bytes": 112891461,
+    "crc32": 1585595945
+  },
+  {
+    "name": "train/patch_9_14.ply",
+    "bytes": 103549073,
+    "crc32": 1660358467
+  },
+  {
+    "name": "train/patch_9_30.ply",
+    "bytes": 115586769,
+    "crc32": 3243024157
+  },
+  {
+    "name": "train/patch_9_31.ply",
+    "bytes": 102106489,
+    "crc32": 2975934228
+  },
+  {
+    "name": "val/",
+    "bytes": 0,
+    "crc32": 0
+  },
+  {
+    "name": "val/patch_26_1.ply",
+    "bytes": 83472137,
+    "crc32": 1027567001
+  },
+  {
+    "name": "val/patch_26_18.ply",
+    "bytes": 83317169,
+    "crc32": 2378307522
+  },
+  {
+    "name": "val/patch_26_19.ply",
+    "bytes": 101934713,
+    "crc32": 4167433457
+  },
+  {
+    "name": "val/patch_26_2.ply",
+    "bytes": 104388197,
+    "crc32": 50542303
+  },
+  {
+    "name": "val/patch_26_20.ply",
+    "bytes": 104836601,
+    "crc32": 343693950
+  },
+  {
+    "name": "val/patch_26_21.ply",
+    "bytes": 108912189,
+    "crc32": 2994781425
+  },
+  {
+    "name": "val/patch_26_3.ply",
+    "bytes": 111519145,
+    "crc32": 2035793779
+  },
+  {
+    "name": "val/patch_26_4.ply",
+    "bytes": 112951257,
+    "crc32": 3624044209
+  },
+  {
+    "name": "val/patch_27_18.ply",
+    "bytes": 99145729,
+    "crc32": 311127135
+  },
+  {
+    "name": "val/patch_27_19.ply",
+    "bytes": 120826245,
+    "crc32": 3926967021
+  },
+  {
+    "name": "val/patch_27_20.ply",
+    "bytes": 118168513,
+    "crc32": 3856654962
+  },
+  {
+    "name": "val/patch_27_35.ply",
+    "bytes": 105034953,
+    "crc32": 1728632799
+  },
+  {
+    "name": "val/patch_27_36.ply",
+    "bytes": 122187341,
+    "crc32": 2836381415
+  },
+  {
+    "name": "val/patch_27_37.ply",
+    "bytes": 121236413,
+    "crc32": 3101813700
+  },
+  {
+    "name": "val/patch_28_19.ply",
+    "bytes": 122274373,
+    "crc32": 3097179559
+  },
+  {
+    "name": "val/patch_28_2.ply",
+    "bytes": 119260285,
+    "crc32": 1397569781
+  },
+  {
+    "name": "val/patch_28_20.ply",
+    "bytes": 119045257,
+    "crc32": 3436500395
+  },
+  {
+    "name": "val/patch_28_21.ply",
+    "bytes": 120552609,
+    "crc32": 1349096208
+  },
+  {
+    "name": "val/patch_28_3.ply",
+    "bytes": 118814697,
+    "crc32": 593656958
+  },
+  {
+    "name": "val/patch_28_36.ply",
+    "bytes": 125441933,
+    "crc32": 1305723228
+  },
+  {
+    "name": "val/patch_28_37.ply",
+    "bytes": 120827961,
+    "crc32": 3082321013
+  },
+  {
+    "name": "val/patch_28_4.ply",
+    "bytes": 123857053,
+    "crc32": 3912330753
+  },
+  {
+    "name": "val/patch_29_1.ply",
+    "bytes": 100987173,
+    "crc32": 112950873
+  },
+  {
+    "name": "val/patch_29_2.ply",
+    "bytes": 122731005,
+    "crc32": 2711859131
+  },
+  {
+    "name": "val/patch_29_3.ply",
+    "bytes": 119693553,
+    "crc32": 3139509615
+  }
+]

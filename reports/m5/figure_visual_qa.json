@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "figures": 7,
+  "records": [
+    {
+      "figure": "01_ssl_budget",
+      "png_sha256": "1f2a8d9b0fb0fcbf749266f6e0f33d61d000a49cb357cf3d69a8dca6743062a7",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    },
+    {
+      "figure": "02_primary_leaf_count",
+      "png_sha256": "d20508683c24eafc727d1e33d86e5b0abc8405718cd259caf95cab66eeac0de2",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    },
+    {
+      "figure": "03_label_efficiency",
+      "png_sha256": "af3ac1c4d39258f4e31276cc12c4a5d9af0385ebff2c0c70804456d416fbe480",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    },
+    {
+      "figure": "04_semantic_transfer",
+      "png_sha256": "0a249c2c2f022e136e96cb1202d0b6eaa2e71df1b9fb36576a45ebd7d330239f",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    },
+    {
+      "figure": "05_similarity_controls",
+      "png_sha256": "cd9d20eb877daf282ffb2d1597aff5d635b03e7d8aa698e94b8cf4d34e2f7cd9",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    },
+    {
+      "figure": "06_leaf_structure_probe",
+      "png_sha256": "557772e54ed299a037cb80699c02a41864fb88488bd54cc3089834b201da88c6",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    },
+    {
+      "figure": "07_primary_paired_intervals",
+      "png_sha256": "bdb796415ffea56125a83c411715f48a54ae228cb61810ed35add1e37071ffe2",
+      "status": "PASS",
+      "checks": [
+        "labels legible",
+        "no visible cropping or overlap",
+        "condition colours consistent",
+        "metric/axis labels distinguish semantic from instance scope"
+      ],
+      "method": "current model direct local PNG inspection; not external vision API"
+    }
+  ],
+  "reviewer": "current model visual inspection",
+  "human_signoff": false,
+  "limits": "Visual inspection does not replace numeric source checks or human review"
+}

@@ -1,0 +1,470 @@
+{
+  "decision": "JEPA-STOP",
+  "candidate_checks": [
+    {
+      "condition": "P3",
+      "controls": [
+        {
+          "right": "P0",
+          "passed": false,
+          "absolute_improvement": 0.07708551785185058,
+          "relative_improvement": 0.044091511236355276,
+          "ci95": [
+            -0.4146794154608563,
+            0.24310227123634803
+          ],
+          "improving_seeds": 3,
+          "improving_folds": 4
+        },
+        {
+          "right": "P2",
+          "passed": false,
+          "absolute_improvement": -0.14751958527314923,
+          "relative_improvement": -0.09681653701629951,
+          "ci95": [
+            0.06227609339555951,
+            0.24417890008515364
+          ],
+          "improving_seeds": 0,
+          "improving_folds": 2
+        },
+        {
+          "right": "S500",
+          "passed": false,
+          "absolute_improvement": -0.14049661242299605,
+          "relative_improvement": -0.09178433912269156,
+          "ci95": [
+            -0.05438608196046622,
+            0.3326423292151755
+          ],
+          "improving_seeds": 0,
+          "improving_folds": 3
+        }
+      ],
+      "semantic_negative_transfer": true,
+      "representation_gate": false,
+      "primary_pass": false,
+      "local_primary_benefit": true
+    },
+    {
+      "condition": "P4",
+      "controls": [
+        {
+          "right": "P0",
+          "passed": false,
+          "absolute_improvement": 0.20595397933490522,
+          "relative_improvement": 0.1178019224242528,
+          "ci95": [
+            -0.5099282536207894,
+            0.09301670664795922
+          ],
+          "improving_seeds": 3,
+          "improving_folds": 4
+        },
+        {
+          "right": "P2",
+          "passed": false,
+          "absolute_improvement": -0.018651123790094593,
+          "relative_improvement": -0.012240660882253366,
+          "ci95": [
+            -0.04133405277022387,
+            0.08156545683948778
+          ],
+          "improving_seeds": 1,
+          "improving_folds": 1
+        },
+        {
+          "right": "S500",
+          "passed": false,
+          "absolute_improvement": -0.011628150939941406,
+          "relative_improvement": -0.007596497387624823,
+          "ci95": [
+            -0.16506133915649515,
+            0.18823185542391405
+          ],
+          "improving_seeds": 1,
+          "improving_folds": 1
+        }
+      ],
+      "semantic_negative_transfer": true,
+      "representation_gate": true,
+      "primary_pass": false,
+      "local_primary_benefit": true
+    }
+  ],
+  "matrix_complete": true,
+  "representation_risks": [
+    {
+      "partition": "official",
+      "condition": "P3",
+      "seed": 93,
+      "pooled_rank": 1.6985613033788691,
+      "token_rank": 1.4904731675626188,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "M5A",
+      "seed": 17,
+      "pooled_rank": 1.5253649061015462,
+      "token_rank": 1.5608370540570633,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "P4",
+      "seed": 93,
+      "pooled_rank": 11.861539594246258,
+      "token_rank": 8.713760630677394,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "P4",
+      "seed": 17,
+      "pooled_rank": 16.58841406875028,
+      "token_rank": 8.855844066112223,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "S500",
+      "seed": 17,
+      "pooled_rank": 12.424526850717266,
+      "token_rank": 7.55989058612397,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "S500",
+      "seed": 42,
+      "pooled_rank": 16.44069388153856,
+      "token_rank": 7.159442470594986,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "P3",
+      "seed": 42,
+      "pooled_rank": 4.3806478996037335,
+      "token_rank": 4.654998058762442,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "P3",
+      "seed": 17,
+      "pooled_rank": 2.8346196679310505,
+      "token_rank": 3.0706218316886726,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "S500",
+      "seed": 93,
+      "pooled_rank": 9.723346572712572,
+      "token_rank": 7.038418943664008,
+      "hard_collapse": false
+    },
+    {
+      "partition": "official",
+      "condition": "P4",
+      "seed": 42,
+      "pooled_rank": 16.587282535618325,
+      "token_rank": 9.047085776603758,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "P3",
+      "seed": 93,
+      "pooled_rank": 1.8614999326887627,
+      "token_rank": 1.4726340189953966,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "P4",
+      "seed": 93,
+      "pooled_rank": 11.262770153233868,
+      "token_rank": 8.551595308057282,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "P4",
+      "seed": 17,
+      "pooled_rank": 17.72101013565464,
+      "token_rank": 8.88906201305423,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "S500",
+      "seed": 17,
+      "pooled_rank": 13.059263770868602,
+      "token_rank": 7.537978038470358,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "S500",
+      "seed": 42,
+      "pooled_rank": 18.63828256495937,
+      "token_rank": 7.086941579099877,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "P3",
+      "seed": 42,
+      "pooled_rank": 1.6914459203036323,
+      "token_rank": 1.4941957624689217,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "P3",
+      "seed": 17,
+      "pooled_rank": 2.191362300491512,
+      "token_rank": 2.0390373037132568,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "S500",
+      "seed": 93,
+      "pooled_rank": 10.40247061343408,
+      "token_rank": 6.996000873998866,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold2",
+      "condition": "P4",
+      "seed": 42,
+      "pooled_rank": 15.000327231943736,
+      "token_rank": 8.74368521852125,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "P3",
+      "seed": 93,
+      "pooled_rank": 4.137015484897892,
+      "token_rank": 3.738633781110633,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "P4",
+      "seed": 93,
+      "pooled_rank": 14.914454293397078,
+      "token_rank": 8.516365781983595,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "P4",
+      "seed": 17,
+      "pooled_rank": 20.73216952244905,
+      "token_rank": 8.878323257296273,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "S500",
+      "seed": 17,
+      "pooled_rank": 14.889042633969849,
+      "token_rank": 7.648078588000059,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "S500",
+      "seed": 42,
+      "pooled_rank": 18.574506253040667,
+      "token_rank": 7.167138977891926,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "P3",
+      "seed": 42,
+      "pooled_rank": 1.6799252081301512,
+      "token_rank": 1.549865957902257,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "P3",
+      "seed": 17,
+      "pooled_rank": 10.83501924072061,
+      "token_rank": 6.53487125208765,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "S500",
+      "seed": 93,
+      "pooled_rank": 12.284720905275735,
+      "token_rank": 7.025427909012286,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold3",
+      "condition": "P4",
+      "seed": 42,
+      "pooled_rank": 17.90806064727438,
+      "token_rank": 8.921915554607601,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "P3",
+      "seed": 93,
+      "pooled_rank": 1.9613228042096689,
+      "token_rank": 1.5697716940371755,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "P4",
+      "seed": 93,
+      "pooled_rank": 11.374614118060878,
+      "token_rank": 8.516788568190844,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "P4",
+      "seed": 17,
+      "pooled_rank": 18.56779890396409,
+      "token_rank": 9.017090687902156,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "S500",
+      "seed": 17,
+      "pooled_rank": 14.366927101683237,
+      "token_rank": 7.466700573118838,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "S500",
+      "seed": 42,
+      "pooled_rank": 17.083053413869404,
+      "token_rank": 7.111972314218915,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "P3",
+      "seed": 42,
+      "pooled_rank": 8.930136716439002,
+      "token_rank": 5.715342690481149,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "P3",
+      "seed": 17,
+      "pooled_rank": 1.9491479429602345,
+      "token_rank": 1.4795731397485479,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "S500",
+      "seed": 93,
+      "pooled_rank": 10.706973133595907,
+      "token_rank": 6.975995257489281,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold1",
+      "condition": "P4",
+      "seed": 42,
+      "pooled_rank": 16.607147210417246,
+      "token_rank": 9.035652990206085,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "P3",
+      "seed": 93,
+      "pooled_rank": 1.779684708989899,
+      "token_rank": 1.4295933838943684,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "P4",
+      "seed": 93,
+      "pooled_rank": 15.262506426970258,
+      "token_rank": 8.635616021794117,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "P4",
+      "seed": 17,
+      "pooled_rank": 19.159854292807562,
+      "token_rank": 8.933204197745425,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "S500",
+      "seed": 17,
+      "pooled_rank": 16.39617311511439,
+      "token_rank": 7.596931509874841,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "S500",
+      "seed": 42,
+      "pooled_rank": 19.630006336398225,
+      "token_rank": 7.051400487851841,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "P3",
+      "seed": 42,
+      "pooled_rank": 1.655320188318002,
+      "token_rank": 1.4723973132774435,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "P3",
+      "seed": 17,
+      "pooled_rank": 2.0080721183687253,
+      "token_rank": 1.295455127006107,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "S500",
+      "seed": 93,
+      "pooled_rank": 12.063555170926533,
+      "token_rank": 6.900866474871053,
+      "hard_collapse": false
+    },
+    {
+      "partition": "fold0",
+      "condition": "P4",
+      "seed": 42,
+      "pooled_rank": 15.662717064841495,
+      "token_rank": 8.958979895884342,
+      "hard_collapse": false
+    }
+  ],
+  "evidence_scope": "locked exploratory train/validation comparison; no untouched confirmatory test",
+  "next_stage_started": false,
+  "stop_scope": "current generic Point-JEPA branch only; not plant phenotyping research",
+  "success_from_auxiliary_task_allowed": false
+}

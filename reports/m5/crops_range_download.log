@@ -1,0 +1,46 @@
+RANGE 7 attempt=1 offset=8914356588 error=Server did not honour exact byte range
+RANGE 2 attempt=1 offset=7040999528 error=Server did not honour exact byte range
+RANGE 1 attempt=1 offset=6666328116 error=Server did not honour exact byte range
+RANGE 3 attempt=1 offset=7415670940 error=Server did not honour exact byte range
+RANGE 0 attempt=1 offset=6291656704 error=Server did not honour exact byte range
+RANGE 4 attempt=1 offset=7790342352 error=Server did not honour exact byte range
+RANGE 6 attempt=1 offset=8539685176 error=Server did not honour exact byte range
+RANGE 5 attempt=1 offset=8165013764 error=Server did not honour exact byte range
+RANGE 2 attempt=2 offset=7040999528 error=Server did not honour exact byte range
+RANGE 7 attempt=2 offset=8914356588 error=Server did not honour exact byte range
+RANGE 0 attempt=2 offset=6291656704 error=Server did not honour exact byte range
+RANGE 1 attempt=2 offset=6666328116 error=Server did not honour exact byte range
+RANGE 3 attempt=2 offset=7415670940 error=Server did not honour exact byte range
+RANGE 6 attempt=2 offset=8539685176 error=Server did not honour exact byte range
+RANGE 4 attempt=2 offset=7790342352 error=Server did not honour exact byte range
+RANGE 5 attempt=2 offset=8165013764 error=Server did not honour exact byte range
+RANGE 2 attempt=3 offset=7040999528 error=Server did not honour exact byte range
+RANGE 7 attempt=3 offset=8914356588 error=Server did not honour exact byte range
+RANGE 1 attempt=3 offset=6666328116 error=Server did not honour exact byte range
+RANGE 0 attempt=3 offset=6291656704 error=Server did not honour exact byte range
+RANGE 6 attempt=3 offset=8539685176 error=Server did not honour exact byte range
+RANGE 4 attempt=3 offset=7790342352 error=Server did not honour exact byte range
+RANGE 3 attempt=3 offset=7415670940 error=Server did not honour exact byte range
+RANGE 5 attempt=3 offset=8165013764 error=Server did not honour exact byte range
+Traceback (most recent call last):
+  File "/fj/JEPA-表型/scripts/m5_download_ranges.py", line 63, in <module>
+    download(arguments.url, arguments.destination, arguments.bytes, arguments.workers, arguments.record)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/scripts/m5_download_ranges.py", line 50, in download
+    records = list(executor.map(transfer, intervals))
+  File "/home/test/biosoft/enter/lib/python3.13/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/test/biosoft/enter/lib/python3.13/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/home/test/biosoft/enter/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/test/biosoft/enter/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/test/biosoft/enter/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/fj/JEPA-表型/scripts/m5_download_ranges.py", line 32, in transfer
+    raise ValueError("Server did not honour exact byte range")
+ValueError: Server did not honour exact byte range

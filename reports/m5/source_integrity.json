@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "admitted_scans": 951,
+  "cache_hashes": 951,
+  "crops_full_inner_zip_crc": "PASS",
+  "crops_native_zip_bytes": 9289027713,
+  "bonn_md5": "a8f7aa642db818e5e4e02e9e3d16f584",
+  "bonn_md5_matches_official": true,
+  "cross_source_exact_duplicates": 0,
+  "unresolved": [
+    "Crops3D non-cabbage physical identities",
+    "Crops3D explicit native unit",
+    "Figshare official MD5 API unavailable"
+  ]
+}

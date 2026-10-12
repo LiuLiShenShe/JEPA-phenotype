@@ -1,0 +1,5 @@
+{
+  "claim": "Negative semantic transfer is a research risk, not a substitute primary",
+  "n": "official 12 validation plants, three seeds, 24 labelled train plants",
+  "scope": "three-class semantic IoU only, no PQ/SBD claim"
+}

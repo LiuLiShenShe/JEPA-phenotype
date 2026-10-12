@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETED",
+  "admitted_scans": 951,
+  "sources": {
+    "BonnBeetClouds3D": 128,
+    "Crops3D": 823
+  },
+  "species": [
+    {
+      "source": "BonnBeetClouds3D",
+      "species": "sugar_beet",
+      "scans": 128
+    },
+    {
+      "source": "Crops3D",
+      "species": "Cabbage",
+      "scans": 137
+    },
+    {
+      "source": "Crops3D",
+      "species": "Cotton",
+      "scans": 123
+    },
+    {
+      "source": "Crops3D",
+      "species": "Maize",
+      "scans": 157
+    },
+    {
+      "source": "Crops3D",
+      "species": "Potato",
+      "scans": 82
+    },
+    {
+      "source": "Crops3D",
+      "species": "Rapeseed",
+      "scans": 105
+    },
+    {
+      "source": "Crops3D",
+      "species": "Rice",
+      "scans": 58
+    },
+    {
+      "source": "Crops3D",
+      "species": "Tomato",
+      "scans": 58
+    },
+    {
+      "source": "Crops3D",
+      "species": "Wheat",
+      "scans": 103
+    }
+  ],
+  "duplicate_scan_rows": 0,
+  "errors": [],
+  "archives": [
+    {
+      "path": "data/raw/m5/bonnbeet/BonnBeetClouds3Dv0.zip",
+      "bytes": 11149363555,
+      "sha256": "d5a6feef19b389ca1a8998b5bbcb6d4fd2257e56ff8104b27b5b1d32555ee030"
+    },
+    {
+      "path": "data/raw/m5/crops3d/Crops3D.zip",
+      "bytes": 9289027713,
+      "sha256": "1304282374b90bd3c1e0cd3490057e85a60bc3af6247327eab1e56ec0c5fb9dc"
+    },
+    {
+      "path": "data/raw/m5/crops3d/Crops3D_article_v1.zip",
+      "bytes": 9289027995,
+      "sha256": "ebe9b85e6ab3defca0908988f6caa5f2b3e0a7b29572a69dbdc2589e6b4359db"
+    }
+  ],
+  "cross_source_exact_geometry_duplicates": 0,
+  "crops_plants": "physical independent plant count unknown, not 1230",
+  "validation_test_external_labels_used": false,
+  "unit_policy": "all input geometry dimensionless current-cloud mean/radius; no invented native-to-metre conversion for Crops3D",
+  "integrity": "ZIP read validates per-member CRC; Bonn published MD5 checked; Figshare API MD5 unavailable; SHA256 and byte size fixed"
+}

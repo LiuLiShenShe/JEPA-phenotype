@@ -1,0 +1,469 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 3744,
+    "identifier": "FK2/34W30T",
+    "persistentUrl": "https://doi.org/10.60507/FK2/34W30T",
+    "protocol": "doi",
+    "authority": "10.60507",
+    "separator": "/",
+    "publisher": "bonndata",
+    "publicationDate": "2024-01-29",
+    "storageIdentifier": "file://10.60507/FK2/34W30T",
+    "metadataLanguage": "en",
+    "datasetType": "dataset",
+    "latestVersion": {
+      "id": 172,
+      "datasetId": 3744,
+      "datasetPersistentId": "doi:10.60507/FK2/34W30T",
+      "datasetType": "dataset",
+      "storageIdentifier": "file://10.60507/FK2/34W30T",
+      "versionNumber": 1,
+      "internalVersionNumber": 27,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "deaccessionLink": "",
+      "lastUpdateTime": "2024-01-29T10:19:11Z",
+      "releaseTime": "2024-01-29T10:19:11Z",
+      "createTime": "2023-12-22T10:48:26Z",
+      "publicationDate": "2024-01-29",
+      "citationDate": "2024-01-29",
+      "license": {
+        "name": "CC0 1.0",
+        "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+        "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+        "rightsIdentifier": "CC0-1.0",
+        "rightsIdentifierScheme": "SPDX",
+        "schemeUri": "https://spdx.org/licenses/",
+        "languageCode": "en"
+      },
+      "fileAccessRequest": true,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "BonnBeetClouds3D"
+            },
+            {
+              "typeName": "subtitle",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "A Dataset Towards Point Cloud-based Organ-level Phenotyping of Sugar Beet Plants under Field Conditions"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Marks, Elias"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Bonn"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0003-1322-9317",
+                    "expandedvalue": {
+                      "personName": "Marks, Elias",
+                      "@id": "https://orcid.org/0000-0003-1322-9317",
+                      "scheme": "ORCID",
+                      "@type": "https://schema.org/Person"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Bömer, Jonas"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Institute of Sugar Beet Research, Göttingen"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Magistri, Federico"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Bonn"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0003-2815-5760",
+                    "expandedvalue": {
+                      "personName": "Magistri, Federico",
+                      "@id": "https://orcid.org/0000-0003-2815-5760",
+                      "scheme": "ORCID",
+                      "@type": "https://schema.org/Person"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Sah, Anurag"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Bonn"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Behley, Jens"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Bonn"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0001-6483-0319",
+                    "expandedvalue": {
+                      "personName": "Behley, Jens",
+                      "@id": "https://orcid.org/0000-0001-6483-0319",
+                      "scheme": "ORCID",
+                      "@type": "https://schema.org/Person"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Stachniss, Cyrill"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Bonn"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0003-1173-6972",
+                    "expandedvalue": {
+                      "personName": "Stachniss, Cyrill",
+                      "@id": "https://orcid.org/0000-0003-1173-6972",
+                      "scheme": "ORCID",
+                      "@type": "https://schema.org/Person"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Marks, Elias"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Bonn"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "emarks1@uni-bonn.de"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Agricultural production is facing severe challenges\nin the next decades induced by climate change and the need\nfor sustainability, reducing its impact on the environment.\nAdvancement in field management through non-chemical weed-\ning by robots in combination with monitoring of crops by\nautonomous unmanned aerial vehicles (UAVs) and breeding\nof novel and more resilient crop varieties are helpful to\naddress these challenges. The analysis of plant traits is called\nphenotyping, and is an essential activity in plant breeding, it\nhowever involves a great amount of manual labor. With this\npaper, we address the problem of automatic fine-grained organ-\nlevel geometric analysis needed for precision phenotyping.\nHowever, the availability of real-world data for such fine-\ngrained perception tasks in this domain is relatively scarce\ncompared to other domains such as autonomous driving. To\nwork towards closing this gap, we propose a novel dataset\nthat was acquired using UAVs capturing high-resolution im-\nages of a real breeding trial. This has the big advantage of\ncontaining a multitude of plant varieties, leading to a great\nmorphological and appearance diversity covered by our dataset.\nThis enables the development of approaches for autonomous\nphenotyping that generalize well to different varieties. Based\non overlapping high-resolution images from multiple viewing\nangles, we compute photogrammetric dense point clouds via\nbundle adjustment that capture the geometric structure of\nthe plants. We provide detailed and accurate point-wise labels\nfor individual plants, individual leaves, salient points on the\nleaves such as the tip and the base. Additionally we include\nmeasurements of phenotypic traits performed by experts from\nthe German Federal Plant Variety Office (”Bundessortenamt)\non the real plants, allowing to evaluate approaches not only\non segmentation and keypoint detection, but also directly\non the downstream tasks. The provided labeled point clouds\nenable fine-grained plant analysis and opens the door for\nfurther progress in the development of automatic phenotyping\napproaches, but also enable further research in closely related\napplication areas such as surface reconstruction, point cloud\ncompletion, and semantic interpretation of point clouds."
+                  },
+                  "dsDescriptionDate": {
+                    "typeName": "dsDescriptionDate",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2023-12-22"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Agricultural Sciences",
+                "Computer and Information Science"
+              ]
+            },
+            {
+              "typeName": "subjectRefinement",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "subjectRefinementValue": {
+                    "typeName": "subjectRefinementValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Phenotyping"
+                  }
+                },
+                {
+                  "subjectRefinementValue": {
+                    "typeName": "subjectRefinementValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Robotics"
+                  }
+                },
+                {
+                  "subjectRefinementValue": {
+                    "typeName": "subjectRefinementValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Computer vision"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "freeKeyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "freeKeywordValue": {
+                    "typeName": "freeKeywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Robotics"
+                  }
+                },
+                {
+                  "freeKeywordValue": {
+                    "typeName": "freeKeywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Phenotyping"
+                  }
+                },
+                {
+                  "freeKeywordValue": {
+                    "typeName": "freeKeywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Computer vision"
+                  }
+                },
+                {
+                  "freeKeywordValue": {
+                    "typeName": "freeKeywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "UAV"
+                  }
+                },
+                {
+                  "freeKeywordValue": {
+                    "typeName": "freeKeywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Sugar beet"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "@misc{marks2023arxiv,\n      title={BonnBeetClouds3D: A Dataset Towards Point Cloud-based Organ-level Phenotyping of Sugar Beet Plants under Field Conditions}, \n      author={Elias Marks and Jonas Bömer and Federico Magistri and Anurag Sah and Jens Behley and Cyrill Stachniss},\n      year={2023},\n      eprint={2312.14706},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV}\n}"
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "doi"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://doi.org/10.48550/arXiv.2312.14706"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://arxiv.org/abs/2312.14706"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Marks, Elias"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2023-12-22"
+            },
+            {
+              "typeName": "kindOfData",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "Point clouds"
+              ]
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "BonnBeetClouds3Dv0.zip",
+          "restricted": false,
+          "version": 2,
+          "datasetVersionId": 172,
+          "dataFile": {
+            "id": 4273,
+            "persistentId": "doi:10.60507/FK2/34W30T/FRUZR8",
+            "pidURL": "https://doi.org/10.60507/FK2/34W30T/FRUZR8",
+            "filename": "BonnBeetClouds3Dv0.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 11149363555,
+            "storageIdentifier": "file://18cf91ccb6d-ec823a1c5d4f",
+            "rootDataFileId": -1,
+            "md5": "a8f7aa642db818e5e4e02e9e3d16f584",
+            "checksum": {
+              "type": "MD5",
+              "value": "a8f7aa642db818e5e4e02e9e3d16f584"
+            },
+            "tabularData": false,
+            "creationDate": "2024-01-11",
+            "publicationDate": "2024-01-29",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "README.md",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 172,
+          "dataFile": {
+            "id": 4278,
+            "persistentId": "doi:10.60507/FK2/34W30T/CQCU7A",
+            "pidURL": "https://doi.org/10.60507/FK2/34W30T/CQCU7A",
+            "filename": "README.md",
+            "contentType": "text/markdown",
+            "friendlyType": "Markdown Text",
+            "filesize": 3051,
+            "storageIdentifier": "file://18d46bdc198-af18c107c68c",
+            "rootDataFileId": -1,
+            "md5": "c46f5698c3a5c25d7ce6ec42575bd23c",
+            "checksum": {
+              "type": "MD5",
+              "value": "c46f5698c3a5c25d7ce6ec42575bd23c"
+            },
+            "tabularData": false,
+            "creationDate": "2024-01-26",
+            "publicationDate": "2024-01-29",
+            "fileAccessRequest": true
+          }
+        }
+      ]
+    }
+  }
+}

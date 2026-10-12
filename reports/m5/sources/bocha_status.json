@@ -1,0 +1,7 @@
+{
+  "status": "UNAVAILABLE",
+  "http_status": 403,
+  "reason": "You do not have enough money or package quota",
+  "date": "2026-10-12",
+  "fallback": "direct retrieval of user-provided official source URLs; not training-memory source verification"
+}

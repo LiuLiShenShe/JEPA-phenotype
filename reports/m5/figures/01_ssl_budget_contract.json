@@ -1,0 +1,5 @@
+{
+  "claim": "Training loss does not establish representation success",
+  "n": "24 training plants, 384 technical scans, one seed; different points are not independent plants",
+  "budget": "2000-step horizon diagnostics; formal 500-step runs use a separately locked schedule"
+}

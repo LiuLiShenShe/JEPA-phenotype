@@ -1,0 +1,6 @@
+{
+  "claim": "Same-leaf cohesion and different-leaf separability need explicit checks",
+  "n": "24 official train plants, three seeds; macro over plants then seeds",
+  "labels": "instance labels only for evaluation; token purity>=0.8; no instance-supervised encoder update",
+  "confound_control": "nearest geometric-distance different-leaf pair match; residual distance difference reported"
+}

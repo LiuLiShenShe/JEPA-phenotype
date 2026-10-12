@@ -1,0 +1,5 @@
+{
+  "claim": "Evaluate all conditions at locked 50% label budget",
+  "n": "12 validation plants per split; three random seeds; four fold directions, not independent partitions",
+  "historical": "P0/P2 are unchanged M4 controls; new exploratory target, not untouched confirmation"
+}

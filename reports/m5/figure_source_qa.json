@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "figures": 7,
+  "records": [
+    {
+      "figure": "01_ssl_budget",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 35,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    },
+    {
+      "figure": "02_primary_leaf_count",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 18,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    },
+    {
+      "figure": "03_label_efficiency",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 37,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    },
+    {
+      "figure": "04_semantic_transfer",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 49,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    },
+    {
+      "figure": "05_similarity_controls",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 30,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    },
+    {
+      "figure": "06_leaf_structure_probe",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 27,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    },
+    {
+      "figure": "07_primary_paired_intervals",
+      "text_outside_canvas": [],
+      "drawn_text_artists": 13,
+      "rule": "only text whose draw method was invoked by the renderer, excluding dormant out-of-limits tick artists",
+      "status": "PASS"
+    }
+  ]
+}

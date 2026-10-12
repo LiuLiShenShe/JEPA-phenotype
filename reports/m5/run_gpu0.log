@@ -1,0 +1,342 @@
+SSL official S500 seed=17 step=100 loss=0.03048
+DIAGNOSTIC S500 step=120 pooled_rank=13.22 token_std=0.03997 stop=False
+SSL official S500 seed=17 step=200 loss=0.00471
+SSL official S500 seed=17 step=300 loss=0.00341
+SSL official S500 seed=17 step=400 loss=0.00297
+SSL official S500 seed=17 step=500 loss=0.00277
+DIAGNOSTIC S500 step=500 pooled_rank=12.42 token_std=0.03982 stop=False
+DOWNSTREAM official_count_S500_finetune_labels50_seed17 plant_macro_mae=1.62130
+DOWNSTREAM official_count_S500_finetune_labels25_seed17 plant_macro_mae=1.74661
+DOWNSTREAM official_count_S500_finetune_labels100_seed17 plant_macro_mae=1.28566
+DOWNSTREAM official_segmentation_S500_finetune_labels100_seed17 plant_macro_miou=0.45656
+SSL official P3 seed=17 step=100 loss=0.03258
+DIAGNOSTIC P3 step=120 pooled_rank=3.23 token_std=0.02530 stop=False
+SSL official P3 seed=17 step=200 loss=0.00651
+SSL official P3 seed=17 step=300 loss=0.00518
+SSL official P3 seed=17 step=400 loss=0.00502
+SSL official P3 seed=17 step=500 loss=0.00494
+DIAGNOSTIC P3 step=500 pooled_rank=2.83 token_std=0.03430 stop=False
+DOWNSTREAM official_count_P3_finetune_labels50_seed17 plant_macro_mae=1.82097
+DOWNSTREAM official_count_P3_finetune_labels25_seed17 plant_macro_mae=1.74367
+DOWNSTREAM official_count_P3_finetune_labels100_seed17 plant_macro_mae=1.41740
+DOWNSTREAM official_segmentation_P3_finetune_labels100_seed17 plant_macro_miou=0.38857
+SSL official P4 seed=17 step=100 loss=0.02810
+DIAGNOSTIC P4 step=120 pooled_rank=14.30 token_std=0.03761 stop=False
+SSL official P4 seed=17 step=200 loss=0.00533
+SSL official P4 seed=17 step=300 loss=0.00375
+SSL official P4 seed=17 step=400 loss=0.00331
+SSL official P4 seed=17 step=500 loss=0.00311
+DIAGNOSTIC P4 step=500 pooled_rank=16.59 token_std=0.03199 stop=False
+DOWNSTREAM official_count_P4_finetune_labels50_seed17 plant_macro_mae=1.64192
+DOWNSTREAM official_count_P4_finetune_labels25_seed17 plant_macro_mae=1.81845
+DOWNSTREAM official_count_P4_finetune_labels100_seed17 plant_macro_mae=1.36515
+DOWNSTREAM official_segmentation_P4_finetune_labels100_seed17 plant_macro_miou=0.43448
+PROBE official P0 seed=17 centred_auc=0.9842
+PROBE official P2 seed=17 centred_auc=0.9663
+PROBE official S500 seed=17 centred_auc=0.9648
+PROBE official P3 seed=17 centred_auc=0.9031
+PROBE official P4 seed=17 centred_auc=0.9626
+SSL official S500 seed=42 step=100 loss=0.03251
+DIAGNOSTIC S500 step=120 pooled_rank=16.71 token_std=0.03650 stop=False
+SSL official S500 seed=42 step=200 loss=0.00461
+SSL official S500 seed=42 step=300 loss=0.00310
+SSL official S500 seed=42 step=400 loss=0.00265
+SSL official S500 seed=42 step=500 loss=0.00251
+DIAGNOSTIC S500 step=500 pooled_rank=16.44 token_std=0.03577 stop=False
+DOWNSTREAM official_count_S500_finetune_labels50_seed42 plant_macro_mae=1.41345
+DOWNSTREAM official_count_S500_finetune_labels25_seed42 plant_macro_mae=1.71861
+DOWNSTREAM official_count_S500_finetune_labels100_seed42 plant_macro_mae=1.20350
+DOWNSTREAM official_segmentation_S500_finetune_labels100_seed42 plant_macro_miou=0.46703
+SSL official P3 seed=42 step=100 loss=0.03453
+DIAGNOSTIC P3 step=120 pooled_rank=19.34 token_std=0.03661 stop=False
+SSL official P3 seed=42 step=200 loss=0.00552
+SSL official P3 seed=42 step=300 loss=0.00561
+SSL official P3 seed=42 step=400 loss=0.00485
+SSL official P3 seed=42 step=500 loss=0.00460
+DIAGNOSTIC P3 step=500 pooled_rank=4.38 token_std=0.02124 stop=False
+DOWNSTREAM official_count_P3_finetune_labels50_seed42 plant_macro_mae=1.53017
+DOWNSTREAM official_count_P3_finetune_labels25_seed42 plant_macro_mae=1.72965
+DOWNSTREAM official_count_P3_finetune_labels100_seed42 plant_macro_mae=1.35560
+DOWNSTREAM official_segmentation_P3_finetune_labels100_seed42 plant_macro_miou=0.38905
+SSL official P4 seed=42 step=100 loss=0.03006
+DIAGNOSTIC P4 step=120 pooled_rank=14.56 token_std=0.03366 stop=False
+SSL official P4 seed=42 step=200 loss=0.00550
+SSL official P4 seed=42 step=300 loss=0.00360
+SSL official P4 seed=42 step=400 loss=0.00313
+SSL official P4 seed=42 step=500 loss=0.00294
+DIAGNOSTIC P4 step=500 pooled_rank=16.59 token_std=0.02939 stop=False
+DOWNSTREAM official_count_P4_finetune_labels50_seed42 plant_macro_mae=1.50935
+DOWNSTREAM official_count_P4_finetune_labels25_seed42 plant_macro_mae=1.73769
+DOWNSTREAM official_count_P4_finetune_labels100_seed42 plant_macro_mae=1.20417
+DOWNSTREAM official_segmentation_P4_finetune_labels100_seed42 plant_macro_miou=0.46246
+PROBE official P0 seed=42 centred_auc=0.9835
+PROBE official P2 seed=42 centred_auc=0.9686
+PROBE official S500 seed=42 centred_auc=0.9679
+PROBE official P3 seed=42 centred_auc=0.9447
+PROBE official P4 seed=42 centred_auc=0.9658
+SSL official S500 seed=93 step=100 loss=0.03241
+DIAGNOSTIC S500 step=120 pooled_rank=10.13 token_std=0.04419 stop=False
+SSL official S500 seed=93 step=200 loss=0.00550
+SSL official S500 seed=93 step=300 loss=0.00348
+SSL official S500 seed=93 step=400 loss=0.00291
+SSL official S500 seed=93 step=500 loss=0.00273
+DIAGNOSTIC S500 step=500 pooled_rank=9.72 token_std=0.03731 stop=False
+DOWNSTREAM official_count_S500_finetune_labels50_seed93 plant_macro_mae=1.55743
+DOWNSTREAM official_count_S500_finetune_labels25_seed93 plant_macro_mae=1.76319
+DOWNSTREAM official_count_S500_finetune_labels100_seed93 plant_macro_mae=1.27818
+DOWNSTREAM official_segmentation_S500_finetune_labels100_seed93 plant_macro_miou=0.47431
+SSL official P3 seed=93 step=100 loss=0.03442
+DIAGNOSTIC P3 step=120 pooled_rank=7.88 token_std=0.05192 stop=False
+SSL official P3 seed=93 step=200 loss=0.00902
+SSL official P3 seed=93 step=300 loss=0.00839
+SSL official P3 seed=93 step=400 loss=0.00801
+SSL official P3 seed=93 step=500 loss=0.00701
+DIAGNOSTIC P3 step=500 pooled_rank=1.70 token_std=0.19967 stop=False
+DOWNSTREAM official_count_P3_finetune_labels50_seed93 plant_macro_mae=1.66253
+DOWNSTREAM official_count_P3_finetune_labels25_seed93 plant_macro_mae=1.82195
+DOWNSTREAM official_count_P3_finetune_labels100_seed93 plant_macro_mae=1.40177
+DOWNSTREAM official_segmentation_P3_finetune_labels100_seed93 plant_macro_miou=0.46448
+SSL official P4 seed=93 step=100 loss=0.02983
+DIAGNOSTIC P4 step=120 pooled_rank=8.99 token_std=0.03733 stop=False
+SSL official P4 seed=93 step=200 loss=0.00588
+SSL official P4 seed=93 step=300 loss=0.00395
+SSL official P4 seed=93 step=400 loss=0.00345
+SSL official P4 seed=93 step=500 loss=0.00324
+DIAGNOSTIC P4 step=500 pooled_rank=11.86 token_std=0.03127 stop=False
+DOWNSTREAM official_count_P4_finetune_labels50_seed93 plant_macro_mae=1.47579
+DOWNSTREAM official_count_P4_finetune_labels25_seed93 plant_macro_mae=1.93149
+DOWNSTREAM official_count_P4_finetune_labels100_seed93 plant_macro_mae=1.22941
+DOWNSTREAM official_segmentation_P4_finetune_labels100_seed93 plant_macro_miou=0.46531
+PROBE official P0 seed=93 centred_auc=0.9839
+PROBE official P2 seed=93 centred_auc=0.9661
+PROBE official S500 seed=93 centred_auc=0.9668
+PROBE official P3 seed=93 centred_auc=0.6834
+PROBE official P4 seed=93 centred_auc=0.9675
+SSL fold0 S500 seed=17 step=100 loss=0.03041
+DIAGNOSTIC S500 step=120 pooled_rank=17.61 token_std=0.03982 stop=False
+SSL fold0 S500 seed=17 step=200 loss=0.00462
+SSL fold0 S500 seed=17 step=300 loss=0.00336
+SSL fold0 S500 seed=17 step=400 loss=0.00297
+SSL fold0 S500 seed=17 step=500 loss=0.00277
+DIAGNOSTIC S500 step=500 pooled_rank=16.40 token_std=0.03968 stop=False
+DOWNSTREAM fold0_count_S500_finetune_labels50_seed17 plant_macro_mae=1.69515
+DOWNSTREAM fold0_count_S500_finetune_labels25_seed17 plant_macro_mae=1.85460
+DOWNSTREAM fold0_count_S500_finetune_labels100_seed17 plant_macro_mae=1.43721
+DOWNSTREAM fold0_segmentation_S500_finetune_labels100_seed17 plant_macro_miou=0.42308
+SSL fold0 P3 seed=17 step=100 loss=0.03207
+DIAGNOSTIC P3 step=120 pooled_rank=8.58 token_std=0.04485 stop=False
+SSL fold0 P3 seed=17 step=200 loss=0.00880
+SSL fold0 P3 seed=17 step=300 loss=0.00776
+SSL fold0 P3 seed=17 step=400 loss=0.00745
+SSL fold0 P3 seed=17 step=500 loss=0.00643
+DIAGNOSTIC P3 step=500 pooled_rank=2.01 token_std=0.17564 stop=False
+DOWNSTREAM fold0_count_P3_finetune_labels50_seed17 plant_macro_mae=1.62926
+DOWNSTREAM fold0_count_P3_finetune_labels25_seed17 plant_macro_mae=2.00636
+DOWNSTREAM fold0_count_P3_finetune_labels100_seed17 plant_macro_mae=1.55400
+DOWNSTREAM fold0_segmentation_P3_finetune_labels100_seed17 plant_macro_miou=0.41439
+SSL fold0 P4 seed=17 step=100 loss=0.02800
+DIAGNOSTIC P4 step=120 pooled_rank=16.25 token_std=0.03842 stop=False
+SSL fold0 P4 seed=17 step=200 loss=0.00524
+SSL fold0 P4 seed=17 step=300 loss=0.00373
+SSL fold0 P4 seed=17 step=400 loss=0.00328
+SSL fold0 P4 seed=17 step=500 loss=0.00305
+DIAGNOSTIC P4 step=500 pooled_rank=19.16 token_std=0.03202 stop=False
+DOWNSTREAM fold0_count_P4_finetune_labels50_seed17 plant_macro_mae=1.80634
+DOWNSTREAM fold0_count_P4_finetune_labels25_seed17 plant_macro_mae=2.04245
+DOWNSTREAM fold0_count_P4_finetune_labels100_seed17 plant_macro_mae=1.45712
+DOWNSTREAM fold0_segmentation_P4_finetune_labels100_seed17 plant_macro_miou=0.42760
+PROBE fold0 P0 seed=17 centred_auc=0.9834
+PROBE fold0 P2 seed=17 centred_auc=0.9662
+PROBE fold0 S500 seed=17 centred_auc=0.9634
+PROBE fold0 P3 seed=17 centred_auc=0.6605
+PROBE fold0 P4 seed=17 centred_auc=0.9629
+SSL fold0 S500 seed=42 step=100 loss=0.03244
+DIAGNOSTIC S500 step=120 pooled_rank=19.68 token_std=0.03667 stop=False
+SSL fold0 S500 seed=42 step=200 loss=0.00446
+SSL fold0 S500 seed=42 step=300 loss=0.00302
+SSL fold0 S500 seed=42 step=400 loss=0.00261
+SSL fold0 S500 seed=42 step=500 loss=0.00245
+DIAGNOSTIC S500 step=500 pooled_rank=19.63 token_std=0.03596 stop=False
+DOWNSTREAM fold0_count_S500_finetune_labels50_seed42 plant_macro_mae=1.51075
+DOWNSTREAM fold0_count_S500_finetune_labels25_seed42 plant_macro_mae=1.81647
+DOWNSTREAM fold0_count_S500_finetune_labels100_seed42 plant_macro_mae=1.29596
+DOWNSTREAM fold0_segmentation_S500_finetune_labels100_seed42 plant_macro_miou=0.46691
+SSL fold0 P3 seed=42 step=100 loss=0.03442
+DIAGNOSTIC P3 step=120 pooled_rank=21.72 token_std=0.03548 stop=False
+SSL fold0 P3 seed=42 step=200 loss=0.00533
+SSL fold0 P3 seed=42 step=300 loss=0.00501
+SSL fold0 P3 seed=42 step=400 loss=0.00564
+SSL fold0 P3 seed=42 step=500 loss=0.00477
+DIAGNOSTIC P3 step=500 pooled_rank=1.66 token_std=0.23188 stop=False
+DOWNSTREAM fold0_count_P3_finetune_labels50_seed42 plant_macro_mae=1.56103
+DOWNSTREAM fold0_count_P3_finetune_labels25_seed42 plant_macro_mae=1.64356
+DOWNSTREAM fold0_count_P3_finetune_labels100_seed42 plant_macro_mae=1.49548
+DOWNSTREAM fold0_segmentation_P3_finetune_labels100_seed42 plant_macro_miou=0.48660
+SSL fold0 P4 seed=42 step=100 loss=0.03011
+DIAGNOSTIC P4 step=120 pooled_rank=13.38 token_std=0.03371 stop=False
+SSL fold0 P4 seed=42 step=200 loss=0.00561
+SSL fold0 P4 seed=42 step=300 loss=0.00372
+SSL fold0 P4 seed=42 step=400 loss=0.00322
+SSL fold0 P4 seed=42 step=500 loss=0.00303
+DIAGNOSTIC P4 step=500 pooled_rank=15.66 token_std=0.02925 stop=False
+DOWNSTREAM fold0_count_P4_finetune_labels50_seed42 plant_macro_mae=1.68304
+DOWNSTREAM fold0_count_P4_finetune_labels25_seed42 plant_macro_mae=1.96321
+DOWNSTREAM fold0_count_P4_finetune_labels100_seed42 plant_macro_mae=1.33336
+DOWNSTREAM fold0_segmentation_P4_finetune_labels100_seed42 plant_macro_miou=0.46122
+PROBE fold0 P0 seed=42 centred_auc=0.9824
+PROBE fold0 P2 seed=42 centred_auc=0.9673
+PROBE fold0 S500 seed=42 centred_auc=0.9678
+PROBE fold0 P3 seed=42 centred_auc=0.7216
+PROBE fold0 P4 seed=42 centred_auc=0.9637
+SSL fold0 S500 seed=93 step=100 loss=0.03236
+DIAGNOSTIC S500 step=120 pooled_rank=12.23 token_std=0.04521 stop=False
+SSL fold0 S500 seed=93 step=200 loss=0.00553
+SSL fold0 S500 seed=93 step=300 loss=0.00345
+SSL fold0 S500 seed=93 step=400 loss=0.00289
+SSL fold0 S500 seed=93 step=500 loss=0.00271
+DIAGNOSTIC S500 step=500 pooled_rank=12.06 token_std=0.03748 stop=False
+DOWNSTREAM fold0_count_S500_finetune_labels50_seed93 plant_macro_mae=1.66774
+DOWNSTREAM fold0_count_S500_finetune_labels25_seed93 plant_macro_mae=1.95711
+DOWNSTREAM fold0_count_S500_finetune_labels100_seed93 plant_macro_mae=1.48126
+DOWNSTREAM fold0_segmentation_S500_finetune_labels100_seed93 plant_macro_miou=0.41757
+SSL fold0 P3 seed=93 step=100 loss=0.03418
+DIAGNOSTIC P3 step=120 pooled_rank=9.11 token_std=0.05109 stop=False
+SSL fold0 P3 seed=93 step=200 loss=0.00768
+SSL fold0 P3 seed=93 step=300 loss=0.00663
+SSL fold0 P3 seed=93 step=400 loss=0.00487
+SSL fold0 P3 seed=93 step=500 loss=0.00420
+DIAGNOSTIC P3 step=500 pooled_rank=1.78 token_std=0.14860 stop=False
+DOWNSTREAM fold0_count_P3_finetune_labels50_seed93 plant_macro_mae=1.58620
+DOWNSTREAM fold0_count_P3_finetune_labels25_seed93 plant_macro_mae=1.82081
+DOWNSTREAM fold0_count_P3_finetune_labels100_seed93 plant_macro_mae=1.41759
+DOWNSTREAM fold0_segmentation_P3_finetune_labels100_seed93 plant_macro_miou=0.46117
+SSL fold0 P4 seed=93 step=100 loss=0.02984
+DIAGNOSTIC P4 step=120 pooled_rank=11.64 token_std=0.03778 stop=False
+SSL fold0 P4 seed=93 step=200 loss=0.00590
+SSL fold0 P4 seed=93 step=300 loss=0.00389
+SSL fold0 P4 seed=93 step=400 loss=0.00340
+SSL fold0 P4 seed=93 step=500 loss=0.00318
+DIAGNOSTIC P4 step=500 pooled_rank=15.26 token_std=0.03103 stop=False
+DOWNSTREAM fold0_count_P4_finetune_labels50_seed93 plant_macro_mae=1.62936
+DOWNSTREAM fold0_count_P4_finetune_labels25_seed93 plant_macro_mae=1.87882
+DOWNSTREAM fold0_count_P4_finetune_labels100_seed93 plant_macro_mae=1.49283
+DOWNSTREAM fold0_segmentation_P4_finetune_labels100_seed93 plant_macro_miou=0.46192
+PROBE fold0 P0 seed=93 centred_auc=0.9829
+PROBE fold0 P2 seed=93 centred_auc=0.9661
+PROBE fold0 S500 seed=93 centred_auc=0.9659
+PROBE fold0 P3 seed=93 centred_auc=0.7246
+PROBE fold0 P4 seed=93 centred_auc=0.9674
+SSL fold1 S500 seed=17 step=100 loss=0.03030
+DIAGNOSTIC S500 step=120 pooled_rank=14.67 token_std=0.03943 stop=False
+SSL fold1 S500 seed=17 step=200 loss=0.00452
+SSL fold1 S500 seed=17 step=300 loss=0.00325
+SSL fold1 S500 seed=17 step=400 loss=0.00284
+SSL fold1 S500 seed=17 step=500 loss=0.00263
+DIAGNOSTIC S500 step=500 pooled_rank=14.37 token_std=0.03873 stop=False
+DOWNSTREAM fold1_count_S500_finetune_labels50_seed17 plant_macro_mae=1.48476
+DOWNSTREAM fold1_count_S500_finetune_labels25_seed17 plant_macro_mae=1.67969
+DOWNSTREAM fold1_count_S500_finetune_labels100_seed17 plant_macro_mae=1.23348
+DOWNSTREAM fold1_segmentation_S500_finetune_labels100_seed17 plant_macro_miou=0.46972
+SSL fold1 P3 seed=17 step=100 loss=0.03208
+DIAGNOSTIC P3 step=120 pooled_rank=9.20 token_std=0.03726 stop=False
+SSL fold1 P3 seed=17 step=200 loss=0.00785
+SSL fold1 P3 seed=17 step=300 loss=0.00732
+SSL fold1 P3 seed=17 step=400 loss=0.00654
+SSL fold1 P3 seed=17 step=500 loss=0.00586
+DIAGNOSTIC P3 step=500 pooled_rank=1.95 token_std=0.20061 stop=False
+DOWNSTREAM fold1_count_P3_finetune_labels50_seed17 plant_macro_mae=1.47024
+DOWNSTREAM fold1_count_P3_finetune_labels25_seed17 plant_macro_mae=1.85428
+DOWNSTREAM fold1_count_P3_finetune_labels100_seed17 plant_macro_mae=1.40123
+DOWNSTREAM fold1_segmentation_P3_finetune_labels100_seed17 plant_macro_miou=0.43479
+SSL fold1 P4 seed=17 step=100 loss=0.02797
+DIAGNOSTIC P4 step=120 pooled_rank=15.61 token_std=0.03700 stop=False
+SSL fold1 P4 seed=17 step=200 loss=0.00529
+SSL fold1 P4 seed=17 step=300 loss=0.00365
+SSL fold1 P4 seed=17 step=400 loss=0.00324
+SSL fold1 P4 seed=17 step=500 loss=0.00301
+DIAGNOSTIC P4 step=500 pooled_rank=18.57 token_std=0.03145 stop=False
+DOWNSTREAM fold1_count_P4_finetune_labels50_seed17 plant_macro_mae=1.49071
+DOWNSTREAM fold1_count_P4_finetune_labels25_seed17 plant_macro_mae=1.82617
+DOWNSTREAM fold1_count_P4_finetune_labels100_seed17 plant_macro_mae=1.40069
+DOWNSTREAM fold1_segmentation_P4_finetune_labels100_seed17 plant_macro_miou=0.42369
+PROBE fold1 P0 seed=17 centred_auc=0.9833
+PROBE fold1 P2 seed=17 centred_auc=0.9659
+PROBE fold1 S500 seed=17 centred_auc=0.9650
+PROBE fold1 P3 seed=17 centred_auc=0.6985
+PROBE fold1 P4 seed=17 centred_auc=0.9604
+SSL fold1 S500 seed=42 step=100 loss=0.03259
+DIAGNOSTIC S500 step=120 pooled_rank=17.30 token_std=0.03788 stop=False
+SSL fold1 S500 seed=42 step=200 loss=0.00457
+SSL fold1 S500 seed=42 step=300 loss=0.00311
+SSL fold1 S500 seed=42 step=400 loss=0.00267
+SSL fold1 S500 seed=42 step=500 loss=0.00252
+DIAGNOSTIC S500 step=500 pooled_rank=17.08 token_std=0.03697 stop=False
+DOWNSTREAM fold1_count_S500_finetune_labels50_seed42 plant_macro_mae=1.27098
+DOWNSTREAM fold1_count_S500_finetune_labels25_seed42 plant_macro_mae=1.67093
+DOWNSTREAM fold1_count_S500_finetune_labels100_seed42 plant_macro_mae=1.27047
+DOWNSTREAM fold1_segmentation_S500_finetune_labels100_seed42 plant_macro_miou=0.42825
+SSL fold1 P3 seed=42 step=100 loss=0.03437
+DIAGNOSTIC P3 step=120 pooled_rank=21.39 token_std=0.03677 stop=False
+SSL fold1 P3 seed=42 step=200 loss=0.00517
+SSL fold1 P3 seed=42 step=300 loss=0.00468
+SSL fold1 P3 seed=42 step=400 loss=0.00427
+SSL fold1 P3 seed=42 step=500 loss=0.00406
+DIAGNOSTIC P3 step=500 pooled_rank=8.93 token_std=0.02995 stop=False
+DOWNSTREAM fold1_count_P3_finetune_labels50_seed42 plant_macro_mae=1.33217
+DOWNSTREAM fold1_count_P3_finetune_labels25_seed42 plant_macro_mae=1.76707
+DOWNSTREAM fold1_count_P3_finetune_labels100_seed42 plant_macro_mae=1.23435
+DOWNSTREAM fold1_segmentation_P3_finetune_labels100_seed42 plant_macro_miou=0.38705
+SSL fold1 P4 seed=42 step=100 loss=0.02992
+DIAGNOSTIC P4 step=120 pooled_rank=14.53 token_std=0.03370 stop=False
+SSL fold1 P4 seed=42 step=200 loss=0.00547
+SSL fold1 P4 seed=42 step=300 loss=0.00361
+SSL fold1 P4 seed=42 step=400 loss=0.00313
+SSL fold1 P4 seed=42 step=500 loss=0.00294
+DIAGNOSTIC P4 step=500 pooled_rank=16.61 token_std=0.02875 stop=False
+DOWNSTREAM fold1_count_P4_finetune_labels50_seed42 plant_macro_mae=1.40754
+DOWNSTREAM fold1_count_P4_finetune_labels25_seed42 plant_macro_mae=1.74337
+DOWNSTREAM fold1_count_P4_finetune_labels100_seed42 plant_macro_mae=1.20717
+DOWNSTREAM fold1_segmentation_P4_finetune_labels100_seed42 plant_macro_miou=0.41857
+PROBE fold1 P0 seed=42 centred_auc=0.9829
+PROBE fold1 P2 seed=42 centred_auc=0.9673
+PROBE fold1 S500 seed=42 centred_auc=0.9664
+PROBE fold1 P3 seed=42 centred_auc=0.9559
+PROBE fold1 P4 seed=42 centred_auc=0.9629
+SSL fold1 S500 seed=93 step=100 loss=0.03243
+DIAGNOSTIC S500 step=120 pooled_rank=11.19 token_std=0.04490 stop=False
+SSL fold1 S500 seed=93 step=200 loss=0.00551
+SSL fold1 S500 seed=93 step=300 loss=0.00348
+SSL fold1 S500 seed=93 step=400 loss=0.00293
+SSL fold1 S500 seed=93 step=500 loss=0.00276
+DIAGNOSTIC S500 step=500 pooled_rank=10.71 token_std=0.03806 stop=False
+DOWNSTREAM fold1_count_S500_finetune_labels50_seed93 plant_macro_mae=1.40043
+DOWNSTREAM fold1_count_S500_finetune_labels25_seed93 plant_macro_mae=1.72670
+DOWNSTREAM fold1_count_S500_finetune_labels100_seed93 plant_macro_mae=1.21564
+DOWNSTREAM fold1_segmentation_S500_finetune_labels100_seed93 plant_macro_miou=0.42897
+SSL fold1 P3 seed=93 step=100 loss=0.03427
+DIAGNOSTIC P3 step=120 pooled_rank=8.87 token_std=0.05197 stop=False
+SSL fold1 P3 seed=93 step=200 loss=0.00720
+SSL fold1 P3 seed=93 step=300 loss=0.00533
+SSL fold1 P3 seed=93 step=400 loss=0.00597
+SSL fold1 P3 seed=93 step=500 loss=0.00549
+DIAGNOSTIC P3 step=500 pooled_rank=1.96 token_std=0.23329 stop=False
+DOWNSTREAM fold1_count_P3_finetune_labels50_seed93 plant_macro_mae=1.30442
+DOWNSTREAM fold1_count_P3_finetune_labels25_seed93 plant_macro_mae=1.79915
+DOWNSTREAM fold1_count_P3_finetune_labels100_seed93 plant_macro_mae=1.24895
+DOWNSTREAM fold1_segmentation_P3_finetune_labels100_seed93 plant_macro_miou=0.44440
+SSL fold1 P4 seed=93 step=100 loss=0.02990
+DIAGNOSTIC P4 step=120 pooled_rank=7.89 token_std=0.03754 stop=False
+SSL fold1 P4 seed=93 step=200 loss=0.00597
+SSL fold1 P4 seed=93 step=300 loss=0.00399
+SSL fold1 P4 seed=93 step=400 loss=0.00346
+SSL fold1 P4 seed=93 step=500 loss=0.00323
+DIAGNOSTIC P4 step=500 pooled_rank=11.37 token_std=0.03096 stop=False
+DOWNSTREAM fold1_count_P4_finetune_labels50_seed93 plant_macro_mae=1.57257
+DOWNSTREAM fold1_count_P4_finetune_labels25_seed93 plant_macro_mae=1.83799
+DOWNSTREAM fold1_count_P4_finetune_labels100_seed93 plant_macro_mae=1.30017
+DOWNSTREAM fold1_segmentation_P4_finetune_labels100_seed93 plant_macro_miou=0.42961
+PROBE fold1 P0 seed=93 centred_auc=0.9834
+PROBE fold1 P2 seed=93 centred_auc=0.9653
+PROBE fold1 S500 seed=93 centred_auc=0.9657
+PROBE fold1 P3 seed=93 centred_auc=0.8106
+PROBE fold1 P4 seed=93 centred_auc=0.9665

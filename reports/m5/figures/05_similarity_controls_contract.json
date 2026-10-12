@@ -1,0 +1,5 @@
+{
+  "claim": "Separate mean-direction anisotropy from local/identity similarity",
+  "n": "384 train scans/24 plants per run; pooled pairs capped at 8192; patch pairs=8192",
+  "centering": "global feature mean for representation diagnostics; same scan local centering in leaf probe"
+}

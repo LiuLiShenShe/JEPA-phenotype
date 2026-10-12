@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "protocol_lock_mtime_ns": 1791799097930130139,
+  "earliest_formal_initial_diagnostic_mtime_ns": 1791799149589196002,
+  "protocol_lock_sha256": "69bc047fc8d783d7735794e05bba78afacd6351fee885073518b8386aac99cc0",
+  "formal_runs": 45,
+  "scope": "Local immutable hash lock before formal training; filesystem chronology, not public study registration or trusted external timestamp"
+}

@@ -1,0 +1,6 @@
+{
+  "claim": "Report all fixed controls, uncertainty and the prespecified absolute threshold",
+  "n": "12 official validation plants, seed differences averaged across three seeds before bootstrap",
+  "interval": "10000 paired plant resamples; seed20261012; conditional on validation-selected downstream models",
+  "success": "also requires 10% relative improvement, all seed directions, >=3 folds and semantic/representation gates; interval alone is insufficient"
+}
