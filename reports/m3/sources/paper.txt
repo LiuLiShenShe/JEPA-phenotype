@@ -1,0 +1,474 @@
+A Dataset of Temporally Consistent Instance Annotations for 4D Plant Phenotyping | Scientific Data
+[LINK #content] Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Advertisement
+[LINK //pubads.g.doubleclick.net/gampad/jump?iu=/285/sdata.nature.com/article&sz=728x90&c=1271419516&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08326-5%26doi%3D10.1038/s41597-026-08326-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary]
+[LINK /sdata]
+[LINK https://www.nature.com/siteindex]
+View all journals
+[LINK /saved-research]
+Saved research
+[LINK #search-menu]
+Search
+[LINK https://my-profile.springernature.com]
+Account
+[LINK https://idp.nature.com/auth/personal/springernature?client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41597-026-08326-5]
+Log in
+[LINK #explore]
+Content
+Explore content
+[LINK #about-the-journal]
+About the journal
+[LINK #publish-with-us]
+Publish with us
+[LINK https://journal-alerts.springernature.com/subscribe?journal_id=41597]
+Sign up for alerts
+[LINK https://www.nature.com/sdata.rss]
+RSS feed
+[LINK /] nature
+[LINK /sdata] scientific data
+[LINK /sdata/articles?type=data-descriptor] data descriptors
+article
+A Dataset of Temporally Consistent Instance Annotations for 4D Plant Phenotyping
+[LINK /articles/s41597-026-08326-5.pdf]
+Download PDF
+[LINK /articles/s41597-026-08326-5.pdf]
+Download PDF
+Data Descriptor
+[LINK https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research] Open access
+Published: 18 September 2026
+A Dataset of Temporally Consistent Instance Annotations for 4D Plant Phenotyping
+[LINK #auth-Jonas-B_mer-Aff1] Jonas Bömer
+[LINK https://orcid.org/0000-0003-0723-4224] ORCID: orcid.org/0000-0003-0723-4224 [LINK #Aff1] 1,
+[LINK #auth-Elias-Marks-Aff2] Elias Marks [LINK #Aff2] 2,
+[LINK #auth-Facundo_Ram_n-Ispizua_Yamati-Aff1] Facundo Ramón Ispizua Yamati [LINK #Aff1] 1,
+[LINK #auth-Cyrill-Stachniss-Aff2] Cyrill Stachniss [LINK #Aff2] 2,
+[LINK #auth-Stefan-Paulus-Aff1] Stefan Paulus [LINK #Aff1] 1 &
+…
+[LINK #auth-Anne_Katrin-Mahlein-Aff1] Anne-Katrin Mahlein [LINK #Aff1] 1 Show authors
+[LINK /sdata] Scientific Data
+volume 13,  Article number: 1325 (2026)  [LINK #citeas] Cite this article
+[LINK /articles/s41597-026-08326-5/save-research?_csrf=J544ylO778MsqFcgDSH9XKc-NOw1L3Md]
+Save article
+[LINK /saved-research]
+View saved research
+1121 Accesses
+[LINK /articles/s41597-026-08326-5/metrics] Metrics details
+Abstract
+Spatio-temporal 4D plant phenotyping requires high-quality datasets with precise and temporally consistent annotations. However, such datasets are currently limited due to the substantial effort required for data acquisition and manual annotation. To address this limitation, we present Sugar4D, a publicly available 4D plant phenotyping dataset of sugar beet acquired using a terrestrial LiDAR scanner. The dataset comprises 768 point clouds from 48 individual plants representing twelve genotypes, recorded semiweekly across 16 consecutive time points during the growing season. All point clouds are provided with temporally consistent, pointwise instance annotations at the organ level, enabling the tracking of individual leaves over time. Sugar4D includes 6778 annotated leaves corresponding to 675 unique leaf instances. In addition to the annotated point cloud data, we provide 58 plant- and five leaf-related morphological parameters for each plant and leaf at each time point, validated using a 3D-printed plant reference model and invasive manual reference measurements. Sugar4D supports the development and evaluation of methods for plant instance segmentation, temporal registration, organ tracking, and spatio-temporal morphological analysis.
+Similar content being viewed by others
+[LINK https://www.nature.com/articles/s41597-025-06049-7?fromPaywallRec=false] Annotated 3D Point Cloud Dataset of Broad-Leaf Legumes Captured by High-Throughput Phenotyping Platform
+Article
+Open access
+10 November 2025
+[LINK https://www.nature.com/articles/s41598-023-42182-2?fromPaywallRec=false] Association analysis of agronomic traits and construction of genetic networks by resequencing of 306 sugar beet (Beta vulgaris L.) lines
+Article
+Open access
+18 September 2023
+[LINK https://www.nature.com/articles/s41598-025-03968-8?fromPaywallRec=false] Sugar management and photosynthesis of sugar beet after infection by Cercospora beticola
+Article
+Open access
+03 June 2025
+Explore related subjects
+Discover the latest articles and news in related subjects.
+[LINK /subjects/sensor-fusion-and-simultaneous-localization-in-autonomous-systems] Sensor Fusion and Simultaneous Localization in Autonomous Systems
+Background & Summary
+Understanding the temporal development of plant morphology is essential for advancing plant research, breeding, and practical agriculture. Spatio-temporal four-dimensional (4D) phenotyping approaches, which capture plant structure across multiple developmental stages, can provide critical insights into plant health and growth dynamics beyond those obtainable from static measurements [LINK /articles/s41597-026-08326-5#ref-CR1] 1, [LINK /articles/s41597-026-08326-5#ref-CR2] 2. Recent advances in sensor technology, computing hardware, and data-driven analysis methods have enabled rapid progress in three-dimensional (3D) plant phenotyping [LINK /articles/s41597-026-08326-5#ref-CR3] 3, [LINK /articles/s41597-026-08326-5#ref-CR4] 4, allowing the automated extraction of ordinary and complex structural traits such as plant height or leaf inclination angle from point cloud data. These traits provide important phenotypic information for comparing plant geno- and phenotypes [LINK /articles/s41597-026-08326-5#ref-CR5] 5, potentially useful for analyzing plant stress responses and interactions with environmental factors.
+At the same time, the emergence of high-throughput phenotyping platforms, ranging from stationary gantry-based systems to uncrewed aerial vehicles, has made it possible to repeatedly capture plants over time. Time series data is already being used to model disease outbreaks [LINK /articles/s41597-026-08326-5#ref-CR6] 6 or predict future plant growth [LINK /articles/s41597-026-08326-5#ref-CR7] 7. Within spatio-temporal 4D plant phenotyping, researchers analyze the dynamic alteration of 3D parameters, which facilitates a deeper understanding of both individual plant and plant population development. These insights provide previously inaccessible knowledge about the interaction of genes, phenotypes, and the environment, which is essential for understanding the formation mechanism of distinct biological traits [LINK /articles/s41597-026-08326-5#ref-CR8] 8. However, research in this domain is still in its early stages.
+Generating 4D data requires substantial time, cost, and labor. Consequently, only a limited number of spatio-temporal datasets are publicly available. Table  [LINK /articles/s41597-026-08326-5#Tab1] 1 provides an overview of available datasets that comprise 3D point clouds of plants at multiple points in time.
+Table 1 Overview of publicly available 4D plant phenotyping datasets, ordered by annotation type and publication date.
+[LINK /articles/s41597-026-08326-5/tables/1] Full size table
+These datasets vary considerably in multiple respects, starting with fundamental aspects like the measured crop, experimental settings or the technology used for 3D reconstruction. They also differ in aspects like individual plant or genotype count and their overall temporal range. All datasets lack some critical component necessary for broad application in 4D plant phenotyping.
+One of the most significant factors that distinguishes the listed datasets is the availability of precise pointwise manual annotations of plant organs, usable for semantic and instance segmentation tasks. The benefit of raw unlabeled Cartesian point cloud data for phenotyping is limited, and reliable plant organ segmentation is essential for obtaining meaningful insights into plant morphology [LINK /articles/s41597-026-08326-5#ref-CR9] 9, [LINK /articles/s41597-026-08326-5#ref-CR10] 10. Although automatic plant segmentation keeps improving through the increasing use of deep learning, the creation of precisely annotated, high quality 4D datasets is essential [LINK /articles/s41597-026-08326-5#ref-CR10] 10. However, manual pointwise annotations are a time- and labor-intensive task, a fact that is reflected in the limited number of datasets that include them. While some datasets are accompanied by semantic labels, instance labels are often found to be incomplete when they are provided (Table  [LINK /articles/s41597-026-08326-5#Tab1] 1). This limitation constrains the development, comparison, and validation of plant instance segmentation, and subsequent analyses that depend on segmentation remain challenging to perform reliably. This underlines the significance and demand for publicly accessible instance-labeled datasets, whether for training and comparing plant instance segmentation networks or for establishing methods that analyze plant morphology based on the provided annotations.
+Additionally, comprehensive 4D phenotyping requires not only precise, but also temporally consistent instance annotations. That is, the label of a particular leaf must remain identical across all consecutive time points [LINK /articles/s41597-026-08326-5#ref-CR2] 2. This consistency is important for temporal point cloud registration, plant organ tracking, and subsequent growth analysis. Preliminary research on these subjects has been conducted [LINK /articles/s41597-026-08326-5#ref-CR1] 1, [LINK /articles/s41597-026-08326-5#ref-CR11] 11–  [LINK /articles/s41597-026-08326-5#ref-CR13] 13, but their scope is limited by the availability of data, scalability, and consistency [LINK /articles/s41597-026-08326-5#ref-CR13] 13. This highlights the need for publicly accessible, large-scale 4D datasets with consistent labeling becomes evident [LINK /articles/s41597-026-08326-5#ref-CR1] 1, [LINK /articles/s41597-026-08326-5#ref-CR11] 11, [LINK /articles/s41597-026-08326-5#ref-CR12] 12. Such datasets facilitate the training, evaluation, and advancement of data-intensive methods in this domain. So far, only Pheno4D [LINK /articles/s41597-026-08326-5#ref-CR2] 2 and LAST-Straw [LINK /articles/s41597-026-08326-5#ref-CR14] 14 provide temporally consistent instance annotations, yet these are incomplete and do not cover the entire dataset. In addition to incomplete annotations, both datasets are limited to six or seven individual plants each, with LAST-Straw including only two genotypes, while Pheno4D does not provide any genotype information.
+We address this gap by introducing Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15, an entirely temporally consistent labeled 4D dataset of sugar beet. Sugar beet is an economically important crop in temperate regions and a major target of breeding programs. Throughout its development, it continuously produces new leaves while older leaves undergo senescence, resulting in rich temporal growth dynamics and progressively increasing architectural complexity. Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 encompasses point clouds collected using a high precision Light Detection and Ranging (LiDAR) sensor of twelve different sugar beet genotypes. Each genotype is represented in fourfold repetition, resulting in 48 individual plants with a wide range of morphological differences. The dataset has a high temporal resolution, with semiweekly measurements across a period of eight weeks, resulting in 16 consecutive time points. All 768 point clouds include temporally consistent pointwise instance labels, allowing analysis of temporal growth dynamics at the leaf scale. Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 enables the training and evaluation of both temporally consistent and non-consistent plant instance segmentation networks. The substantial manual annotations provide a reliable baseline. Across all time points, the dataset contains 6778 annotated leaves, spread across 675 individual leaf instances. In addition to the point cloud data, we provide phenotypical data in form of 58 plant-related and five leaf-related morphological parameters, automatically extracted for each plant or leaf at each time point. Completing this data set, we provide validation data for both parameter types. While plant-related parameters can be referenced using a 3D-printed plant reference model [LINK /articles/s41597-026-08326-5#ref-CR16] 16, leaf-related parameters are validated using invasive manual reference measurements of 450 individual leaves. Based on this data, Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 supports the implementation and validation of common and novel spatial and spatio-temporal morphological parameters. So far, we have used the dataset to analyze the benefit of spatio-temporal data for morphology-based plant genotype differentiation [LINK /articles/s41597-026-08326-5#ref-CR5] 5. Other possible use cases are 4D plant growth modeling and prediction [LINK /articles/s41597-026-08326-5#ref-CR17] 17, [LINK /articles/s41597-026-08326-5#ref-CR18] 18, temporal point cloud registration and organ tracking [LINK /articles/s41597-026-08326-5#ref-CR1] 1, [LINK #ref-CR11] 11, [LINK #ref-CR12] 12, [LINK /articles/s41597-026-08326-5#ref-CR13] 13, or the generation of synthetic plant point cloud data [LINK #ref-CR19] 19, [LINK #ref-CR20] 20, [LINK /articles/s41597-026-08326-5#ref-CR21] 21.
+Methods
+The data collection and processing protocols align with the procedures outlined in Bömer et al. [LINK /articles/s41597-026-08326-5#ref-CR5] 5, although we did a final revision of the manual labels before the publication of the dataset. The methods employed to generate Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 are described in detail below.
+Experimental Design
+We carried out the experiment under controlled greenhouse conditions at the Institute of Sugar Beet Research in Göttingen, Germany, between September and December 2021. Twelve different sugar beet (Beta vulgaris) genotypes were cultivated. These comprised eight non-commercial breeding lines (genotypes 1-8) exhibiting pronounced morphological variation, and four commercially available varieties (genotypes 9-12), which display more subtle phenotypic differences but are of higher agronomic relevance. We designed this selection to encompass a wide range of morphological growth variability in the dataset while retaining patterns representative of practical agricultural conditions. Examples of the resulting structural diversity are illustrated in Fig.  [LINK /articles/s41597-026-08326-5#Fig1] 1C. We cultivated all genotypes in fourfold repetition, resulting in 48 plants in total. The experiment layout followed a fully randomized block design. To avoid interactions among plants, such as shading or physical contact, we spatially separated the flowerpots. The experiment layout is portrayed in detail in Fig.  [LINK /articles/s41597-026-08326-5#Fig2] 2. Figure  [LINK /articles/s41597-026-08326-5#Fig1] 1A shows an overview of the experimental setup, illustrating the spatial layout and growing progress at 72 days after sowing (DAS).
+Fig. 1
+[LINK /articles/s41597-026-08326-5/figures/1] Full size image
+Experimental setup and data acquisition conditions of Sugar4D. Overview of the conducted greenhouse experiment at 72 days after sowing, including the utilized 3D-printed reference plant (bottom right) (A). We collected the dataset using a terrestrial LiDAR sensor, suspended upside-down on an extension arm mounted to a tripod (B). The final dataset encompasses preprocessed point clouds of sugar beet plants. Four different genotypes are depicted (from top left to bottom right: 9, 11, 3, and 4), highlighting the diversity of morphological traits present in the dataset (C).
+Fig. 2
+[LINK /articles/s41597-026-08326-5/figures/2] Full size image
+Experimental layout of the greenhouse trial. Each plant position is labeled with the genotype identifier (large number) and the global flowerpot number (small number). Terrestrial scanning positions are indicated by cross markers. The affiliation of each plant to data partitions for machine learning is color-coded.
+We used an automated climate control system to maintain a constant greenhouse temperature of 20∘C in the greenhouse (20.1  ± 4.9 ∘C, 41.2  ± 12.5% relative humidity), while artificial illumination with sodium-vapor lamps provided a 16-hour daily photoperiod. For the germination process, we placed the seeds in moist filter paper for four days. We transferred four seeds of the same genotype to a single two-liter flowerpot filled with a pre-fertilized substrate composed of equal parts sand and topsoil by weight (Gustav Lehmann Mörtel- u. Kieswerke GmbH, Germany). The selected flowerpot volume was adequate to rule out the potential impact of root or shoot growth restriction on plant morphology for the duration of the experiment. By 26 DAS, the plants in the flowerpots were gradually thinned, and only the most advanced plant was retained for the experiment.
+We maintained all plants under a uniform management protocol, including regular monitoring, integrated pest management using systemic fungicide (Tachigaren 70 WP; Mitsui Chemicals Crop & Life Solutions, Japan), beneficial organisms (Steinernema feltiae, Stratiolaelaps scimitus; Katz Biotech AG, Germany), and fertilizer application (liquid universal fertilizer (4% nitrogen, 2% phosphorus pentoxide, 2% potassium oxide), 50 mL, 1:40 ratio) at 81 and 88 DAS to ensure comparable growth conditions and plant health across all genotypes and replicates. Irrigation was conducted manually as required, as well as on the evenings prior to the next day’s data collection to ensure a sufficient turgor.
+3D Data Acquisition
+We consistently performed data acquisition in the early morning hours to ensure maximal leaf turgor and minimize diurnal variation in leaf attitude. The 3D point cloud data was acquired using a high precision terrestrial LiDAR sensor (Faro Focus S70; Faro Technologies Inc, USA), which operates at a wavelength of 1550 nm. The sensor measures up to 1 million points per second in a range of 0.6 m to 70.0 m with a ranging error of  ± 1.0 mm. For our experiment, we set the scanner resolution to 3.1 mm at a distance of 10.0 m to balance point density and scanning speed.
+We suspended the sensor in an inverted orientation on a camera arm (Mini Crane M1-III; iFootage, USA) attached to a tripod, as depicted in Fig.  [LINK /articles/s41597-026-08326-5#Fig1] 1B. This measuring setup enabled direct positioning of the sensor above the plants, thereby improving visibility of inner plant structures and reducing occlusion effects compared to common upright terrestrial laser scanning configurations. The camera arm was supported by lateral stabilizers to prevent any vibrations of the system introduced by the rotary motion of the LiDAR scanner.
+To ensure high spatial resolution and low occlusion, we collected data from ten scanning positions arranged in a circular pattern. The individual scanning positions are depicted in Fig.  [LINK /articles/s41597-026-08326-5#Fig2] 2. The complete data acquisition session required approximately one hour. To enable accurate registration of the individual scans into a unified 3D point cloud, we strategically positioned nine spherical reference targets (Ø145 mm; Laserscanning Europe GmbH, Germany) in and around the experiment.
+We conducted measurements at 16 consecutive time points at intervals of three to four days, with one exception between time points nine and ten, where the interval extended to seven days due to a sensor malfunction. The measurements started 37 DAS when plants had reached BBCH growth stage 12 to 14 and lasted 56 days until 93 DAS. This resulted in a total number of 768 point clouds.
+Point Cloud Processing
+After data collection in the greenhouse, we processed each individual scan using laser scanning software (Faro Scene; Faro Technologies Inc, USA). The processing included multiple filtering steps (stray point, low-reflectivity, edge artifact), manual annotation of the registration targets, and final registration into a unified point cloud with sub-millimeter point density utilizing the annotated targets. We monitored registration accuracy for each time point (see section Technical Validation).
+After registration, we transformed point clouds from all 16 time points into a standardized Cartesian coordinate system using three floor-mounted photogrammetric targets. Individual plant point clouds were automatically extracted based on their known coordinates. The ground plane was removed using Random Sample Consensus [LINK /articles/s41597-026-08326-5#ref-CR22] 22, followed by removal of remaining outliers were removed using a statistical outlier filter [LINK /articles/s41597-026-08326-5#ref-CR23] 23.
+Point Cloud Annotation
+We annotated the point clouds using an online data labeling platform ( [LINK https://segments.ai] https://segments.ai; Segments.ai BV, Belgium). A single annotator performed the initial annotations to ensure label consistency, and an independent second annotator revised them to enhance overall label accuracy. An independent third annotator reviewed and did a final correction of all annotations to ensure label integrity. The annotation time varied with plant size and time point, ranging from a few minutes for emerging plants to multiple hours for fully grown plants. In total, the annotation of the dataset took several months to complete.
+Before semantic labeling, we manually refined the point clouds by removing the flowerpot, soil, and remaining outliers. The cleaned plant point cloud was then segmented into the three semantic classes of leaf, core, and taproot, as depicted in Fig.  [LINK /articles/s41597-026-08326-5#Fig3] 3A. core signifies the innermost plant region at the center of the leaf rosette, where point density and acquisition precision of the LiDAR scanner proved insufficient for reliable manual labeling of emerging leaves. Refinement of the semantic leaf annotations led to the generation of instance labels for each leaf, as depicted in Fig.  [LINK /articles/s41597-026-08326-5#Fig3] 3B. We generated the instance labels of Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 to maintain temporal consistency, which enables the monitoring of individual leaves throughout their respective growth duration. Figure  [LINK /articles/s41597-026-08326-5#Fig4] 4 illustrates a representation of these consistent instance labels for two plants of different growth types.
+Fig. 3
+[LINK /articles/s41597-026-08326-5/figures/3] Full size image
+Available pointwise annotations of Sugar4D, showing semantic labels for class leaf (blue), core (red), and taproot (green) (A), and corresponding instance labels for class leaf (B).
+Fig. 4
+[LINK /articles/s41597-026-08326-5/figures/4] Full size image
+Temporally consistent annotated point clouds of Sugar4D, illustrating temporal leaf development and architectural differences between growth types covering five time points (37, 51, 65, 79, and 93 days after sowing). The upper row shows genotype 9 with a sparse growth type and loosely arranged leaves, while the lower row shows genotype 8 with a compact growth type and densely packed leaves.
+Morphological Parameters
+Besides extensive annotations, Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 provides automatically extracted single plant-related and single leaf-related morphological parameters. A total of 58 single plant-related parameters are provided for all 768 plant point clouds. They encompass 37 plant-based and 21 leaf-based parameters. The extraction pipeline was implemented in Python [LINK /articles/s41597-026-08326-5#ref-CR24] 24 (v.3.10.0) and relies primarily on NumPy [LINK /articles/s41597-026-08326-5#ref-CR25] 25 (v.1.26.4), SciPy [LINK /articles/s41597-026-08326-5#ref-CR26] 26 (v.1.14.0), and Open3D [LINK /articles/s41597-026-08326-5#ref-CR23] 23 (v.0.18.0) for point cloud processing. It is described in detail in Bömer et al. [LINK /articles/s41597-026-08326-5#ref-CR5] 5, where Table 1 and Table 2 provide the formal definition of each released plant- and leaf-related parameter, the complete list of dependencies and versions is stated, and the corresponding Python code is published as supplementary material (see section Code availability). The parameters include standard traits such as plant height and width, as well as more complex ones such as Leaf Overlap Index and Gap Fraction. Several parameters require a defined plant growth point, which we manually annotated in the initial recording and propagated to all subsequent time points, as the flowerpot positions remained fixed throughout the experiment. We used a 3D-printed reference model of a sugar beet plant following Bömer et al. [LINK /articles/s41597-026-08326-5#ref-CR16] 16 to provide a method to validate the extracted parameters, since manual reference measurements cannot be conducted for most higher dimensional parameters. The model was included in the data acquisition process 15 times (see Fig.  [LINK /articles/s41597-026-08326-5#Fig1] 1A).
+In addition to single plant-related parameters, we provide five single leaf-related parameters for all 6778 annotated leaves of the dataset. These were automatically extracted using a template matching approach based on Marks et al. [LINK /articles/s41597-026-08326-5#ref-CR27] 27 and encompass the Leaf Length, Blade Length and Blade Width, Petiole Length, and Leaf Area. We performed invasive measurements after the final data acquisition at 93 DAS to provide manual reference data for four leaf-related parameters and validate the template matching approach. Therefore, we detached leaves from the taproot and measured the Leaf Length, Blade Length and Blade Width, and Petiole Length of 450 leaves according to official variety testing protocols [LINK /articles/s41597-026-08326-5#ref-CR28] 28. Leaf Area was not measured manually because no reliable invasive manual reference measurement can be conducted given the irregular curvature and the blistered geometry of sugar beet leaves. All measurements are provided together with their corresponding leaf instance label.
+Data Records
+Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 is available at the public access repository bonndata under CC BY 4.0 license. The dataset has a total size of 5.8 GB. Figure  [LINK /articles/s41597-026-08326-5#Fig5] 5 depicts the repository structure, which is split into three main directories. These comprise the annotated point cloud data, automated morphological measurements together with automatic and manual reference measurements, and additional supplementary material including the technical validation results.
+Fig. 5
+[LINK /articles/s41597-026-08326-5/figures/5] Full size image
+Directory structure of Sugar4D. The dataset is organized into three main sections: point_clouds contains the labeled plant point cloud data and predefined data splits, measurements includes the automatically extracted morphological parameters along with corresponding reference measurements and 3D models of the utilized reference plant, and supplements provides additional experiment related information, a Python script for visualization of the dataset, and technical validation results.
+The main directory point_clouds contains 17 subdirectories, 16 of which contain point cloud data. Each recording subdirectory is named after the recording time point encoded in DAS and contains 48 individual point clouds. Users can attribute the nomenclature of the plant point clouds to individual genotypes using the experiment layout plan (Fig.  [LINK /articles/s41597-026-08326-5#Fig2] 2). The point clouds are stored in a binary .ply file format [LINK /articles/s41597-026-08326-5#ref-CR29] 29, which supports user-defined elements and properties, such as label indices, beyond the standard point cloud representation. Each vertex in the point cloud contains the following information:
+coordinates  → x, y, z
+normals  → nx, ny, nz
+annotations  → label_semantic, label_instance
+The annotations are provided in form of integer values:
+taproot  → semantic: 0; instance: -2
+core  → semantic: 1; instance: -1
+leaf  → semantic: 2; instance: 0-19
+The remaining subdirectory splits provides a predefined dataset partition intended for machine learning applications. We performed partitioning at the plant level and used a random 50:25:25 split for training, testing, and validation, while ensuring that each cultivated genotype is represented in all three subsets.
+The main directory measurements contains automatically extracted single plant- and leaf-related morphological parameters for all point clouds (plant_related.csv, leaf_related.csv). It includes the subdirectory reference, which provides all data required for parameter validation. This subdirectory contains manual measurements of 450 individual leaves (leaf_related_manual.csv), validation results for all extracted parameters (plant_related_ref_plant.csv), and the corresponding point clouds needed for validation (ref_plant/point_clouds).
+The main directory supplements contains additional resources that support the use of the dataset. It includes the experimental layout (experiment_layout.png) and the calibration certificate of the employed LiDAR sensor (sensor_calibration.pdf). The directory also contains the growth point of each plant, which is required for computing, validating, and extending derived parameters (growth_points.npy). For a straightforward visual inspection of Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15, we provide a basic Python script (visualize.py). It requires Open3D [LINK /articles/s41597-026-08326-5#ref-CR23] 23 (version ≥ 0.16.0) and allows the visualization of individual plants with semantic or instance annotations at a single time point, over a specified time period, or across the full dataset. The script can be executed from the command line as follows:
+python visualize.py --plant PLANT_ID --label LABEL_TYPE --time_point TIME_POINT
+where:
+PLANT_ID: plant identifier, e.g. 001
+LABEL_TYPE: label type, either semantic or instance
+TIME_POINT: time selection: a single index (e.g. 1), a time period (e.g. 1-9), or all
+Annotation accuracy is assessed for each plant in label_position and label_presence. Additional details are provided in the section Technical Validation.
+Technical Validation
+Spatial Point Cloud Integrity
+The functionality and precision of the utilized LiDAR sensor is documented by the enclosed sensor calibration certificate. It verifies the sensor’s high 3D position accuracy and low ranging noise, with errors  <1.0 mm.
+We collected ten individual scans from varying positions within the experimental setting and registered them into a unified point cloud. To quantify the spatial integrity of the resulting point clouds, we evaluated registration quality using target- and scan point-based statistics exported from the registration software. While the target-based statistics provide registration quality information of the scene based on the utilized spherical reference targets, the scan point statistics evaluate the agreement between the overlapping parts of two scans. These metrics assess whether scan alignment is both geometrically consistent and supported by dense surface agreement. Summary statistics per time point are reported in Table  [LINK /articles/s41597-026-08326-5#Tab2] 2.
+Table 2 Registration quality metrics for individual LiDAR scans at each time point, including target-based distance/horizontal/vertical errors and scan-based point errors and overlap (n=10).
+[LINK /articles/s41597-026-08326-5/tables/2] Full size table
+The target-based statistics show consistently low errors. Across all time points, the mean target distance error averages 2.6  ± 0.4 mm, with mean horizontal and vertical distance errors of 1.4  ± 0.2 mm and 1.9  ± 0.4 mm, respectively. Maximum target distance errors remain low overall, with mean maxima of 8.3  ± 1.4 mm distance, 4.6  ± 1.1 mm horizontal, and 8.1  ± 1.5 mm vertical error. These results indicate the absence of systematically incorrect registrations or isolated mismatches.
+The scan point statistics confirm these findings. The mean point error across overlapping regions is 1.8  ± 0.4 mm across all time points, with a mean maximum point error of 2.6  ± 0.7 mm. Due to the ten individual 3D scans per time point, the minimal overlap of all individual scans is very high with 84.3  ± 6.0%.
+Overall, both target- and scan point-based measures indicate stable, millimeter-level registration accuracy across all time points, supporting high spatial consistency of Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15.
+Temporal Annotation Integrity
+The spatial precision of the manual annotations is ensured by our labor-intensive, consecutive three-step annotation procedure. Given the dataset’s size, occasional temporal instance annotation errors may occur and can bias downstream analyses. To ensure label integrity, we verify the temporal consistency of semantic and instance annotations and track label positions over time to detect temporal label permutations.
+To assess temporal consistency and identify potential temporal annotation errors, we extracted all labels for each plant at each time point to obtain a per-plant temporal annotation overview diagram. Figure  [LINK /articles/s41597-026-08326-5#Fig6] 6A shows an example of temporally inconsistent annotations. This visualization enabled the identification and correction of three temporal annotation error types: single-frame omissions visible as isolated missing labels (Fig.  [LINK /articles/s41597-026-08326-5#Fig6] 6A1), persistent label permutations reflected by consecutive label disappearance and reappearance (Fig.  [LINK /articles/s41597-026-08326-5#Fig6] 6A2), and temporal label reuse indicated by the delayed reintroduction of a previously used instance label (Fig.  [LINK /articles/s41597-026-08326-5#Fig6] 6A3).
+Fig. 6
+[LINK /articles/s41597-026-08326-5/figures/6] Full size image
+Visualization of the annotation integrity diagrams, highlighting common temporal annotation errors (A) alongside within-plant label permutations (B). Detectable errors are marked with red squares. (A) shows the temporal label occurrence per plant, where each square represents the presence of a label. Detected errors include single-frame mistaken identity (1), persistent instance label shifts (2), and label re-use (3). (B) visualizes within-plant temporal label center translation. Detected errors include single-frame (4) and constant permutations (5).
+To prevent accidental within-plant label permutations, we quantified the positional change of each label by computing the translation of its centroid relative to the previous time point. Permutations appear as sudden increases in centroid displacement of two instance labels, as shown in Fig.  [LINK /articles/s41597-026-08326-5#Fig6] 6B. Single-frame permutations produce two consecutive high displacement values due to the bidirectional label interchange (Fig.  [LINK /articles/s41597-026-08326-5#Fig6] 6B4), whereas temporally constant permutations yield a single sustained increase due to a one-time label change (Fig.  [LINK /articles/s41597-026-08326-5#Fig6] 6B5). A sudden increase in displacement provides a strong indication that a label permutation is present, although it may also result from differential growth or turgor changes.
+To quantify the temporal consistency of leaf instance identity in the released annotations, we summarized the centroid displacement of all leaf instances between consecutive time points across all 48 plants. Table  [LINK /articles/s41597-026-08326-5#Tab3] 3 reports the resulting distribution per time interval. The displacement decreases over the course of the experiment, from a mean of 2.85 cm in the first interval to below 1.00 cm in the later intervals, which is consistent with rapid leaf growth in early developmental stages and a stabilization of leaf position as the plants mature. The 95th percentile remains close to the mean across all intervals, indicating that the large majority of displacements correspond to genuine growth and turgor variation. The few larger values per interval, reflected by the difference between the 95th percentile and the maximum, were individually inspected as part of the three-step annotation procedure to identify label permutations.
+Table 3 Leaf instance centroid displacement between consecutive time points across all 48 plants.
+[LINK /articles/s41597-026-08326-5/tables/3] Full size table
+We reviewed all annotated instances and corrected them as needed, so that the released dataset contains no temporal label permutations. Our analysis does not quantify point-level annotation accuracy or independent annotator agreement, in consequence of our consecutive labeling approach. The final temporal annotation examinations for each plant are provided in Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15.
+Morphological Parameter Validation
+The 58 released plant-related parameters of Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 were validated against a 3D-printed sugar beet reference model following Bömer et al. [LINK /articles/s41597-026-08326-5#ref-CR16] 16. Repeated scanning of this reference model under varying conditions allows the extracted parameters to be compared against benchmark values derived from the corresponding digital base model, providing an assessment of their accuracy and repeatability. Based on 15 repeated measurements, we quantified the systematic bias and the scan-to-scan variability of the extracted parameters. Table  [LINK /articles/s41597-026-08326-5#Tab4] 4 reports the resulting statistical analysis for all plant-related parameters, summarizing complementary metrics that distinguish accuracy-related bias from precision-related scatter.
+Table 4 Relative error metrics for all morphological plant-related parameters derived from all scans of the 3D-printed plant reference model compared to the digital base model (n = 15).
+[LINK /articles/s41597-026-08326-5/tables/4] Full size table
+The Mean Percentage Error (MPE) quantifies systematic offsets, the Mean Absolute Percent age Error (MAPE) and Root Mean Square Percentage Error (RMSPE) characterize the typical magnitude of deviations, the Maximum Absolute Percentage Error (MaxAPE) captures worst-case behavior, and the Standard Deviation (SD) and Coefficient of Variation (CV) describe variability. The majority of parameters are extracted reliably, with simple geometric traits such as Width Major Axis, Convex Hull Perimeter, Height Maximum, and Spatial Extent Maximum showing MAPE values below 2% and CV values below 1%. Leaf Quantity is reproduced exactly across all scans, as it is based on the manual annotations. In contrast, parameters derived from the leaf blade are the least reliable, with Blade Width Maximum and Normal Angle Kurtosis reaching MAPE values above 75%. The benefit of reporting both bias and scatter is illustrated by Stem Length Mean, which exhibits a high systematic deviation with an MAPE of 27.51% but a very low CV of 0.99%, indicating a stable yet systematically biased extraction. In general, the deviation increases with the complexity of the parameter calculation, and parameters based on the interquartile range or standard deviation are more sensitive than parameters based on maxima or means. Rather than omitting less reliable parameters, Table  [LINK /articles/s41597-026-08326-5#Tab4] 4 documents the deviations of the complete released parameter set, enabling users to judge the suitability of each parameter for their specific application.
+The released leaf-related parameters were validated against manual reference data measured on a single leaf basis. Contrary to the established BonnBeetClouds3D [LINK /articles/s41597-026-08326-5#ref-CR30] 30 dataset, which provides average values per experiment plot, the manual reference data is provided per individual leaf. Table  [LINK /articles/s41597-026-08326-5#Tab5] 5 reports the validation of our leaf parameter extraction algorithm based on template matching [LINK /articles/s41597-026-08326-5#ref-CR27] 27 against this reference. Since no reliable manual reference data was available for Leaf Area, this parameter was excluded from validation.
+Table 5 Error metrics describing the accuracy and agreement of our leaf template matching approach for single leaf-related parameter estimation, covering four of five released parameters for which manual reference measurements were feasible (n = 450).
+[LINK /articles/s41597-026-08326-5/tables/5] Full size table
+The metrics characterize the systematic bias using Mean Error (ME), typical absolute and relative errors using Mean Absolute Error (MAE) and MAPE, the sensitivity to extreme deviations using Root Mean Square Error (RMSE), and the overall agreement using the Concordance Correlation Coefficient (CCC). Across parameters, MAE values between 1.09 cm and 2.38 cm indicate that most measurements are close to the manual reference, whereas consistently higher RMSE values indicate occasional large deviations. Blade Width shows low systematic bias but a substantially higher RMSE together with a reduced CCC, which indicates a small number of extreme outliers. Positive ME values for Blade Length and Leaf Length indicate a systematic overestimation, while the negative value for Petiole Length indicates a systematic underestimation.
+Together, the validation against the 3D-printed reference model and the manual measurements documents the reliability of the released morphological parameters and supports their verification and interpretation in downstream analyses. The reference data can also be used to validate novel morphological parameters implemented on Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 in the future.
+Data availability
+Sugar4D is available at the public access repository bonndata at  [LINK https://doi.org/10.60507/FK2/IS8YBZ] https://doi.org/10.60507/FK2/IS8YBZ under CC BY 4.0 license.
+Code availability
+A Python implementation for loading and visualizing the point clouds of Sugar4D [LINK /articles/s41597-026-08326-5#ref-CR15] 15 is included in the dataset repository. The scripts used to extract the released plant- and leaf-related morphological parameters are published as supplementary material to Bömer et al. [LINK /articles/s41597-026-08326-5#ref-CR5] 5 and are available at  [LINK https://static-content.springer.com/esm/art%3A10.1007%2Fs11119-026-10337-6/MediaObjects/11119_2026_10337_MOESM2_ESM.zip] https://static-content.springer.com/esm/art%3A10.1007%2Fs11119-026-10337-6/MediaObjects/11119_2026_10337_MOESM2_ESM.zip.
+References
+Chebrolu, N., Magistri, F., Läbe, T. & Stachniss, C. Registration of spatio-temporal point clouds of plants for phenotyping. PloS one 16, e0247243  [LINK https://doi.org/10.1371/journal.pone.0247243] https://doi.org/10.1371/journal.pone.0247243 (2021).
+[LINK https://doi.org/10.1371%2Fjournal.pone.0247243] Article
+[LINK /articles/cas-redirect/1:CAS:528:DC%2BB3MXlvVKlsb0%3D] CAS
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33630896] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7906482] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=Registration%20of%20spatio-temporal%20point%20clouds%20of%20plants%20for%20phenotyping&journal=PloS%20one&doi=10.1371%2Fjournal.pone.0247243&volume=16&publication_year=2021&author=Chebrolu%2CN&author=Magistri%2CF&author=L%C3%A4be%2CT&author=Stachniss%2CC]
+Google Scholar
+Schunck, D. et al. Pheno4d: A spatio-temporal dataset of maize and tomato plant point clouds for phenotyping and advanced plant analysis. Plos one 16, e0256340 (2021).
+[LINK https://doi.org/10.1371%2Fjournal.pone.0256340] Article
+[LINK /articles/cas-redirect/1:CAS:528:DC%2BB3MXhvVOhsbfJ] CAS
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34407122] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8372960] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=Pheno4d%3A%20A%20spatio-temporal%20dataset%20of%20maize%20and%20tomato%20plant%20point%20clouds%20for%20phenotyping%20and%20advanced%20plant%20analysis&journal=Plos%20one&doi=10.1371%2Fjournal.pone.0256340&volume=16&publication_year=2021&author=Schunck%2CD]
+Google Scholar
+Akhtar, M. S., Zafar, Z., Nawaz, R. & Fraz, M. M. Unlocking plant secrets: A systematic review of 3d imaging in plant phenotyping techniques. Computers and Electronics in Agriculture 222, 109033  [LINK https://doi.org/10.1016/j.compag.2024.109033] https://doi.org/10.1016/j.compag.2024.109033 (2024).
+[LINK https://doi.org/10.1016%2Fj.compag.2024.109033] Article
+[LINK http://scholar.google.com/scholar_lookup?&title=Unlocking%20plant%20secrets%3A%20A%20systematic%20review%20of%203d%20imaging%20in%20plant%20phenotyping%20techniques&journal=Computers%20and%20Electronics%20in%20Agriculture&doi=10.1016%2Fj.compag.2024.109033&volume=222&publication_year=2024&author=Akhtar%2CMS&author=Zafar%2CZ&author=Nawaz%2CR&author=Fraz%2CMM]
+Google Scholar
+Chang, J., Walsh, J. J., Mangina, E., Ruan, J. & Negrão, S. Ai-driven 3d point cloud analysis in plant phenotyping: A systematic review. Smart Agricultural Technology101869,  [LINK https://doi.org/10.1016/j.atech.2026.101869] https://doi.org/10.1016/j.atech.2026.101869 (2026).
+Bömer, J. et al. Spatio-temporal 4d phenotyping for automated morphological genotype differentiation of sugar beet. Precision Agriculture 27, 50  [LINK https://doi.org/10.1007/s11119-026-10337-6] https://doi.org/10.1007/s11119-026-10337-6 (2026).
+[LINK https://link.springer.com/doi/10.1007/s11119-026-10337-6] Article
+[LINK http://scholar.google.com/scholar_lookup?&title=Spatio-temporal%204d%20phenotyping%20for%20automated%20morphological%20genotype%20differentiation%20of%20sugar%20beet&journal=Precision%20Agriculture&doi=10.1007%2Fs11119-026-10337-6&volume=27&publication_year=2026&author=B%C3%B6mer%2CJ]
+Google Scholar
+Ispizua Yamati, F. R. et al. Hybrid modeling of cercospora leaf spot epidemiology: Integrating mechanistic and machine learning approaches using remote-sensing and environmental data. Phytopathology (2025).
+Drees, L., Junker-Frohn, L. V., Kierdorf, J. & Roscher, R. Temporal prediction and evaluation of brassica growth in the field using conditional generative adversarial networks. Computers and Electronics in Agriculture 190, 106415 (2021).
+[LINK https://doi.org/10.1016%2Fj.compag.2021.106415] Article
+[LINK http://scholar.google.com/scholar_lookup?&title=Temporal%20prediction%20and%20evaluation%20of%20brassica%20growth%20in%20the%20field%20using%20conditional%20generative%20adversarial%20networks&journal=Computers%20and%20Electronics%20in%20Agriculture&doi=10.1016%2Fj.compag.2021.106415&volume=190&publication_year=2021&author=Drees%2CL&author=Junker-Frohn%2CLV&author=Kierdorf%2CJ&author=Roscher%2CR]
+Google Scholar
+Ma, H. et al. 3d time-series phenotyping of lettuce in greenhouses. Biosystems Engineering 250, 250–269 (2025).
+[LINK https://doi.org/10.1016%2Fj.biosystemseng.2025.01.004] Article
+[LINK /articles/cas-redirect/1:CAS:528:DC%2BB2MXitVCitr0%3D] CAS
+[LINK http://scholar.google.com/scholar_lookup?&title=3d%20time-series%20phenotyping%20of%20lettuce%20in%20greenhouses&journal=Biosystems%20Engineering&doi=10.1016%2Fj.biosystemseng.2025.01.004&volume=250&pages=250-269&publication_year=2025&author=Ma%2CH]
+Google Scholar
+Gilson, A., Meyer, L., Scholz, O. & Schmid, U. Omniplantseg: Species agnostic 3d point cloud organ segmentation for high-resolution plant phenotyping across modalities (2025).
+Song, H., Wen, W., Wu, S. & Guo, X. Comprehensive review on 3d point cloud segmentation in plants. Artificial Intelligence in Agriculture 15, 296–315  [LINK https://doi.org/10.1016/j.aiia.2025.01.006] https://doi.org/10.1016/j.aiia.2025.01.006 (2025).
+[LINK https://doi.org/10.1016%2Fj.aiia.2025.01.006] Article
+[LINK http://scholar.google.com/scholar_lookup?&title=Comprehensive%20review%20on%203d%20point%20cloud%20segmentation%20in%20plants&journal=Artificial%20Intelligence%20in%20Agriculture&doi=10.1016%2Fj.aiia.2025.01.006&volume=15&pages=296-315&publication_year=2025&author=Song%2CH&author=Wen%2CW&author=Wu%2CS&author=Guo%2CX]
+Google Scholar
+Zhang, T., Elnashef, B. & Filin, S. Spatio-temporal registration of plants non-rigid 3-d structure. ISPRS Journal of Photogrammetry and Remote Sensing 205, 263–283  [LINK https://doi.org/10.1016/j.isprsjprs.2023.10.009] https://doi.org/10.1016/j.isprsjprs.2023.10.009 (2023).
+[LINK https://doi.org/10.1016%2Fj.isprsjprs.2023.10.009] Article
+[LINK http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2023JPRS..205..263Z] ADS
+[LINK http://scholar.google.com/scholar_lookup?&title=Spatio-temporal%20registration%20of%20plants%20non-rigid%203-d%20structure&journal=ISPRS%20Journal%20of%20Photogrammetry%20and%20Remote%20Sensing&doi=10.1016%2Fj.isprsjprs.2023.10.009&volume=205&pages=263-283&publication_year=2023&author=Zhang%2CT&author=Elnashef%2CB&author=Filin%2CS]
+Google Scholar
+Li, D., Liu, L., Xu, S. & Jin, S. Trackplant3d: 3d organ growth tracking framework for organ-level dynamic phenotyping. Computers and Electronics in Agriculture 226, 109435  [LINK https://doi.org/10.1016/j.compag.2024.109435] https://doi.org/10.1016/j.compag.2024.109435 (2024).
+[LINK https://doi.org/10.1016%2Fj.compag.2024.109435] Article
+[LINK http://scholar.google.com/scholar_lookup?&title=Trackplant3d%3A%203d%20organ%20growth%20tracking%20framework%20for%20organ-level%20dynamic%20phenotyping&journal=Computers%20and%20Electronics%20in%20Agriculture&doi=10.1016%2Fj.compag.2024.109435&volume=226&publication_year=2024&author=Li%2CD&author=Liu%2CL&author=Xu%2CS&author=Jin%2CS]
+Google Scholar
+Dutta, S., Russig, B. & Gumhold, S. Enhanced plant phenotyping through spatio-temporal point cloud registration. In Magnenat-Thalmann, N. et al. (eds.) Advances in Computer Graphics, 358–370 (Springer Nature Switzerland, 2025).
+James, K. M. F., Heiwolt, K., Sargent, D. J. & Cielniak, G. Lincoln’s annotated spatio-temporal strawberry dataset (last-straw). In Del Bue, A., Canton, C., Pont-Tuset, J. & Tommasi, T. (eds.) Computer Vision – ECCV 2024 Workshops, 46–63 (Springer Nature Switzerland, 2025).
+Bömer, J. et al. Sugar4D. bonndata  [LINK https://doi.org/10.60507/FK2/IS8YBZ] https://doi.org/10.60507/FK2/IS8YBZ (2026).
+Bömer, J. et al. A 3D printed plant model for accurate and reliable 3D plant phenotyping. GigaScience 13, giae035 (2024).
+[LINK https://doi.org/10.1093%2Fgigascience%2Fgiae035] Article
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=38897734] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC11186670] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=A%203D%20printed%20plant%20model%20for%20accurate%20and%20reliable%203D%20plant%20phenotyping&journal=GigaScience&doi=10.1093%2Fgigascience%2Fgiae035&volume=13&publication_year=2024&author=B%C3%B6mer%2CJ]
+Google Scholar
+Golla, T., Kneiphof, T., Kuhlmann, H., Weinmann, M. & Klein, R. Temporal upsampling of point cloud sequences by optimal transport for plant growth visualization. In Computer Graphics Forum, vol. 39, 167–179 (Wiley Online Library, 2020).
+Adebola, S. et al. Growsplat: Constructing temporal digital twins of plants with gaussian splats. In IEEE International Conference on Automation Science and Engineering (CASE), 1766–1773 (2025).
+Roggiolani, G., Bailey, B. N., Behley, J. & Stachniss, C. Generation of labeled leaf point clouds for plants trait estimation. Plant Phenomics 7, 100071  [LINK https://doi.org/10.1016/j.plaphe.2025.100071] https://doi.org/10.1016/j.plaphe.2025.100071 (2025).
+[LINK https://doi.org/10.1016%2Fj.plaphe.2025.100071] Article
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=41416199] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC12710001] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=Generation%20of%20labeled%20leaf%20point%20clouds%20for%20plants%20trait%20estimation&journal=Plant%20Phenomics&doi=10.1016%2Fj.plaphe.2025.100071&volume=7&publication_year=2025&author=Roggiolani%2CG&author=Bailey%2CBN&author=Behley%2CJ&author=Stachniss%2CC]
+Google Scholar
+Xu, H. et al. Diff-tree: A diffusion model for diversified tree point cloud generation with high realism. Remote Sensing 17,  [LINK https://doi.org/10.3390/rs17050923] https://doi.org/10.3390/rs17050923 (2025).
+Hartley, Z. K. J., A G Stuart, L., French, A. P. & Pound, M. P. Plantdreamer: Achieving realistic 3d plant models with diffusion-guided gaussian splatting. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, 7069–7079 (2025).
+Fischler, M. A. & Bolles, R. C. Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography. Commun. ACM 24, 381–395  [LINK https://doi.org/10.1145/358669.358692] https://doi.org/10.1145/358669.358692 (1981).
+[LINK https://doi.org/10.1145%2F358669.358692] Article
+[LINK http://www.ams.org/mathscinet-getitem?mr=618158] MathSciNet
+[LINK http://scholar.google.com/scholar_lookup?&title=Random%20sample%20consensus%3A%20a%20paradigm%20for%20model%20fitting%20with%20applications%20to%20image%20analysis%20and%20automated%20cartography&journal=Commun.%20ACM&doi=10.1145%2F358669.358692&volume=24&pages=381-395&publication_year=1981&author=Fischler%2CMA&author=Bolles%2CRC]
+Google Scholar
+Zhou, Q.-Y., Park, J. & Koltun, V. Open3D: A modern library for 3D data processing. (2018).
+Van Rossum, G. & Drake, F. L. Python reference manual. Amsterdam: Centrum voor Wiskunde en Informatica 111, 1–52 (1995).
+[LINK http://scholar.google.com/scholar_lookup?&title=Python%20reference%20manual&journal=Amsterdam%3A%20Centrum%20voor%20Wiskunde%20en%20Informatica&volume=111&pages=1-52&publication_year=1995&author=Rossum%2CG&author=Drake%2CFL]
+Google Scholar
+Harris, C. R. et al. Array programming with NumPy. Nature 585, 357–362 (2020).
+[LINK https://doi.org/10.1038%2Fs41586-020-2649-2] Article
+[LINK http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020Natur.585..357H] ADS
+[LINK /articles/cas-redirect/1:CAS:528:DC%2BB3cXitlWmsbbN] CAS
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32939066] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7759461] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=Array%20programming%20with%20NumPy&journal=Nature&doi=10.1038%2Fs41586-020-2649-2&volume=585&pages=357-362&publication_year=2020&author=Harris%2CCR]
+Google Scholar
+Virtanen, P. et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nature Methods 17, 261–272 (2020).
+[LINK https://doi.org/10.1038%2Fs41592-019-0686-2] Article
+[LINK /articles/cas-redirect/1:CAS:528:DC%2BB3cXislCjuro%3D] CAS
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32015543] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7056644] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=SciPy%201.0%3A%20fundamental%20algorithms%20for%20scientific%20computing%20in%20Python&journal=Nature%20Methods&doi=10.1038%2Fs41592-019-0686-2&volume=17&pages=261-272&publication_year=2020&author=Virtanen%2CP]
+Google Scholar
+Marks, E., Magistri, F. & Stachniss, C. Precise 3d reconstruction of plants from uav imagery combining bundle adjustment and template matching. In International Conference on Robotics and Automation (ICRA), 2259–2265 (2022).
+Community Plant Variety Office. Protocol for tests on distinctness, uniformity and stability: Beta vulgaris l. ssp. vulgaris var. altissima döll.  [LINK https://cpvo.europa.eu/sites/default/files/documents/beta_vulgaris_sugarbeet_1.2_0.pdf] https://cpvo.europa.eu/sites/default/files/documents/beta_vulgaris_sugarbeet_1.2_0.pdf Accessed 2026-01-31. (2018).
+Turk, G. The ply polygon file format. Tech. Rep., Leland Stanford Junior University (1994).
+Marks, E. et al. Bonnbeetclouds3d: A dataset towards point cloud-based organ-level phenotyping of sugar beet plants under real field conditions. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 1804–1811 (2024).
+Khanna, R. et al. A spatio temporal spectral framework for plant stress phenotyping. Plant methods 15, 13 (2019).
+[LINK https://link.springer.com/doi/10.1186/s13007-019-0398-8] Article
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30774703] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6364450] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=A%20spatio%20temporal%20spectral%20framework%20for%20plant%20stress%20phenotyping&journal=Plant%20methods&doi=10.1186%2Fs13007-019-0398-8&volume=15&publication_year=2019&author=Khanna%2CR]
+Google Scholar
+Stuart Lewis, A. G. et al. Supporting data for “high-fidelity wheat plant reconstruction using 3d gaussian splatting and neural radiance fields”. GigaScience Database (2025).
+Navlakha, S. 3d scans of plant shoot architectures. Dryad (2019).
+Chong, Y. L. et al. The multi-sensor and multi-temporal dataset of multiple crops for in-field phenotyping and monitoring. Scientific Data (2026).
+Zhu, J. et al. Crops3d: a diverse 3d crop dataset for realistic perception and segmentation toward agricultural applications. Scientific Data 11, 1438 (2024).
+[LINK https://doi.org/10.1038%2Fs41597-024-04290-0] Article
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=39730336] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC11681092] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=Crops3d%3A%20a%20diverse%203d%20crop%20dataset%20for%20realistic%20perception%20and%20segmentation%20toward%20agricultural%20applications&journal=Scientific%20Data&doi=10.1038%2Fs41597-024-04290-0&volume=11&publication_year=2024&author=Zhu%2CJ]
+Google Scholar
+Galba, A. et al. Annotated 3d point cloud dataset of broad-leaf legumes captured by high-throughput phenotyping platform. Scientific Data 12, 1764 (2025).
+[LINK https://doi.org/10.1038%2Fs41597-025-06049-7] Article
+[LINK http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=41213977] PubMed
+[LINK http://www.ncbi.nlm.nih.gov/pmc/articles/PMC12603112] PubMed Central
+[LINK http://scholar.google.com/scholar_lookup?&title=Annotated%203d%20point%20cloud%20dataset%20of%20broad-leaf%20legumes%20captured%20by%20high-throughput%20phenotyping%20platform&journal=Scientific%20Data&doi=10.1038%2Fs41597-025-06049-7&volume=12&publication_year=2025&author=Galba%2CA]
+Google Scholar
+Sun, Y. et al. Soybean-mvs: Annotated three-dimensional model dataset of whole growth period soybeans for 3d plant organ segmentation. Agriculture 13 (2023).
+[LINK https://citation-needed.springer.com/v2/references/10.1038/s41597-026-08326-5?format=refman&flavour=references] Download references
+Acknowledgements
+We would like to express our gratitude to the German Federal Plant Variety Office for their expertise and support in conducting the greenhouse trials. Furthermore, we would like to acknowledge the contributions of Saskia Flentje, Jonathan Eggers, Dirk Koops, and Kiara Burgsmüller, who helped maintaining the experiment and collecting and annotating the data. Finally, we would like to emphasize Saskia Flentje's exceptional efforts in initially annotating the collected point cloud data set.
+Funding
+The project was supported by funds of the Federal Ministry of Food and Agriculture (BMEL) based on a decision of the Parliament of the Federal Republic of Germany. The Federal Office for Agriculture and Food (BLE) provides coordinating support for artificial intelligence (AI) in agriculture as funding organisation, grant number 28DK108C20. This work has partially been funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy - EXC 2070 - 390732324. Open Access funding enabled and organized by Projekt DEAL.
+Author information
+Authors and Affiliations
+Institute of Sugar Beet Research, Göttingen, Germany
+Jonas Bömer, Facundo Ramón Ispizua Yamati, Stefan Paulus & Anne-Katrin Mahlein
+Center for Robotics, University of Bonn, Bonn, Germany
+Elias Marks & Cyrill Stachniss
+Authors
+Jonas Bömer
+[LINK /search?author=Jonas%20B%C3%B6mer] View author publications
+Search author on: [LINK https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jonas%20B%C3%B6mer] PubMed  [LINK https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jonas%20B%C3%B6mer%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en] Google Scholar
+Elias Marks
+[LINK /search?author=Elias%20Marks] View author publications
+Search author on: [LINK https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Elias%20Marks] PubMed  [LINK https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Elias%20Marks%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en] Google Scholar
+Facundo Ramón Ispizua Yamati
+[LINK /search?author=Facundo%20Ram%C3%B3n%20Ispizua%20Yamati] View author publications
+Search author on: [LINK https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Facundo%20Ram%C3%B3n%20Ispizua%20Yamati] PubMed  [LINK https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Facundo%20Ram%C3%B3n%20Ispizua%20Yamati%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en] Google Scholar
+Cyrill Stachniss
+[LINK /search?author=Cyrill%20Stachniss] View author publications
+Search author on: [LINK https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Cyrill%20Stachniss] PubMed  [LINK https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Cyrill%20Stachniss%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en] Google Scholar
+Stefan Paulus
+[LINK /search?author=Stefan%20Paulus] View author publications
+Search author on: [LINK https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Stefan%20Paulus] PubMed  [LINK https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Stefan%20Paulus%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en] Google Scholar
+Anne-Katrin Mahlein
+[LINK /search?author=Anne-Katrin%20Mahlein] View author publications
+Search author on: [LINK https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Anne-Katrin%20Mahlein] PubMed  [LINK https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Anne-Katrin%20Mahlein%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en] Google Scholar
+Contributions
+J.B. - conceptualization, methodology, data acquisition, data processing, data validation, visualization, and writing. E.M. - conceptualization, methodology, data processing, and review. F.R.I.Y. - conceptualization, methodology, and review. C.S. - funding acquisition, supervision, and review. S.P. - funding acquisition, and review. A.K.M. - funding acquisition, project administration, supervision, and review. All authors reviewed and approved the final manuscript.
+Corresponding author
+Correspondence to
+[LINK mailto:boemer@ifz-goettingen.de] Jonas Bömer.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit  [LINK http://creativecommons.org/licenses/by/4.0/] http://creativecommons.org/licenses/by/4.0/.
+[LINK https://s100.copyright.com/AppDispatchServlet?title=A%20Dataset%20of%20Temporally%20Consistent%20Instance%20Annotations%20for%204D%20Plant%20Phenotyping&author=Jonas%20B%C3%B6mer%20et%20al&contentID=10.1038%2Fs41597-026-08326-5&copyright=The%20Author%28s%29&publication=2052-4463&publicationDate=2026-09-18&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY] Reprints and permissions
+About this article
+[LINK https://crossmark.crossref.org/dialog/?doi=10.1038/s41597-026-08326-5]
+Cite this article
+Bömer, J., Marks, E., Ispizua Yamati, F.R. et al. A Dataset of Temporally Consistent Instance Annotations for 4D Plant Phenotyping.
+Sci Data 13, 1325 (2026). https://doi.org/10.1038/s41597-026-08326-5
+[LINK https://citation-needed.springer.com/v2/references/10.1038/s41597-026-08326-5?format=refman&flavour=citation] Download citation
+Received: 03 March 2026
+Accepted: 10 September 2026
+Published: 18 September 2026
+Version of record: 18 September 2026
+DOI: https://doi.org/10.1038/s41597-026-08326-5
+Share this article
+Anyone you share the following link with will be able to read this content:Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+[LINK /articles/s41597-026-08326-5.pdf]
+Download PDF
+Associated content
+Collection
+[LINK https://www.nature.com/collections/cjdddhhbai] Computer vision in plant science and agriculture
+Advertisement
+[LINK //pubads.g.doubleclick.net/gampad/jump?iu=/285/sdata.nature.com/article&sz=300x250&c=2129194207&t=pos%3Dright%26type%3Darticle%26artid%3Ds41597-026-08326-5%26doi%3D10.1038/s41597-026-08326-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary]
+Explore content
+[LINK /sdata/research-articles]
+Research articles
+[LINK /sdata/news-and-comment]
+News & Comment
+[LINK /sdata/collections]
+Collections
+[LINK https://twitter.com/scientificdata] Follow us on X
+[LINK https://journal-alerts.springernature.com/subscribe?journal_id=41597] Sign up for alerts
+[LINK https://www.nature.com/sdata.rss]
+RSS feed
+About the journal
+[LINK /sdata/aims-and-scope]
+Aims and scope
+[LINK /sdata/journal-impact]
+Journal Metrics
+[LINK /sdata/editors]
+Editors
+[LINK /sdata/policies]
+Policies
+[LINK /sdata/open-access]
+Open Access Fees and Funding
+[LINK /sdata/calls-for-papers]
+Calls for Papers
+[LINK /sdata/contact]
+Contact
+Publish with us
+[LINK /sdata/submission-guidelines]
+Submission Guidelines
+[LINK https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022]
+Language editing services
+[LINK /sdata/open-access-funding] Open access funding
+[LINK https://submission.springernature.com/new-submission/41597/3] Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+[LINK /search/advanced]
+Advanced search
+Quick links
+[LINK /subjects] Explore articles by subject
+[LINK /naturecareers] Find a job
+[LINK /authors/index.html] Guide to authors
+[LINK /authors/editorial_policies/] Editorial policies
+Scientific Data
+(Sci Data)
+ISSN 2052-4463 (online)
+nature.com footer links
+About Nature Portfolio
+[LINK https://www.nature.com/npg_/company_info/index.html] About us
+[LINK https://www.nature.com/npg_/press_room/press_releases.html] Press releases
+[LINK https://press.nature.com/] Press office
+[LINK https://support.nature.com/support/home] Contact us
+Discover content
+[LINK https://www.nature.com/siteindex] Journals A-Z
+[LINK https://www.nature.com/subjects] Articles by subject
+[LINK https://www.protocols.io/] protocols.io
+[LINK https://www.natureindex.com/] Nature Index
+[LINK https://link.springer.com/brands/nature-books] Nature Books
+Publishing policies
+[LINK https://www.nature.com/authors/editorial_policies] Nature portfolio policies
+[LINK https://www.nature.com/nature-portfolio/for-authors/openaccess] Open access
+Author & Researcher services
+[LINK https://www.nature.com/reprints] Reprints & permissions
+[LINK https://www.springernature.com/gp/authors/research-data] Research data
+[LINK https://authorservices.springernature.com/language-editing/] Language editing
+[LINK https://authorservices.springernature.com/scientific-editing/] Scientific editing
+[LINK https://masterclasses.nature.com/] Nature Masterclasses
+[LINK https://solutions.springernature.com/] Research Solutions
+Libraries & institutions
+[LINK https://www.springernature.com/gp/librarians/tools-services] Librarian service & tools
+[LINK https://www.springernature.com/gp/librarians/manage-your-account/librarianportal] Librarian portal
+[LINK https://www.nature.com/openresearch/about-open-access/information-for-institutions] Open research
+[LINK https://www.springernature.com/gp/librarians/recommend-to-your-library] Recommend to library
+Advertising & partnerships
+[LINK https://partnerships.nature.com/product/digital-advertising/] Advertising
+[LINK https://partnerships.nature.com/] Partnerships & Services
+[LINK https://partnerships.nature.com/media-kits/] Media kits
+[LINK https://partnerships.nature.com/product/branded-content-native-advertising/] Branded
+content
+Professional development
+[LINK https://www.nature.com/immersive/natureawards/index.html] Nature Awards
+[LINK https://www.nature.com/naturecareers/] Nature Careers
+[LINK https://conferences.nature.com] Nature
+Conferences
+Regional websites
+[LINK https://www.nature.com/natafrica] Nature Africa
+[LINK http://www.naturechina.com] Nature China
+[LINK https://www.nature.com/nindia] Nature India
+[LINK https://www.natureasia.com/ja-jp] Nature Japan
+[LINK https://www.nature.com/nmiddleeast] Nature Middle East
+[LINK https://www.nature.com/info/privacy] Privacy
+Policy
+[LINK https://www.nature.com/info/cookies] Use
+of cookies
+Your privacy choices/Manage cookies
+[LINK https://www.nature.com/info/legal-notice] Legal
+notice
+[LINK https://www.nature.com/info/accessibility-statement] Accessibility
+statement
+[LINK https://www.nature.com/info/terms-and-conditions] Terms & Conditions
+[LINK https://www.springernature.com/ccpa] Your US state privacy rights
+[LINK https://www.springernature.com/]
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the Nature Briefing newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited  [LINK https://www.nature.com/info/privacy] Privacy Policy.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+[LINK https://www.nature.com/briefing/signup/?brieferEntryPoint=MainBriefingBanner] Sign up for Nature Briefing

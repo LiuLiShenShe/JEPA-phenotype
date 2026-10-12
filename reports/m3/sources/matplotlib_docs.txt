@@ -1,0 +1,99 @@
+### Print Matplotlib plot to stdout as PNG
+
+Source: https://matplotlib.org/stable/_downloads/cb1f567fd3db1e0aafff311599bd2b0f/print_stdout_sgskip.ipynb
+
+Saves a Matplotlib figure to standard output as PNG data. Requires the Agg backend to avoid a display window, and writes to sys.stdout.buffer for binary output. The resulting PNG can be redirected to a file using shell redirection.
+
+```python
+import sys
+
+import matplotlib
+
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3])
+plt.savefig(sys.stdout.buffer)
+```
+
+--------------------------------
+
+### Create a basic figure with an axes
+
+Source: https://matplotlib.org/stable/users/explain/figure/figure_intro.html
+
+Creates a figure with a specified size and facecolor, adds a suptitle, and adds an axes with a custom title. The layout is constrained. This is the basic starting point for any Matplotlib figure.
+
+```python
+fig = plt.figure(figsize=(2, 2), facecolor='lightskyblue',
+                 layout='constrained')
+fig.suptitle('Figure')
+ax = fig.add_subplot()
+ax.set_title('Axes', loc='left', fontstyle='oblique', fontsize='medium')
+
+```
+
+--------------------------------
+
+### Axes3D.stem(x, y, z, *, linefmt='C0-', markerfmt='C0o', basefmt='C3-', bottom=0, label=None, orientation='z', axlim_clip=False, data=None)
+
+Source: https://matplotlib.org/stable/api/_as_gen/mpl_toolkits.mplot3d.axes3d.Axes3D.stem.html
+
+Creates a 3D stem plot. Draws lines perpendicular to a baseline and places markers at the heads. The baseline is defined by x and y, and stems are drawn vertically from bottom to z by default.
+
+```APIDOC
+## Axes3D.stem(x, y, z, *, linefmt='C0-', markerfmt='C0o', basefmt='C3-', bottom=0, label=None, orientation='z', axlim_clip=False, data=None)
+
+### Description
+Create a 3D stem plot. A stem plot draws lines perpendicular to a baseline, and places markers at the heads. By default, the baseline is defined by x and y, and stems are drawn vertically from bottom to z.
+
+### Method
+Axes3D.stem
+
+### Parameters
+- **x, y, z** (array-like) - Required - The positions of the heads of the stems. The stems are drawn along the orientation-direction from the baseline at bottom (in the orientation-coordinate) to the heads. By default, the x and y positions are used for the baseline and z for the head position, but this can be changed by orientation.
+- **linefmt** (str, default: 'C0-') - Optional - A string defining the properties of the vertical lines. Usually, this will be a color or a color and a linestyle. Valid linestyles: '-' solid line, '--' dashed line, '-.' dash-dot line, ':' dotted line. Note: While it is technically possible to specify valid formats other than color or color and linestyle (e.g. 'rx' or '-.'), this is beyond the intention of the method and will most likely not result in a reasonable plot.
+- **markerfmt** (str, default: 'C0o') - Optional - A string defining the properties of the markers at the stem heads.
+- **basefmt** (str, default: 'C3-') - Optional - A format string defining the properties of the baseline.
+- **bottom** (float, default: 0) - Optional - The position of the baseline, in orientation-coordinates.
+- **label** (str, optional) - Optional - The label to use for the stems in legends.
+- **orientation** ({'x', 'y', 'z'}, default: 'z') - Optional - The direction along which stems are drawn.
+- **axlim_clip** (bool, default: False) - Optional - Whether to hide stems that are outside the axes limits. Added in version 3.10.
+- **data** (indexable object, optional) - Optional - If given, all parameters also accept a string s, which is interpreted as data[s] if s is a key in data.
+
+### Returns
+- **StemContainer** - The container may be treated like a tuple (markerline, stemlines, baseline).
+
+### Examples
+- 3D stem
+- stem(x, y, z)
+```
+
+--------------------------------
+
+### Basic 3D stem plot
+
+Source: https://matplotlib.org/stable/_downloads/09caab4922c225ce6337f112aa57234a/stem3d_demo.ipynb
+
+Creates a 3D stem plot using ax.stem(x, y, z) with data generated from a circle in the xy-plane and z as the angle. The plot shows vertical lines from the baseline (z=0) to the z-coordinate with markers at the tips.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+theta = np.linspace(0, 2*np.pi)
+x = np.cos(theta - np.pi/2)
+y = np.sin(theta - np.pi/2)
+z = theta
+
+fig, ax = plt.subplots(subplot_kw=dict(projection='3d'))
+ax.stem(x, y, z)
+
+plt.show()
+```
+
+### What's new in Matplotlib 3.7.0 (Feb 13, 2023) > Figure and Axes Layout > Figure legends can be placed outside figures using constrained_layout
+
+Source: https://matplotlib.org/stable/users/prev_whats_new/whats_new_3.7.0.html
+
+Figure legends can be placed outside figures using constrained_layout

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "windows_validated": 1200,
+  "all_three_history_frames_consecutive_in_real_scan_order": true,
+  "all_requested_horizons_match_real_scan_offsets": true,
+  "all_actual_DAS_and_labels_rejoined": true,
+  "future_target_path_never_in_history": true,
+  "all_partition_plant_memberships_complete": true,
+  "each_plant_oof_test_once": true
+}

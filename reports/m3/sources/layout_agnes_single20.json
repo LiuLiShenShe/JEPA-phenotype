@@ -1,0 +1,36 @@
+{
+  "id": "34a93ea681b847f79994b71cb4f7cf24",
+  "created": 1791733204,
+  "model": "agnes-2.5-flash",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\n2\n20",
+        "role": "assistant",
+        "reasoning_content": "用户要求只做OCR，返回图片上方大号字符和下方小号字符，原样列出。若字形不完整说明。不要利用任何外部信息推断。\n\n图片中显示：\n- 上方是大号数字：2\n- 下方是小号数字：20\n\n数字字形完整，无残缺。\n\n只需原样列出字符。\n"
+      },
+      "provider_specific_fields": {
+        "matched_stop": 248046
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 816,
+    "total_tokens": 894,
+    "completion_tokens_details": {
+      "reasoning_tokens": 72,
+      "text_tokens": 6
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256,
+      "image_tokens": 500
+    }
+  },
+  "metadata": {
+    "weight_version": "default"
+  }
+}

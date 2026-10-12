@@ -1,0 +1,16 @@
+{
+  "ply_organ_observations": 6778,
+  "unique_ply_leaf_instances": 675,
+  "organ_csv_mismatches": 0,
+  "reappearing_instances": 0,
+  "manual_reference_joined": 450,
+  "geometry": {
+    "height_proxy_minus_csv_cm_max_abs": 2.675785677773579,
+    "coordinate_unit": "m verified by z-minus-growth-point vs released [m] height and approximately 10m experiment layout",
+    "axes": "z vertical positive, x/y registered greenhouse ground plane; global origin floor target frame, not a biological growth point",
+    "normal_nonunit_fraction_max": 0.0
+  },
+  "anomalies": 1,
+  "raw_files_hashed": 891,
+  "cache_files": 768
+}

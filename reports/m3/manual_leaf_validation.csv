@@ -1,0 +1,5 @@
+parameter,joined_leaves,MAE_cm,RMSE_cm,mean_error_cm,scope
+total length [cm],450,1.918193016052246,2.302167042420045,1.6322823944091795,"DAS93 only, automatic template estimates vs destructive manual reference"
+leaf blade length [cm],450,1.8681360236273872,2.23989708198457,1.6268444179958765,"DAS93 only, automatic template estimates vs destructive manual reference"
+petiole length [cm],450,2.383433158026801,2.6907926712129004,-2.346784245808919,"DAS93 only, automatic template estimates vs destructive manual reference"
+leaf blade width [cm],450,1.0862821553548176,2.6143828014049153,0.24874434407552087,"DAS93 only, automatic template estimates vs destructive manual reference"

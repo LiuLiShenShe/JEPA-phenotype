@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "engineering": {
+    "real_data": true,
+    "archive_md5": "27e44210d95a85cb04b93513f0ef2beb",
+    "plants": 48,
+    "observations": 768,
+    "official_neural_runs": 9,
+    "total_neural_runs": 54,
+    "folds": 4,
+    "tests": {
+      "tests": 80,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "legacy_verification": {
+      "legacy_files_checked": 3647,
+      "legacy_changes": [],
+      "raw_files_checked": 891,
+      "raw_changes": [],
+      "archive": {
+        "archive_sha256": "69e25b87b470173d30a70fbac9d4caf2ae968082cd83378cd87d93601b370908",
+        "members_crc_checked": 916,
+        "readme_md5_verified": true
+      },
+      "training": {
+        "neural_runs": 54,
+        "runs_each_complete": true,
+        "matched_real_repeat": true,
+        "protocol_unchanged": true,
+        "total_optimizer_steps": 27000,
+        "total_training_seconds": 2399.926985564176
+      },
+      "status": "PASS"
+    },
+    "genotype_claims_provisional": true
+  },
+  "research_decision": {
+    "research_decision": "REVIEW",
+    "primary_task": {
+      "horizon": 2,
+      "target": "plant_height"
+    },
+    "locked_rule": "At least 10% mean improvement over both single-frame and repeated-latest on primary task, improvements in all 3 seeds, paired official plant-bootstrap upper95 < 0 for both; same >=10% pooled OOF improvements and >=3/4 folds directionally improve both. Otherwise REVIEW when engineering succeeds.",
+    "controls": [
+      {
+        "control": "B3-2",
+        "official_improvement_pct": -0.8989088378382674,
+        "official_ci95_upper_difference": 0.1920524348815282,
+        "all_three_seeds_improve": false,
+        "oof_improvement_pct": -5.870698453712555,
+        "improving_folds": 1,
+        "passed": false
+      },
+      {
+        "control": "B3-4",
+        "official_improvement_pct": -7.188244209128107,
+        "official_ci95_upper_difference": 0.30463997809975224,
+        "all_three_seeds_improve": false,
+        "oof_improvement_pct": -3.5175549103562127,
+        "improving_folds": 2,
+        "passed": false
+      }
+    ],
+    "scope": "small single-greenhouse, within-genotype/inter-plant prediction; OOF CIs descriptive with overlapping training folds; no biological-birth claim",
+    "start_m4_automatically": false
+  },
+  "m4_started": false,
+  "finalized_at": "2026-10-12T00:02:12+08:00",
+  "figure_visual_qa": "PASS after explicit legend/scale revision",
+  "window_contract_validation": {
+    "status": "PASS",
+    "windows_validated": 1200,
+    "all_three_history_frames_consecutive_in_real_scan_order": true,
+    "all_requested_horizons_match_real_scan_offsets": true,
+    "all_actual_DAS_and_labels_rejoined": true,
+    "future_target_path_never_in_history": true,
+    "all_partition_plant_memberships_complete": true,
+    "each_plant_oof_test_once": true
+  }
+}

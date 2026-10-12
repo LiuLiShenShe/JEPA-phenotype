@@ -1,0 +1,25 @@
+{
+  "source": "sugar4d V4 supplements/experiment_layout.png",
+  "recognition": "Agnes API",
+  "crosschecks": "four additional layout/paper/cropped recognition calls; official split membership always taken from TXT, not colors",
+  "counts": {
+    "G1": 4,
+    "G10": 4,
+    "G11": 4,
+    "G12": 4,
+    "G2": 5,
+    "G3": 3,
+    "G4": 4,
+    "G5": 4,
+    "G6": 4,
+    "G7": 4,
+    "G8": 4,
+    "G9": 4
+  },
+  "uncertain_plants": [
+    "plant_020",
+    "plant_021"
+  ],
+  "warning": "plant_020 and plant_021 both read G2; conflicts with documented 4 repeats per genotype; no inferred correction. All genotype stratifications provisional until author/human confirms. Genotype is never a model input.",
+  "secondary_evidence": "Precision Agriculture supplement parameters.csv trajectory matching diagnostically suggests plant020=G3, plant021=G2. This is not taken as verified identity and is not used to change folds/inputs."
+}

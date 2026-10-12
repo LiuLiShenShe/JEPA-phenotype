@@ -1,0 +1,73 @@
+{
+  "dataset_root": "data/raw/sugar4d/extracted_v4",
+  "plants": 48,
+  "observations": 768,
+  "timepoints": [
+    37,
+    40,
+    44,
+    47,
+    51,
+    54,
+    58,
+    61,
+    65,
+    72,
+    75,
+    79,
+    82,
+    86,
+    89,
+    93
+  ],
+  "genotypes": [
+    "unknown"
+  ],
+  "point_count": {
+    "min": 15033,
+    "median": 363595.5,
+    "max": 1454217
+  },
+  "semantic_labels": {
+    "present": 768
+  },
+  "instance_labels": {
+    "present": 768
+  },
+  "quality_status": {
+    "valid": 768
+  },
+  "leaf_rows": 6778,
+  "unique_leaf_plant_instance": 675,
+  "leaf_instance_reappearance_candidate_count": 0,
+  "manual_leaf_reference_rows": 450,
+  "ply_errors": [],
+  "genotype_mapping_complete": false,
+  "units": {
+    "coordinates": "metres (per released m-valued morphology and physical coordinate system; verified from PLY/header and reference files)",
+    "plant_height": "cm",
+    "plant_width": "cm",
+    "leaf_count": "count"
+  },
+  "archive": {
+    "path": "data/raw/sugar4d/sugar4d.zip",
+    "bytes": 6270780517,
+    "md5": "27e44210d95a85cb04b93513f0ef2beb"
+  },
+  "extract": {
+    "members": 916,
+    "zip_test": "pass"
+  },
+  "windows": {
+    "rows": 1200,
+    "by_split": {
+      "test": 300,
+      "train": 600,
+      "val": 300
+    },
+    "by_horizon": {
+      "1": 624,
+      "2": 576
+    }
+  }
+}

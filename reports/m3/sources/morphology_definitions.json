@@ -1,0 +1,24 @@
+{
+  "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs11119-026-10337-6/MediaObjects/11119_2026_10337_MOESM2_ESM.zip",
+  "archive_sha256": "f5ce60332af455208a56a282cf2d3a1667dfa0b2ec0001d8ba8504e205374ed6",
+  "files_sha256": {
+    "feature_selection.py": "b7047ec38366eca0f214f38a9bd9011ac19517c24602cc5398225c6337238cc2",
+    "paired_permutation_test.py": "437e11429d73a4218cec375fa385ac40712495a769ae481959d0b56bc26133d6",
+    "feature_importance_analysis.py": "4ab94a3bb152de485a6f12838dfe2911a5b06a498fc75f12c62757b9d35bc9b8",
+    "extract_plant_parameters.py": "de2abe9f31e98e28029a7f191c4692d178699568122de1e9a9728718dea5d6ce",
+    "trajectory_analysis.py": "e77a10712feaa151a5d302b99f2ca3d039c04adb5c2973257f38ad88985a0f4d",
+    "parameter_validation.py": "a558e2308aa2ecd1e003703872ce46f7ec218cb037e552d738d89d71804e0d0d",
+    "cluster_analysis.py": "b2a45c35dd7f17c83f22cc490c6a324b197734a924a87c4d468674a96a118ac5",
+    "similarity_analysis.py": "bab0040052000d49425b518bac38c826c86f7c5210fef6df4dc6ffc2aff3cd27",
+    "run_all.py": "48a27bf8565f9280131b1ad0e2c414c5c6055916ba50d43ad08e90c4d43ecfc9",
+    "cluster_analysis_compare_tsc_metrics.py": "904036ce9cd51a222380e6a1d4946cdf259913b405d3c9532ef860b75264d266",
+    "helpers.py": "f773ddcbf55e3117f1d6d68303529523c7d50fa320ae656e3e3dd972991149e0",
+    "plant_parameters.py": "924ff9b4b68feb97db44340f30fa2765c9acc084c02abbdea3a899a096f38cc2"
+  },
+  "definitions": {
+    "Height Maximum [m]": "percentile99 of processed z minus fixed plant growth-point z",
+    "Width Major Axis [m]": "maximum pairwise distance between flattened hull points after 1mm voxel sampling",
+    "Points Quantity": "number of points after 1cm voxel downsampling, not raw PLY count",
+    "plant_extraction": "drop taproot instance -2 then downsample 2mm per-instance before trait extraction"
+  }
+}

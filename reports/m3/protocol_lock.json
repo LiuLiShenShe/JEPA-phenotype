@@ -1,0 +1,11 @@
+{
+  "sha256": "9b9e66561abbbb5f10300db45d25f9b7d327b8f252360fe106a46fd57da1061c",
+  "locked_before_training": true,
+  "timestamp": "2026-10-11T23:10:45+08:00",
+  "primary_task": {
+    "horizon": 2,
+    "target": "plant_height"
+  },
+  "test_not_used_to_tune": true,
+  "genotype_mapping_provisional": true
+}

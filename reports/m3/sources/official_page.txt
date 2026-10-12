@@ -1,0 +1,26 @@
+Sugar4D – StachnissLab
+[LINK index.html#content] Skip to content
+[LINK index.html#]
+[LINK ../../index.html] StachnissLab
+[LINK ../../index.html] Home
+[LINK ../../videos/index.html] Videos
+[LINK ../../people/index.html] Team
+[LINK ../../publications/index.html] Publications
+[LINK ../../research/index.html] Research
+[LINK ../../projects/index.html] Projects
+[LINK ../../teaching/index.html] Teaching
+[LINK ../../data-software/index.html] Resources
+[LINK ../index.html] Data
+[LINK ../../contact/index.html] Contact
+Sugar4D
+The Dataset
+The Sugar4D project introduces a publicly available, high-quality 4D plant phenotyping dataset of sugar beet plants captured with terrestrial LiDAR. It provides densely sampled, temporally consistent point cloud data with detailed, point-wise organ-level annotations that enable tracking of individual leaves across growth stages. The dataset contains 768 point clouds from 48 individual plants representing twelve genotypes, recorded biweekly across 16 consecutive time points during the growing season. By combining annotated 3D data with extracted morphological traits and reference measurements, the dataset aims to reduce the bottleneck of data acquisition and manual annotation, and to support the development, benchmarking, and validation of methods for spatio-temporal plant analysis, including instance segmentation, temporal registration, organ tracking, and growth-related morphological studies.
+To download the dataset, please visit  [LINK https://doi.org/10.60507/FK2/IS8YBZ] https://doi.org/10.60507/FK2/IS8YBZ.
+Contacts
+Jonas Bömer:  [LINK mailto:boemer@ifz-goettingen.de] boemer@nullifz-goettingen.de
+Acknowledgments
+The project was supported by funds of the Federal Ministry of Food and Agriculture (BMEL) based on a decision of the Parliament of the Federal Republic of Germany. The Federal Office for Agriculture and Food (BLE) provides coordinating support for artificial intelligence (AI) in agriculture as funding organisation, grant number 28DK108C20.
+This work has partially been funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324, and by the German Federal Ministry of Research, Technology and Space~(BMFTR) under the Robotics Institute Germany~(RIG).
+[LINK ../../index.html] Home
+[LINK ../../contact/index.html] Contact
+[LINK ../../impressum/index.html] Impressum & Privacy Policy (Datenschutzerklärung)

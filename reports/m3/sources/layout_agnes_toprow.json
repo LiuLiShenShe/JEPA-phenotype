@@ -1,0 +1,36 @@
+{
+  "id": "4545af021c804d188bbf39748ae31149",
+  "created": 1791732585,
+  "model": "agnes-2.5-flash",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\n从左至右的圆对：\n\n| 序号 | 大号圆 | 小号plant ID |\n|------|--------|-------------|\n| 1 | 12 | 12 |\n| 2 | 4 | 14 |\n| 3 | 9 | 16 |\n| 4 | 5 | 18 |\n| 5 | **2** | **20** |\n| 6 | 6 | 22 |\n| 7 | 12 | 24 |\n\n关于plant 20上方是2还是3：**确认是2**，不是3。大圆里数字的两横是水平的，竖线在右侧偏上——这是清晰的\"2\"字形，没有3的任何特征（3的横线在中段且右侧弯曲）。",
+        "role": "assistant",
+        "reasoning_content": "The user wants me to read the large circle genotypes and small circle plant IDs from the image, outputting them as pairs from left to right. They specifically want me to check whether the number above plant 20 is 2 or 3.\n\nLet me look at the image carefully:\n\nFrom left to right:\n1. Large blue circle with 12, small circle below with 12\n2. Large white circle with 4, small circle below with 14\n3. Large purple circle with 9, small circle below with 16\n4. Large white circle with 5, small circle below with 18\n5. Large white circle with 2, small circle below with 20\n\n\n6. Large white circle with 6, small circle below with 22\n7. Large yellow circle with 12, small circle below with 24\n\nFor the specific question about what's above plant 20, I'm examining the fifth pair more closely—the large circle clearly shows a 2 above the small circle labeled 20.\n"
+      },
+      "provider_specific_fields": {
+        "matched_stop": 248046
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 404,
+    "prompt_tokens": 1286,
+    "total_tokens": 1690,
+    "completion_tokens_details": {
+      "reasoning_tokens": 228,
+      "text_tokens": 176
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256,
+      "image_tokens": 954
+    }
+  },
+  "metadata": {
+    "weight_version": "default"
+  }
+}

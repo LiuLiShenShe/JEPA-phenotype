@@ -1,0 +1,15 @@
+{
+  "legacy_files_checked": 3647,
+  "legacy_changes": [],
+  "raw_files_checked": 891,
+  "raw_changes": [],
+  "training": {
+    "neural_runs": 54,
+    "runs_each_complete": true,
+    "matched_real_repeat": true,
+    "protocol_unchanged": true,
+    "total_optimizer_steps": 27000,
+    "total_training_seconds": 2399.926985564176
+  },
+  "status": "PASS"
+}

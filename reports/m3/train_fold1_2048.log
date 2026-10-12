@@ -1,0 +1,63 @@
+START fold1 points=2048 B3-2 seed=17 parameters=61699
+EPOCH 10 train=0.22032 val=0.60593 seconds=8.6
+EPOCH 20 train=0.16466 val=0.60340 seconds=16.7
+EPOCH 30 train=0.13419 val=0.56462 seconds=24.8
+EPOCH 40 train=0.11339 val=0.52881 seconds=32.6
+EPOCH 50 train=0.10759 val=0.57371 seconds=40.2
+DONE B3-2 seed=17 best_epoch=22 seconds=40.7
+START fold1 points=2048 B3-2 seed=42 parameters=61699
+EPOCH 10 train=0.26938 val=0.54036 seconds=7.8
+EPOCH 20 train=0.14761 val=0.55754 seconds=15.5
+EPOCH 30 train=0.16613 val=0.58609 seconds=23.1
+EPOCH 40 train=0.11585 val=0.55505 seconds=30.7
+EPOCH 50 train=0.11342 val=0.55937 seconds=38.4
+DONE B3-2 seed=42 best_epoch=18 seconds=38.9
+START fold1 points=2048 B3-2 seed=93 parameters=61699
+EPOCH 10 train=0.22542 val=0.55758 seconds=7.8
+EPOCH 20 train=0.18123 val=0.57329 seconds=15.4
+EPOCH 30 train=0.15899 val=0.53355 seconds=23.1
+EPOCH 40 train=0.12148 val=0.54701 seconds=31.1
+EPOCH 50 train=0.11453 val=0.55406 seconds=38.7
+DONE B3-2 seed=93 best_epoch=15 seconds=39.1
+START fold1 points=2048 B3-3 seed=17 parameters=160771
+EPOCH 10 train=0.19443 val=0.59405 seconds=9.2
+EPOCH 20 train=0.14951 val=0.61992 seconds=18.1
+EPOCH 30 train=0.12054 val=0.58056 seconds=27.1
+EPOCH 40 train=0.10259 val=0.53962 seconds=35.9
+EPOCH 50 train=0.09505 val=0.60581 seconds=44.8
+DONE B3-3 seed=17 best_epoch=11 seconds=45.3
+START fold1 points=2048 B3-3 seed=42 parameters=160771
+EPOCH 10 train=0.20262 val=0.51480 seconds=9.0
+EPOCH 20 train=0.16119 val=0.53009 seconds=17.9
+EPOCH 30 train=0.15473 val=0.54901 seconds=26.9
+EPOCH 40 train=0.10931 val=0.56163 seconds=36.0
+EPOCH 50 train=0.10339 val=0.56158 seconds=45.0
+DONE B3-3 seed=42 best_epoch=11 seconds=45.5
+START fold1 points=2048 B3-3 seed=93 parameters=160771
+EPOCH 10 train=0.19485 val=0.55258 seconds=9.0
+EPOCH 20 train=0.15952 val=0.51868 seconds=18.0
+EPOCH 30 train=0.14385 val=0.57237 seconds=26.8
+EPOCH 40 train=0.11909 val=0.58123 seconds=35.9
+EPOCH 50 train=0.09389 val=0.56084 seconds=45.1
+DONE B3-3 seed=93 best_epoch=20 seconds=45.6
+START fold1 points=2048 B3-4 seed=17 parameters=160771
+EPOCH 10 train=0.20697 val=0.65253 seconds=8.3
+EPOCH 20 train=0.15549 val=0.60675 seconds=16.6
+EPOCH 30 train=0.12375 val=0.56931 seconds=24.7
+EPOCH 40 train=0.11705 val=0.56035 seconds=32.8
+EPOCH 50 train=0.10150 val=0.58179 seconds=41.0
+DONE B3-4 seed=17 best_epoch=12 seconds=41.5
+START fold1 points=2048 B3-4 seed=42 parameters=160771
+EPOCH 10 train=0.28035 val=0.51248 seconds=8.1
+EPOCH 20 train=0.13231 val=0.56175 seconds=15.7
+EPOCH 30 train=0.15971 val=0.54802 seconds=23.7
+EPOCH 40 train=0.11266 val=0.53746 seconds=31.6
+EPOCH 50 train=0.11071 val=0.54999 seconds=39.8
+DONE B3-4 seed=42 best_epoch=14 seconds=40.3
+START fold1 points=2048 B3-4 seed=93 parameters=160771
+EPOCH 10 train=0.20770 val=0.57350 seconds=8.5
+EPOCH 20 train=0.17495 val=0.55080 seconds=17.0
+EPOCH 30 train=0.15789 val=0.55048 seconds=25.3
+EPOCH 40 train=0.10979 val=0.58747 seconds=33.6
+EPOCH 50 train=0.10086 val=0.56398 seconds=41.5
+DONE B3-4 seed=93 best_epoch=15 seconds=42.0

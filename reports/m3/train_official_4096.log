@@ -1,0 +1,63 @@
+START official points=4096 B3-2 seed=17 parameters=61699
+EPOCH 10 train=0.29887 val=0.59311 seconds=11.4
+EPOCH 20 train=0.19404 val=0.53559 seconds=22.3
+EPOCH 30 train=0.15254 val=0.61396 seconds=33.3
+EPOCH 40 train=0.13621 val=0.53635 seconds=44.1
+EPOCH 50 train=0.12644 val=0.53661 seconds=54.4
+DONE B3-2 seed=17 best_epoch=34 seconds=55.0
+START official points=4096 B3-2 seed=42 parameters=61699
+EPOCH 10 train=0.27369 val=0.61977 seconds=10.4
+EPOCH 20 train=0.19299 val=0.57470 seconds=21.2
+EPOCH 30 train=0.14949 val=0.59548 seconds=32.0
+EPOCH 40 train=0.12615 val=0.62924 seconds=43.0
+EPOCH 50 train=0.11318 val=0.62175 seconds=53.7
+DONE B3-2 seed=42 best_epoch=14 seconds=54.3
+START official points=4096 B3-2 seed=93 parameters=61699
+EPOCH 10 train=0.23031 val=0.53041 seconds=10.9
+EPOCH 20 train=0.17296 val=0.52115 seconds=22.3
+EPOCH 30 train=0.13423 val=0.59565 seconds=33.3
+EPOCH 40 train=0.11583 val=0.57150 seconds=44.5
+EPOCH 50 train=0.11708 val=0.62109 seconds=55.2
+DONE B3-2 seed=93 best_epoch=16 seconds=55.9
+START official points=4096 B3-3 seed=17 parameters=160771
+EPOCH 10 train=0.24194 val=0.55248 seconds=13.8
+EPOCH 20 train=0.17710 val=0.58892 seconds=27.3
+EPOCH 30 train=0.14436 val=0.52842 seconds=41.3
+EPOCH 40 train=0.12959 val=0.52760 seconds=55.2
+EPOCH 50 train=0.11387 val=0.63579 seconds=69.3
+DONE B3-3 seed=17 best_epoch=38 seconds=70.0
+START official points=4096 B3-3 seed=42 parameters=160771
+EPOCH 10 train=0.26263 val=0.54849 seconds=13.7
+EPOCH 20 train=0.16804 val=0.54878 seconds=27.3
+EPOCH 30 train=0.13279 val=0.59826 seconds=41.2
+EPOCH 40 train=0.09830 val=0.64867 seconds=54.5
+EPOCH 50 train=0.09264 val=0.61194 seconds=67.9
+DONE B3-3 seed=42 best_epoch=14 seconds=68.6
+START official points=4096 B3-3 seed=93 parameters=160771
+EPOCH 10 train=0.23227 val=0.53921 seconds=13.6
+EPOCH 20 train=0.16927 val=0.55377 seconds=27.3
+EPOCH 30 train=0.12485 val=0.58375 seconds=40.6
+EPOCH 40 train=0.11185 val=0.57572 seconds=54.1
+EPOCH 50 train=0.11550 val=0.59448 seconds=67.9
+DONE B3-3 seed=93 best_epoch=19 seconds=68.6
+START official points=4096 B3-4 seed=17 parameters=160771
+EPOCH 10 train=0.25260 val=0.59669 seconds=10.8
+EPOCH 20 train=0.17572 val=0.54286 seconds=21.5
+EPOCH 30 train=0.14975 val=0.51838 seconds=32.4
+EPOCH 40 train=0.13633 val=0.53622 seconds=43.4
+EPOCH 50 train=0.11564 val=0.56598 seconds=54.0
+DONE B3-4 seed=17 best_epoch=34 seconds=54.6
+START official points=4096 B3-4 seed=42 parameters=160771
+EPOCH 10 train=0.26346 val=0.56174 seconds=10.8
+EPOCH 20 train=0.17540 val=0.54883 seconds=21.6
+EPOCH 30 train=0.13226 val=0.58603 seconds=32.5
+EPOCH 40 train=0.10248 val=0.63287 seconds=42.9
+EPOCH 50 train=0.09854 val=0.60251 seconds=53.5
+DONE B3-4 seed=42 best_epoch=14 seconds=54.1
+START official points=4096 B3-4 seed=93 parameters=160771
+EPOCH 10 train=0.24214 val=0.51478 seconds=10.6
+EPOCH 20 train=0.19456 val=0.55484 seconds=21.3
+EPOCH 30 train=0.12855 val=0.60575 seconds=32.3
+EPOCH 40 train=0.11103 val=0.59544 seconds=43.0
+EPOCH 50 train=0.11249 val=0.61585 seconds=53.8
+DONE B3-4 seed=93 best_epoch=17 seconds=54.4

@@ -1,0 +1,515 @@
+{
+  "plant": [
+    {
+      "field": "Days after sowing",
+      "dtype": "int64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 37.0,
+      "numeric_max": 93.0
+    },
+    {
+      "field": "Plant ID",
+      "dtype": "int64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 1.0,
+      "numeric_max": 48.0
+    },
+    {
+      "field": "Repetition",
+      "dtype": "int64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 1.0,
+      "numeric_max": 4.0
+    },
+    {
+      "field": "Height Maximum [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.071106660167376,
+      "numeric_max": 0.307524313173796
+    },
+    {
+      "field": "Height Mean [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": -0.007890441036148,
+      "numeric_max": 0.211651111176393
+    },
+    {
+      "field": "Height IQR [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.012526188932714,
+      "numeric_max": 0.144378994171526
+    },
+    {
+      "field": "Height SD [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.015629853285583,
+      "numeric_max": 0.089992534309435
+    },
+    {
+      "field": "Height-Width Index",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.177560742167659,
+      "numeric_max": 1.39685240248006
+    },
+    {
+      "field": "Width Major Axis [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.10333995372204,
+      "numeric_max": 0.51789115449854
+    },
+    {
+      "field": "Width Minor Axis [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.036707046992826,
+      "numeric_max": 0.43653766453439
+    },
+    {
+      "field": "Width Aspect Ratio",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.266350191129725,
+      "numeric_max": 0.994492563816444
+    },
+    {
+      "field": "Radius Maximum [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.061183429836958,
+      "numeric_max": 0.265835789131319
+    },
+    {
+      "field": "Radius Mean [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.026507384634068,
+      "numeric_max": 0.135724460705357
+    },
+    {
+      "field": "Radius IQR [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.020427312383173,
+      "numeric_max": 0.127086123931435
+    },
+    {
+      "field": "Radius SD [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.013250582160872,
+      "numeric_max": 0.071633722512556
+    },
+    {
+      "field": "Roundness",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.036088216198871,
+      "numeric_max": 0.908332952346154
+    },
+    {
+      "field": "Height-Radius Index",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.364923007394668,
+      "numeric_max": 2.09955303155324
+    },
+    {
+      "field": "Height-Radius-Mean Index",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": -0.071165852010108,
+      "numeric_max": 3.74403898507274
+    },
+    {
+      "field": "Spatial Extent Maximum [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.114203404186802,
+      "numeric_max": 0.344287615905526
+    },
+    {
+      "field": "Spatial Extent Mean [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.074408540220747,
+      "numeric_max": 0.244048134864234
+    },
+    {
+      "field": "Spatial Extent IQR [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.025469499096453,
+      "numeric_max": 0.085691417793392
+    },
+    {
+      "field": "Spatial Extent SD [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.023250963186582,
+      "numeric_max": 0.067443993310296
+    },
+    {
+      "field": "Points Quantity",
+      "dtype": "int64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 115.0,
+      "numeric_max": 1918.0
+    },
+    {
+      "field": "Normal Angle Mean",
+      "dtype": "object",
+      "null_count": 0,
+      "nonnumeric_count": 1,
+      "numeric_min": 17.6909131139344,
+      "numeric_max": 55.7398012042329
+    },
+    {
+      "field": "Normal Angle IQR [°]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 13.3628485750399,
+      "numeric_max": 44.6221585377391
+    },
+    {
+      "field": "Normal Angle SD [°]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 11.2166968556114,
+      "numeric_max": 25.7709795537258
+    },
+    {
+      "field": "Normal Angle Skewness [°]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": -0.934325159715969,
+      "numeric_max": 1.64893292985233
+    },
+    {
+      "field": "Normal Angle Kurtosis [°]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": -1.23356296868879,
+      "numeric_max": 3.91759314946746
+    },
+    {
+      "field": "Projected Leaf Area [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 14.9998674501725,
+      "numeric_max": 512.288350658791
+    },
+    {
+      "field": "Ground Cover Area [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 37.6851589708179,
+      "numeric_max": 1361.79930828782
+    },
+    {
+      "field": "Gap Fraction",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.21137016328113,
+      "numeric_max": 4.05440410399761
+    },
+    {
+      "field": "Convex Hull Surface Area [m²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.013445745558022,
+      "numeric_max": 0.443990539028547
+    },
+    {
+      "field": "Convex Hull Volume [m³]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 9.07e-05,
+      "numeric_max": 0.021966777190777
+    },
+    {
+      "field": "Convex Hull Compactness",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 3.08e-07,
+      "numeric_max": 7.65e-07
+    },
+    {
+      "field": "Convex Hull Perimeter [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.270917420584601,
+      "numeric_max": 1.44295555247287
+    },
+    {
+      "field": "Leaf Quantity",
+      "dtype": "int64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 2.0,
+      "numeric_max": 17.0
+    },
+    {
+      "field": "Gap Fraction 3D",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.0,
+      "numeric_max": 0.863815421064625
+    },
+    {
+      "field": "Leaf Spacing [m]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.052362291993058,
+      "numeric_max": 0.148822905736341
+    },
+    {
+      "field": "Projected Leaf Area Mean [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 3.74996686254314,
+      "numeric_max": 57.5408926048551
+    },
+    {
+      "field": "Leaf Overlap Index",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.0,
+      "numeric_max": 22.8419269755445
+    },
+    {
+      "field": "Leaf Length Maximum [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 12.1563888549805,
+      "numeric_max": 38.6912460327148
+    },
+    {
+      "field": "Leaf Length Mean [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 10.1946064631144,
+      "numeric_max": 32.0324470520019
+    },
+    {
+      "field": "Leaf Length IQR [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.075708389282228,
+      "numeric_max": 14.5198486328125
+    },
+    {
+      "field": "Leaf Length SD [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.107067830908348,
+      "numeric_max": 8.14378467585327
+    },
+    {
+      "field": "Blade Length Maximum [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 8.57816543579102,
+      "numeric_max": 25.5139282226563
+    },
+    {
+      "field": "Blade Length Mean [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 7.060320409139,
+      "numeric_max": 21.1773672921317
+    },
+    {
+      "field": "Blade Length IQR [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.011893463134767,
+      "numeric_max": 10.0945213317871
+    },
+    {
+      "field": "Blade Length SD [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.01681989686877,
+      "numeric_max": 5.74550536990129
+    },
+    {
+      "field": "Stem Length Maximum [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 3.57822341918945,
+      "numeric_max": 15.4323120117188
+    },
+    {
+      "field": "Stem Length Mean [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 3.08977150917053,
+      "numeric_max": 11.2042151133219
+    },
+    {
+      "field": "Stem Length IQR [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.063814926147461,
+      "numeric_max": 5.46829214096069
+    },
+    {
+      "field": "Stem Length SD [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.090247934039577,
+      "numeric_max": 3.48875632544417
+    },
+    {
+      "field": "Blade Width Maximum [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 2.20987186431885,
+      "numeric_max": 35.3697570800781
+    },
+    {
+      "field": "Blade Width Mean [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 2.07125973701477,
+      "numeric_max": 12.360905456543
+    },
+    {
+      "field": "Blade Width IQR [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.072602081298829,
+      "numeric_max": 10.1205232620239
+    },
+    {
+      "field": "Blade Width SD [cm]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.102674848029317,
+      "numeric_max": 9.84033580927687
+    },
+    {
+      "field": "Leaf Area Maximum [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 16.01397,
+      "numeric_max": 295.607456
+    },
+    {
+      "field": "Leaf Area Mean [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 13.7514255,
+      "numeric_max": 130.5988585
+    },
+    {
+      "field": "Leaf Area IQR [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.677637999999998,
+      "numeric_max": 96.314548
+    },
+    {
+      "field": "Leaf Area SD [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 0.958324849979379,
+      "numeric_max": 80.730232539648
+    },
+    {
+      "field": "Leaf Area Sum [cm²]",
+      "dtype": "float64",
+      "null_count": 0,
+      "nonnumeric_count": 0,
+      "numeric_min": 39.1962,
+      "numeric_max": 1190.175142
+    }
+  ],
+  "leaf": [
+    "DAS",
+    "plant_id",
+    "leaf_instance_id",
+    "total length [cm]",
+    "leaf blade length [cm]",
+    "petiole length [cm]",
+    "leaf blade width [cm]",
+    "leaf area [cm2]",
+    "plant_uid",
+    "genotype",
+    "observation_status"
+  ],
+  "reference": [
+    "DAS",
+    "plant_id",
+    "leaf_instance_id",
+    "total length [cm]",
+    "leaf blade length [cm]",
+    "petiole length [cm]",
+    "leaf blade width [cm]",
+    "plant_uid"
+  ]
+}

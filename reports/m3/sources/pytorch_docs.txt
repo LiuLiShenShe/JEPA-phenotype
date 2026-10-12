@@ -1,0 +1,159 @@
+### Save and Load PyTorch Module State Dictionary
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/modules.rst
+
+This snippet shows how to serialize and deserialize the `state_dict` of a PyTorch `nn.Module`. The `state_dict` contains the module's learnable parameters and persistent buffers. This is crucial for saving trained models and restoring them later for inference or further training.
+
+```python
+   # Save the module
+   torch.save(net.state_dict(), 'net.pt')
+
+   ...
+
+   # Load the module later on
+   new_net = Net()
+   new_net.load_state_dict(torch.load('net.pt'))
+```
+
+--------------------------------
+
+### Ensure Deterministic Matrix Multiplication with torch.bmm on CUDA (Python)
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/randomness.rst
+
+This snippet demonstrates how to achieve deterministic behavior for `torch.bmm` operations involving sparse-dense CUDA tensors. By setting `torch.use_deterministic_algorithms(True)`, PyTorch uses an alternate deterministic implementation. For CUDA versions 10.2+, also set `CUBLAS_WORKSPACE_CONFIG` as per NVIDIA documentation for full reproducibility.
+
+```python
+import torch
+torch.use_deterministic_algorithms(True)
+torch.bmm(torch.randn(2, 2, 2).to_sparse().cuda(), torch.randn(2, 2, 2).cuda())
+```
+
+--------------------------------
+
+### Perform PyTorch Model Training on Intel GPU with FP32 (Python)
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/get_start_xpu.rst
+
+This snippet demonstrates a full training loop for a ResNet50 model on the CIFAR10 dataset using an Intel GPU (XPU) with FP32 precision. It sets up data loading, model, loss function, optimizer, moves them to XPU, and runs a training epoch with backpropagation.
+
+```python
+import torch
+import torchvision
+
+LR = 0.001
+DOWNLOAD = True
+DATA = "datasets/cifar10/"
+
+transform = torchvision.transforms.Compose(
+    [
+        torchvision.transforms.Resize((224, 224)),
+        torchvision.transforms.ToTensor(),
+        torchvision.transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
+    ]
+)
+train_dataset = torchvision.datasets.CIFAR10(
+    root=DATA,
+    train=True,
+    transform=transform,
+    download=DOWNLOAD,
+)
+train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=128)
+train_len = len(train_loader)
+
+model = torchvision.models.resnet50()
+criterion = torch.nn.CrossEntropyLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=LR, momentum=0.9)
+model.train()
+model = model.to("xpu")
+criterion = criterion.to("xpu")
+
+print(f"Initiating training")
+for batch_idx, (data, target) in enumerate(train_loader):
+    data = data.to("xpu")
+    target = target.to("xpu")
+    optimizer.zero_grad()
+    output = model(data)
+    loss = criterion(output, target)
+    loss.backward()
+    optimizer.step()
+    if (batch_idx + 1) % 10 == 0:
+         iteration_loss = loss.item()
+         print(f"Iteration [{batch_idx+1}/{train_len}], Loss: {iteration_loss:.4f}")
+torch.save(
+    {
+        "model_state_dict": model.state_dict(),
+        "optimizer_state_dict": optimizer.state_dict(),
+    },
+    "checkpoint.pth",
+)
+
+print("Execution finished")
+```
+
+--------------------------------
+
+### Move DataLoader Tensors to Specific CUDA Device
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/cuda.rst
+
+This example demonstrates how to explicitly move tensors retrieved from a `DataLoader` to a specific CUDA device within a training or evaluation loop. It first defines a `torch.device` object for 'cuda:0' and then applies the `.to()` method to each tensor `x` as it's iterated through, ensuring data is on the correct GPU before processing.
+
+```python
+cuda0 = torch.device('cuda:0')  # CUDA GPU 0
+for i, x in enumerate(train_loader):
+    x = x.to(cuda0)
+```
+
+--------------------------------
+
+### Save/restore CUDA RNG state across all devices
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/cuda/random.py
+
+For deterministic CUDA checkpoint resume, get_rng_state_all() captures the RNG state of every CUDA device into a list of ByteTensors, and set_rng_state_all() restores them. Save these tensors alongside the model/optimizer state_dicts in the checkpoint to reproduce the random sequence after resume.
+
+```python
+def get_rng_state_all() -> list[Tensor]:
+    r"""Return a list of ByteTensor representing the random number states of all devices."""
+    results = [get_rng_state(i) for i in range(device_count())]
+    return results
+
+
+def set_rng_state(new_state: Tensor, device: int | str | torch.device = "cuda") -> None:
+    r"""Set the random number generator state of the specified GPU.
+
+    Args:
+        new_state (torch.ByteTensor): The desired state
+        device (torch.device or int, optional): The device to set the RNG state.
+            Default: ``'cuda'`` (i.e., ``torch.device('cuda')``, the current CUDA device).
+    """
+    if not is_initialized():
+        with torch._C._DisableFuncTorch():
+            # Clone the state because the callback will be triggered
+            # later when CUDA is lazy initialized.
+            new_state = new_state.clone(memory_format=torch.contiguous_format)
+    if isinstance(device, str):
+        device = torch.device(device)
+    elif isinstance(device, int):
+        device = torch.device("cuda", device)
+
+    def cb():
+        idx = device.index
+        if idx is None:
+            idx = current_device()
+        default_generator = torch.cuda.default_generators[idx]
+        default_generator.set_state(new_state)
+
+    _lazy_call(cb)
+
+
+def set_rng_state_all(new_states: Iterable[Tensor]) -> None:
+    r"""Set the random number generator state of all devices.
+
+    Args:
+        new_states (Iterable of torch.ByteTensor): The desired state for each device.
+    """
+    for i, state in enumerate(new_states):
+        set_rng_state(state, i)
+```

@@ -1,0 +1,36 @@
+{
+  "id": "73485a4c40814a6fa85e3c6f1c433384",
+  "created": 1791731066,
+  "model": "agnes-2.5-flash",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\n- “21”上方的大号数字：**2**（非3）\n- “20”上方的大号数字：**2**",
+        "role": "assistant",
+        "reasoning_content": "用户要求识别圆中“21”上方的大号数字，并区别是2还是3，以及20上方的大号数字。\n\n查看提供的四张裁剪图：\n- 图1：左上角有一个圆，里面上方是大号数字\"2\"，下方是小号数字\"20\"\n- 图2：顶部有\"21\"的部分可见\n- 图3：中间下方有一个圆，里面上方是大号数字\"2\"，下方是小号数字\"21\"\n- 图4：完整视图显示，圆\"21\"上方的大号数字是\"2\"\n\n所以：\n- \"21\"上方的大号数字是\"2\"（不是3）\n- \"20\"上方的大号数字是\"2\"\n\n用户明确要求：\n- 只读圆中\"21\"上方的大号数字\n- 区别2和3\n- 读20上方的大号数字\n- 不要输出其他植株\n- 不要再结合实验设计推断\n\n答案应该是：\n- 21上方的大号数字：2\n- 20上方的大号数字：2\n"
+      },
+      "provider_specific_fields": {
+        "matched_stop": 248046
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 3794,
+    "total_tokens": 4058,
+    "completion_tokens_details": {
+      "reasoning_tokens": 235,
+      "text_tokens": 29
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256,
+      "image_tokens": 3447
+    }
+  },
+  "metadata": {
+    "weight_version": "default"
+  }
+}

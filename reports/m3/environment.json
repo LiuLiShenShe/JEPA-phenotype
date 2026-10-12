@@ -1,0 +1,13 @@
+{
+  "python": "3.11.15",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.6",
+    "pytest": "8.4.2",
+    "requests": "2.32.5"
+  },
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "gpu": "name, memory.total [MiB], driver_version\nNVIDIA RTX A6000, 49140 MiB, 590.48.01\nNVIDIA RTX A6000, 49140 MiB, 590.48.01\n"
+}

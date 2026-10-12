@@ -1,0 +1,3 @@
+parameter,scans,reference_cm,MAE_cm,RMSE_cm,bias_cm,reference_kind
+Height Maximum [m],15,28.0993957519513,0.5659195998820528,0.5878622718894185,-0.5659195998820528,"digital reference plant model, not per-plant manual biological ground truth"
+Width Major Axis [m],15,45.647368350705804,0.5226319238235362,0.5397841463492085,-0.5226319238235362,"digital reference plant model, not per-plant manual biological ground truth"

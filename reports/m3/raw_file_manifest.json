@@ -1,0 +1,4460 @@
+{
+  "files": [
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/leaf_related.csv",
+      "bytes": 625069,
+      "sha256": "0ed3b21bd27a0f270dd5fc86ff64f2574f4ea7cf77552dc08990a7ab8462160d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/plant_related.csv",
+      "bytes": 734597,
+      "sha256": "958cd9628855da8e327c13000ee64375bf6492adcef044035598fd95ec12e253"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/leaf_related_manual.csv",
+      "bytes": 9902,
+      "sha256": "7bc5bd1f12dd667761755d1be1237872fd66e434307e443d65fd658428e1e43b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/plant_related_ref_plant.csv",
+      "bytes": 16955,
+      "sha256": "7ab42aaeeacf2d006dfa3c923bcda375959857244717529e119f58d46e420ef8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_001.ply",
+      "bytes": 1629637,
+      "sha256": "b0cae411363478ad459467dd3d360b0538e66d1dfb0792db6a9ce095ba60af30"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_002.ply",
+      "bytes": 1381413,
+      "sha256": "7b1f7141516b05f47c10ff9bf6d7370db1c37371a9425df077d749bc64d544a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_003.ply",
+      "bytes": 1664485,
+      "sha256": "770a1ab4954240c3b526ab0e985f9546da6707badf140deae579f397107bdc61"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_004.ply",
+      "bytes": 2048549,
+      "sha256": "9fdd2c3635e82367c0c35975db9346e2ba30c7ea6928a2315d0a6bffa8a2ea23"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_005.ply",
+      "bytes": 1614277,
+      "sha256": "48702fafe911d5c527a07c47e79c8d5eb5e63fbe99b65b68f11c37014991c84c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_006.ply",
+      "bytes": 1387109,
+      "sha256": "3b621f2b57948442d23f818db65ce94b0913564bbbd05d993397ba348e8e2041"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_007.ply",
+      "bytes": 1580549,
+      "sha256": "3ffbcd9a7d11c1c5fc988bc53e5f534af790fd55eb08ffcdfb7986a5c317cd7c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_008.ply",
+      "bytes": 1662597,
+      "sha256": "fd53424bd3eac1ae18fe18b835b68fad85d4ba808a5ebc7ec116fe46d25b329b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_009.ply",
+      "bytes": 1374693,
+      "sha256": "529b871c925e8ab7414ce5a5c93815115a675de0314f32ebd363d740f9716e18"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_010.ply",
+      "bytes": 1650469,
+      "sha256": "4f360cf5ccfbda7b79ee87ac8d63cd28c3297605b3595710c63f30065fc7ea3c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_011.ply",
+      "bytes": 1398021,
+      "sha256": "58b0595aa8073e14be03b79f9a9279a29dc73940523896a1cca788600835b0b2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_012.ply",
+      "bytes": 1770533,
+      "sha256": "ee9000c45832f2a0569d8f848af8fd0f80ebc13849d644decb7c1b9221fa1815"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_013.ply",
+      "bytes": 1387813,
+      "sha256": "a545f94814701366580ed1d975cf6962e6b30dbecc2127a833a8fe1babc7012d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_014.ply",
+      "bytes": 1344421,
+      "sha256": "d74ef99ee1e52379a36752c05f3ef13001bbd9578eb6b6447d243a7bf929b0b8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_015.ply",
+      "bytes": 1048005,
+      "sha256": "b23398e0aa51ea9da14832c9b8e2e304e54f959d4c3b11d70615ff3ed70cc159"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/measurements/reference/ref_plant/point_clouds/ref_plant_reference.ply",
+      "bytes": 8499014,
+      "sha256": "767b4b1b489362504b6b8abae4e11e7388d0928646233196baf8d1b713b15f90"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_001.ply",
+      "bytes": 481285,
+      "sha256": "4e500d3313abb43a50182cb794b785e251c7f35ac4b252ef3c392025f5eae338"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_002.ply",
+      "bytes": 931749,
+      "sha256": "5b6fed77c94567300e8a7b5ee7b0545ecf400a0b755580c2d6837e86cd25468f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_003.ply",
+      "bytes": 2074853,
+      "sha256": "62af5ec88072a52b9504a67198c1bcc5cd4bdbcf8a7558cf467f5ea63c7de8b8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_004.ply",
+      "bytes": 1170757,
+      "sha256": "1af7e53dbfe4f9453c264dc27ca10f1f393424dd8e1e95f008f2199c98c3c1e6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_005.ply",
+      "bytes": 2741733,
+      "sha256": "dd446198b4818bc75865572d72b6aba71d2170593dc247608b5211a93b8c105c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_006.ply",
+      "bytes": 2902725,
+      "sha256": "969e83827faffcd608c30f1ebf91182549584bc946339473c402398fa1b0fdec"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_007.ply",
+      "bytes": 1644293,
+      "sha256": "021d96e92eb1d700a6525688ae765d57fe687fffa453b32eba1ef99c0de31aef"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_008.ply",
+      "bytes": 3004197,
+      "sha256": "14f2486d0e76f500f66837e3e257b6feb3b30a97bcf3029a6054d6b298f38147"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_009.ply",
+      "bytes": 6785670,
+      "sha256": "875ea8e633d0a4b15d9cc33b5f67abdbf4f28df5308f75083e58e0cac7562944"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_010.ply",
+      "bytes": 3745862,
+      "sha256": "2918e1f3184aacb824f9c52c61545da77f500d27840586c10d1d0db0d8490997"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_011.ply",
+      "bytes": 5103942,
+      "sha256": "0a190f56320e0d9220ba32b76efd9e2c6606f24c8966461a25c1f4c2cbf4d96b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_012.ply",
+      "bytes": 6989254,
+      "sha256": "a2573f42f3fc92a9075b73089d8c99324d01e1d4135f3195dc5d433b92aeff2c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_013.ply",
+      "bytes": 11634918,
+      "sha256": "5a4d92dd06788887388899ee24ffa05fc8c24051449cf38d9f2c1b03f1d313c1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_014.ply",
+      "bytes": 3633222,
+      "sha256": "806f4f970ea022eef58e30ed31d0d5f0b27bce6d41fac9af06133d0c4c1a80a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_015.ply",
+      "bytes": 1495173,
+      "sha256": "ca11651fd9c4681e024a0629496e4674e565244623fa3142968aef0f14d14bf2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_016.ply",
+      "bytes": 3808134,
+      "sha256": "f4899fc89acf1f37faaf2b2c9bc6406e28e7188ed72ef507847445f146c34cd6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_017.ply",
+      "bytes": 1692549,
+      "sha256": "a7606e93d44c99914293532aebc4653450b7be759c2dcf679a2aecb0783a41d8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_018.ply",
+      "bytes": 2496709,
+      "sha256": "339e549a3256cf1ab98b44bc164fe2c957f5a4a1d69df61dcb449485ee6bd1ab"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_019.ply",
+      "bytes": 10095430,
+      "sha256": "ce46cfa1e40fd1dace278198fa8c1c939189f8e248a58b8690a9651bd368d732"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_020.ply",
+      "bytes": 2810053,
+      "sha256": "00bc472e8cad86688336bf02fad01d9c59bd930f8618997607b884c1af859d8a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_021.ply",
+      "bytes": 1520901,
+      "sha256": "7c3f2f61b888f5b34c52715e0029fb34fe1af9d5c129898bc42712f758c916ef"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_022.ply",
+      "bytes": 516229,
+      "sha256": "76dadac57cd6a0ade85010332f5e97658b559ba962b7638ef2254e2d56b118d4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_023.ply",
+      "bytes": 1074277,
+      "sha256": "e259615386134ab73bc3532e2eb28604419443531fe4dafaeae73bebb26d2aa2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_024.ply",
+      "bytes": 2639461,
+      "sha256": "0c979a0300a538757280b94b96c4bf48be9e5b7625fcdd3b1da02451f3db800b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_025.ply",
+      "bytes": 568293,
+      "sha256": "1c682a25696b0a82fbbe1cb30bf2ab62bb5a1a2ef9880941c9e3c14e80e82da8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_026.ply",
+      "bytes": 644613,
+      "sha256": "30f82d24264776354edfb9b8b4f8697f14b3bece1450386a4d0a49df1873c8da"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_027.ply",
+      "bytes": 1363557,
+      "sha256": "d9711fb24cd5bb5dc5bb6f3f7317fc646af869ffaa90e935ed9d6cabe096163b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_028.ply",
+      "bytes": 1427909,
+      "sha256": "db6449475bb6c2cb550a9c764985cafc9a917eb5be528e6a8435e9a0b0726284"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_029.ply",
+      "bytes": 867973,
+      "sha256": "7b18ab04978fedd03567051f38817316525c6f4275fd6d125774e4bc8a6f4be7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_030.ply",
+      "bytes": 10417606,
+      "sha256": "08b4613506ecc271720d85b57bf2e2ebad5604aa1c60b3a3456d46790b95a70b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_031.ply",
+      "bytes": 9406310,
+      "sha256": "cabba1e08134a984d970f3935026e7303cb43d7d5fa8bd512f64bbb4d4363410"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_032.ply",
+      "bytes": 3437702,
+      "sha256": "8ee4b1a5752dd171d57352d677428221465e7337dad0d8b82df9a9f2007b543b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_033.ply",
+      "bytes": 2341509,
+      "sha256": "8d66c3ec734d40aeb968041dee415154c1b1e902b63fd80ae04cfc3d100f2e36"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_034.ply",
+      "bytes": 5010534,
+      "sha256": "6ef297ee202f735586bd2a7ad999f11350bab7a4fee9f604087fd28330817476"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_035.ply",
+      "bytes": 2552357,
+      "sha256": "aec2e78688b9da80ec2cbc4331d5f0062feca4f0ad11ad04ba21e2b67f2cbbd6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_036.ply",
+      "bytes": 4946406,
+      "sha256": "6d4d27fbff15494a29dd2c7115e6e8d177c505598990147deb9c852434a1225f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_037.ply",
+      "bytes": 2602597,
+      "sha256": "54ff13e5af49f87efcb7c795358ef01e31a671c6e5419269763f366411b68632"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_038.ply",
+      "bytes": 2292005,
+      "sha256": "1806efca9d9e78ff4810e08868b38f6d519eb8ef1c33fcf8605e681387e0fa53"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_039.ply",
+      "bytes": 1525925,
+      "sha256": "94b6b4eb90b13de20cbc3f34929c5793347032d544e8e05c4c061aa343c3beb0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_040.ply",
+      "bytes": 1120357,
+      "sha256": "aa668f30df1b090693d392fa861c2b6cbc3cf2a9606ab66d28075750bedef5c5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_041.ply",
+      "bytes": 1317797,
+      "sha256": "f20f0849a7e9bb45c7ff23a6870a5b2e431be31d4fa54958fbe6e6d99e23faec"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_042.ply",
+      "bytes": 7769190,
+      "sha256": "3d9da3b5c68cb5411dad906dbb742f0890ce6e38929d6d246049c6a0efa59975"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_043.ply",
+      "bytes": 4660870,
+      "sha256": "8eab41e0f23ecabbbd475ab16ee8879fca0b266e9e3411b1e3f43d9a686534b8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_044.ply",
+      "bytes": 9211782,
+      "sha256": "70dcb6139921439e7627ba05b4e99396569c7c111799525fb4d9acefc574d6af"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_045.ply",
+      "bytes": 3501670,
+      "sha256": "fa6f39bd989751de90796acbe91d13ed89ce406f9c5c2f56e60968445825442f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_046.ply",
+      "bytes": 1800357,
+      "sha256": "f43ebc1fb854bbfaa91219d52aff3b4a0743b66947abae2ddbd1d9119c29febc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_047.ply",
+      "bytes": 2072645,
+      "sha256": "3bef0e1858264908eb5d13d0f1308ff1c48409d2e1cda7a5807b1120889f3158"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/37_das/37_das_plant_048.ply",
+      "bytes": 697701,
+      "sha256": "757357f65e58d5c357388a7db1797f2d7b3011baf0647b174ce52d684f12ae32"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_001.ply",
+      "bytes": 1301829,
+      "sha256": "2f1cc37e23948d4c19f60970b8b42304519885185beba5e3253885242e13cfc8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_002.ply",
+      "bytes": 3089765,
+      "sha256": "d4c5daa6fc66c0141d8f67f875d53f77d4e00f4d855cb1a83f8195d9d2f6cd3a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_003.ply",
+      "bytes": 9074790,
+      "sha256": "bfd18ff3fc4bfe28157f2d0042dc3379cf9530c1d95b141e0c24c94811827ee6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_004.ply",
+      "bytes": 4167238,
+      "sha256": "e53ec79af3016c825f2d35b3be7102db0132ebe0a8cd19dd846cced03862e595"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_005.ply",
+      "bytes": 4811430,
+      "sha256": "9be9be3cfa397e51cd179417c6915cf181418da27e44a2db532479695415e3eb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_006.ply",
+      "bytes": 2276677,
+      "sha256": "156858848c34257461e7cc8ae016fb4771c5db759f946b826bd24dc93ef0faa3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_007.ply",
+      "bytes": 1958277,
+      "sha256": "4f33df435d4b42e6652ff1910d6561055249beda54a11c30df2e03fe3c8c540f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_008.ply",
+      "bytes": 4970374,
+      "sha256": "3526260860e6984fbcce4706fe25134445fa74910e53cd2b3cabbb9a99c0f365"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_009.ply",
+      "bytes": 18938854,
+      "sha256": "77257c965e9d544df458d1eb9f0e21c9676d1f7b5211b15289b8f8b92155d2e9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_010.ply",
+      "bytes": 10854598,
+      "sha256": "588cc88363e8b9d9d1ae293fe41dcee55aae2992bd1fc667c41f0dcc7ed56a0a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_011.ply",
+      "bytes": 6777894,
+      "sha256": "6943e90b25a1838aa86bfd02270e0f4e200da1f9563ff608b531b1456d9dd761"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_012.ply",
+      "bytes": 4338246,
+      "sha256": "35aeeb307fa4dbbbf21eb2911452ec53475598a840c1b68e6bd4745a0c9fbd57"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_013.ply",
+      "bytes": 6589670,
+      "sha256": "84fdc40dfbbe63d66d672851a8485daaaf05b6cb91d06a403fea717c75ffdbb9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_014.ply",
+      "bytes": 4310502,
+      "sha256": "b0d5b0e92c0b4ff2bd6356951d7413e4d1d7db691b31ee681545009019939474"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_015.ply",
+      "bytes": 4385894,
+      "sha256": "3868c7e5f3a3f538f05dda8d8737dbadc2e29383d9c913cb16b40db8f69a1409"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_016.ply",
+      "bytes": 11676646,
+      "sha256": "30003d0e126a9a9eb7aec4e46b0ffd498673fe9311067b659dae44dac2c730de"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_017.ply",
+      "bytes": 3699718,
+      "sha256": "9cfdadab7c9d1d6c5d09abe42d4352fb4e6188423f49f18a99b84f0e1887599d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_018.ply",
+      "bytes": 2246981,
+      "sha256": "6c2efbd5e0a4190301405695084e9b8d84814d461c98396e255417e978adc3c7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_019.ply",
+      "bytes": 5584262,
+      "sha256": "1ea9476102da3f207c17348ec531dfb6b027d1443d87093ea30d607c799fb5d5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_020.ply",
+      "bytes": 3950566,
+      "sha256": "a07828b5204c6bc6773d5649aaa466411f83971fe874987b93930ea7986ab7ad"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_021.ply",
+      "bytes": 6791078,
+      "sha256": "d2c70f1f35c14ce0de32305295cb976060c100f35af6953f7b51fc6c244d2a19"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_022.ply",
+      "bytes": 8829638,
+      "sha256": "9e5014f0e18dbbda06f7028ae0c109fbb57c4b48a240e3566539c1e52f641512"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_023.ply",
+      "bytes": 6064902,
+      "sha256": "b4e331df14792609b45161aa15bc6ddbe61e536da1fc6d43c96f1dfdeaae43a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_024.ply",
+      "bytes": 5920358,
+      "sha256": "f7a9a23f6169d9e794814ef77fa20f32626722f919e29c9e9f101d37190279b0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_025.ply",
+      "bytes": 1350853,
+      "sha256": "f25a88725fc493d1383ea62e0363c797d028ee204ac95f3d7ff85095a23ed327"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_026.ply",
+      "bytes": 2236933,
+      "sha256": "499125c15ffda1c328c805c78ee74e991ce9c865ca3c85bf51549ff7dd5cff58"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_027.ply",
+      "bytes": 8086758,
+      "sha256": "a42bd1d4ec6d8452967bd76f12a30d5b51378d84be7d20e245e4c67c79c58621"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_028.ply",
+      "bytes": 5036070,
+      "sha256": "2b839910a09a9ca4dc39d1f2096a216390ea68ead5818f00a19ebbb58e4023f9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_029.ply",
+      "bytes": 2017093,
+      "sha256": "aefb3ab72b76098fe8a2013a13c6de843e81512fb693687d347d24a3e4f17d60"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_030.ply",
+      "bytes": 5543398,
+      "sha256": "f4aaa0849dd3692fcd421952ddcbdb6a97b68c6f5fe8ece9c113f09bee45c3b6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_031.ply",
+      "bytes": 5196646,
+      "sha256": "18b161001286202b67c3cdd6c57edbc8ddff3dc21e60123c3e3ef4dde2601148"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_032.ply",
+      "bytes": 5094150,
+      "sha256": "c3a03c9535b2fc13dbf4e1b92f44c9191b055e29cb3d8f822af06ee2ce7baa58"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_033.ply",
+      "bytes": 8373446,
+      "sha256": "dc5141220b44688622222522414c8db778d70510964cb0779dfe3797ef7aee6b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_034.ply",
+      "bytes": 11926374,
+      "sha256": "30d4efcc3dbc5081003eaff7ad32dcc8cf75bb3976e23230ff1a1af6404afdc9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_035.ply",
+      "bytes": 4730918,
+      "sha256": "309d8eb821e793d0e06efd9e00848b063388529840b6b5b696de403694dc1733"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_036.ply",
+      "bytes": 4267302,
+      "sha256": "4a33ea0afc5e78c50134fb968407cb45ef403eed46cafaa0723a30bcb556c614"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_037.ply",
+      "bytes": 1918565,
+      "sha256": "99e8790feb1ea9e8e00cfb4f98b4834ddb914fc01ac4ae80385f00ba23faf1ed"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_038.ply",
+      "bytes": 3262438,
+      "sha256": "2d740f2af44a7c99b06146305ad7036e40742835e41a648130225d2e91bfd2a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_039.ply",
+      "bytes": 4720006,
+      "sha256": "4fbc45618d7ed980a87106d15ec8d6d62aa2649e191311b8d0dc9c061cede039"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_040.ply",
+      "bytes": 6841798,
+      "sha256": "da7dca4634c7698f04950aadfb28ec2598746fbeb4f2d63f686277e48983253f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_041.ply",
+      "bytes": 3038629,
+      "sha256": "e46abbcd0434e50cd49f49ca3d4e37f460d5cbf13ab77adf40534ef44d80d0e1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_042.ply",
+      "bytes": 5889990,
+      "sha256": "2ea371af13f2c76ba9d1baff0b6ebb6f73b869d376291e2b6e30b277e623c512"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_043.ply",
+      "bytes": 2834757,
+      "sha256": "38a601e48197fa8eca01625ceaf05c68b3b81cc0d48761e7e79b35a97e10e49c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_044.ply",
+      "bytes": 9528838,
+      "sha256": "f350ec4feb7bb2a0d2994f5be910363edf32910ff90389c61957b80b7e96ff15"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_045.ply",
+      "bytes": 9292390,
+      "sha256": "490291b06a16c93264d23d56e60b22a99cf6842bea2032f39ef1a15ba765dc53"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_046.ply",
+      "bytes": 10407654,
+      "sha256": "6c864c4c588dfd5b6451877933b7bc266a5a91db8d30d412bd7b9abc8f123a55"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_047.ply",
+      "bytes": 7179878,
+      "sha256": "a6527ab47588bab14124fb77f68a5087ac1870ab74df413d8cf1c2ef178c9dbf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/40_das/40_das_plant_048.ply",
+      "bytes": 2481733,
+      "sha256": "78a2d6271bd63f73c5ed3f4d112e4f103ac3c0322711d2279e0df27f99316fb2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_001.ply",
+      "bytes": 3006853,
+      "sha256": "9c5f2b2ae87a52901b001e3c5e0d748b4e06b7c2e464de9b00bb30168e68bed2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_002.ply",
+      "bytes": 4965222,
+      "sha256": "0105e8d7d2aea1d2b46fff91727a157646bdb2d8d750edfbb73ff1cedefbed1c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_003.ply",
+      "bytes": 10388934,
+      "sha256": "5461411d2476360606299c2ef9b13123cc240a0f8029ca91bd7e695d5ca3a50d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_004.ply",
+      "bytes": 6765766,
+      "sha256": "25becad846d0557f5f997c4d83de68186639f7cec3718bb893e275e26df1aa35"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_005.ply",
+      "bytes": 6515334,
+      "sha256": "0698ee9759e4e1006a47b104214d51dadbccf67d63912ddbf88ebdb724ed16bf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_006.ply",
+      "bytes": 4260550,
+      "sha256": "736fae1d3b6eb062c9335e230960879e4c970a13f973d4c62d739ef5eba86491"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_007.ply",
+      "bytes": 3115109,
+      "sha256": "82ea972225e5f792f2f2e7fe49ef18af58b1a29d7b7a26036192f66054ee0bbc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_008.ply",
+      "bytes": 5670246,
+      "sha256": "45acfb1cfdc5984a161e1a9e81a5580e48be0e9a015ca222c85bd3b99eded3d1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_009.ply",
+      "bytes": 21400966,
+      "sha256": "26af94aee381f20a00f1e46206441e5204e6483b39fd285078ab38141e258a86"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_010.ply",
+      "bytes": 12576870,
+      "sha256": "2b90c1ae1d3d0f13988f2a8509b7bdfdddd764aaf64c8c902893eafaf88d11a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_011.ply",
+      "bytes": 7608454,
+      "sha256": "892e29583ecc4e62ce8f143cfd401f2292f03d74330e36ec1d6dc7ea10ca6e60"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_012.ply",
+      "bytes": 4023078,
+      "sha256": "113f3928eb45f37f3c6d9ed6ab4f5bf8e8c9a96e2dbe7d847afae957fe83e959"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_013.ply",
+      "bytes": 6665958,
+      "sha256": "10c23e8c2e779b3e20256b7d2eedb7addbde98336da653eefda57d7d06ea40cc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_014.ply",
+      "bytes": 3901158,
+      "sha256": "ec29549ff91459da2a63006303501fed6c2616a6db724f63ff989637900ebf28"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_015.ply",
+      "bytes": 5767366,
+      "sha256": "c6ee6b7455abeff4630d72ed0b3a175ac339fdcef8e37748233caac984781b5e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_016.ply",
+      "bytes": 12243654,
+      "sha256": "03bda8a6963527f5115d868de2c0dec9e576b714a232fc0c5c71ec11c9f00c6e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_017.ply",
+      "bytes": 5153286,
+      "sha256": "be66926e0e9223335f6c80529e41a4a8d54aac6e78a06cdc216ea911282022dc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_018.ply",
+      "bytes": 3427110,
+      "sha256": "1904b4be19df31e8f9d9e0aaba61e998f457405e272c8d3bad9aaca6d53344bf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_019.ply",
+      "bytes": 5508934,
+      "sha256": "6e95941d5586754be22106e521dab169eb90c68b6a944f8610deea46074382c2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_020.ply",
+      "bytes": 4697702,
+      "sha256": "cf5e2fe86454c8ec03983eae5cd3d691b3635b4c57394b0c7c374a6eb37f1f4a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_021.ply",
+      "bytes": 7571910,
+      "sha256": "9f87e1560c76a467dbbd29794f6cc9c32d149e0948e8721147fccfe5d8418406"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_022.ply",
+      "bytes": 17217638,
+      "sha256": "829042d4cb0936bebb96cdf6a85cff31b928858536e07d565987d1f09858bd50"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_023.ply",
+      "bytes": 8686342,
+      "sha256": "5dc145f60027013dd845c524a9fe88c5f97610c82b38c6226a52a6aabb6bf885"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_024.ply",
+      "bytes": 6376838,
+      "sha256": "9ecc340392a6222c43f389af3d2a02780ca29510c5461c089b541853e4f65f22"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_025.ply",
+      "bytes": 1992197,
+      "sha256": "7575836aba86bbe28baa39cfb9c2b24394f934cf86802029e8692bac836085af"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_026.ply",
+      "bytes": 3529062,
+      "sha256": "8f10014376afcdd6800192c739c7da254128733d00d5a23b7e74dc8417e69bd0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_027.ply",
+      "bytes": 11376966,
+      "sha256": "69e83fbadd721ec4af24253e30e7b7954be552f6a7cb3d412aec9a0b3766aebb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_028.ply",
+      "bytes": 5471782,
+      "sha256": "4d982e915b5b523a69d4952d6fecfb4c5e1a455790b08543fe45976393bdb92f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_029.ply",
+      "bytes": 3122725,
+      "sha256": "df579b116b5b952f219458efa2716c9a3c11c33cf9b5fd981b067aae7d19a467"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_030.ply",
+      "bytes": 3798406,
+      "sha256": "05b5e09e5e22b8119282bdf17ecf407ae9d5db31894913ace36e0b5a6799506f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_031.ply",
+      "bytes": 5999430,
+      "sha256": "55cf20f2edd6e1550ea815f80d4f61b5f3196f2a4f3080374d9c77f13824af7c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_032.ply",
+      "bytes": 5200454,
+      "sha256": "66bf013bb82cfdde2b7a9d340f54c7ad7ed7f1f2f3f2e8489711bf96d15e4845"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_033.ply",
+      "bytes": 11204998,
+      "sha256": "cc2d43e798c5b1fc5a758a2d2919e24c988311268126ff9d54ddc3321e3d55b2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_034.ply",
+      "bytes": 13076358,
+      "sha256": "91a812eb39b6b658e250cfff1408231bb37b5aa08677a75fd51ee6a2cf56bb66"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_035.ply",
+      "bytes": 6095558,
+      "sha256": "fb7cf62fd70e68f0c7450f4c5dc1f87eed38ed849d9cdbb7b4d4d1359d1a7a6a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_036.ply",
+      "bytes": 4732134,
+      "sha256": "34ba8d95e4634d71b3c88e3e24dfb3f3cceff97d3e43f75d356ca1cad78dc546"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_037.ply",
+      "bytes": 3109317,
+      "sha256": "a38fce9e34cf8015751f90e33b7efc74404755295bb9da8dde3012ca90923179"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_038.ply",
+      "bytes": 4388326,
+      "sha256": "7d452651142495f8e49d780228bbf532a0067c6a1e077eadce7b2da89310d88e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_039.ply",
+      "bytes": 7425350,
+      "sha256": "3cf0d3e01f2f212066719c28f8f4dad9cc488f3c177932402d0199029d868a08"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_040.ply",
+      "bytes": 11567270,
+      "sha256": "921328fa2b49ddcca6799db432315b86792e7f101b52b21e91d61a2767253950"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_041.ply",
+      "bytes": 3702406,
+      "sha256": "e2d941c9785b8ee55f2595666dcebe6d5d4544d8e66302ad992e317f38b379e2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_042.ply",
+      "bytes": 6507462,
+      "sha256": "9d6ea3d1dff9be4d095473a7ea15313039191c490eddf7e61a5665bb7c5acc5a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_043.ply",
+      "bytes": 3947782,
+      "sha256": "bfa8aea9f834a38788f0eda052ce15626e8821030cd3a6d11bb80f6fd7278d17"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_044.ply",
+      "bytes": 11303942,
+      "sha256": "b2116af8bfeff82801c0db4d93ce55564cd6c1ced581a75d0b786d802cbd9077"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_045.ply",
+      "bytes": 10924326,
+      "sha256": "67bad5afefd88538685df1b92dff0c4698aff73447124395e93352d52de2d86a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_046.ply",
+      "bytes": 14392966,
+      "sha256": "8b3504b1e47607a551fbcc8ec87c1f412dbec9353311edb775cf6f89939b2f2f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_047.ply",
+      "bytes": 7332870,
+      "sha256": "5907427d395f6a4b612a23253c62735abe56f221635b1820e0f5fe57b228ab8d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/44_das/44_das_plant_048.ply",
+      "bytes": 4161414,
+      "sha256": "5e4adb50e0529f6dc10c09f422b1fb4242eb22bae106f28ca29262175a60f66e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_001.ply",
+      "bytes": 3871974,
+      "sha256": "fe5d997efaa7544434abe1fa0509e38e80a1acbe2ee5dae0903c666dc09f39a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_002.ply",
+      "bytes": 8037030,
+      "sha256": "fac0157cdc86f0e06ec40bc984a8f55eeface699fa54624739e7348f6d261a33"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_003.ply",
+      "bytes": 21073414,
+      "sha256": "10f655d6b2d54ad68495fd91cf16c858832e2ff53123565feb46043c19b2e538"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_004.ply",
+      "bytes": 9047942,
+      "sha256": "3e6466464439531569f921430fb81927c49427a3199e0eb819cd6fc19b77cef3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_005.ply",
+      "bytes": 8724614,
+      "sha256": "fa5d8893187af1a1ba9f186a6228ab3525964a038db9d4344d2350bdfe57b759"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_006.ply",
+      "bytes": 5798470,
+      "sha256": "a6ec0a40e302f04befd4b5e6ab9f4b97738bb56ac5f6d9ad54a0fda9c7d3b6d9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_007.ply",
+      "bytes": 5089862,
+      "sha256": "cdeab76bf1414e9dc46d5a8e01e7066c9b61bcc10f00f47a81ec3a1b40a5ecc2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_008.ply",
+      "bytes": 6926758,
+      "sha256": "2d4d6e42aa8ce810b30c57dfba4ba1a02f70535b38d183429f0e7d5b3a8e9115"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_009.ply",
+      "bytes": 46535175,
+      "sha256": "430462f7cace391893856c7a22e3cf9dbd9218f87c91b0dc96af90891d5eb76e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_010.ply",
+      "bytes": 11077382,
+      "sha256": "a6901d7512332dcea1322e4f6bdf56c71126db303645f77ccef52c2be54a788e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_011.ply",
+      "bytes": 11656134,
+      "sha256": "fe4f19160dc6d6296d8548af9c70bbc3fbeb76c9ee375c622e17cacd958bec06"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_012.ply",
+      "bytes": 6975782,
+      "sha256": "765435448a7b2f8293ef0bb83decf2671bcdc0359ad79cccce2db35c2f546c51"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_013.ply",
+      "bytes": 8381894,
+      "sha256": "7851786a1961aef560b16e7601e91932149e2485ae2e8c8a6b5bfb2d2a0cb577"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_014.ply",
+      "bytes": 5209222,
+      "sha256": "45dfff46e86e707bcb28e9a9141b534d55888774eb662838fb57da651de03cbf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_015.ply",
+      "bytes": 8917926,
+      "sha256": "0c0ad8064c8e091af70a9708428779a02b1dae5584678ffcc5bd20ec385e8548"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_016.ply",
+      "bytes": 14414246,
+      "sha256": "107f9172cb3370354cc48d4b5562d09d7c109146c714a256dea5a396a4cb1975"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_017.ply",
+      "bytes": 7964806,
+      "sha256": "4489f64df35ca810c732e6179c084b3129aa63de23002de14c3898214d5279c6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_018.ply",
+      "bytes": 6021094,
+      "sha256": "06b979478139532529d628b18c5a6cdcf0276501de03b8d6d8e9f83a7d1b7460"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_019.ply",
+      "bytes": 7854854,
+      "sha256": "eb1d6a43c5a97e3f6747e0c313aba9f5fefa5a824e08171220122ce5cbd28f34"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_020.ply",
+      "bytes": 7445414,
+      "sha256": "6d024ef8457c16bbd32ad9e9ce453610fad99dbd14190449021956eff241dcf3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_021.ply",
+      "bytes": 15302470,
+      "sha256": "3302455dece9c9c25cac36f608bcad60f0ea79d90e8d669d1d2627b4f836b27e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_022.ply",
+      "bytes": 18713158,
+      "sha256": "83a31705986a18ec343d22234c326dc368813122be8090e9093357997190e960"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_023.ply",
+      "bytes": 13020902,
+      "sha256": "c7ae24204f8181077a4e99c10e3d6aa4a20a70cd8240db68a12ec99b8a4210b0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_024.ply",
+      "bytes": 7610950,
+      "sha256": "ae65645b24907b5d03d4aa0980c49de65036b68c10789f7efde216f9db53fcd8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_025.ply",
+      "bytes": 3884582,
+      "sha256": "91fb7e073b1a504576051ffb0c277bb1c9cd264bcc9ab879ee527e591abf4512"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_026.ply",
+      "bytes": 6554662,
+      "sha256": "ba9803caf070e5a3a02e5c85026dc94b1846232fb97b29d4c0e6fcbc3e248a77"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_027.ply",
+      "bytes": 20268230,
+      "sha256": "b72e52da52dc75a2dd249b8fe70a10379c1f25486629ce81ff1e2ff5453fd5e1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_028.ply",
+      "bytes": 7226438,
+      "sha256": "6a90f625ec361d7bea43e2d92a431361464eaaeebae1df1c65904963adc440c9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_029.ply",
+      "bytes": 5413126,
+      "sha256": "92ef4a1c3a8298169718b81d5f51d594947534605ff253b4c7861e456919c76e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_030.ply",
+      "bytes": 7676134,
+      "sha256": "8779c33df9fc5175a1c4e434bf9391f958638e6ebf42c1178f33639b2ee5fa67"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_031.ply",
+      "bytes": 8312166,
+      "sha256": "3b8f264b72ff65d050548ef0c159ffa0fc27d5d841715a4938f5e8eb468c2606"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_032.ply",
+      "bytes": 7404806,
+      "sha256": "e37d9abc5c5646603207d768028903aa554c81a81abd042bbc88aabd3fe1365a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_033.ply",
+      "bytes": 15552742,
+      "sha256": "07a9d6903d24ae7caaff35b6eb7c1fefc2bde82c3679d173282ef0547b688e29"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_034.ply",
+      "bytes": 15465414,
+      "sha256": "c08c2ad871f2b271037fcdaf713e707b649734a7c060dd9d319783abf013604b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_035.ply",
+      "bytes": 8118950,
+      "sha256": "b4419e025fe88be23d2d557c9601ba27e57360a90f30fb242052cef404505dec"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_036.ply",
+      "bytes": 6837606,
+      "sha256": "cf441787af495fab151be8df4bad00ce0e6e9f6c6c1e8418cacb3dba715a0fcb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_037.ply",
+      "bytes": 5067398,
+      "sha256": "77c6943f395f645cd512a11192c4d16235824f799cc6433d1cd58cdee3dbfb72"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_038.ply",
+      "bytes": 7238758,
+      "sha256": "ca7fdee831dbb6301999e663adad4b5ff55d9c2da4f9ca5776498a87a8d1d4a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_039.ply",
+      "bytes": 12036774,
+      "sha256": "195afd7ac25bbc82c1b2a0c677d99de2473c3adcee1e24ba0057f13fd314e9d5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_040.ply",
+      "bytes": 17614630,
+      "sha256": "d6131941b2cd19290eba8b3bd6de6f3347cd15517d5e0943f803d6c3796ff021"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_041.ply",
+      "bytes": 5347590,
+      "sha256": "6439d70a4a659e5220067c0aa4ae17e4902ce8049b9d96e16c29cd9e515a2446"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_042.ply",
+      "bytes": 7425542,
+      "sha256": "09990afefb1c2317b199704aedeb1c769b45ead969ad29f5349b8b960be4a0de"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_043.ply",
+      "bytes": 6873574,
+      "sha256": "c271edca63bac22aefce2885ec0348eba2117eb2bb862271144fea6b7b452bcc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_044.ply",
+      "bytes": 13126790,
+      "sha256": "3a52c232b6717a6326e556a7a7800fad68305c3e2d8cbb6e5f84e29d1f16011b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_045.ply",
+      "bytes": 16609638,
+      "sha256": "152bff3afb32e788e5231ff98a438f5ac6baef9c7a4f93b256c9c5576750c3ea"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_046.ply",
+      "bytes": 20135686,
+      "sha256": "51782a7cc6e11feb7f5d4c36b810dee55ab36f3e61190875c001c395091d17a0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_047.ply",
+      "bytes": 11839366,
+      "sha256": "9273d419931ca303ce7666ad83783c0bd46997bb4dc59128b8d511f383bcdb8b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/47_das/47_das_plant_048.ply",
+      "bytes": 7559270,
+      "sha256": "b53e6959c06bac2100242fb8e746da1ac01ff0b5ffaca51ad7e71242d78d05e2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_001.ply",
+      "bytes": 6234470,
+      "sha256": "4dd5d463dd968561a11913011c7fce104859c34ba456e67a78a9e2941b471f7a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_002.ply",
+      "bytes": 11435654,
+      "sha256": "918e3875f53c1ec0aa0e92532d5bbe3581df9c62ee09e05035df3adabafb6191"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_003.ply",
+      "bytes": 20527814,
+      "sha256": "7581fbde998d422809d67193cdcd64f82f95018d3f199f986485833f21ec6e9a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_004.ply",
+      "bytes": 13299334,
+      "sha256": "7263cc10f9c9d0e04f6b778213684d95c1c4670bed98569abe433242e9fe5e5d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_005.ply",
+      "bytes": 8557862,
+      "sha256": "dc202846f4bd416ac43fb717ca1cbf56a4ae835827d71a47140f5066ba00a1bf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_006.ply",
+      "bytes": 7173446,
+      "sha256": "81f9411b987230c966f46b43d49e040e1dd978dd1026d72aaf4776581173bac1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_007.ply",
+      "bytes": 7051686,
+      "sha256": "6b85f0c339861bf5021fd86d4bf99d03353d05c02864f095ec3a9dbd609dc548"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_008.ply",
+      "bytes": 8355910,
+      "sha256": "817ce261077043327c4a20c2f8bc8b15cb83b48dbc0cd687f9020a562f5a9c4b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_009.ply",
+      "bytes": 28230854,
+      "sha256": "065eab705608c479611490dde65bce14132630a2493186acb35c70dd5b9359f7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_010.ply",
+      "bytes": 17917254,
+      "sha256": "514a8674433039dfe85e6ffef4c3cb2f22a5b6bb651aa756281e83cadfb6ddc1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_011.ply",
+      "bytes": 12678342,
+      "sha256": "0943facc76faaf402eb1ab686725563adb917335c9e2864bcb58ca9f6a4eaabd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_012.ply",
+      "bytes": 5946054,
+      "sha256": "7b0af0cc3e62a1834a93dea908159c797734fc6d38bc1bc7ae33e2772ce0e538"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_013.ply",
+      "bytes": 8347750,
+      "sha256": "c2382783e79908840d8c8043c3dd21bbce2b261915f60d6de1fd408f8f186479"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_014.ply",
+      "bytes": 7169542,
+      "sha256": "068c55f02d2de1c7d16a99dd8a354bd4f75eaed20fc1756cd48f0dc952b8df6a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_015.ply",
+      "bytes": 10312518,
+      "sha256": "2e43373848901cfe0f786574d28f98cc6336c0226d2f1ba99ab28250edd39638"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_016.ply",
+      "bytes": 18882406,
+      "sha256": "c003a38c06c423e0babacd7e8e6cc8d7cdfab901e860a47c33fe05ad9e66dfe3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_017.ply",
+      "bytes": 10228294,
+      "sha256": "2ac756a4e006f67cd8fdc0b6eebff5acd2e45bee350486de57d8b9b11c57bc6b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_018.ply",
+      "bytes": 7961606,
+      "sha256": "baf1f572a221e177dd90a45b7ef25b37009bf381592f4be6b92c96e347d992f8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_019.ply",
+      "bytes": 8443974,
+      "sha256": "8b14290e5f1ec208d10266760f865d87fcafb9985f7b56b81f363cf6d6e1f2ae"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_020.ply",
+      "bytes": 9052422,
+      "sha256": "0013699006c16de92afe116601f85e284bb2583b76bd7fef4780660cb45fc8f6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_021.ply",
+      "bytes": 16597062,
+      "sha256": "0d87c1113466a189580dae21a09f523c82774b01a570df46e6df9c80c9b1582d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_022.ply",
+      "bytes": 20375910,
+      "sha256": "ec2ddbc344368fb481f5cac56997991a395aac07ae6e6dc7ed1b8c5b36ce882d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_023.ply",
+      "bytes": 15394342,
+      "sha256": "2d54ed329a437cf2f186776c647840fde53cc2b0bb7370e1fda730da8ddd2d65"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_024.ply",
+      "bytes": 7414758,
+      "sha256": "5b46b33fb183da57e38fcba184b9d270de268826dca4b38040d720766ac20d5b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_025.ply",
+      "bytes": 5566886,
+      "sha256": "b9337c4120fc8d0d4c3bb464f8297043b714e941eaf6868386d04de5d096f171"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_026.ply",
+      "bytes": 8869414,
+      "sha256": "ed01910ffc72a90d232577b4e2131db07e63451ff5ed457acea8a71acd0150d3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_027.ply",
+      "bytes": 19072070,
+      "sha256": "b1ac231dc393b8996684e8601145f1aa2989a587cc31c74747ebadcb95c8711f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_028.ply",
+      "bytes": 11068134,
+      "sha256": "1ec594a8d9af21cf2e9351713fe8f252d75151c4545eb899434161a8532a5312"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_029.ply",
+      "bytes": 9405766,
+      "sha256": "015134a2dfac538a6fa9b3f5b02c355319e9ea48d9965112a39f3252ed277b1b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_030.ply",
+      "bytes": 10102086,
+      "sha256": "760567547f33ed8a527d138e3e08bdabd0d918f11bbc0487ea4c94f4a8a3af5f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_031.ply",
+      "bytes": 8910566,
+      "sha256": "616e9f7a800e4ff6fbf945f954b170f01244d260dc98c726008d7d1055985c3e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_032.ply",
+      "bytes": 9736454,
+      "sha256": "645b83492dac1602fa1410b53d6e02c5fa005b4321dee43662562d821fa669a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_033.ply",
+      "bytes": 19013446,
+      "sha256": "8042f7750803b80dc12daad4605472bd24c4230338c0f4400bc074047e2434fe"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_034.ply",
+      "bytes": 16204550,
+      "sha256": "98b679edb74fd6336f30b937f98816d42da95686a931b42d611512530891e0e3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_035.ply",
+      "bytes": 9883558,
+      "sha256": "33707cba8fb36f0279a16f7afba9cc707a00416d6baa82a3e73be54267748f0f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_036.ply",
+      "bytes": 9025830,
+      "sha256": "e84de7c4e3cd4e0a340db6f6acd3082fb97ba8bba425c624dee445b8a1667758"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_037.ply",
+      "bytes": 6673478,
+      "sha256": "baa090e313ec5b624967906045c3fe89524bd8d90ad5869801ff7d4d0d542373"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_038.ply",
+      "bytes": 7881958,
+      "sha256": "2c91fbb3d3a7a698f96080225c4c516b741a964964bdb557ace754ab5cd120fd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_039.ply",
+      "bytes": 12792582,
+      "sha256": "5aa101d8b6a161e5d1baef1c72f556b2a162c7af3239128a28202dbf5c60e0f6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_040.ply",
+      "bytes": 25190726,
+      "sha256": "237726f4450eb5611fc8e3ffae2879dd9c14ad892baf09df658199d1a157f823"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_041.ply",
+      "bytes": 7105190,
+      "sha256": "9a6bc762ea2ddcaa3b587f11a98003aad0d9727d4dab3289b2ebcdd4cb042560"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_042.ply",
+      "bytes": 8021926,
+      "sha256": "3370c9f8f3d0de5c55fbf667efb78a562b39df486b86b2f8e7953b18a581cf33"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_043.ply",
+      "bytes": 8067046,
+      "sha256": "af2e85707e59aa63425b41550ba3e3880e84bfc742dceecfc91668fce9ec3b8a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_044.ply",
+      "bytes": 14422438,
+      "sha256": "f07cc6ef22b4ce9727fc0369e85cb149224d65f0cf03f6f18cab9cc7a90c39ac"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_045.ply",
+      "bytes": 17064582,
+      "sha256": "6654554539eb354e2e71bb1ed605a934e7c2230ba949441f842915c5c59972ab"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_046.ply",
+      "bytes": 25002118,
+      "sha256": "8df3f7754c1a122dcefa43d6d59f705fdcca09c5354e5f9ce793d5d974ab9829"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_047.ply",
+      "bytes": 13802054,
+      "sha256": "13311605d4c25700c606e2c58cb2e8d5f0b04b22c73e4fb21f484bd384b4f7cd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/51_das/51_das_plant_048.ply",
+      "bytes": 9052454,
+      "sha256": "dfcf286d4d46543a6b1c5f57382b6d9045226a0ef527599884057d4b3faba01b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_001.ply",
+      "bytes": 7187494,
+      "sha256": "f832b4a1cc71720d097604ca65f89b458f8c5d71af848009fb4ce950e14ed0e8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_002.ply",
+      "bytes": 11389222,
+      "sha256": "891cd529501bafc5afc26d16f342d0ff6a15dc918c5c3c100a62e97b7b8c0ca8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_003.ply",
+      "bytes": 18841670,
+      "sha256": "fde8e203cec0eb55f0c7358c3940a27671fdda2e52397ef114299f6a894b58ac"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_004.ply",
+      "bytes": 17841510,
+      "sha256": "2ace818dee117a43d34a61db6aa662f04366253cdf23ecb3cfeae042d5b0f169"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_005.ply",
+      "bytes": 9886246,
+      "sha256": "3c9fc3d61d26a7a499dfb9cf2384cdec555c9aed4bbd2b02e03d8cc42d09e017"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_006.ply",
+      "bytes": 8990310,
+      "sha256": "d759db23266f4b21bdbe057ac27fbf06b7fc9a94aa06d38af26d45c5139788e1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_007.ply",
+      "bytes": 7601478,
+      "sha256": "90f8fff9b79c7201d9aa41da7f5603f538e71fcf202ee5713e5355aff6337180"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_008.ply",
+      "bytes": 8670950,
+      "sha256": "7506cd46131b336d5c6d8da8cdeec9434c4fbf4c1c0cc082672123ee96fe36eb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_009.ply",
+      "bytes": 24428614,
+      "sha256": "d64a3a2b21d47381a96843c101aec8b47ea2707878a5111d3a43f3cd92970e62"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_010.ply",
+      "bytes": 22006182,
+      "sha256": "3481209c827b740792e5714632d7539ca4086d7b20d42dcd72934519e5a76a75"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_011.ply",
+      "bytes": 14237990,
+      "sha256": "31a3779e4075f9d962d36c49fb1b438aff1869f7ed801fb70e1153a8956f9e9c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_012.ply",
+      "bytes": 8958566,
+      "sha256": "37ba012707f92146a5cec5a5c83b541b4e9a5e3686fd312435493e7537b6547e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_013.ply",
+      "bytes": 8801926,
+      "sha256": "beede1198945f276e265c1c1ca5d619a3c108d808af708881aed2ac4574a7d74"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_014.ply",
+      "bytes": 8570502,
+      "sha256": "c6f64b0ff634fa823cd17287eab434938a50f8931d0e666be3c8d5dd7bf04936"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_015.ply",
+      "bytes": 11320102,
+      "sha256": "22fc88b28ce571d2ac5c38dd9c3d1aeae0b10c5e2573ddde5ee21f2f1be7db8e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_016.ply",
+      "bytes": 19154534,
+      "sha256": "627956f08ecd7ac043f15a50627551bebed6d13684be2f91eff1459b95f56a93"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_017.ply",
+      "bytes": 10707366,
+      "sha256": "ae5bcb1d41ebc8bdfd7892a2383ad5834eb822714a24e665389c8c5d04fe485d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_018.ply",
+      "bytes": 8469350,
+      "sha256": "5d7e82c63923aff5b21eb10727de690a551a901bee60a0625772b3c46da53588"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_019.ply",
+      "bytes": 9827622,
+      "sha256": "06439c41b29ddfb7331224538cbe74eb98e3bbddd2a9cf33c3b2e52c6f3177fb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_020.ply",
+      "bytes": 10439494,
+      "sha256": "9f34459bd59b174bc219f495201178c43a93130c4a93fb3ca4ab73c4e5de801f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_021.ply",
+      "bytes": 18498502,
+      "sha256": "71f3f9a0309911118591c7fe18007d9e92514f739b92a47ef02f328aaf44494c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_022.ply",
+      "bytes": 19860998,
+      "sha256": "6d25db33b38da0e2ace2a483d490a218fe146ab046c9c4ddb03a99dc80e0f707"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_023.ply",
+      "bytes": 12594374,
+      "sha256": "e9bb4b7eb2d1eb21147c08dcf33dd87e6d87e76f53e00237ed80ffe3a4a049ea"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_024.ply",
+      "bytes": 6741606,
+      "sha256": "56103530d80a1ab0688af20e70a488754b5c20434621d51f05b804f17b82c71c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_025.ply",
+      "bytes": 6296294,
+      "sha256": "c1b0ac48016a55387abb2b2fbc02361881d4052df41807252b1f8b56ee982643"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_026.ply",
+      "bytes": 10188198,
+      "sha256": "40019ae8c24481532f42f80d8b4524e33d5d5a49467d07e372d73cdd4f812fc0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_027.ply",
+      "bytes": 20561894,
+      "sha256": "4875e8e60852b8fc974e6d4c821b07d0cd57aa8df69c1d4873c9263938ac64b1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_028.ply",
+      "bytes": 11748070,
+      "sha256": "0793907938839b2955b63651eae75a9692556e8f9877e5fd5f9b521477bccb92"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_029.ply",
+      "bytes": 10359494,
+      "sha256": "23e28d9aa4834b757238529cddeeb67ec013b64e5fe81c85571486a5dbc71fea"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_030.ply",
+      "bytes": 12455814,
+      "sha256": "53b9eb77ca5e3a0ba3964fbb0cc71e898a65a8250b9ed32ce6a99d66d4519749"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_031.ply",
+      "bytes": 9041446,
+      "sha256": "69b06ec83dd10e2d7b61160a45ac69a39771137270d39512248319ff316b7fe7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_032.ply",
+      "bytes": 10037030,
+      "sha256": "4cde255761ac764a058cfc13cd6a1546c9057467956e1c573f78cc2788f58db0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_033.ply",
+      "bytes": 23651206,
+      "sha256": "c0da7d6d063ec1bf9c93e0d70150b73a5f8f82d469606f3d7217e504f087ec4b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_034.ply",
+      "bytes": 13778214,
+      "sha256": "592a8ad519b8c707d15aa0a71b11c93de3524efed80ad77cefac448a339f035e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_035.ply",
+      "bytes": 10593638,
+      "sha256": "5f4ff1ce02bb41fd5e0aa139fcf0a03449019984926d47ca7115b8a58ea1c541"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_036.ply",
+      "bytes": 9823846,
+      "sha256": "db7f22aa18ff1e55a43b0a1d3cf2316ae14c58a9e3f45863b394d9d31a5d3047"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_037.ply",
+      "bytes": 9410790,
+      "sha256": "987af867795d550f6026cf21912e4d2a9654410c0b15b5723a5fe851ab3b4cc8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_038.ply",
+      "bytes": 9604326,
+      "sha256": "fbc6b3e060b9e1d85ef135738b8e505857929adaca36bc6eaec74f76ba4f7aea"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_039.ply",
+      "bytes": 15647142,
+      "sha256": "8ce5e504a0e85ef915e34ff5510dffafb229dce2adaf64a82497c2d36ca55983"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_040.ply",
+      "bytes": 24595078,
+      "sha256": "3621d5173a12104f0d22a9e1af4d670ff3a6e9fd3214b052fb8968245ca18273"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_041.ply",
+      "bytes": 7864454,
+      "sha256": "83f96db70750c13d6e0990252c5d12f9d8515300c6c3e8bc4d33634878440884"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_042.ply",
+      "bytes": 7968326,
+      "sha256": "b73150ad692b8b63dc1aff456b9124fcfa719bb3453df23124ccf993c6db1275"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_043.ply",
+      "bytes": 8829830,
+      "sha256": "2fe78fdbc55c78a89c5f9e5f0df9e054a8295680a3d2d976b850ac66b0e815f2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_044.ply",
+      "bytes": 16367046,
+      "sha256": "5f97296d8090c48f107d0a7b9cb26f504c5b79eb309dddae62b7306a6f91b3c2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_045.ply",
+      "bytes": 18773030,
+      "sha256": "1c1c5901f878642132bac358919047fd13cc7663661f560704ee15816913a6ab"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_046.ply",
+      "bytes": 24866118,
+      "sha256": "a96f0b97e8132e9dc94d342e4cdec1a058ed6ce4d7a49c690fa204f949143eba"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_047.ply",
+      "bytes": 13735974,
+      "sha256": "760266011cf0bbc306601eb63334491d31cd2fadee2e13dd936ce78123a688c9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/54_das/54_das_plant_048.ply",
+      "bytes": 9489542,
+      "sha256": "a19095e903769598eb060538518dfdf5ee02e372c2d334a3c0a8eafe22ecca35"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_001.ply",
+      "bytes": 8206054,
+      "sha256": "fb3972ecfbc8e330ee1de44c56d9b43db16e01270df101958eb9d0b7453c6113"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_002.ply",
+      "bytes": 12032358,
+      "sha256": "d7f25f4fbad0bcf9d5d4c7f17548ffb921a1a5509c26af1c472c79dd49a301f7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_003.ply",
+      "bytes": 21012038,
+      "sha256": "e34b1c65f8e0ef72415327c45d782bc688743e6d1c3f3deb96f62017557a6cf3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_004.ply",
+      "bytes": 21770374,
+      "sha256": "cf6246785f8f582b15ae4ad93422c006bfd3090c7fde90ceff47a903ef78c253"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_005.ply",
+      "bytes": 10259174,
+      "sha256": "ac1b1aeaa494b6006821d4acfb58d23b380673f4a9b8e494fa3423c0ac86b294"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_006.ply",
+      "bytes": 10866342,
+      "sha256": "cf276fa5e82f2f39c408fad70e7932f35c06ab5d1a4a83502ee550a500cdf5e8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_007.ply",
+      "bytes": 8786758,
+      "sha256": "e8de2fad03a39c0ce94293173b3421c23dece2fbf8460ef15e9b135d20638754"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_008.ply",
+      "bytes": 11308134,
+      "sha256": "358bd40fc707a691b292ee677977c43163a0e5015d8cff878df5534cf756585c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_009.ply",
+      "bytes": 23397286,
+      "sha256": "b17c37846a94120a577f1ff61ed0f12a3870637dcee37040c9aaa08a5b8a55c9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_010.ply",
+      "bytes": 28966534,
+      "sha256": "a54858d2dbf210f73e958a5593a1d8bb6c1521f3518b706973b3f6d64c2bac6a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_011.ply",
+      "bytes": 15348806,
+      "sha256": "4f9f45d9955dc68937cd1fc8558bb5900ee928bd0b07a2224c41d09c776a7a01"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_012.ply",
+      "bytes": 9769606,
+      "sha256": "3eb18f101b846d8c54445f2857afd3d45c3675641bd8d314415d81cd669725f9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_013.ply",
+      "bytes": 9473958,
+      "sha256": "217a882a6dba0539abbcd2070fac4bb7779e12ca377442015d7d067a9217dfd0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_014.ply",
+      "bytes": 8614982,
+      "sha256": "ec9ea87c9d78ae476f5a4cfc4483e9c1fed31d6ac686687bb7e4241d85e8cdaf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_015.ply",
+      "bytes": 12658022,
+      "sha256": "3e8fa46d28e57300ff188c55988bfb0bdbfe448eb50f24e78eebf49f2f28d925"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_016.ply",
+      "bytes": 18091686,
+      "sha256": "8bc8f904ac0f36dfc17472048f8304796062bb9c723b3e49c382e335d1832d72"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_017.ply",
+      "bytes": 13423782,
+      "sha256": "3f43c3e9229cbcb2d2772a613a5c965efe915473bf136d7205e5b8b350cab86a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_018.ply",
+      "bytes": 8474758,
+      "sha256": "16d28e2cb57b7c0091b6e7671f07ab536402c1b1a11ba225688ca9d279ea9f92"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_019.ply",
+      "bytes": 9955142,
+      "sha256": "17981b080de0ba4b77eb0e749825ab28e18c13ff29839bb6c2ea01c304f36393"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_020.ply",
+      "bytes": 12370118,
+      "sha256": "512dbb2ff0370e897b46e435617d26e6eb9bf0ca790e3542a6ccd91ed9af4733"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_021.ply",
+      "bytes": 19196294,
+      "sha256": "940a1c699675a21d6560bdc60712ece936610d597e615ac04aee560184c9e607"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_022.ply",
+      "bytes": 20593798,
+      "sha256": "8e9d7aac1dc3d0da8e069e32f950827b3c5d44d6fdd2cda1318721a25bc087d3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_023.ply",
+      "bytes": 13522758,
+      "sha256": "e9948f0dee8464a0e3678549a06bc51a5f65e44bfa7d8cd1cfa0c3ce590ca3c9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_024.ply",
+      "bytes": 6806118,
+      "sha256": "2dc47147a33e60719c208528686471c151942b31d7feeb8c58a79a48909b4fc6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_025.ply",
+      "bytes": 8228486,
+      "sha256": "7957370102fb054bac4dc6aee33fe3f54ab03d6f3cb78bef96636f7c25dcb8d3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_026.ply",
+      "bytes": 11362022,
+      "sha256": "0d4233f425a88a3896c1fc51879ab0084ea69e826edc88e19843a0bf0fea1750"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_027.ply",
+      "bytes": 20606566,
+      "sha256": "21111967a9e10927d0d44d0a30e6ad9ccfcfd5afd04ee65c2ed79f02dfee70d3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_028.ply",
+      "bytes": 13656582,
+      "sha256": "9020f5242144967a17b9dff5e9afdcf25e3d3978c4ff919d2e13f835b2cba213"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_029.ply",
+      "bytes": 14734342,
+      "sha256": "18b2d60d6926f350ae437fb507785d4408e698ce739f5c06992597b32f9517c1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_030.ply",
+      "bytes": 13302438,
+      "sha256": "bc86189f36570c04eff6724a45d1d7de040233423b572da74cdf2498ebcba776"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_031.ply",
+      "bytes": 9675910,
+      "sha256": "1259b16d4127b4dc064b32fb2133842a9493f8c5a615c638191e22c719145d08"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_032.ply",
+      "bytes": 12318790,
+      "sha256": "2c5a83ccaee83b3005626efe46a16f55d6ec384f9d60f04d8f944463312c927a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_033.ply",
+      "bytes": 23553798,
+      "sha256": "9977ed2987e4db3905d6505d49f9c336b26196aa678415ebf56a8c64ca3a6e80"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_034.ply",
+      "bytes": 16006694,
+      "sha256": "6f47bfdae16b16c2abad71dd9a0e4b884e677a540a2115b7baa2dcbf42e8b74f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_035.ply",
+      "bytes": 11557926,
+      "sha256": "6aa16ed43705d8713e694a710295d730a2458a3328fba8f7beeba3d2360f6dd6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_036.ply",
+      "bytes": 9690086,
+      "sha256": "2e4ce9b9dfc7f6d510b8ba202b5a3c49cfcdaf4677e867829bea96a671fe6b7e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_037.ply",
+      "bytes": 10057606,
+      "sha256": "73a35b6c7c8a81a46c87e73f0fa7fe84170bd1af903013fb658e828acdb03149"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_038.ply",
+      "bytes": 11083430,
+      "sha256": "a1bdf750958c9c4430ec58e5516bf068d444b9b1144148df7fb50402e542f87e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_039.ply",
+      "bytes": 21996326,
+      "sha256": "0e13be814d9bf826b3076bc5c075d19c5c4a99f0123032f94f744d069407e3bc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_040.ply",
+      "bytes": 22041254,
+      "sha256": "3876182b3d304ce50f66b93686d872e1eabbaa78c450958d38eb07e7c326d3dd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_041.ply",
+      "bytes": 8328774,
+      "sha256": "e6fde46c1d3dd260cd8cfda1ebaa8290ff3f6d2342cec889480e1f640a8d9108"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_042.ply",
+      "bytes": 7965318,
+      "sha256": "210ba9d88be180f03c5f5abfaf1c2a56f3fc5fe9e64d034512ad716c1423b8fe"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_043.ply",
+      "bytes": 9598214,
+      "sha256": "0ed4175cc46f9a37f080613b5a371181328fa66adaddd6d597728f9a13bcdd06"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_044.ply",
+      "bytes": 16862534,
+      "sha256": "994d3279802c90d4906bd82f539abfd3172e3363dcf850eadb8a5272165e988f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_045.ply",
+      "bytes": 20605734,
+      "sha256": "caf19a45e6be86e191f28d00aa640347a0f9f2a95f8c998d1fe703e01b38ca81"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_046.ply",
+      "bytes": 28310822,
+      "sha256": "38d82fd4a4dc63a83c12aed9e894459c7352e430d85fdc8416848ebfb73492c4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_047.ply",
+      "bytes": 13788070,
+      "sha256": "8521d19be7e614ed23be96218c2eea330a4edf75fbfeadddf5320bfe5b8c9472"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/58_das/58_das_plant_048.ply",
+      "bytes": 10497798,
+      "sha256": "c15dd932a29b74485b50cb18caf22b5b1ce35e3eaa4b5d572d055b32fdfc873e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_001.ply",
+      "bytes": 9581606,
+      "sha256": "ebee3a28540e188dd1dfcdcdea87fcfe5e18bee1f60bd700ab26412f88280a8e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_002.ply",
+      "bytes": 11870470,
+      "sha256": "599e442e7a5fbfa5366e3f5ec4a96e96843370d56b879f8f7b45363144399d85"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_003.ply",
+      "bytes": 23848294,
+      "sha256": "a9e399beea5c01ceae66274fb2f12c0358216c6d257596b7ba4572178ca9a49a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_004.ply",
+      "bytes": 24076582,
+      "sha256": "1de7e4f4108f6a837b4fb50f62cb2d624f178e0dc82173c2a014d16011101a24"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_005.ply",
+      "bytes": 10471110,
+      "sha256": "8f8f4d88ba75e38ee84ed3e21f4dd3832f6a9d0f58725bd4e47917f30004d01a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_006.ply",
+      "bytes": 11220902,
+      "sha256": "3b1922c723646edb09a5f366f99b9c304aa32c83d2189f07688ef55a59036bbe"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_007.ply",
+      "bytes": 10099046,
+      "sha256": "36ab13aa84fb96123cb539b794510822284d17e552d32f99d73321f031bf3844"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_008.ply",
+      "bytes": 13478118,
+      "sha256": "b5d826974d74c2719ecfaae1218d22e2a16a62d841c2ec2cc7680d881637b9e3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_009.ply",
+      "bytes": 24771046,
+      "sha256": "d9564e05bd71ac46fa265e8c764c75a2d9bdc8de80a31511dcc4ac0faaf8a51a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_010.ply",
+      "bytes": 22451558,
+      "sha256": "418317273bfc5287e40939baaaf29f352ed5b34980bdbd62dd5520c378d3d71f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_011.ply",
+      "bytes": 13703174,
+      "sha256": "57015f62ec9ec6be5fa8cd1b4a5bba216804420fdd69fdfeda56ff99e425cd21"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_012.ply",
+      "bytes": 8245478,
+      "sha256": "4ab351bb499dff22c1a534da7de0f729106cf78aa5650e3465ee45920908c550"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_013.ply",
+      "bytes": 9105254,
+      "sha256": "7adef7a2c46a97f781fdbf65564137a1935edbcebee14f16f1e5b1bb6cb649b8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_014.ply",
+      "bytes": 9696198,
+      "sha256": "366e1ee66c694addc23ec6e7f4aee20fe7e512a861f20603ddd870e6d3d79f6c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_015.ply",
+      "bytes": 12845158,
+      "sha256": "8abbe299c16d8c3f8b3800eedd9fba5c4099ad3d1237f8c72c27d04bb1bf7b79"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_016.ply",
+      "bytes": 20038438,
+      "sha256": "2e59042673966c196bbbe172f325033c755ad165f2bbb45f5611dd52a44962d3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_017.ply",
+      "bytes": 14463334,
+      "sha256": "731dcf68841f075cca3315fe6a72420d29ab50b0e1975b3b9f8107eaaa74b50e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_018.ply",
+      "bytes": 9238790,
+      "sha256": "a1499e34c2729f8e10f2d198f0bf8523a2a0372524a498c9206f8e028d5a6ec8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_019.ply",
+      "bytes": 10340582,
+      "sha256": "8236bd7397b94c8dd54928a7648bedc3fbdc90f815f113f712476a5d0594feb7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_020.ply",
+      "bytes": 14144198,
+      "sha256": "d821c8f1a145c9e41bd3b9f92c848a43d9293fdf0a7c40696ff8b4a9948ae906"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_021.ply",
+      "bytes": 18224198,
+      "sha256": "6bcb32307c4204e1e63da9070c58bb3e717bc12f732024ae4b1638452c45ec71"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_022.ply",
+      "bytes": 18776774,
+      "sha256": "c263594b91e5b34552b9a754aba523ade27c783a8c6fdbc3a73ebd6dd5af6fff"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_023.ply",
+      "bytes": 14109670,
+      "sha256": "8be21b6912e65a23027a8d73535c016b2dbeb8726dd19753e6028b3bf026844a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_024.ply",
+      "bytes": 6298854,
+      "sha256": "b3f68db18d96b578697185c02994e9a454850dc37001b1e22b5a012b72d46dbb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_025.ply",
+      "bytes": 8702758,
+      "sha256": "43c035d998bf9742a099aad10e9f935319162a0dabfcea2111439e731f5c08c6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_026.ply",
+      "bytes": 12689734,
+      "sha256": "5fb57cea95f53866d3bc6a7812c6f9d5f5ab93b14cf53cb7f961331b92f182f1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_027.ply",
+      "bytes": 19087686,
+      "sha256": "ccc8cba6f27187cbdc2f829553bcf06fd785a6ff585bd4d330486caf33c36425"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_028.ply",
+      "bytes": 16280294,
+      "sha256": "fce824c2211868807189029cbfdc966134b271deb7ce90783e5210f2d4a88b7a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_029.ply",
+      "bytes": 17256646,
+      "sha256": "fdef3798d5544042cbea0a5eed4108195e603cfe7b930ce6c6c71e78dc587e46"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_030.ply",
+      "bytes": 13975974,
+      "sha256": "1f3f09aaa77f9631df34eef74667f7038a7ca30b43203af3137bfc1a8a9b245a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_031.ply",
+      "bytes": 10282406,
+      "sha256": "f770f2bf188b5d271f771149707bce51b08905e438875420b55803244809ab53"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_032.ply",
+      "bytes": 13780038,
+      "sha256": "7f3c33844a23c86b1d44293a37f42740aab27eacd66ce3bd3104cedbdb82ff65"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_033.ply",
+      "bytes": 28619238,
+      "sha256": "5a40ed044743a74bdc992151ed4ce56051996eb5ace04c84ef874cc6a53eabfa"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_034.ply",
+      "bytes": 13092646,
+      "sha256": "2d30949291bac6c3435b00fb76e752b173edcda15a54e755fb3ab336a84ebe51"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_035.ply",
+      "bytes": 12281446,
+      "sha256": "7e09e1d60eb335483d7ea339c95f02d331a5f773a6e35fe8e6d4b1e6ce1eabdf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_036.ply",
+      "bytes": 9806662,
+      "sha256": "30d4107a1b5c8ea7bc6c31d20d3b0c9bf97c135881f6a3e4ce001b600f76c045"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_037.ply",
+      "bytes": 11810150,
+      "sha256": "ce6b612c62574d5dd04f71f33455d0fc9bab6ccff3f0b4dfa6e8d05d8e76e3ba"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_038.ply",
+      "bytes": 12657862,
+      "sha256": "50065b454b269d65f179070764ba46e78c75921264ccdd289c7d6dcf91de8e45"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_039.ply",
+      "bytes": 20044614,
+      "sha256": "a87ce85232b7f70500d1a0521dca8cd7b18c5e129dd2fc035918ae9854510517"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_040.ply",
+      "bytes": 24466662,
+      "sha256": "7a8ecc798312533079995fb4be2a3c44ca10526802633b45831a29e2560dd99c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_041.ply",
+      "bytes": 8243142,
+      "sha256": "201c7fe0f4cb66cade868b82acc1ed7b309e6741bfcc3205cd86e5a5cee5724b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_042.ply",
+      "bytes": 7854662,
+      "sha256": "584d7141b4bcec86f5a1acbd3c5b82665edf6b9b7fb8e7997f1934be6ea5785b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_043.ply",
+      "bytes": 9257702,
+      "sha256": "0359b9ac72e1e1c439fabf5d0462eb16f556b41ec6b71d3cbf69ed70b594053d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_044.ply",
+      "bytes": 14871270,
+      "sha256": "20a671a9fe2be5388b033f8128147b06e7f949497ffa140d798b4e28c5e81fc6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_045.ply",
+      "bytes": 19626726,
+      "sha256": "05765953f06dd9b53333c68124f9c0b40a0db6554ced8fff5101ebfdf954dcb0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_046.ply",
+      "bytes": 27834822,
+      "sha256": "a19e63839e9ef8737ea37f2495a69f925944f126f99b925b3ae32942e7398e23"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_047.ply",
+      "bytes": 16010918,
+      "sha256": "7ce3ff9cd23f2f01a9bdc8b74680d5881132e40071a81ada466ead89ecad42ea"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/61_das/61_das_plant_048.ply",
+      "bytes": 11301318,
+      "sha256": "4a59952ad86efb8a0877893e4eaa5a3ae3013ffa35d912bb8b4046db494a979d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_001.ply",
+      "bytes": 11906822,
+      "sha256": "fc30d3cbd985eb4e75fd91cacb8f6dab228d18f63a766d1608e485413ab9660f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_002.ply",
+      "bytes": 11860934,
+      "sha256": "6071684364d43ea1be0815fe1651b1677e1c1d4cf9be0ba161bb26bc261fa19e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_003.ply",
+      "bytes": 26647462,
+      "sha256": "23c7c8de8c58d81e19382b1b4849978b3247def10fb01bcedb2089556793b336"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_004.ply",
+      "bytes": 25266758,
+      "sha256": "0168fb0f9ee0d40c12e358609544ac1557f8ed4803cb1746b7e010f80ea48d43"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_005.ply",
+      "bytes": 10708358,
+      "sha256": "376e94b8805f6fe3196fa1742710ffece77e2def90e9889921b649d81ca86115"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_006.ply",
+      "bytes": 9315718,
+      "sha256": "a4ef0365a15db3559715c38573a346f21db5701a98942f18182780c08a005b42"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_007.ply",
+      "bytes": 10283590,
+      "sha256": "7d31da943a156fc4eb21cd679372d5e88d0edfbedad3f8cbda10ba81de5e861f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_008.ply",
+      "bytes": 12650086,
+      "sha256": "6127bd3b78d220cd84fd418298e037d328690671291b105128f3a0dce40812b1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_009.ply",
+      "bytes": 25321990,
+      "sha256": "81c41e6513cc359f23e4122ac009b65f115596a8003304909e29a6561bc77704"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_010.ply",
+      "bytes": 22831750,
+      "sha256": "dd34f86939c592da930148b44c01480071d757755789690994f9daff73009f76"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_011.ply",
+      "bytes": 15191558,
+      "sha256": "2ed475ca87846b118b3a51662f4543d138c42290a48567d851f1b90c210279ab"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_012.ply",
+      "bytes": 10096806,
+      "sha256": "447845e2c371a931113e2a7533b4de4cb6cb1a31b5d1d7d1f39f31311b4f2a40"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_013.ply",
+      "bytes": 9588518,
+      "sha256": "a94f05d6b123dca1bc760d709335838b9c2fb4345d3025bd8f09c8fc802effec"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_014.ply",
+      "bytes": 8142854,
+      "sha256": "13e8c369300315205dadae876ec5c1bcc954f72f1101ebef1b0be730d0626e0d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_015.ply",
+      "bytes": 15080294,
+      "sha256": "7499b82010e570d35ac4ecefc106c6f4146e2b063da25c4dbaaa4f5e445d268a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_016.ply",
+      "bytes": 17173350,
+      "sha256": "f608895fc1434bab1f39b4164dd4b1d9ae0cfdd92f6732e1b6968303f2fcdbcf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_017.ply",
+      "bytes": 14321254,
+      "sha256": "5960ce61168ba63bcb9dcd93776c3751792e2b887b9b8e86c64469032a6bd52f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_018.ply",
+      "bytes": 9420966,
+      "sha256": "480805bff12d717ec96e06e5ec52e89bf4e4de48efc66e9c299fe1f4fc3443f7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_019.ply",
+      "bytes": 9200902,
+      "sha256": "68452c8ce0a4fd766abe5e097e74a97b5cda3d34897f2ebe64e89df7b94afb83"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_020.ply",
+      "bytes": 13555270,
+      "sha256": "898722fd30fef5ab4fd09119e223c03857781604840f676c69a5b603c2a5a28a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_021.ply",
+      "bytes": 16894182,
+      "sha256": "a759c81d13695cfb01d2756d6a966abd8318db53c5e3b9d30d2f79a67b2ae192"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_022.ply",
+      "bytes": 16498598,
+      "sha256": "8237e953d86ea7cd165eaf3eea94f39e08a5144938b616521d0774b796ad8907"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_023.ply",
+      "bytes": 17659782,
+      "sha256": "7000a397fdcc87d5b5216bed350be68327b70486135b0218e4c799f6d4273ec4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_024.ply",
+      "bytes": 6247590,
+      "sha256": "188014a9d62ad7774bc7abe84ac45c0ca599deb4b42540cf92e0a8d9e6e945c5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_025.ply",
+      "bytes": 9961510,
+      "sha256": "7c8284c5823f13b50e6998f7a4ee87f4676d969c482e629e53759bee46aec86a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_026.ply",
+      "bytes": 14269990,
+      "sha256": "4723b6ab6d96f500c6283865b13f8b2b8d16cdf666009a321af11275af658e57"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_027.ply",
+      "bytes": 18916518,
+      "sha256": "81b2fd20301ffc0d8317bddf1c9f9d073935b2917d45b6c36c3e3313e8585880"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_028.ply",
+      "bytes": 17669510,
+      "sha256": "aa1ad4d1ebee64545d1c8d440f12bf803807f2d3ab61a88e1dd84e7c0bc5c712"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_029.ply",
+      "bytes": 19767110,
+      "sha256": "2e04f96453a4c85aa7efe839aafad5d8391eca2cdde07d5cdef62b64918bd0dc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_030.ply",
+      "bytes": 15649510,
+      "sha256": "5961d4cea525109b06667f9543944fcc0cfe3dca0428c021be8bf74d85909385"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_031.ply",
+      "bytes": 10501670,
+      "sha256": "368003771598c6eedeca74efaa3b8d929d5ca346e50a570dbf21273a8123b058"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_032.ply",
+      "bytes": 16829094,
+      "sha256": "2b2a16dc694b8611c87d785904f58ac274586cc7e7996ee3175268ad5c7fec56"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_033.ply",
+      "bytes": 27063206,
+      "sha256": "2a2420fc695430c09b8515e4e11bf47ec94f57a1d82c8619bdc495513296730f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_034.ply",
+      "bytes": 13802566,
+      "sha256": "a7c673e7cc528c53960a26f6f1578e8f24949f52d40ee7019a1847007ac6de13"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_035.ply",
+      "bytes": 12632294,
+      "sha256": "d8e71ad2ad418528712f5bb70d41d6946c3c8fe8934f08d1fc469710e79519cf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_036.ply",
+      "bytes": 9329350,
+      "sha256": "5e54dddb18f8628d836b0cfc6675f0ad37f12fa562a5e5c769780a33dd1d871e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_037.ply",
+      "bytes": 12960966,
+      "sha256": "280d4070e087426ed14d6cd60f49f7261740c403b86dbc79def30dfae280ef82"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_038.ply",
+      "bytes": 12656774,
+      "sha256": "f0ce1985823f7262202c5da3df609bfc448b1614bbaaa4f7412ed4c81a56bdbb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_039.ply",
+      "bytes": 21254150,
+      "sha256": "1a16135e9a56b5616fbe8b41bc028c8ea62dbf5ff05bf05e714e5060268a50a6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_040.ply",
+      "bytes": 22237606,
+      "sha256": "2aaf2323b2351af2cad5296eb0849ce4aeb54d004ec7204920e5c4cd444306fb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_041.ply",
+      "bytes": 9486886,
+      "sha256": "565430c457268376c871a8e949c7abb438245f8dc77e239333f288c868f1eae1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_042.ply",
+      "bytes": 7721958,
+      "sha256": "47798a4d6a011baca61221d60de7fe23d789fad3f9bc134665180830bf592f39"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_043.ply",
+      "bytes": 9203110,
+      "sha256": "548adb559bffe3e05952599cad34148a097f8f85a06aed52c0862d397610bc41"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_044.ply",
+      "bytes": 14550790,
+      "sha256": "05541c732a778b50c46cb1c2f71485751258854f31dae6e1329e649174970b46"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_045.ply",
+      "bytes": 21729286,
+      "sha256": "4860e64ff70981c590ca34ab8edd0490452cb6d765cfeeb12c1e8d9fe6b2ab70"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_046.ply",
+      "bytes": 31667878,
+      "sha256": "d338c6e4861f76ab0e2559d496fd5640fb79f9db8f76e10aa04cc11f0a06727f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_047.ply",
+      "bytes": 14773350,
+      "sha256": "abd55fce32083dc0125b9b4528f3a8c9136eb1168e9cd96c72cddb6265309b7e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/65_das/65_das_plant_048.ply",
+      "bytes": 11563878,
+      "sha256": "2ac57c10152ae1864557ea9b8c07d5cfbb98375822cba55e8f32eb759dbae2fc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_001.ply",
+      "bytes": 13319718,
+      "sha256": "a3d5a63d0e4d85e1fd325ec2dcfb32eaf2697b8cbc3ad5cb52b63354f7efce0f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_002.ply",
+      "bytes": 11646886,
+      "sha256": "d70f3fb664c12352d8f1f8dc264c4a1ce27b7a0acd35de12450d0ba3a7987ad4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_003.ply",
+      "bytes": 26821542,
+      "sha256": "3616b4094381719ef4127c51ce06e3c11c79aecd71472479c32efc037b47cbb5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_004.ply",
+      "bytes": 25775046,
+      "sha256": "430226824d715eefaaacb174d8a9f5831547d68073cca7d8ad164eb51d51096f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_005.ply",
+      "bytes": 11553734,
+      "sha256": "eb249074cc2349c1515e0c7f983e76f52c1f3cc9bac44b1830a4ad21e4bfe415"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_006.ply",
+      "bytes": 8687686,
+      "sha256": "a0a10afa88d902636a9973189e94b7bc2398ff163454795932920682d303c92d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_007.ply",
+      "bytes": 9835654,
+      "sha256": "03152f9a09e5e371c402f4859967c81239b33eac1e49be72a90168e9b5fe11c6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_008.ply",
+      "bytes": 12238502,
+      "sha256": "1d1fb3157409836b7d7bc877380c31f4db11015a7b3d568bd3c20228c0df9151"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_009.ply",
+      "bytes": 23096710,
+      "sha256": "81ae9b75273c9136122e28e3e1b758bde2da6566a6cf78254d68381fec7c7b2c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_010.ply",
+      "bytes": 25167878,
+      "sha256": "b5a2b2e0773d33fa236055240c31dfd68b3986efc3b4d5304e013b5d24cdeecc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_011.ply",
+      "bytes": 13395142,
+      "sha256": "68bb55acbe2e93ad8e1ab5d786b27e5649d390a9aef51b111205b0ce360c73ad"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_012.ply",
+      "bytes": 10366502,
+      "sha256": "7a3831e0166586b8a2068e1a7c23a1e30e3d03733fadb1f8f8e7ce14d5cb91e7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_013.ply",
+      "bytes": 8986950,
+      "sha256": "e8332f8903862269eed8d8f443f74c22308d75f3ae9e70560e7f75de0fb182b5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_014.ply",
+      "bytes": 10659238,
+      "sha256": "2a2ce4f2b6b2ce38b948aaf37999842106d04596a24817cf0a808a43ee774646"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_015.ply",
+      "bytes": 19509894,
+      "sha256": "218ec6225b7bdf0c0b6f3558a2400d5da5477bc7bc39910cf65802e880006a75"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_016.ply",
+      "bytes": 15236646,
+      "sha256": "7932c4ccf2297bf8471313c41d5d8b7812a22dee764d5a804bc172d891f9a37a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_017.ply",
+      "bytes": 13769702,
+      "sha256": "2cbf82089300331468c47692ea130f32689668cb46089d98efd6f6d4565a11d1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_018.ply",
+      "bytes": 9457126,
+      "sha256": "6197e807897eeb37cccd8edf5aa9ab80d95491f044b2df13239f22060a488442"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_019.ply",
+      "bytes": 9839910,
+      "sha256": "38e299e594b3c820742a8aea4b40a4936bf2acc40342a1cff5cf1e1c6d7cba55"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_020.ply",
+      "bytes": 14716806,
+      "sha256": "7a15f81b588f55819054696121588d87c38636b62f3aa2eeec82110edbccd22c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_021.ply",
+      "bytes": 16060838,
+      "sha256": "be6f280426ddbd5ca05e4e0d773d71d6d44710f593033e6c16277df9f4b1bd3c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_022.ply",
+      "bytes": 17726662,
+      "sha256": "acf5a55e440c16d58bd6ae1d506f1ca064011ef30801d372dc635fcf7f981cc8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_023.ply",
+      "bytes": 16376998,
+      "sha256": "8e8fdeac3522a4ddcffb193359cfff979c74f898a7e22096b6922a4034bc0173"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_024.ply",
+      "bytes": 5572326,
+      "sha256": "4437ff22bec02fb212496e6173c7cb709ae5347642a0475410c084b871ee1844"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_025.ply",
+      "bytes": 9894662,
+      "sha256": "df38f71d8fc46694c9271f936aa2ad7b682ecf5a427fcfe4651156e03c2ef107"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_026.ply",
+      "bytes": 15176710,
+      "sha256": "89d83bc5afb93bb20e8bb20caf93c7dcba3265c1e34e5a8b06a570ba6903709e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_027.ply",
+      "bytes": 14114918,
+      "sha256": "1501c06e1e1508c4fbf0fd0647a1a73bae2940b74461301e3d0d547981125abf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_028.ply",
+      "bytes": 23505190,
+      "sha256": "b2b0a1f8d6aa2dbfd9bb6176780800dd165599695146e09261cc001e91e37def"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_029.ply",
+      "bytes": 18677574,
+      "sha256": "06cf9f7d6cdacae8bfc03526a0fa042ae8d24eea64db917733e42205f4527709"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_030.ply",
+      "bytes": 16108934,
+      "sha256": "d687f22c2442f8a23403872207f85804919ae62418de9b8dcd3b6a436d1f94de"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_031.ply",
+      "bytes": 10562054,
+      "sha256": "f5afcb33bf930983dc7119d6cbddb3afd95781ed76a6181192ff1b2a0034b3e0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_032.ply",
+      "bytes": 16767782,
+      "sha256": "1728fc230d60da0adeca9fef16dc5f0369d61fbc682ecfebc0c49fdb9436c1d3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_033.ply",
+      "bytes": 26258342,
+      "sha256": "99cafd1ab1634cc6d3d8cfd3e3161dbe5fba4b8b25555dc52201e5bb9178f5da"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_034.ply",
+      "bytes": 12280902,
+      "sha256": "a98b8d2475f758d68c0efd2bdc36390e2f4fd10e032d3f8a6aa3e96407672f25"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_035.ply",
+      "bytes": 12210342,
+      "sha256": "4d600cf811f5ff1ef773fd734416c412c295115f690c32b36eb7f77e67ed8794"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_036.ply",
+      "bytes": 9745926,
+      "sha256": "a91814cf412b363fc0e49b28063c73056ccd1ab5ac06ef862ae867b37b36598d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_037.ply",
+      "bytes": 14030438,
+      "sha256": "467cfedcf1847c46f525309880ad4fd7af23f671f9d722dcc3329a6133767d98"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_038.ply",
+      "bytes": 12290310,
+      "sha256": "d6ac490b2991200bbb0a5188fbcba4c98c18ae16c3b64024f4d1eb521063ccfb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_039.ply",
+      "bytes": 21529830,
+      "sha256": "8ca1d055a4418ef0aa3a6e87c76d89cf238c8adebd4f29e93a80ed675ff6bf95"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_040.ply",
+      "bytes": 22948678,
+      "sha256": "20b371184ee201d66085b76940c2ef6edf010c4270147ec0289fcbc907ee401f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_041.ply",
+      "bytes": 9757446,
+      "sha256": "f8579f899546c0a1468b686f4133ff0926886cc0b442adf2e4bca8021fc3ba74"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_042.ply",
+      "bytes": 6993574,
+      "sha256": "75d83854dace4a96c0b17a897b17daef5a3cbfead9fc23706f67b2fceb6ad084"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_043.ply",
+      "bytes": 9027430,
+      "sha256": "8d5170c6b94f0c6fa2b2f85b2c64f9c1d68c0cab177047675453ff288012c8f6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_044.ply",
+      "bytes": 16318918,
+      "sha256": "e9b8fe488276a082043f30e92d5ecd0c480577fb753956bcbe6c8fda6fee2e71"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_045.ply",
+      "bytes": 17347526,
+      "sha256": "2df081b307ba0e9fd2dae8df08080c70b4ad3ee10055006d5724736335f8f586"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_046.ply",
+      "bytes": 35584679,
+      "sha256": "c4d6c40f53647d7b5e9bf63cca66274fb6c45170426e4f47cdc0c4a1ea7e6d3e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_047.ply",
+      "bytes": 12430406,
+      "sha256": "b07b5e5dcb0f45632f9689fdc0dbfe75a8aaa37b1bcbfab7226fa82535024a42"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/72_das/72_das_plant_048.ply",
+      "bytes": 11198150,
+      "sha256": "993b0d1ab878dc43b71bd396e1b3ae9e1bfd3ebb0cfef905712370a28150b901"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_001.ply",
+      "bytes": 13633094,
+      "sha256": "469e4600d950ba783e1662fde1ccecbc080411ce7c1ac26214bcbd4f5da3a022"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_002.ply",
+      "bytes": 11088966,
+      "sha256": "a71f76f890822ea57b86e6fea859ca914e5ea2344ba4a580d3406bb6ed39bfd2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_003.ply",
+      "bytes": 28445894,
+      "sha256": "7964e4838c8725d2bd3de569e3f236e8ddbb7a1fdee305f2d25bd3acc20e14a1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_004.ply",
+      "bytes": 26524486,
+      "sha256": "1df8cfd2c73821d5222a4f45997114c912c115dac507c926c6a7d8bcacb85096"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_005.ply",
+      "bytes": 12514950,
+      "sha256": "c20f5d933bc7d9acbf0ae90ff6fbd2cbf1f944156792ffaa16ad51e770c192c7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_006.ply",
+      "bytes": 8748294,
+      "sha256": "6510fd6bb39e4420bbfd0649ae77d3ec25ea4f8c885a9941eefe238ced5865da"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_007.ply",
+      "bytes": 9675846,
+      "sha256": "55a21b4d230367faf71450c17c26d3462da39ee4a39717441882bac4ed812dbe"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_008.ply",
+      "bytes": 11923142,
+      "sha256": "ea51b9a14f378428e338b2e7472bdce4e7cabded5ff5165fd96ffdf7a719e122"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_009.ply",
+      "bytes": 24017062,
+      "sha256": "e1b8208d80ea262b704153fb1a4936d91afdf080a17b0f7a3edc4e0c394d48e9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_010.ply",
+      "bytes": 26573606,
+      "sha256": "5d65657b2ffe9c57ace4789bb7608e13cebfb8d84cdab5a885e3bc2596959703"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_011.ply",
+      "bytes": 13594214,
+      "sha256": "f3f0bd998b30a9e7503bcb6c3dbc1b24fd8d15049f8a3f964a2a97ac2395f3dd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_012.ply",
+      "bytes": 10422086,
+      "sha256": "8402fe1fccb74d8a2c330cbfadc7d11cd48cfcebaf9c762f1e1cc0f7f81d9e10"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_013.ply",
+      "bytes": 9135974,
+      "sha256": "390ec0e46a63e52bb94c07e2114543c3dfdc8dc3ddf2e2710baa5d26fbce48f2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_014.ply",
+      "bytes": 10596934,
+      "sha256": "a53bd8fd5ed4a858cb1d899439155377265699393321f5ca8eb1ed8cb4bbae1e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_015.ply",
+      "bytes": 16693638,
+      "sha256": "826866f92c7a0ebc593c0f69fe19b6c7771d74cca4d1c47f5733a9696b93fb56"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_016.ply",
+      "bytes": 16888934,
+      "sha256": "0c4456fe7f9dff78b25c6bee0186cd3ebfe4ec615d702bc386123ca81f195b17"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_017.ply",
+      "bytes": 14088838,
+      "sha256": "355585ae7eb62d9f2d8d62ab845cf342c23cef8d5588f5af4dd3ce494a45e5a0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_018.ply",
+      "bytes": 9549446,
+      "sha256": "41488120b42eb15faab4ba926b89e1dfe9de3fb0ea9fdd1fd41c686f63bc3f61"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_019.ply",
+      "bytes": 10022342,
+      "sha256": "cf3c373951e66e257bca71733a4f5600615e9d803dcbd040b91a3124599d4470"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_020.ply",
+      "bytes": 13716102,
+      "sha256": "0dafa420265c7c8cc58f4024a495c3d5db83008cc1d5e0ba43bf010869d6ea3c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_021.ply",
+      "bytes": 15031910,
+      "sha256": "19d1ce031878031c56ba89412867c9df0e57298ecab0c6cd4cb61ddf0672d46e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_022.ply",
+      "bytes": 19575142,
+      "sha256": "22b1cfb1d6cb8d002431a236bc0b16666b0e17db6ade7252726d614095b36cd2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_023.ply",
+      "bytes": 17989382,
+      "sha256": "962af1bc1f669a6e60f271883748e1a878a00a98da62f19d59f8356cccbcb0d0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_024.ply",
+      "bytes": 5791622,
+      "sha256": "abe29682e7929bc97cc6d04aec0e7a7df6cb1edd4973298a738b15fbce17c661"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_025.ply",
+      "bytes": 10996582,
+      "sha256": "c104770849f243d0a9709789c228a8c7ae43765022e8f3d65ae9166a72dffc22"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_026.ply",
+      "bytes": 18076870,
+      "sha256": "cec39a40fee885029a2fa2682966008a8af580f476e9f9de55f220fc46bcb9d1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_027.ply",
+      "bytes": 12745606,
+      "sha256": "510fbbd52a3a57161f29da8756efd0feabf0ac503aac38d47e6794cbdac08b89"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_028.ply",
+      "bytes": 25149990,
+      "sha256": "a3b3364fb87793bbd70ce89ac7519c52d96e99384abfbb2625faade618d31181"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_029.ply",
+      "bytes": 16972806,
+      "sha256": "007f74fe87090189caa55c6d2df1203a908da7e16e9cc25338de800e7a14d8fe"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_030.ply",
+      "bytes": 16727430,
+      "sha256": "b57d6c9855a1cd965818f70b62975d3d011cf32af464221f62cb40dda4e18e7f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_031.ply",
+      "bytes": 10210534,
+      "sha256": "e7be188f04ad5bf0ba097f0eb7aa07893144772e49dfa5e449316c8592cf275f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_032.ply",
+      "bytes": 17825734,
+      "sha256": "f89217db9cbf8eb579c0341e726c72853352940caf09c331590256af790ecc4d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_033.ply",
+      "bytes": 26271622,
+      "sha256": "198db75efbc274b1952532714525e6dae8b6ab2e5be0118d1939973582e6e684"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_034.ply",
+      "bytes": 12746118,
+      "sha256": "c61ec474e530728bade0da480c103fcad8068b9aaf326a7e8d59666ea1b3aea4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_035.ply",
+      "bytes": 9552070,
+      "sha256": "6690f182fbec63545374d66350a2e8aca9bc774ae5f29b24668c7c77594bb116"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_036.ply",
+      "bytes": 9702310,
+      "sha256": "b8f813dac861fe29f93c04d4b2d7935fd55f303cbd8b188232aa4e057b8c48ce"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_037.ply",
+      "bytes": 14546022,
+      "sha256": "dbfacfdaf33c9fd74b4a610390e456eba9a54dc02aae6864708a79f022ee42e0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_038.ply",
+      "bytes": 11908422,
+      "sha256": "b20eb0204a50ec4739673405eb71a09b0a66d8413c179fa765ed441dcefda48b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_039.ply",
+      "bytes": 21335942,
+      "sha256": "b5f55b4839ffea06ca10f16390c413b7d2d8eb872531ba7990d5a3d6c3addcc6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_040.ply",
+      "bytes": 25243590,
+      "sha256": "f492bba4731c14c737876c0d34b4ca550bf14d45f6c1c70f6f2075a09d913d1f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_041.ply",
+      "bytes": 9426086,
+      "sha256": "b672b84b6c2f743c6a056c9bfb1da475ceb4d00bb9d581b6674b5c46cef81ad4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_042.ply",
+      "bytes": 6842150,
+      "sha256": "0a499a42dcf6ea435076c7d81fe5a49b16024c5d774cd4f6ac7fd64db99c63fa"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_043.ply",
+      "bytes": 8966470,
+      "sha256": "14584ede4f7899e5d7d0e20310b378827c9dd22d5de8614acee2c837137c3a18"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_044.ply",
+      "bytes": 15626502,
+      "sha256": "ae077b34afd0c97262dc6cd7970bf7c274add68f28c06efccb17ff937c696bc5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_045.ply",
+      "bytes": 17461542,
+      "sha256": "58ac44bb3926494ffe8c3e49680c3f9a816b4d0b5e9438d697842177e2d715f2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_046.ply",
+      "bytes": 34706855,
+      "sha256": "5f5fdf951e8e28294b9fd42c345d976687f4d9865cbf0a515f809f8dd0ddec0a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_047.ply",
+      "bytes": 13319366,
+      "sha256": "d65fb4d86e12565f3b03ec426673d5ca3af3fd2f841c372ec6bc82e5b6a3eab2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/75_das/75_das_plant_048.ply",
+      "bytes": 12817446,
+      "sha256": "cb79dd8f6d3c7668821670e99c2be38b7c421b574d87d6ef3ab823d33a4df776"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_001.ply",
+      "bytes": 16060102,
+      "sha256": "71acac8f306b68b6dd9653616c6a4b0b21f76834dd9954faa392a39b7fa9e459"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_002.ply",
+      "bytes": 13176678,
+      "sha256": "40cdba2e0bda995efaefe8aa7eeb87a76af9e7ad14df8c8f25c12f122d963d76"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_003.ply",
+      "bytes": 31552038,
+      "sha256": "1f79785632ceba1d7dca90d96b71fad4ebd49efc8a982d00aa9de5278ec5f322"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_004.ply",
+      "bytes": 28509478,
+      "sha256": "1640a63266ebbc3e90151736c1ffaa20033e29dfd16abb87de5d6d966ad905a3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_005.ply",
+      "bytes": 12532614,
+      "sha256": "8a5e96d6d29aceba3d2e2e7891fe7513514b73ee00036fbab46056d1c7ec48e4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_006.ply",
+      "bytes": 8759750,
+      "sha256": "c0cbfc594ac48262c2b6138c074b2e2387514c07a1885b445f036be5bfbf2c8b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_007.ply",
+      "bytes": 10159622,
+      "sha256": "c657cc0ed0a0376e35ed6664d4b7317043b5ebc86ac12dbd35066c9206f39891"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_008.ply",
+      "bytes": 13496710,
+      "sha256": "21ae7a65ccdb1c292a1b11b22f4c6a8d14ada9ed902015d3b551375e55952c78"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_009.ply",
+      "bytes": 27149542,
+      "sha256": "d0c0c5f8520e81ba7afc6a367993238dbdee3469c1e0a601c1b0d84bfb9cef4d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_010.ply",
+      "bytes": 25650918,
+      "sha256": "d7139bb8ce547e43b9858910f84c08e537904d5c1b9272e9c6dac69596870f22"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_011.ply",
+      "bytes": 13920262,
+      "sha256": "2ed71c75a6982baa91121aaee4c05a0dc074ba6969a142b1995d867e88842a2c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_012.ply",
+      "bytes": 10621734,
+      "sha256": "ccef12e3ba41b1a3428510c027af448156bd0c170dc6d8b7f550df8353bbe1fc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_013.ply",
+      "bytes": 9717670,
+      "sha256": "4e513285b9dcd0457f7102a2083190db09039cae614b65664a39b6061b7e802a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_014.ply",
+      "bytes": 12073798,
+      "sha256": "f02f2c2db2e0e94624e6b078ce9f212a5e4015926d69c182f8d7182e73ef13ec"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_015.ply",
+      "bytes": 17071366,
+      "sha256": "375fa1c0978dbcb0e4bf777bcd751d60512a5c319c2d19b1496b71e377f092cf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_016.ply",
+      "bytes": 17408166,
+      "sha256": "0af444756d45e25afbf160dd5e6d400ac58200996ea2e39e1c67885195389a7a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_017.ply",
+      "bytes": 13134086,
+      "sha256": "2c733589bb7f36d7c78d235ef69e1f927a702fe3616894f7f9ac0baff77228de"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_018.ply",
+      "bytes": 9815462,
+      "sha256": "0ec0b5a25dbdc09e9cc8402a86dbd0e4639458e1f59e11edd53c45fc8b58522e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_019.ply",
+      "bytes": 10450214,
+      "sha256": "73c893a376ea08a7bb856b0f5ffa5ea96dae8ed05177bff68f0d31706c0c9fee"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_020.ply",
+      "bytes": 15343462,
+      "sha256": "3f41ff2853798203390a1fe32cb7e3bcc1f885397457e9bbc967407161a161a7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_021.ply",
+      "bytes": 13762854,
+      "sha256": "4de8a384e4578f2594e0033417dfda70e88db86501429110dd353200b9faae5b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_022.ply",
+      "bytes": 21429286,
+      "sha256": "78cfb851f52750da4ec8399601693c4d050b63fa2e9cc444cd9a77b217139c27"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_023.ply",
+      "bytes": 17799750,
+      "sha256": "ccb304bb71aa6888784b18b56cea7386655d9fa4287f9bf4bba867d6c7cffde5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_024.ply",
+      "bytes": 6391718,
+      "sha256": "5147122250d1df8076eb7bf42ffea8df9c12902c7d2f0671a015f0a62af44a76"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_025.ply",
+      "bytes": 11449926,
+      "sha256": "c3c305d745f566fa4e83c0ffb812c23eda9ef1820e4698f2bad305e4ee87b0f1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_026.ply",
+      "bytes": 18737766,
+      "sha256": "ae29c97695cdcdad07cafe8fd9f14bb457a350c341494b2f0b5aad5c90b171cd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_027.ply",
+      "bytes": 14372070,
+      "sha256": "f107391f3cc6e66955632b8ca96c40034ce26b0c1fbf6cbf33b9fbfc1a8ebcd3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_028.ply",
+      "bytes": 28143750,
+      "sha256": "f8850dc07f1d86f660eac2d3a60cd9ae8984cd4a6d86b0297945cf002b1e607b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_029.ply",
+      "bytes": 18438790,
+      "sha256": "960d804ace238290cea18706c8243b8208f58bc30d7251e6153eae4dc65aa4da"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_030.ply",
+      "bytes": 17161638,
+      "sha256": "d375dc626814a57abab775ab7aef0391c29dd01054caff3266038359e0de3d31"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_031.ply",
+      "bytes": 10022278,
+      "sha256": "57ed39f23c7c742e03c33eb862f456b8cb40d40a8529267fabdd09f0bf63c1fd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_032.ply",
+      "bytes": 18954406,
+      "sha256": "266e2069fb2d50540375f9147e81d376c5640f3dc5c18a92d02ebf69468d9c24"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_033.ply",
+      "bytes": 24073478,
+      "sha256": "1977dfd97397b49a071dfebe42e561dfa25b9675ebca994c6d3bab1b271d92b6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_034.ply",
+      "bytes": 15494886,
+      "sha256": "250cfcb4ec8ba6e3c0b45cc1f28961bcb17c0882a93ec7d442a739a5cd65adcc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_035.ply",
+      "bytes": 12048262,
+      "sha256": "43b9b9850799cb10d99927cdca9aa68a4e23d77b795825f6e768420d337acd9e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_036.ply",
+      "bytes": 10237638,
+      "sha256": "946f8f7eeaa92994296af1134b6f5c781960699d28b97cdba0852d259a908ac4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_037.ply",
+      "bytes": 15096742,
+      "sha256": "9766cfdfbfe45261934b007d70cbd35d764ca60c9991f4febf6ef5530197043a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_038.ply",
+      "bytes": 13693414,
+      "sha256": "71be3353b31d7643caaed02bc405d4b7b6ee25eaacfe0df49dddcf01977f9f18"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_039.ply",
+      "bytes": 20404070,
+      "sha256": "658afe63c6070580fa6e169c35fdee2d6d2726eb2a1061200c6eda763800dabf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_040.ply",
+      "bytes": 27087078,
+      "sha256": "cb7ec3fd9c11e28b2c83256f765c2aadc33a5e139ad970f172b24d03eb8f010e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_041.ply",
+      "bytes": 9487846,
+      "sha256": "6fd0b18a7bc27262c90ab28a7cfa27a32ce1a3ac67b2e07e3c2c1eae3aa8e87c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_042.ply",
+      "bytes": 6999334,
+      "sha256": "296bd89f1df75f33e190e946a25962722dffe504d11c899b29aa1a2965476477"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_043.ply",
+      "bytes": 9383974,
+      "sha256": "c23d7c6723a988ebb6815edb1a9cdfec2c854a2fdc328973841a6b0e2994a76e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_044.ply",
+      "bytes": 16554502,
+      "sha256": "05a873ed701fc8b3b6dbaf091daf62e870fb8b466f752b81fb41a019f12a416f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_045.ply",
+      "bytes": 17796198,
+      "sha256": "adbff8409c4ab56f475808a6f5d233268873b7f124e8e2b6f3e3056d6f3fa15e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_046.ply",
+      "bytes": 35750759,
+      "sha256": "4eb22a77d54205aaf09ae291108e21c921f2c41605efe38700f3ba96f8d9aaa9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_047.ply",
+      "bytes": 13049830,
+      "sha256": "e41f7da848a66dfd768ab3dc4e7518ecb2c5f5704551da81a50529cce7ebdfb1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/79_das/79_das_plant_048.ply",
+      "bytes": 12289190,
+      "sha256": "1ab622389e0ea9785d6c4019cf743d900ed34c685dcaca85c44a4bfd0569db3d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_001.ply",
+      "bytes": 15316070,
+      "sha256": "51a30f7368600a93f2cccd582be53d2be9e397e47769a7cafd683417fe85c6f6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_002.ply",
+      "bytes": 11876838,
+      "sha256": "ae660b246f5f80d3e3175f2f43b1eb1461b20987a488df4526e8719315efc779"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_003.ply",
+      "bytes": 35383271,
+      "sha256": "a40d4d5b98f5a03d588fd8338ab8a957ce5a9ab5204bdd975694ad77a2b07d82"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_004.ply",
+      "bytes": 24536966,
+      "sha256": "92db506e4ecf9456c339e73c41fade3018c454e37aa5f38653f506723e42ca1e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_005.ply",
+      "bytes": 12837254,
+      "sha256": "ebe87f91f4c7e2c5113a26586bea12945a1fd7252165e30efbab664cd9099f5d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_006.ply",
+      "bytes": 8635014,
+      "sha256": "fa84248a87bb71e804380c2ab2dcf70311513f5d68e0047305c6bf6840dbc222"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_007.ply",
+      "bytes": 10141126,
+      "sha256": "963293b61995999d885cf4d51d2aa2bd9f0003de6daf769c7e5d6d3ef5db976c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_008.ply",
+      "bytes": 13429990,
+      "sha256": "0da7e703ff6c9fe4cc77ea99358ec377d22974558d845a9c7f0fe214781b379f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_009.ply",
+      "bytes": 23153318,
+      "sha256": "7f57fb668adbe58e6f1fee420a12040f483e2beb4bf8980e08ac7938a34eba54"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_010.ply",
+      "bytes": 29214726,
+      "sha256": "265de7238e962a332e16682fcad920f4812e2c7ad2c50d28b3ecbe1a8e06241b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_011.ply",
+      "bytes": 13645830,
+      "sha256": "fcbff20ba8885375c4ed8cfadfebaba15f14392d6029ceb3b10f11812bbcb61b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_012.ply",
+      "bytes": 10474950,
+      "sha256": "7d7b4fba503d4e19fd7a449952a45372e3ae6330f16c4ba438c28f934b54d071"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_013.ply",
+      "bytes": 9456486,
+      "sha256": "cb198ce994c3cbd7051c7eb7227990fedca22925565cb6e724690d6e08c73e6e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_014.ply",
+      "bytes": 11040198,
+      "sha256": "d154a741d5f59378f1cc188c9dc2220e2965877a4c98cbb4ee42333c3a578edb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_015.ply",
+      "bytes": 15475910,
+      "sha256": "f49f81036376fc967c5b3fb9c3535f5e821436599f262c50c965ecbfc55386fb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_016.ply",
+      "bytes": 17522918,
+      "sha256": "22455b8aa8d1f5cd3a1918a8ddadc8282309a2d32bc2f8fbc8ec2ded66500623"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_017.ply",
+      "bytes": 14072966,
+      "sha256": "afeae2d206e57a883fa172f3abd2e8786d95b34293a23e1d8ba71533c62c48e3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_018.ply",
+      "bytes": 9649702,
+      "sha256": "c62c5b170b1f840de1a465cb2eecf3f74d942f0cfd9e32f2bbac45d555d124ae"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_019.ply",
+      "bytes": 10536326,
+      "sha256": "771baa28e9208da18b2fa2187fe6fc750c61fe8a037d12f85bcf477415c0e32c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_020.ply",
+      "bytes": 13825286,
+      "sha256": "7114656d2758b697612bf3d9fd39b6397a1e437844599b394fe31e69a902bbf6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_021.ply",
+      "bytes": 14488294,
+      "sha256": "765b2ddac07923b959dc3f88c81c5025c66e7479c287365d7a43dc737103dfd4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_022.ply",
+      "bytes": 18130374,
+      "sha256": "2dc6009d47f974ee1f73a6c0d4ecb9d1525d2068bd44151b776453032ff0b6b0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_023.ply",
+      "bytes": 17402886,
+      "sha256": "2d6160cec32cf7947475d1e0aa54f0b520499eb74d87fc3a2eadd79f8508f2e9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_024.ply",
+      "bytes": 6339942,
+      "sha256": "f404f9775e3393a56156cd71d38caa8ce0f4574c404e34ef723839ece5d22307"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_025.ply",
+      "bytes": 11425286,
+      "sha256": "759c85ee2e072691ddf56e2b736b2c3129a63dd932acd9e8a5c405d80b2a3dab"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_026.ply",
+      "bytes": 18319462,
+      "sha256": "d49b0a23305846041fb75226f63937e9caf5422215656097dca6088ae1f8ac40"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_027.ply",
+      "bytes": 14351622,
+      "sha256": "8fa2aee955f311436b2c73b927d060b3ef57413070c2b7bfb2896731ed36c177"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_028.ply",
+      "bytes": 27907270,
+      "sha256": "fa182aaeeeb18d898a042a14025cb3fe0c1c8ec225f13373e7b938e96568e138"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_029.ply",
+      "bytes": 17314214,
+      "sha256": "162d32d3857a365eff1393feecb5c7960ea732ac79c8abdd840c11cd17bd896d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_030.ply",
+      "bytes": 17089542,
+      "sha256": "73bed9528dd90e3f6c6a3f2bfc788a5e29faf6a38330f8e3879de97673d94378"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_031.ply",
+      "bytes": 10239302,
+      "sha256": "4b640db735b6b7e76fde25dd7625c21f0d2959f1b5bfe01de407b9d299e58f14"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_032.ply",
+      "bytes": 21105734,
+      "sha256": "0352126634500a0a42b2799e355829d85148f76c51df991adff8bd0a02ff6b27"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_033.ply",
+      "bytes": 22814278,
+      "sha256": "99e92351f8bff7441efbb5e6252a1a32e18dd639774394d7456982beaf012bf6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_034.ply",
+      "bytes": 14935974,
+      "sha256": "4a04737d5381400037eab75b2134bbfed5822ea37320502449694686f9186b00"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_035.ply",
+      "bytes": 10026566,
+      "sha256": "21ec57aef42118d9f33ba7ae19115383e197b31834e27a78b1dc75be1d05d6f5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_036.ply",
+      "bytes": 9161542,
+      "sha256": "00662963149fbece29dcaf8b70fd44bc18a0e916d21d83732d52c75594221edf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_037.ply",
+      "bytes": 14530598,
+      "sha256": "ad1cad3a35be081dd9fb01da6c86cd354e1b0588a049b73b07bc3431330e5891"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_038.ply",
+      "bytes": 12307750,
+      "sha256": "0317a5d2720ff544c5f8b294acfdfbd880495e8045be549a3d80cce1ae388e83"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_039.ply",
+      "bytes": 19192070,
+      "sha256": "a56fd9f05b802bbd67eced0f87d3c54e4b0fbaf34d37058edc49ed9289b4ee48"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_040.ply",
+      "bytes": 25984102,
+      "sha256": "3e3e5f593711d419764bdc2def4808c358e0646ac68ff30fb250ce5544477073"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_041.ply",
+      "bytes": 9414406,
+      "sha256": "02b7d87ff452dcde24570269c0f5724c04fbec31769a769d6f7b956262ad4b5f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_042.ply",
+      "bytes": 7341414,
+      "sha256": "3c79b63d4204bd41e82e9009db16d600b2596e90d96137b87f3f2262fa7bf737"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_043.ply",
+      "bytes": 8718310,
+      "sha256": "37ab9fe562931e1c2517d31deafe1f1667a8de45997dcd7836a56fc29ee04d21"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_044.ply",
+      "bytes": 16258854,
+      "sha256": "ab0664a87e750b3e07dd588b0e729bc297e24b938b1d5494975503b00f6acc6b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_045.ply",
+      "bytes": 18923206,
+      "sha256": "7176a36bbe93dad84c3a5b161c86f7604b0758697f8fdc83a3b70039e264e9e6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_046.ply",
+      "bytes": 33001799,
+      "sha256": "32dd0a4f90a8efd6bf7cdee52a35cfcd14225810891ee9ef602fc2e1e9300827"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_047.ply",
+      "bytes": 12698502,
+      "sha256": "fca9d878267c44013c2ee5d1804c22c5f9a01e8248e106a316ad77157a5daa6d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/82_das/82_das_plant_048.ply",
+      "bytes": 12566534,
+      "sha256": "4becc9e4ed89908e002751fce7a761ef5d52ed37482fd35e6c2319ce17f4488e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_001.ply",
+      "bytes": 14268294,
+      "sha256": "5c89d58b583b99ff54224de537fa9527a5e049eb83461384caf761350e74fc2b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_002.ply",
+      "bytes": 13517510,
+      "sha256": "033f9ec7401be1e87e888881b97c67459f9954da8e772a3c9383c2227e515362"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_003.ply",
+      "bytes": 28237990,
+      "sha256": "4f767a246c011c21e577558821ce0f7dd51412d02a12d8474bf4826bad452896"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_004.ply",
+      "bytes": 26114310,
+      "sha256": "a96bf55e89040da414eb44b39ba4e60cbd77c1bca25d3b7f68bffde911d7c721"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_005.ply",
+      "bytes": 12262534,
+      "sha256": "d29bdf6a2e553804fd33c610cfe3281f1acd1a7eeee61d92d04fcf094dfcb823"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_006.ply",
+      "bytes": 7862790,
+      "sha256": "0a45ea8c154844123c025aca4281a4d4ff3278ede690531c2fe622fc8f24eb8e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_007.ply",
+      "bytes": 9501894,
+      "sha256": "b8de2f03858faf457c0ad9e7ccf60eb9e5261a332aae6eb8e744245de471c84c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_008.ply",
+      "bytes": 12239814,
+      "sha256": "bcadc11a20b5ac6893e274055580f81c5c746efb172ece33201054ac19301684"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_009.ply",
+      "bytes": 23642342,
+      "sha256": "3808a43a0e318c9ccd29d22404e6d66f1a7bb07408596c84e0833cdc0c0b9ed6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_010.ply",
+      "bytes": 26387270,
+      "sha256": "da979984efa3b4931c2b6149ba46cce7467c2e827c98e30534404681ad887949"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_011.ply",
+      "bytes": 15023110,
+      "sha256": "0a5d573e2ce3a7e3ccbe80b253c7ea284a91ef8a96e8eeff55b111fcdecce39f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_012.ply",
+      "bytes": 10852294,
+      "sha256": "7918586bd318d4ead008e6dd97fa002cc9242d9889ba69d6732e8dfd43d0bd47"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_013.ply",
+      "bytes": 10111046,
+      "sha256": "d7a0968e3d5f5126d03722d68be8ca925b5c231f80a6291fe8968b0fdbbe0392"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_014.ply",
+      "bytes": 11635654,
+      "sha256": "6813d4ad667d8a868321cd2a78c31499a0eb9b6a2e7915528efac9c1a3ffbab4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_015.ply",
+      "bytes": 15041382,
+      "sha256": "77baca280e8d592f55f1090d662d3cc3fc9c4a5c31ee1922743df436cc1863a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_016.ply",
+      "bytes": 16744710,
+      "sha256": "c30eb411c93afbfa58207dfa413e81549cd71e498279de79279d0e6bd26ef8ab"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_017.ply",
+      "bytes": 14049798,
+      "sha256": "0cb5aa8a81fbc62eec6d1edaa9d9b4ff61fc38882a1bbaf552108d92fba8e86a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_018.ply",
+      "bytes": 10728454,
+      "sha256": "e74c670560d957d14eecc024bad9e63b0ca25073ba5b0104692d2830e0935090"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_019.ply",
+      "bytes": 11154822,
+      "sha256": "0d79b6eab32154b450c190e33f6e46f90631530b6f3e03bb691646d948a25ae9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_020.ply",
+      "bytes": 13260358,
+      "sha256": "ab81eefbe6308bbe3ff08a10e77bedfd21422cd7575be7fb9d583c2a95571812"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_021.ply",
+      "bytes": 16044678,
+      "sha256": "bfdb005323c28e43faed0fc83fc4a9591046862ba49377e8fb16486fc89d78ba"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_022.ply",
+      "bytes": 16297446,
+      "sha256": "b0bf1a04606429284c7d006fcf8b1883f5c9c53704e1692db1f0465fcf3629d5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_023.ply",
+      "bytes": 17954406,
+      "sha256": "4e967e7630b0275515043b24feebaa47c3a10e77cde37f61b32fc88e8822ad4d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_024.ply",
+      "bytes": 6741382,
+      "sha256": "33004b48cbb4e05aaa89ecfe470a871266c7a2e4f897ca3df923bbe1dba61589"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_025.ply",
+      "bytes": 11383142,
+      "sha256": "7c058299110ed8d99efb069479b6bf80c4c5efa5ced03ca1f36eedd389497a58"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_026.ply",
+      "bytes": 18277958,
+      "sha256": "e5e0bcff71c71b6e464c81b85f98445c50b559ce411924d18638108e8cd46a09"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_027.ply",
+      "bytes": 15455142,
+      "sha256": "9474e08d45036370476f421931fea056186c1c8ca6511fb8888d2c65403cc8c2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_028.ply",
+      "bytes": 27731654,
+      "sha256": "f0a33a0530210949e5de7d0e3fd0a404ef1cf25800b4e58fa43d27a50b0ab72b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_029.ply",
+      "bytes": 16972390,
+      "sha256": "6bb47641f7af11415048e914f9f5d51a30ae9af7622f2ab1003f933cc3045265"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_030.ply",
+      "bytes": 16321606,
+      "sha256": "b0275e1912ce6170096284c2f9663cd5bcc4eb41963c5f4f7e16f0e3cd2d186c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_031.ply",
+      "bytes": 10171110,
+      "sha256": "6274387a10801e950148ece63caa1c825d89fc4bbc26539c927b45d5371dc7cd"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_032.ply",
+      "bytes": 18970022,
+      "sha256": "40dddcfbf754f7a84772b4dd40a88d35f244409554f3fd15ea8c44838146ac8a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_033.ply",
+      "bytes": 20860134,
+      "sha256": "38b551baace9c2a45598bd4ae9a9acaf9d485838bfae2a2f32100b3e9e9168b4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_034.ply",
+      "bytes": 18391334,
+      "sha256": "c3b233309821aec379dc9b74a1e62d445da03c79a5653f06750df98131b375a7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_035.ply",
+      "bytes": 10934214,
+      "sha256": "de0b4bfc08743d277e18a073251fc6f2ae35704c092817711a18c4ad2b6c95a7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_036.ply",
+      "bytes": 10093926,
+      "sha256": "b3b6b643eb83048a6ea041c0eb235e6d0fe520aa077849221ced9f20f592a51e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_037.ply",
+      "bytes": 15941222,
+      "sha256": "aafe48e966b7813e2065a7b6001b3e818eb449420253f2c029b97de84d98529e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_038.ply",
+      "bytes": 14233254,
+      "sha256": "f90565d1a9bf9b2d0ef13ce999ad5935a4cc87defa4eb1a4a8f25179b7ce0b27"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_039.ply",
+      "bytes": 18751622,
+      "sha256": "0e19e4a95ef3c3c8159c9c24da04cd770d68431a1e884371bc7452c9e376b97b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_040.ply",
+      "bytes": 21545926,
+      "sha256": "4ba1da87544da300c80d1d212070265753a6f79863ea4eb5fe11eff00bcc0e47"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_041.ply",
+      "bytes": 9470054,
+      "sha256": "828e1997464d3b6fe6d772a32f57bf3fed3376fd7013da4783d6adf02da0f25e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_042.ply",
+      "bytes": 7372806,
+      "sha256": "5ce67446b86d7871fbfb88cb9374a84bf458d79b54870bafc5d620eeb61e458c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_043.ply",
+      "bytes": 9334950,
+      "sha256": "268839f785df5739e319908ab92f27c0297c3a0e386ed4bb641973cda7c6eed3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_044.ply",
+      "bytes": 17311334,
+      "sha256": "df67ec28498ea8b21a1c71da9c1724be202f1c477dc647b9dc0e1bdf8e39c123"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_045.ply",
+      "bytes": 16773030,
+      "sha256": "991fd45f23e9f92aee05a90fbd1093d2cb1c2ad26c9c4f3748c474b5fac3e5ee"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_046.ply",
+      "bytes": 33847719,
+      "sha256": "a4c5a104d565959c2bd6901d273f8aabeffcb5825d90b49d1baeaa62e1f45da3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_047.ply",
+      "bytes": 11967110,
+      "sha256": "d971c2086edffc22276eabac57a6168b82db1a5c060be9ef669cedb3ddb24c32"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/86_das/86_das_plant_048.ply",
+      "bytes": 12276678,
+      "sha256": "7e8ed63b1851708c53afd55bf46614f68620f4359113b53fa79112a75813f6e1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_001.ply",
+      "bytes": 20940550,
+      "sha256": "e4bafd6f24ae2c5801e69eab03df4b1afa817f9dc4dccfec7351198f5c0495b2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_002.ply",
+      "bytes": 13123142,
+      "sha256": "b83adeede40b050ea633c6f9d2dff0b9965dd788071500a6fe216d56f6536432"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_003.ply",
+      "bytes": 31353190,
+      "sha256": "75bdb1f8e412eae6f23add4eee90e20d2be9cc1724da2ab047ac83129f317cdb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_004.ply",
+      "bytes": 26927590,
+      "sha256": "785e0c81ad02a99b2382d18e5b19464d6cbf3f377cf0d5118cdb794047005c73"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_005.ply",
+      "bytes": 13972070,
+      "sha256": "4c9625009e1cb71ef64e4fd175581b1e76d0cc5ffecac905b0899fd1d1906785"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_006.ply",
+      "bytes": 8418950,
+      "sha256": "7dc0b41963ec29972caa511ad0df1e16321abb540374d3c53c076b2f1330564c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_007.ply",
+      "bytes": 9555142,
+      "sha256": "a4a4cf15f6a595a3d81c201dfe747126192f664b1ffedb9e0e8c62d19993eb17"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_008.ply",
+      "bytes": 12436198,
+      "sha256": "1bdbd0b0b872bf0a45a30ea18982f7401319f76e13f4ccee86bd93ef70ffc68a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_009.ply",
+      "bytes": 23848134,
+      "sha256": "80461528ec8e5f6849c33f14a90b8b2d0235295e746c6226016b95dcfde99105"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_010.ply",
+      "bytes": 28043686,
+      "sha256": "6fd36c98d52a1b3530924024df65d4b6073d25d19c659f34428b7018066a1237"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_011.ply",
+      "bytes": 15505446,
+      "sha256": "05c0fbacae88aa273cb3b33258ebb91049d06efee164047b1645557fa7a43595"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_012.ply",
+      "bytes": 11144678,
+      "sha256": "2b23ffbfd522f970366fd0c450bbe70602688dbdbf593c52b381b251f396be15"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_013.ply",
+      "bytes": 10681222,
+      "sha256": "42e8425393554cea601515de065f596ab089a9cf161b7f420f9408c5d1f8dbfc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_014.ply",
+      "bytes": 11986310,
+      "sha256": "2580aeb5927c222bf8ffca5bc04587ddba8bf3fd72bd8f1757c6c63854e82829"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_015.ply",
+      "bytes": 14774950,
+      "sha256": "c79c8e4da81f397720d164604f665ccca89b6f4a6ac8a92d6bee76dc5db6e338"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_016.ply",
+      "bytes": 15163654,
+      "sha256": "9dc565e86605848bb5253477f27c46ba2e50c18190748802b1d011c2ae65f2db"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_017.ply",
+      "bytes": 13230310,
+      "sha256": "3d7ac7c177ea96d10fb9f85e3a725804609c7a8b518850d0d99dc7148a503226"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_018.ply",
+      "bytes": 10047686,
+      "sha256": "35ef268b87f3e34d2b3863765f6e16a69ca74b34cf9bf0eabd249b7f7c7dafe0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_019.ply",
+      "bytes": 10787622,
+      "sha256": "758e74604e00bdf1520d0edd604ec2094385180c8d82e95a203ed23d40a3a196"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_020.ply",
+      "bytes": 13560710,
+      "sha256": "ac71ceb6f5f56dafeb072e85419f08b9a536869dfa1cd01b6a1428d228df3a90"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_021.ply",
+      "bytes": 12216646,
+      "sha256": "eeac304b92a5b3eaddd9a5cf5081d8191cdc2e884a48d579b7ebc78112cd97e5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_022.ply",
+      "bytes": 20508998,
+      "sha256": "b82a05e7799fd098ba8f0b60883247ec3cdac1e4d82fe052429946254af6758f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_023.ply",
+      "bytes": 20589286,
+      "sha256": "de19d9b1d0d5b99664079844cb05aa30800fcf6c425f6771d1faab11e0aeaa4b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_024.ply",
+      "bytes": 7482278,
+      "sha256": "05c194bf3d4d740fb7bf50050da4bc38ca7893a5c05d675a4c3a3aa24b176ee9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_025.ply",
+      "bytes": 12610982,
+      "sha256": "bf0b0f9852f19658735da14635340386723b2a4a2393c374be1462619d2b975a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_026.ply",
+      "bytes": 19829318,
+      "sha256": "837b5a60a88d011af86f1002112a6222df7377e23931dca13dbe98b4dcdb4ff0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_027.ply",
+      "bytes": 18227046,
+      "sha256": "a72bcc8a163527218044a59f73bbfce70989fc342252dabc775c02761c4fb281"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_028.ply",
+      "bytes": 27100710,
+      "sha256": "a5ab7a0e14da59ceeac75843030ed6e13aaf16f777db69d79c77327424e58264"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_029.ply",
+      "bytes": 17263014,
+      "sha256": "18c98a55c8e96359b2b81d41080160e9780f3f886a9d52ddf8d748ad78c747e8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_030.ply",
+      "bytes": 15665734,
+      "sha256": "56348461a48014acefd38611356397192b1505cde8c0e63c8945e2ca9f5f8e35"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_031.ply",
+      "bytes": 9296806,
+      "sha256": "b97957c722d1b86d21244bb9077bac327e28f957fa39e84398c029ed9293515b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_032.ply",
+      "bytes": 21504262,
+      "sha256": "d992cc38a1a4805526fc0f4434eea048af2e7b93acb3bf7eea7a1cfd18855337"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_033.ply",
+      "bytes": 22568262,
+      "sha256": "f2e67ad5c349b220c4089cfb6fd0b02e49a95e872797a18d8d6e129fd27f1a28"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_034.ply",
+      "bytes": 19306438,
+      "sha256": "8a235f935b4aad780c74c6b172fada62a86017d13d0d2f5579a08e724de52fa2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_035.ply",
+      "bytes": 10854278,
+      "sha256": "351d75d5bb9f1eb7f0ac3c10c3cef16efbbed65f5d3c48ee23e49df532924b2d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_036.ply",
+      "bytes": 9640358,
+      "sha256": "dc669b428f1cd25099c2f01058dd7761649dfa5e77e8752d341e115baf575d46"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_037.ply",
+      "bytes": 16259494,
+      "sha256": "7346b4332081d1afabfb5b170924d22ed2bb605053f352ce4fde6680ef6fb3b6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_038.ply",
+      "bytes": 14346246,
+      "sha256": "895b5218abc861e88a535e1f2a61f9d247ef52ff2456d4b7a7c195b3dc337c29"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_039.ply",
+      "bytes": 20660230,
+      "sha256": "5d573e4eaa14d8867def67c79e189ae4709b1c1008d9f77a3411a48028e37bfe"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_040.ply",
+      "bytes": 21018886,
+      "sha256": "01e081a18a5ab20a4ced7af3cf7631fb80a85aa256ea0fadac0c3d2c164d3856"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_041.ply",
+      "bytes": 10694726,
+      "sha256": "c3d975eafce6e27c843efa45b8578eb1c1315f30f8101fc0df0d99dbd4d0ecb2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_042.ply",
+      "bytes": 7812966,
+      "sha256": "83765c69c33195916dd5fdcde82c307b656e2ffd113fdd6135bb24f9f7df0a0e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_043.ply",
+      "bytes": 9484742,
+      "sha256": "3def8eeeae5f6c3b90a8b5fcddb8412c839df2b239e60d166d6893b0c81852ee"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_044.ply",
+      "bytes": 17976646,
+      "sha256": "4a29ad00aa36f716a6f3478cea49923f7f93b14420b9f1d9fc0984034082b9bf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_045.ply",
+      "bytes": 19963718,
+      "sha256": "2076e452545ced3f456490ad713aa24480898d711f8d303a0c45188da28fc059"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_046.ply",
+      "bytes": 29985094,
+      "sha256": "37e5178fb2240738fd3f49301784c6ddc2ef8afe12f9081bf524bd62dfbafc64"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_047.ply",
+      "bytes": 11717414,
+      "sha256": "7f33807a2e53fb097c75a592b1673ca49d08730a2b982eaa732ff5d08f426b5c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/89_das/89_das_plant_048.ply",
+      "bytes": 12786022,
+      "sha256": "aa8e58dea22f80950361d54de4fd80f0464d9c4d85cc68d71b9fa8d3f105cb16"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_001.ply",
+      "bytes": 13915814,
+      "sha256": "d2ab683b65c9657a4519ab5c6142f09dec1425c81fa38a9d739fab81fd14ea62"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_002.ply",
+      "bytes": 11928646,
+      "sha256": "1daf182edfc3c91464198af8812af59ec9e6f4110b1269f437d2e047bcfed057"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_003.ply",
+      "bytes": 27006630,
+      "sha256": "c22916e88f8db599e133e243295b41ab6f1f71433de434475908e42c3f26f413"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_004.ply",
+      "bytes": 24033094,
+      "sha256": "3fdaf11faed1a9713c452e055a95cd4adfb5b528554986ee2c41335540cdf63f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_005.ply",
+      "bytes": 13431814,
+      "sha256": "21ffd5f9c364109cf92eb3b24af2f40a59ef7c147739549154456468b91b100a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_006.ply",
+      "bytes": 7956870,
+      "sha256": "dedd3fb35d73b86d603a52ff5aeb967610ee2734b69df5072e28dcd01db74b80"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_007.ply",
+      "bytes": 8771142,
+      "sha256": "2e764dc1e83d67aa8505b1247fdc24571dedb7343d6e13ef6f9f3ece7f20ad3a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_008.ply",
+      "bytes": 11799846,
+      "sha256": "6f507a74c41a47e3adfd62af0f6701fd782786038a96394c5b2531be35373cfa"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_009.ply",
+      "bytes": 23481574,
+      "sha256": "fd5323fb676d15e64bb3eb24300b7fce55830b80dd7a2174be8d1ab58f7e5aa9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_010.ply",
+      "bytes": 24157926,
+      "sha256": "0611956d3588adb16a3f2abc565016344515ad5fb4f0a9597f8e5218c4bde634"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_011.ply",
+      "bytes": 13842374,
+      "sha256": "38751078705dc39bff17104d8804423f2fc88695ca58f0d48150e60e1f3838c2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_012.ply",
+      "bytes": 10572390,
+      "sha256": "dbc43c120885a05de1f33f2582f77e4636d523b2d1f57202d4a156cdfbd69902"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_013.ply",
+      "bytes": 9011142,
+      "sha256": "e22eb5bce5459bf3aa151f9551ed0e41c61f9bebaadeeaf7c3fe82da6ead2be7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_014.ply",
+      "bytes": 11664486,
+      "sha256": "008a2fd6362c3e60d2f58ad37bc3c8eca2a02bbae4df994b0a368377a47ada33"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_015.ply",
+      "bytes": 8036582,
+      "sha256": "13c0b6395c282fb49895e04c9e5f36e391fc89b893b8010ec05d6d43e5fa6f80"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_016.ply",
+      "bytes": 15542886,
+      "sha256": "ee401f33d280850555f87b5d8e1325e42da77e20eac680af8766af8d1c36ea5d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_017.ply",
+      "bytes": 11118694,
+      "sha256": "32bccdd0b0140b696ce3e883e28eb05a0c846cdd4fa0b1a7037eb4c560f73d67"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_018.ply",
+      "bytes": 9043974,
+      "sha256": "451518998a10b2ca73e2f7deed49e4f639b7ef8549da7d976b5b187238eadda1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_019.ply",
+      "bytes": 10028166,
+      "sha256": "692328781cd229373639e1e9ed8c930a9be624e130d2db75c6b0bd440746416b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_020.ply",
+      "bytes": 12830566,
+      "sha256": "822b6cf40ee8b2d7bdab60a251e138e1c3498d3d61dc33e6142bb89df6523301"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_021.ply",
+      "bytes": 14357958,
+      "sha256": "78a4db9e9c711cb766fba6886449e7087f328b16e0d36f787b8f0662724c9ff8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_022.ply",
+      "bytes": 18682790,
+      "sha256": "26048fcb2e16213be74e3c9d11758b1c05d9a698dd016f1797370ac6306b078d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_023.ply",
+      "bytes": 17936454,
+      "sha256": "f3912897e7b721d980c4c1289d90816469f5d9ad66980fed6973b8bd066e0be2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_024.ply",
+      "bytes": 7109670,
+      "sha256": "80130e382a922c3e9d29cccec1b649fc05471a2c00b915ea4b7c70f6e3f5edd2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_025.ply",
+      "bytes": 10557766,
+      "sha256": "6160eba21eaa58aa7f214ae576a55b78d51750bce40754283d5d7c8e16ade07f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_026.ply",
+      "bytes": 17043558,
+      "sha256": "fc2a923d468d708b5f0a1d21b8e835ce2e16da6c43f75cfc439755e914f949ef"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_027.ply",
+      "bytes": 16373638,
+      "sha256": "4a1cda65d990a82eaa2f3812e16ca4d03ea4e892d5d08bdd59a309fb1a2bc001"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_028.ply",
+      "bytes": 25174982,
+      "sha256": "8840009d4765ce17964be9fee9e2a37f8c2b1740609f117c058b0af233fb5f42"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_029.ply",
+      "bytes": 15850502,
+      "sha256": "883e7b8a6a0d1dbfd41af3792d8a93f5657e81700db4d9433cb3a5408e03a093"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_030.ply",
+      "bytes": 14247014,
+      "sha256": "f05fc617cbdca3f5598ddc1c9170f1688d806b0cf049c48b940ed830c43bcb06"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_031.ply",
+      "bytes": 8763686,
+      "sha256": "24e48d353ccf1c42755337f017fa6294ee1d61841d8c279a6cba0b0a78b08689"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_032.ply",
+      "bytes": 19809638,
+      "sha256": "e02d4bd24f60f87e829dae92da3db24bb94ad9e506cf9a08e3369b637154043a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_033.ply",
+      "bytes": 18931494,
+      "sha256": "bcefd915c212e9a7bb801e8721f69f71268f1730f4cbf5d10f54c08a88efe76a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_034.ply",
+      "bytes": 17310726,
+      "sha256": "def355451609c584dbad551c2fe45ed6bb026e199b9cf92e155f686e0f38a96c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_035.ply",
+      "bytes": 8883270,
+      "sha256": "23ca0a4a2bfcdc6f81dd0652e74b27834a2bda0b6e4e1f758ebb58b529be970f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_036.ply",
+      "bytes": 9182630,
+      "sha256": "497191ac6aadd320522323dd1e03457dff8d82f916b0938bb64c12e3ec775ce0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_037.ply",
+      "bytes": 14896358,
+      "sha256": "e1b4a2043801b2b5d3e14a466f694a7ebf855a088b4a6cbd521f93166263f870"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_038.ply",
+      "bytes": 14842374,
+      "sha256": "cba9b4715a1d470e476dd4964bb48381cc1f7a0e08b5b4a753a243fc9636d66a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_039.ply",
+      "bytes": 15148390,
+      "sha256": "abf07829e248cc94736118ac3ee3e577591bdab11a97e0f3a91b19bc24d3cdfc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_040.ply",
+      "bytes": 20302118,
+      "sha256": "4f0c19fbd6f01e3681bbdc092bf88f2231443e05cd0c630a805919bbb26aa3a8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_041.ply",
+      "bytes": 9111430,
+      "sha256": "6fdf67cc6a7d8849d889c23de9ace493d6b804786fdfe2e5195ea6b539198822"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_042.ply",
+      "bytes": 7830566,
+      "sha256": "ba7641f23c6e4b58a8161360e9543b113576fbbfb13fe61c228effb2f850c2c0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_043.ply",
+      "bytes": 9037062,
+      "sha256": "4a7aab5c6a7d442a889ed0bae6fb37a7e318e77fc3859f2b8ce5a1524987f904"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_044.ply",
+      "bytes": 17067814,
+      "sha256": "e1dc832416f11f030221c532147049fd12272d7729434110d5243fda9e7989b7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_045.ply",
+      "bytes": 20036326,
+      "sha256": "fa9abb6de2ca280dcb1f69120f312854d237b5faae3583c90db5698c0e7e0710"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_046.ply",
+      "bytes": 24173798,
+      "sha256": "043367177279cf0a9765d8d4fbfdc6f9818ac860d3f994b9e4784425d61e2f13"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_047.ply",
+      "bytes": 10075590,
+      "sha256": "d4f5629a03069d103d539a642eeffeae891c9b4d761f26fbadd883ede298e1ee"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/93_das/93_das_plant_048.ply",
+      "bytes": 12693926,
+      "sha256": "0b0a4c96816a38d78422f66155fd0270d2f061a77cc1e5043479b91dd056187d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/splits/test.txt",
+      "bytes": 4032,
+      "sha256": "39c882597e35da6e01013b468607319168a927542664ad7c5559a1ace65ee3aa"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/splits/train.txt",
+      "bytes": 8064,
+      "sha256": "c46c124c41af99cc5a433db99153706d487f558b8cf3553f2e3b2762882a0c04"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/point_clouds/splits/val.txt",
+      "bytes": 4032,
+      "sha256": "b872d46eeaffe559b0bc7e8a971fcca8ed6b124d12fa95087e61b8b2c965adee"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/experiment_layout.png",
+      "bytes": 536196,
+      "sha256": "f0efdcf2cb997519cdd78c1f4c1a448f08e5edd97bc4214bef0e4b478898a512"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/growth_points.npy",
+      "bytes": 2586,
+      "sha256": "a7aa4436117242686e94168e60ee12903a9cf5483c90b6ef646d869fbb2b6f0d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_001.png",
+      "bytes": 161696,
+      "sha256": "5aba55f34c7b25265d1dac993470871dba575bef970a23e77fa88da1289aeb74"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_002.png",
+      "bytes": 161677,
+      "sha256": "980ca8d27a2ca023490adddf1d9984607211627f3a1228fd7b3f5edb0cd83f90"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_003.png",
+      "bytes": 158348,
+      "sha256": "738ea34ad9faada6c2611fe73699d22eac70e7499c8560db6c8ca249219c4302"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_004.png",
+      "bytes": 146104,
+      "sha256": "4bfbdc02c66cc76ea9a252411ed7fa1c7d472c8209cd28474766ca827672a8e1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_005.png",
+      "bytes": 148178,
+      "sha256": "88d6a7502c0954131e434f14ba43b86bd25c3bc0b2fd466e9bb556d8d649844f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_006.png",
+      "bytes": 155449,
+      "sha256": "b7502c53f00b42b952bd55fe21ea2a53709995c46f99f22d561270a84b921ee7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_007.png",
+      "bytes": 158503,
+      "sha256": "8b2ca1d1399043736c1f33d507ba633b317861b27abdce60f5a3328f1086ae86"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_008.png",
+      "bytes": 157205,
+      "sha256": "be72f933f9ce23ca2bf31ff335c1508be685c3d8c80fd11476669dabee4f04ef"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_009.png",
+      "bytes": 164035,
+      "sha256": "827cc9186515ba8d55e7a0c1a6b8981f8c05b6d41a50b7e9f463a6f6c8739442"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_010.png",
+      "bytes": 149331,
+      "sha256": "efa092bb4ab4ad7c8a1f46209a101db8767827d8930777d9261888dcaae23f1f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_011.png",
+      "bytes": 153533,
+      "sha256": "8139c079602c14e6414d8317d66034972dc51e23d7a4409775a00784b8277325"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_012.png",
+      "bytes": 147109,
+      "sha256": "0f260e3200e6df9cd389b1a9bfe6c36260ac550bcad2507aed31d063727c46cf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_013.png",
+      "bytes": 155121,
+      "sha256": "c50efda9f6de9c7478a253ee8f10acf46fd90a63a1305142a4a4549fd943a052"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_014.png",
+      "bytes": 150299,
+      "sha256": "a826765c4873a751dd9e147b24ea0df28437003c990f5efd4fa42e3f391b777c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_015.png",
+      "bytes": 155805,
+      "sha256": "9320d41e88ba51dc0408a01f0c4e36ba5e32b80c49664d5d48d1d638d458c6d0"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_016.png",
+      "bytes": 153280,
+      "sha256": "586302d7e55ca07bceef8323df878e6ad039700003402f08aa69183c8d63ffd9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_017.png",
+      "bytes": 149748,
+      "sha256": "a50308d31f7ada3765f736ca70990df8559ee1b44031fb61cd100564cfc52e7f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_018.png",
+      "bytes": 144283,
+      "sha256": "3159c5515d717a980dd4127a6cda53cd815d3b33a52f43b408a4263b5a191ef5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_019.png",
+      "bytes": 153169,
+      "sha256": "1ce69a4e1bfcce40b66d4877b5a0edebd230453b0dc11f7224dc390a8a2ecbdb"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_020.png",
+      "bytes": 162088,
+      "sha256": "c597f845b71e4dc31f4d676dff9fbbd289f779485d5f02364a3e20376adf7e86"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_021.png",
+      "bytes": 154813,
+      "sha256": "0533427c318f136298f2f0dc9616bed504c799784b5f46577e12768435b04602"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_022.png",
+      "bytes": 147662,
+      "sha256": "253f685bcd34dba4aea3b6edfa53980ed8661cf17a495e3fe69f5fe6e4b6d286"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_023.png",
+      "bytes": 160980,
+      "sha256": "25b18b9e59014a89f2a41c3241e859e95af40c5ee6d6c2ec9d5b10902c2736b4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_024.png",
+      "bytes": 137517,
+      "sha256": "5a83b4f89d9d753ec03f5ebe4df1e319087e187064b81db4b072b34dbd3a220f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_025.png",
+      "bytes": 141225,
+      "sha256": "936ebf6f0a82a8f4c63c8c11ed542bb3f84f28da4c96de3567f345e5edad32f7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_026.png",
+      "bytes": 147453,
+      "sha256": "8e499ebc061db53dfe9b9b120a4d5f87c7d15c6829c8197fccd51484efe3bb23"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_027.png",
+      "bytes": 162056,
+      "sha256": "536c970fb063857adfa07579c9f443a898a350655b6c9cbe41eca4ee455278cf"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_028.png",
+      "bytes": 158829,
+      "sha256": "77ed0882134ad996ef175c10f0e3992869fe446148fbaec1ebe64a8600677c39"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_029.png",
+      "bytes": 152684,
+      "sha256": "edf593bbdb90200f84d83d6a75d2706d31adcbe2d19a2fbc18795519ceed8c83"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_030.png",
+      "bytes": 174532,
+      "sha256": "0eddd37d6132d0ec02f78ed29fd5bb2a54141669d0c177aec729b78537b0a7c7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_031.png",
+      "bytes": 160144,
+      "sha256": "a257bb65d99012f73343610b9888fbd3dd42490100676b56428126660116f97e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_032.png",
+      "bytes": 147252,
+      "sha256": "849d5fe4b143e923eda6b781ab8d251d397b1b3b424e97a5a63e3f3d65534338"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_033.png",
+      "bytes": 162963,
+      "sha256": "b470278db8de752bfade7e348c5b848f2c07b31b8d1978eba621bf2a6203c0f7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_034.png",
+      "bytes": 142090,
+      "sha256": "8f74c163044f3fbfe6197dbcf12358793c454430171bd10a597ef25ea0b64b86"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_035.png",
+      "bytes": 158945,
+      "sha256": "0d76e0c263eedf65dfa2652724a14ee813e5276a72384b601182dd05f7b0393e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_036.png",
+      "bytes": 141851,
+      "sha256": "7b734fe9843e367ea193e84600bcba2b74fa58f5fa6238951160c26e5767201f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_037.png",
+      "bytes": 144941,
+      "sha256": "e2533aa6532ee1a6d790c964f0e4a612d329b9df06638f73f09be1b81d0bee8f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_038.png",
+      "bytes": 152235,
+      "sha256": "ff78dfb16b3b0f32786845aca840a62a86ec7cf27fda864cfd9d62aef0e8559b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_039.png",
+      "bytes": 152079,
+      "sha256": "2ef5ae6d795c49699db94907ec92fd4dc41b71f547b061053e1837f8b9a9e0d5"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_040.png",
+      "bytes": 146688,
+      "sha256": "bfd9883bc2f5de2d45aa2d9548c2ed71615b5ccdd0b76355483605051627352e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_041.png",
+      "bytes": 157984,
+      "sha256": "00ac18433cf4a9efb9337cea78566aca0b7a42d3df3b0dcbeb9e8bce3af3b3fc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_042.png",
+      "bytes": 146306,
+      "sha256": "db287e3416f5a8a41a6c3ad395b6d0da57c93fe43ad00eb5cbaa49df48569fbc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_043.png",
+      "bytes": 159461,
+      "sha256": "946e25918169da8ea361ca858ce80f25f904f0e2ff2197773314a366d92500b3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_044.png",
+      "bytes": 169387,
+      "sha256": "a38a9d7b0e0e640e7a0351f297e17d906a2276a28552f03a0eec4cec6bccf5a6"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_045.png",
+      "bytes": 163216,
+      "sha256": "47f2c383df1a70fa15d342224b4084e2d1fd36e268ac3b026d9459893c212520"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_046.png",
+      "bytes": 167695,
+      "sha256": "edbc7af2ebe93a2184219228b11b26f8b6d452fef3f7ba7389ccf942cb013866"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_047.png",
+      "bytes": 153074,
+      "sha256": "7de7580361b2f5b915a36071d37a208f13c11faba23ce20e42e692fab9d897aa"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_position/label_position_plant_048.png",
+      "bytes": 136815,
+      "sha256": "68b05d73eaa3b99835bcb4a65a2b54b157fb9990efcc2ed1c71e307350033933"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_001.png",
+      "bytes": 43385,
+      "sha256": "1eb3c0f94030a02aa2a10e5f29b9398c53c17d35809e9f764d669ce5a58dbe72"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_002.png",
+      "bytes": 43354,
+      "sha256": "19e9356ab783f5fbcd38ded4793332bf4ec755a49b8f7725de4647f7b971fc13"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_003.png",
+      "bytes": 44213,
+      "sha256": "7c4f8b075609a9025e6095edfef4719708601c50449adc339291ab3911cc4c21"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_004.png",
+      "bytes": 41928,
+      "sha256": "96ce099cdba1816ecc78a66d4b92c8ac129166c06e1dd2cee36246e6e17825a1"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_005.png",
+      "bytes": 41533,
+      "sha256": "e423f1b04463929bf5049e7a192c886370c40147366194a6444e602d442e693a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_006.png",
+      "bytes": 43057,
+      "sha256": "1c77f3055a625cf584c1ae9b3ab940bf9132230de605fd8c5a0bb4c4865ce718"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_007.png",
+      "bytes": 43863,
+      "sha256": "4b3596f25404b6728b493e0abea72e739a64fcff3c216b6ec6ccb39d0610f022"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_008.png",
+      "bytes": 45101,
+      "sha256": "dedf4ee0025eaa721e8d9e3b7df6799029b40f921e7ab574934abe1d7654011c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_009.png",
+      "bytes": 45258,
+      "sha256": "382b017b381dbebe47c9606cafa3feec6437467e92b67f9251615d64fcce1715"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_010.png",
+      "bytes": 45361,
+      "sha256": "7a7a87acb330146bc153acf089169b679a25a5a169463b74eb48bc3543572f53"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_011.png",
+      "bytes": 44643,
+      "sha256": "a4e819a443250f8ffb6cdc712447559a1f49c55ce3079d7297a5c2ba423df4c3"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_012.png",
+      "bytes": 43070,
+      "sha256": "888d11174f58cefd95668e0c2bde8628f0c8f679e82d4936a07fb24e63f231ee"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_013.png",
+      "bytes": 45994,
+      "sha256": "e121726302a21eebac293b6dfae1a1bb9c0901751a021f4b2b18b3a54a539636"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_014.png",
+      "bytes": 42483,
+      "sha256": "4e7cc0359172a546b8c3faef32144d955017ea1f92e88522565ef5c385eff5b4"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_015.png",
+      "bytes": 43559,
+      "sha256": "74fde52cd71ed1b959be36ee72ebbfc1d3ee4708cf466d11880117a92fc6ca6a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_016.png",
+      "bytes": 43993,
+      "sha256": "b2ee5a94453e4183f6682254fd300ac605d7a7520b4be8088ade712cf8325b57"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_017.png",
+      "bytes": 43591,
+      "sha256": "43951fac83dbd2ae33a21578b62a693c590847bef994306740cadecb7fad1a8a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_018.png",
+      "bytes": 41432,
+      "sha256": "0a2a61480c25b1a1e2d4dbb8e2fe967c3f4e58cda99905f591b9fe10598c9fef"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_019.png",
+      "bytes": 44484,
+      "sha256": "514235dde81506644fbb544b80de8520f254ffd93c6344723b24db387fa995dc"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_020.png",
+      "bytes": 45482,
+      "sha256": "8965d0877dd59d481b6e55b655054764ee60562e82ee1a2a4e5c37495913ec9d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_021.png",
+      "bytes": 44845,
+      "sha256": "514d626050c4e6a9fe1fad242610c60c30bd1e09a1564f8eaa13687b984fef4a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_022.png",
+      "bytes": 42531,
+      "sha256": "e6a89eaf3c9a3c2a24dc7dbe59393b88c6696b72877a66f548dd7c5a8c4ebb23"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_023.png",
+      "bytes": 45718,
+      "sha256": "52d9bfdc6f1a4d3062ebe986e2639e77c264fd82088d4ac792ef4a36639ecd65"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_024.png",
+      "bytes": 41602,
+      "sha256": "61d08f0110a1a9f858232349e05ade37279f270e03e899b937820f5452a4590c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_025.png",
+      "bytes": 41985,
+      "sha256": "44f094cc0a5512132ec8e35902c16794a78ea74068cef01377d9539a03967f5a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_026.png",
+      "bytes": 42247,
+      "sha256": "6f1c9e7ca429f33a5fc41d2b81a007ad343a679067502b5a29baae080683cc7b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_027.png",
+      "bytes": 45620,
+      "sha256": "ca980f9468291358428f3c15cb59bc97fa77bc19f939a4a9a8b87e1076cfdda7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_028.png",
+      "bytes": 44055,
+      "sha256": "749397f2d2e60e0e891b0cb2b3b1fca39ac6fbe4fcda9eeea4fee6856ec382f7"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_029.png",
+      "bytes": 41882,
+      "sha256": "18573a356be622207432a88de2cdd0e259af66c2b5a54ad9c4b2ff290363ef02"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_030.png",
+      "bytes": 47332,
+      "sha256": "b8e9f477c11e4695022d452eac10957893b57bfb2b9781fd636b35efb2665f50"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_031.png",
+      "bytes": 44558,
+      "sha256": "6959a848265e961ebd9af5b6cbde592e9a8bcc5b5279fae3f76c9050cade1b9e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_032.png",
+      "bytes": 43506,
+      "sha256": "dc35276179c739e485b53343fd0c9cf37343c71d28063f0e4192ca38b747aaa9"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_033.png",
+      "bytes": 44921,
+      "sha256": "6f3f69024080b35090f1e05d723d46334248c76fcf4e7d63d8167e41e707f278"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_034.png",
+      "bytes": 42070,
+      "sha256": "c090afd9c04805865907b25ae771b1c8030847e67eae25a34fba90991f95b941"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_035.png",
+      "bytes": 43737,
+      "sha256": "6aa00a96a077cc7ba07bb3eb51eeb9ae68180441a375bfceaa88432a95f37367"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_036.png",
+      "bytes": 42536,
+      "sha256": "bd99442e57b899b78e9c4cae6ba60c10cc8055718b1893d9d89c734973def896"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_037.png",
+      "bytes": 41125,
+      "sha256": "db83a022bbda2d734dd64bf8a0495094f4b0e727eff34339c96b928bc6cfaa0f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_038.png",
+      "bytes": 43685,
+      "sha256": "0908f0085abcb7a1d77c8c75a5c46c3750e76f0834526d6f83a14e453b175e1a"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_039.png",
+      "bytes": 44920,
+      "sha256": "ce9cc57c70c06905e8ccf9c6d95b380ce063f897755c431b56f72620c5136fc8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_040.png",
+      "bytes": 42238,
+      "sha256": "d42a288cbff295e14a1386500c4ea66df2208ab89dc37d3d1861b12c84c5f557"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_041.png",
+      "bytes": 45404,
+      "sha256": "51bbde858aacf277fafaac2254a98277db800a92b4c54bc275cebc05cda3115f"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_042.png",
+      "bytes": 43194,
+      "sha256": "e72038242912cf3ada147e64cbf9dcc5eba2f4ed23217d23288d9c18afd38cb2"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_043.png",
+      "bytes": 45433,
+      "sha256": "4492f0f143f30a08ae352d5a11669e8addd988e385c0503805cf57e5ce068ff8"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_044.png",
+      "bytes": 46107,
+      "sha256": "8cfc4d142f841247959b1f6fb82a5f8f8c957aab2764e1b1c155eb1872a22a4e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_045.png",
+      "bytes": 46099,
+      "sha256": "1b2f61183488c8582bca9060f5e5508a3f15583a0f9e2a858bf6688ce287c95d"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_046.png",
+      "bytes": 45545,
+      "sha256": "1a6c113a26df1f442a9b0cc2cd516c65d7e667fabea7d58b617e046604f26b6b"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_047.png",
+      "bytes": 44144,
+      "sha256": "f6a8ae38893cc467a221222b10ac93d5fee6a1f6ec694e98552270281ae3cc1e"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/label_presence/label_presence_plant_048.png",
+      "bytes": 40677,
+      "sha256": "edf30b299a42575b363a8c5db196618148de1d977e9f76edd8d79459ca6f5d75"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/sensor_calibration.pdf",
+      "bytes": 481701,
+      "sha256": "43e634fb3504c3de05ca4ca58e0279b1e230ea543c763fa1ecebd0ac1143858c"
+    },
+    {
+      "path": "data/raw/sugar4d/extracted_v4/supplements/visualize.py",
+      "bytes": 5890,
+      "sha256": "675e4d6b244aaa1bd8534061ded2b242436b3dd20536528b7b6c97dafa32219f"
+    }
+  ],
+  "raw_source_preserved": true
+}

@@ -1,0 +1,36 @@
+{
+  "id": "d8f99aeb478642bd9206a3a363e21ef8",
+  "created": 1791730502,
+  "model": "agnes-2.5-flash",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\n2=2, 4=14, 9=16, 5=18, 2=20, 6=22, 12=24, 11=13, 1=15, 7=17, 10=19, 2=21, 8=23, 6=38, 6=40, 12=42, 9=44, 3=46, 4=48\n\nPlant 21 正上方：22=6",
+        "role": "assistant",
+        "reasoning_content": "The user wants me to extract geneotype and plant ID pairs from the provided image of a sugar4D experimental layout.\n\nI need to:\n1. Identify each circle in the image\n2. Read the large number (genotype) and small number (plant ID) inside each circle\n3. Format as \"small=plant ID, large=genotype\"\n4. Focus on plant21's upper neighbor\n\nLet me go through the visible circles:\n\nTop row (Repetition 2):\n- Leftmost partial circle: large=2, small=2\n- Next: large=4, small=14\n- Purple circle: large=9, small=16\n- Next: large=5, small=18\n- Next: large=2, small=20\n- Next: large=6, small=22\n- Yellow circle: large=12, small=24\n\nBottom row (Repetition 2):\n- Large=11, small=13\n- Large=1, small=15\n- Large=7, small=17\n- Yellow circle: large=10, small=19\n- Large=2, small=21 (this is plant 21)\n- Purple circle: large=8, small=23\n\nAbove plant21 (large=2, small=21), there's a circle with large=6, small=22.\n\nWait, let me re-check. The circle directly above plant 21 would be the one in the top row, same column. Let me trace:\n- Plant 21 has large=2, small=21\n- Directly above it: large=6, small=22\n\nRepetition 4 (bottom section):\n- Partial yellow circle on left: large=6, small=6 (or something, partially cut off)\n- large=8, small=38\n- Purple circle: large=6, small=40\n- large=12, small=42\n- Yellow circle: large=9, small=44\n- Purple circle: large=3, small=46\n- large=4, small=48\n\nLet me now format these properly.\n"
+      },
+      "provider_specific_fields": {
+        "matched_stop": 248046
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 611,
+    "prompt_tokens": 1330,
+    "total_tokens": 1941,
+    "completion_tokens_details": {
+      "reasoning_tokens": 481,
+      "text_tokens": 130
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256,
+      "image_tokens": 987
+    }
+  },
+  "metadata": {
+    "weight_version": "default"
+  }
+}
