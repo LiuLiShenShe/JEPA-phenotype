@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "protected_files": 42362,
+  "differences": [],
+  "raw_protection": "size and nanosecond mtime; all non-raw protected files SHA256"
+}

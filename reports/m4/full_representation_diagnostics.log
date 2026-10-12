@@ -1,0 +1,15 @@
+DIAGNOSTIC official seed=17 P0_rank=20.71 P2_rank=13.78
+DIAGNOSTIC official seed=42 P0_rank=20.78 P2_rank=17.94
+DIAGNOSTIC official seed=93 P0_rank=20.82 P2_rank=9.95
+DIAGNOSTIC fold0 seed=17 P0_rank=20.89 P2_rank=17.77
+DIAGNOSTIC fold0 seed=42 P0_rank=20.84 P2_rank=19.72
+DIAGNOSTIC fold0 seed=93 P0_rank=20.63 P2_rank=13.36
+DIAGNOSTIC fold1 seed=17 P0_rank=21.28 P2_rank=15.21
+DIAGNOSTIC fold1 seed=42 P0_rank=22.02 P2_rank=18.92
+DIAGNOSTIC fold1 seed=93 P0_rank=21.75 P2_rank=10.35
+DIAGNOSTIC fold2 seed=17 P0_rank=21.25 P2_rank=14.41
+DIAGNOSTIC fold2 seed=42 P0_rank=21.81 P2_rank=18.81
+DIAGNOSTIC fold2 seed=93 P0_rank=21.85 P2_rank=10.52
+DIAGNOSTIC fold3 seed=17 P0_rank=21.00 P2_rank=17.72
+DIAGNOSTIC fold3 seed=42 P0_rank=20.84 P2_rank=19.75
+DIAGNOSTIC fold3 seed=93 P0_rank=20.86 P2_rank=13.98

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-12",
+  "python": "3.11.15 (main, Mar 10 2026, 18:16:52) [Clang 21.1.4 ]",
+  "executable": "/fj/JEPA-表型/.venv-m4/bin/python",
+  "torch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu_model": "NVIDIA RTX A6000",
+  "gpu_count_visible": 2,
+  "selected_gpu": "physical RTX A6000 index 0",
+  "driver_modified": false,
+  "system_cuda_modified": false,
+  "old_environments_modified": false,
+  "approval_policy": "never",
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "preregistered_budget_epochs": {
+    "ssl": 20,
+    "finetune": 20,
+    "frozen_probe": 120
+  },
+  "full_384_12_layer_backbone": true
+}

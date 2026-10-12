@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "checked_checkpoints": 160,
+  "repaired": [
+    {
+      "id": "official_count_P0_finetune_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 40.432075335644186,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P0_probe_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 8.901828019879758,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P0_probe_labels100_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 7.657636220566928,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P0_probe_labels25_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 4.212976082228124,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P0_probe_labels25_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 4.25388787034899,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P0_probe_labels50_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 5.26875142659992,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P0_probe_labels50_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 5.242433935403824,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_finetune_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 43.04446794837713,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_probe_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 7.960371347144246,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_probe_labels100_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 6.09826463740319,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_probe_labels25_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 2.2119482727721334,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_probe_labels25_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 2.001213719137013,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_probe_labels50_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 2.095808809623122,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_count_P2_probe_labels50_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 3.7225697822868824,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 51.45480816345662,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 56.79744352120906,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 15.288236310705543,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 13.625051421113312,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_P2_finetune_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 53.51102333702147,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 16.670605563558638,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed42",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 16.950994227081537,
+      "exact_selected_semantic_predictions": true
+    },
+    {
+      "id": "official_segmentation_PointNet_finetune_labels100_seed17",
+      "reason": "early engineering snapshot lacked or mismatched final weights",
+      "scientific_predictions_unchanged": true,
+      "seconds": 7.842925980687141,
+      "exact_selected_semantic_predictions": true
+    }
+  ],
+  "original_best_and_predictions_overwritten": false
+}

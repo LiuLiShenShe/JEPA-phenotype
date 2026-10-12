@@ -1,0 +1,105 @@
+{
+  "issues": [
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed17",
+      "reason": "no final-model snapshot in early smoke state",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P0",
+      "mode": "finetune",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "id": "official_segmentation_PointNet_finetune_labels100_seed17",
+      "reason": "no final-model snapshot in early smoke state",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "PointNet",
+      "mode": "finetune",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed17",
+      "reason": "early pre-training rather than final snapshot",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P2",
+      "mode": "probe",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed42",
+      "reason": "early pre-training rather than final snapshot",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P0",
+      "mode": "probe",
+      "label_fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "id": "official_count_P0_finetune_labels100_seed17",
+      "reason": "no final-model snapshot in early smoke state",
+      "partition": "official",
+      "task": "count",
+      "condition": "P0",
+      "mode": "finetune",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed42",
+      "reason": "early pre-training rather than final snapshot",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P2",
+      "mode": "probe",
+      "label_fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "id": "official_count_P2_finetune_labels100_seed17",
+      "reason": "no final-model snapshot in early smoke state",
+      "partition": "official",
+      "task": "count",
+      "condition": "P2",
+      "mode": "finetune",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed42",
+      "reason": "early pre-training rather than final snapshot",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P0",
+      "mode": "finetune",
+      "label_fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "id": "official_segmentation_P2_finetune_labels100_seed17",
+      "reason": "no final-model snapshot in early smoke state",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P2",
+      "mode": "finetune",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed17",
+      "reason": "early pre-training rather than final snapshot",
+      "partition": "official",
+      "task": "segmentation",
+      "condition": "P0",
+      "mode": "probe",
+      "label_fraction": 1.0,
+      "seed": 17
+    }
+  ],
+  "saved_best_model_inference_unaffected": true
+}

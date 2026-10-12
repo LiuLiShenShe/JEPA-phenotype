@@ -1,0 +1,1536 @@
+{
+  "status": "PASS",
+  "checkpoints": 255,
+  "records": [
+    {
+      "id": "fold0_count_P0_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7424316385047405e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7656249968497377e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.761962895116767e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7460937580012796e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7424316385047405e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.73144531554226e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7570800809637603e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7564697247537424e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.757690437173778e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.740600587638255e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7119140589302333e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7253417889692173e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7357177734852485e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.733276366408745e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7668457092697736e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P0_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.6795654284892407e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.645385747181763e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7564697247537424e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.712524415140251e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.702758786834238e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.750976554390718e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7137451097967187e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.70214843062422e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7045898377007234e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.6978759726812314e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.653320306857722e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7662353530597557e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.717407229293258e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7363281296952664e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7387695367717697e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.758300775620228e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7528076230207716e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.727172857599271e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_count_P2_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.6862792935087327e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P0_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P0_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P0_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P0_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P0_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P0_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P2_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P2_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P2_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P2_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P2_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_P2_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_PointNet_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_PointNet_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold0_segmentation_PointNet_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.740600587638255e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.627075202989772e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7668457092697736e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.760742182696731e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.733886722618763e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.736938468141716e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7637939459832523e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7113037027202154e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7503662159442683e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.767456047716223e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.741210943848273e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.732666010198727e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.678955072279223e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7570800809637603e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7070312447772267e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.738159180561752e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.768066403926241e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P0_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7528076230207716e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.703369143044256e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.6875000059287686e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.661865240507268e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7320556717522777e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.761352538906749e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.716186516873222e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.760742182696731e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.578857417669724e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7601318442502816e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7631835897732344e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.727172857599271e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7564697247537424e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.6917724638717573e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7460937580012796e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7296142646757744e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7497558597342504e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7668457092697736e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_count_P2_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7320556717522777e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P0_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P0_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P0_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P0_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P0_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P0_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P2_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P2_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P2_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P2_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P2_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_P2_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_PointNet_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_PointNet_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold1_segmentation_PointNet_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7589111318302457e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7460937580012796e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7637939459832523e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7625732335632165e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7564697247537424e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.739990231428237e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7564697247537424e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7521972668107537e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7656249968497377e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.758300775620228e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7076416009872446e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.747924808867765e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.641113289238774e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7137451097967187e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.696044921814746e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7290039084657565e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P0_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.753417961467221e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.737548824351734e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.760742182696731e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.724731450522768e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.758300775620228e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7521972668107537e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.751586910600736e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.695434565604728e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7283935522557385e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7137451097967187e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.744873045581244e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.767456047716223e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.739379875218219e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.6252441343597184e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.702758786834238e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7363281296952664e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.6557617139342256e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.744262689371226e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_count_P2_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.76501464063972e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P0_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P0_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P0_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P0_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P0_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P0_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P2_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P2_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P2_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P2_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P2_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_P2_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_PointNet_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_PointNet_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold2_segmentation_PointNet_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.747924808867765e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7253417889692173e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.733276366408745e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.753417961467221e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7363281296952664e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.682006835565744e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7656249968497377e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.747924808867765e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7296142646757744e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.739379875218219e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7637939459832523e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.699096685101267e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.757690437173778e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7222900434462645e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.739990231428237e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.719238280159743e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P0_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7351074172752305e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7589111318302457e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7564697247537424e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.760742182696731e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7644043021932703e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.768066403926241e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7436523509247763e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.738159180561752e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7644043021932703e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.754028317677239e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.754638673887257e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.726562501389253e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.72412109431275e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7277831960457206e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.713134771350269e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.741210943848273e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_count_P2_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7595214880402636e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P0_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P0_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P0_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P0_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P0_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P0_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P2_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P2_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P2_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P2_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P2_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_P2_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_PointNet_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_PointNet_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "fold3_segmentation_PointNet_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7528076230207716e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7497558597342504e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7430419947147584e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7253417889692173e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.6917724638717573e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.761962895116767e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.3383789005702056e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7113037027202154e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.633789068009264e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.6527099684112727e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.6844482426422474e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7644043021932703e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7637939459832523e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7631835897732344e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7430419947147584e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.753417961467221e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.70214843062422e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P0_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7589111318302457e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7460937580012796e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.768066403926241e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7601318442502816e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7436523509247763e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.748535165077783e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.755249030097275e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.754028317677239e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.7558593685437245e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_finetune_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7631835897732344e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels100_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7387695367717697e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels100_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.754638673887257e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels100_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.671630851049713e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels25_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.674072258126216e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels25_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.6875000059287686e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels25_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.651489255991237e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels50_seed17",
+      "task": "count",
+      "maximum_absolute_difference": 4.7436523509247763e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels50_seed42",
+      "task": "count",
+      "maximum_absolute_difference": 4.64660644183823e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_count_P2_probe_labels50_seed93",
+      "task": "count",
+      "maximum_absolute_difference": 4.7149658222167545e-07,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P0_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P0_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P2_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P2_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P2_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_P2_probe_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_PointNet_finetune_labels100_seed17",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_PointNet_finetune_labels100_seed42",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    },
+    {
+      "id": "official_segmentation_PointNet_finetune_labels100_seed93",
+      "task": "segmentation",
+      "exact_same_predictions_and_confusion": true,
+      "status": "PASS"
+    }
+  ]
+}

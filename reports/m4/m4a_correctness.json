@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "full_official_backbone": true,
+  "device": "cuda:0",
+  "torch": "2.8.0+cu128",
+  "full_2048_point_forward_backward": [
+    {
+      "loss": 0.3110038638114929,
+      "state_hash": "91021656c2a7d73435ee11ffc7ae873d0a4c7d57680906793783ae1edf414d6b",
+      "target_shape": [
+        4,
+        2,
+        11,
+        384
+      ],
+      "gradients_finite": true,
+      "target_gradients_absent": true,
+      "context_target_disjoint": true
+    },
+    {
+      "loss": 0.3110038638114929,
+      "state_hash": "91021656c2a7d73435ee11ffc7ae873d0a4c7d57680906793783ae1edf414d6b",
+      "target_shape": [
+        4,
+        2,
+        11,
+        384
+      ],
+      "gradients_finite": true,
+      "target_gradients_absent": true,
+      "context_target_disjoint": true
+    }
+  ],
+  "deterministic_repeat": true,
+  "tiny_fixed_mask_overfit_loss": [
+    0.30037274956703186,
+    0.2291957587003708,
+    0.19316209852695465,
+    0.17132435739040375,
+    0.15687210857868195,
+    0.14518573880195618,
+    0.1348804533481598,
+    0.1254865676164627,
+    0.11670748144388199,
+    0.10841306298971176,
+    0.10062502324581146,
+    0.09339366853237152,
+    0.086714968085289,
+    0.08054009079933167,
+    0.0748177096247673,
+    0.06951536983251572,
+    0.06461291015148163,
+    0.060085952281951904,
+    0.05589860677719116,
+    0.05201052874326706,
+    0.04838888719677925,
+    0.045013427734375,
+    0.041871991008520126,
+    0.038952894508838654,
+    0.03624185547232628,
+    0.033725328743457794,
+    0.03139612451195717,
+    0.029255496338009834,
+    0.02730887196958065,
+    0.025558019056916237,
+    0.023996014147996902,
+    0.022607648745179176,
+    0.021373964846134186,
+    0.020276861265301704,
+    0.019300855696201324,
+    0.018432289361953735,
+    0.017658093944191933,
+    0.016965512186288834,
+    0.01634250022470951,
+    0.015777969732880592
+  ],
+  "tiny_overfit_note": "predictor-only sanity check with fixed target; not evidence of useful representation",
+  "automated_tests": "reports/m4/tests_m4.xml",
+  "checkpoint_rng_resume": "tested exact next step including optimizer, scheduler, masks and RNG",
+  "seconds": 12.554297334514558
+}

@@ -1,0 +1,25 @@
+{
+  "scans": 768,
+  "independent_plants": 48,
+  "unit": "metre",
+  "ssl_fields": [
+    "points",
+    "center_indices",
+    "neighbors",
+    "center_m",
+    "radius_m",
+    "extent_m"
+  ],
+  "semantic_mapping": {
+    "0": "taproot",
+    "1": "core",
+    "2": "leaf"
+  },
+  "transform": "normalized=(current_xyz-current_full_scan_mean)/current_full_scan_radius",
+  "inverse": "current_xyz=normalized*radius_m+center_m",
+  "future_transform": false,
+  "cache_note": "All scans can be cached for separate fold assignments; cache presence is not training use. Datasets and checkpoint manifests enforce fold-local Train-only SSL, and Train/Val-only downstream.",
+  "sampling": "fixed XYZ-only 2048 uniform sample; deterministic FPS 64, KNN 32; no annotation-stratified input sampling",
+  "segmentation_scope": "2048 fixed sampled points per scan, not full-resolution IoU",
+  "physical_head_inputs": "unchanged M3.5 current full-scan XYZ geometry descriptors, normalized on labelled training plants only"
+}

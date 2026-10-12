@@ -1,0 +1,165 @@
+### Reproducible inference benchmarking with no_grad, manual_seed, cuda.synchronize, and peak memory
+
+Source: https://github.com/pytorch/pytorch/blob/main/benchmarks/gpt_fast/generate.py
+
+Combines `@torch.no_grad()` decorator on generate(), `model.eval()` after loading, `torch.manual_seed(1234)` for deterministic RNG, `device_sync()` (wrapping `torch.cuda.synchronize()`) for accurate timing, and `torch.cuda.max_memory_reserved()` for peak memory measurement. This is the closest single-file pattern to the full reproducible inference diagnostics workflow.
+
+```python
+def device_sync(device):
+    if "cuda" in device:
+        torch.cuda.synchronize(device)
+    elif "cpu" in device:
+        pass
+
+
+@torch.no_grad()
+def generate(
+    model: torch.nn.Module, prompt: torch.Tensor, max_new_tokens: int, **sampling_kwargs
+) -> torch.Tensor:
+    ...
+
+
+def _load_model(x: GPTModelConfig, device="cuda", precision=torch.bfloat16):
+    ...
+    model.load_state_dict(state_dict, assign=True)
+    return model.eval()
+
+
+    torch.manual_seed(1234)
+    ...
+    for i in range(start, num_samples):
+        device_sync(device=device)
+        ...
+        t0 = time.perf_counter()
+        y = generate(
+            model, prompt, max_new_tokens, temperature=temperature, top_k=top_k
+        )
+        ...
+        device_sync(device=device)
+        t = time.perf_counter() - t0
+        ...
+    print(f"Memory used: {torch.cuda.max_memory_reserved() / 1e9:.02f} GB")
+```
+
+--------------------------------
+
+### Save/restore CUDA RNG state across all devices
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/cuda/random.py
+
+For deterministic CUDA checkpoint resume, get_rng_state_all() captures the RNG state of every CUDA device into a list of ByteTensors, and set_rng_state_all() restores them. Save these tensors alongside the model/optimizer state_dicts in the checkpoint to reproduce the random sequence after resume.
+
+```python
+def get_rng_state_all() -> list[Tensor]:
+    r"""Return a list of ByteTensor representing the random number states of all devices."""
+    results = [get_rng_state(i) for i in range(device_count())]
+    return results
+
+
+def set_rng_state(new_state: Tensor, device: int | str | torch.device = "cuda") -> None:
+    r"""Set the random number generator state of the specified GPU.
+
+    Args:
+        new_state (torch.ByteTensor): The desired state
+        device (torch.device or int, optional): The device to set the RNG state.
+            Default: ``'cuda'`` (i.e., ``torch.device('cuda')``, the current CUDA device).
+    """
+    if not is_initialized():
+        with torch._C._DisableFuncTorch():
+            # Clone the state because the callback will be triggered
+            # later when CUDA is lazy initialized.
+            new_state = new_state.clone(memory_format=torch.contiguous_format)
+    if isinstance(device, str):
+        device = torch.device(device)
+    elif isinstance(device, int):
+        device = torch.device("cuda", device)
+
+    def cb():
+        idx = device.index
+        if idx is None:
+            idx = current_device()
+        default_generator = torch.cuda.default_generators[idx]
+        default_generator.set_state(new_state)
+
+    _lazy_call(cb)
+
+
+def set_rng_state_all(new_states: Iterable[Tensor]) -> None:
+    r"""Set the random number generator state of all devices.
+
+    Args:
+        new_states (Iterable of torch.ByteTensor): The desired state for each device.
+    """
+    for i, state in enumerate(new_states):
+        set_rng_state(state, i)
+```
+
+--------------------------------
+
+### Configure PyTorch DataLoader for Reproducible Data Loading (Python)
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/randomness.rst
+
+This example illustrates how to make PyTorch's `DataLoader` behavior reproducible, especially when using multiple worker processes. It involves defining a `seed_worker` function to reseed worker-specific random number generators (for `torch`, `numpy`, and `random`) and passing a `torch.Generator` instance to the `DataLoader`. This ensures consistent data shuffling and transformations across runs.
+
+```python
+import torch
+import numpy
+import random
+from torch.utils.data import DataLoader, Dataset
+
+# Assume train_dataset is an instance of torch.utils.data.Dataset
+# For example purposes, a dummy dataset:
+class DummyDataset(Dataset):
+    def __len__(self):
+        return 100
+    def __getitem__(self, idx):
+        return torch.tensor(idx)
+
+train_dataset = DummyDataset()
+batch_size = 16
+num_workers = 4
+
+def seed_worker(worker_id):
+    worker_seed = torch.initial_seed() % 2**32
+    numpy.random.seed(worker_seed)
+    random.seed(worker_seed)
+
+g = torch.Generator()
+g.manual_seed(0)
+
+data_loader = DataLoader(
+    train_dataset,
+    batch_size=batch_size,
+    num_workers=num_workers,
+    worker_init_fn=seed_worker,
+    generator=g,
+)
+```
+
+--------------------------------
+
+### Enable PyTorch Deterministic Algorithms
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/randomness.rst
+
+Configures PyTorch to use deterministic algorithms when available. This setting helps to ensure reproducibility by preventing the use of nondeterministic operations, potentially raising an error if a known nondeterministic operation is called without a deterministic alternative, as demonstrated by `index_add_` on CUDA.
+
+```python
+import torch
+torch.use_deterministic_algorithms(True)
+torch.randn(2, 2).cuda().index_add_(0, torch.tensor([0, 1]), torch.randn(2, 2))
+```
+
+--------------------------------
+
+### Seed PyTorch Random Number Generator (RNG) for CPU and CUDA
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/randomness.rst
+
+Sets the random seed for PyTorch's random number generator (RNG) across both CPU and CUDA devices. This ensures that operations relying on PyTorch's internal randomness will produce the same sequence of random numbers when executed multiple times in the same environment, aiding in reproducibility.
+
+```python
+import torch
+torch.manual_seed(0)
+```

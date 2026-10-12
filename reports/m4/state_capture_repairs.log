@@ -1,0 +1,44 @@
+COUNT START official_count_P0_finetune_labels100_seed17 plants=24 mode=finetune
+COUNT DONE official_count_P0_finetune_labels100_seed17 MAE=1.3162 seconds=40.4
+COUNT START official_count_P0_probe_labels100_seed17 plants=24 mode=probe
+COUNT DONE official_count_P0_probe_labels100_seed17 MAE=1.2353 seconds=8.9
+COUNT START official_count_P0_probe_labels100_seed42 plants=24 mode=probe
+COUNT DONE official_count_P0_probe_labels100_seed42 MAE=1.2743 seconds=7.7
+COUNT START official_count_P0_probe_labels25_seed17 plants=6 mode=probe
+COUNT DONE official_count_P0_probe_labels25_seed17 MAE=1.6544 seconds=4.2
+COUNT START official_count_P0_probe_labels25_seed42 plants=6 mode=probe
+COUNT DONE official_count_P0_probe_labels25_seed42 MAE=1.7427 seconds=4.3
+COUNT START official_count_P0_probe_labels50_seed17 plants=12 mode=probe
+COUNT DONE official_count_P0_probe_labels50_seed17 MAE=1.2133 seconds=5.3
+COUNT START official_count_P0_probe_labels50_seed42 plants=12 mode=probe
+COUNT DONE official_count_P0_probe_labels50_seed42 MAE=1.3241 seconds=5.2
+COUNT START official_count_P2_finetune_labels100_seed17 plants=24 mode=finetune
+COUNT DONE official_count_P2_finetune_labels100_seed17 MAE=1.2858 seconds=43.0
+COUNT START official_count_P2_probe_labels100_seed17 plants=24 mode=probe
+COUNT DONE official_count_P2_probe_labels100_seed17 MAE=1.3322 seconds=8.0
+COUNT START official_count_P2_probe_labels100_seed42 plants=24 mode=probe
+COUNT DONE official_count_P2_probe_labels100_seed42 MAE=1.3377 seconds=6.1
+COUNT START official_count_P2_probe_labels25_seed17 plants=6 mode=probe
+COUNT DONE official_count_P2_probe_labels25_seed17 MAE=1.5431 seconds=2.2
+COUNT START official_count_P2_probe_labels25_seed42 plants=6 mode=probe
+COUNT DONE official_count_P2_probe_labels25_seed42 MAE=1.5509 seconds=2.0
+COUNT START official_count_P2_probe_labels50_seed17 plants=12 mode=probe
+COUNT DONE official_count_P2_probe_labels50_seed17 MAE=1.4885 seconds=2.1
+COUNT START official_count_P2_probe_labels50_seed42 plants=12 mode=probe
+COUNT DONE official_count_P2_probe_labels50_seed42 MAE=1.3602 seconds=3.7
+SEG START official_segmentation_P0_finetune_labels100_seed17
+SEG DONE official_segmentation_P0_finetune_labels100_seed17 mIoU=0.5749 seconds=51.5
+SEG START official_segmentation_P0_finetune_labels100_seed42
+SEG DONE official_segmentation_P0_finetune_labels100_seed42 mIoU=0.5874 seconds=56.8
+SEG START official_segmentation_P0_probe_labels100_seed17
+SEG DONE official_segmentation_P0_probe_labels100_seed17 mIoU=0.4653 seconds=15.3
+SEG START official_segmentation_P0_probe_labels100_seed42
+SEG DONE official_segmentation_P0_probe_labels100_seed42 mIoU=0.4656 seconds=13.6
+SEG START official_segmentation_P2_finetune_labels100_seed17
+SEG DONE official_segmentation_P2_finetune_labels100_seed17 mIoU=0.4730 seconds=53.5
+SEG START official_segmentation_P2_probe_labels100_seed17
+SEG DONE official_segmentation_P2_probe_labels100_seed17 mIoU=0.4376 seconds=16.7
+SEG START official_segmentation_P2_probe_labels100_seed42
+SEG DONE official_segmentation_P2_probe_labels100_seed42 mIoU=0.4281 seconds=17.0
+SEG START official_segmentation_PointNet_finetune_labels100_seed17
+SEG DONE official_segmentation_PointNet_finetune_labels100_seed17 mIoU=0.4274 seconds=7.8

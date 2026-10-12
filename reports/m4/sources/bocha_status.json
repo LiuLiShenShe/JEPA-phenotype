@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-12",
+  "query": "Point-JEPA official Ayumu-J-S Plant-MAE Sugar4D 10.1016/j.plaphe.2025.100049",
+  "http_status": 403,
+  "message": "You do not have enough money or package quota",
+  "credentials_saved": false,
+  "fallback": "direct official repository/PDF/DOI API retrieval; no remembered quantitative results"
+}

@@ -1,0 +1,30 @@
+{
+  "m4a": "PASS",
+  "feasible_p0_p2_experiments": "PASS",
+  "overall_engineering": "PARTIAL",
+  "blocker": "P1 official ShapeNet checkpoint unavailable; external transfer/weight coverage not measured",
+  "science_decision": "LIMITED-BENEFIT",
+  "ssl_runs": 15,
+  "count_runs": 180,
+  "segmentation_runs": 75,
+  "paired_fairness_checks": 120,
+  "checkpoint_restores": 255,
+  "tests": [
+    {
+      "file": "tests_m4.xml",
+      "tests": 21,
+      "failures": 0
+    },
+    {
+      "file": "tests_all_original_environment.xml",
+      "tests": 129,
+      "failures": 0
+    }
+  ],
+  "old_artifacts_unchanged": true,
+  "protected_files": 42362,
+  "test_inference": false,
+  "temporal_jepa": false,
+  "source_data_and_figures": true,
+  "image_content": "图片内容由 Agnes API 识别"
+}

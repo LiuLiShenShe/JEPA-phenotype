@@ -1,0 +1,16 @@
+{
+  "count_expected": 180,
+  "count_completed": 180,
+  "count_missing": [],
+  "segmentation_expected": 75,
+  "segmentation_completed": 75,
+  "segmentation_missing": [],
+  "ssl_expected": 15,
+  "ssl_completed": 15,
+  "ssl_missing": [],
+  "p1_expected_conditions": "same 90 count and 30 segmentation runs, unavailable external checkpoint",
+  "p1_status": "UNAVAILABLE",
+  "p0_p2_matrix_complete": true,
+  "engineering_pass": false,
+  "engineering_blocker": "mandatory P1 official checkpoint condition unavailable"
+}

@@ -1,0 +1,10 @@
+task,mode,condition,trainable_parameters,total_parameters,runs
+count,finetune,P0,21839004,21839004,45
+count,finetune,P2,21839004,21839004,45
+count,probe,P0,796,21839004,45
+count,probe,P2,796,21839004,45
+segmentation,finetune,P0,21888643,21888643,15
+segmentation,finetune,P2,21888643,21888643,15
+segmentation,finetune,PointNet,42243,42243,15
+segmentation,probe,P0,50435,21888643,15
+segmentation,probe,P2,50435,21888643,15

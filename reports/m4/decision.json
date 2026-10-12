@@ -1,0 +1,37 @@
+{
+  "decision": "LIMITED-BENEFIT",
+  "checks": {
+    "primary_complete_three_seeds": true,
+    "absolute_threshold": false,
+    "relative_threshold": false,
+    "all_official_seeds_improve": true,
+    "plant_paired_ci": false,
+    "at_least_three_validation_folds_improve": false,
+    "strong_baseline_noninferiority": true,
+    "no_collapse_warning": true,
+    "paired_fairness": true,
+    "complete_p0_p2_matrix": true
+  },
+  "primary_comparison": {
+    "partition": "official",
+    "mode": "finetune",
+    "label_fraction": 1.0,
+    "p0_mae": 1.2772160291666665,
+    "p2_mae": 1.223421605034722,
+    "absolute_improvement": 0.0537944241319445,
+    "relative_improvement": 0.04211850063222533,
+    "paired_seeds": 3,
+    "improving_seeds": 3,
+    "mean_delta": -0.0537944241319444,
+    "ci95_low": -0.14942897187065968,
+    "ci95_high": 0.040390689622395774,
+    "independent_plants": 12
+  },
+  "official_strong_baseline_mae": 1.3164314631170857,
+  "improving_validation_folds": 1,
+  "scope": "locked validation feasibility evidence; no test-driven task selection, no untouched confirmatory test",
+  "external_pretraining_unavailable": true,
+  "engineering_pass": false,
+  "temporal_jepa_started": false,
+  "warning": "20 epochs and 24 independent SSL plants per partition do not settle large-scale/pretrained Point-JEPA capability"
+}

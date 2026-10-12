@@ -1,0 +1,861 @@
+Masked Autoencoders for Point Cloud
+Self-supervised Learning
+Yatian Pang2 Wenxiao Wang3 Francis E.H. Tay2
+Wei Liu4 Yonghong Tian5 Li Yuan1⋆
+1
+
+School of ECE at Peking University, Shenzhen Graduate School
+2
+National University of Singapore
+3
+ZheJiang University
+4
+Tencent Data Platform
+5
+School of Computer Science at Peking University & Pengcheng Laboratory
+yatian pang@u.nus.edu; yuanli-ece@pku.edu.cn
+
+Abstract. As a promising scheme of self-supervised learning, masked
+autoencoding has significantly advanced natural language processing and
+computer vision. Inspired by this, we propose a neat scheme of masked
+autoencoders for point cloud self-supervised learning, addressing the
+challenges posed by point cloud’s properties, including leakage of location information and uneven information density. Concretely, we divide
+the input point cloud into irregular point patches and randomly mask
+them at a high ratio. Then, a standard Transformer based autoencoder,
+with an asymmetric design and a shifting mask tokens operation, learns
+high-level latent features from unmasked point patches, aiming to reconstruct the masked point patches. Extensive experiments show that our
+approach is efficient during pre-training and generalizes well on various
+downstream tasks. Specifically, our pre-trained models achieve 85.18%
+accuracy on ScanObjectNN and 94.04% accuracy on ModelNet40, outperforming all the other self-supervised learning methods. We show with
+our scheme, a simple architecture entirely based on standard Transformers can surpass dedicated Transformer models from supervised learning.
+Our approach also advances state-of-the-art accuracies by 1.5%-2.3% in
+the few-shot object classification. Furthermore, our work inspires the
+feasibility of applying unified architectures from languages and images
+to the point cloud. Codes are available at https://github.com/PangYatian/Point-MAE.
+
+1
+
+Introduction
+
+Self-supervised learning learns latent features from unlabeled data instead of
+building representations based on human-defined annotations. It is usually done
+by designing a pretext task to pre-train the model, then fine-tune on downstream tasks. Relying less on labeled data, self-supervised learning has significantly advanced natural language processing (NLP) [11,4,32,33] and computer
+⋆
+
+Corresponding author
+
+2
+
+Y. Pang et al.
+
+vision [28,3,8,18,7,2,17,49]. Among them, masked autoencoding [17,49,2], illustrated in Figure 1, is a promising scheme for both languages and images. It randomly masks a portion of input data and adopts an autoencoder to reconstruct
+explicit features (e.g., pixels) or implicit features (e.g., discrete tokens) corresponding to the original masked content. As masked parts do not provide data
+information, this reconstruction task enables the autoencoder to learn high-level
+latent features from unmasked parts. Besides, the powerful capability of masked
+autoencoding gives credit to its autoencoder’s backbone, which adopts Transformers [40] architecture. For example, BERT [11] in NLP and MAE [17] in computer vision both apply masked autoencoding and adopt a standard Transformer
+architecture as autoencoder’s backbone to achieve state-of-the-art performance.
+
+Fig. 1. Illustration of masked autoencoding. A portion of input data is masked,
+then an autoencoder is trained to recover the masked parts from original input data.
+The encoder in autoencoder is encouraged to learn high-level latent features from
+unmasked parts.
+
+The idea of masked autoencoding is also applicable for point cloud selfsupervised learning, as point cloud essentially shares a common property with
+both languages and images (see Figure 1). Specifically, the fundamental elements
+(i.e., points, vocabularies, and pixels) that carry information are not independent. Instead, neighbouring elements form a meaningful subset to present local
+features. Together with local features, the complete set of elements makes up
+global features. Therefore, after embedding point subsets into tokens, the point
+cloud can be processed similarly with languages and images. Furthermore, considering datasets for the point cloud are relatively small, masked autoencoding as
+a self-supervised learning method can naturally address the large data demand
+of Transformers architecture, which is the autoencoder’s backbone. Indeed, a
+recent work Point-BERT [54] attempts a scheme somewhat similar to masked
+autoencoding. It proposes a BERT-style pre-training strategy by masking input
+
+Point-MAE
+
+3
+
+tokens of the point cloud, then adopts a Transformer architecture to predict
+discrete tokens of the masked tokens. However, this method is relatively sophisticated as it is required to train a DGCNN [44] based discrete Variational
+AutoEncoder (dVAE) [35] before pre-training and relies heavily on contrastive
+learning as well as data augmentation during pre-training. Moreover, the masked
+tokens from their inputs are processed from the input of Transformers during
+pre-training, leading to early leakage of location information and high consumption of computing resources. Different from their method, and more importantly,
+to introduce masked autoencoding to the point cloud, we aim to design a neat
+and efficient scheme of masked autoencoders. To this end, we first analyze the
+main challenges of introducing masked autoencoding for point cloud from the
+following aspects:
+(i) Lack of a unified Transformer architecture. Compared to Transformers [40]
+in NLP and Vision Transformer (ViT) [12] in computer vision, Transformer architectures for point cloud are less studied and relatively diverse, mainly because small datasets cannot meet the large data demand of Transformers. Different from previous methods that use dedicated Transformers or adopt extra non-Transformers models to assist (such as Point-BERT [54] uses an extra
+DGCNN [44]), we aim to build our autoencoder’s backbone entirely based on
+standard Transformers, which can serve as a potential unified architecture for
+point cloud.
+(ii) Positional embeddings for mask tokens lead to leakage of location information. In masked autoencoders, each masked part is replaced by a shareweighted learnable mask token. All the mask tokens need to be provided with
+their location information in input data by positional embeddings. Then after
+processing by autoencoders, each mask token is used to reconstruct the corresponding masked part. Providing location information is not an issue for languages and images, because they do not contain location information. While
+point cloud naturally has location information in the data, leakage of location information to mask tokens makes the reconstruction task less challenging, which
+is harmful for autoencoders learning latent features. We address this issue by
+shifting mask tokens from the input of the autoencoder’s encoder to the input of
+the autoencoder’s decoder. This delays the leakage of location information and
+enables the encoder to focus on learning features from unmasked parts.
+(iii) Point cloud carries information in a different density compared to languages and images. Languages contain high-density information, while images
+contain heavy redundant information [17]. In the point cloud, information density distribution is relatively uneven. The points that make up key local features
+(e.g., sharp corners and edges) contain a much higher density of information
+than the points that make up less important local features (e.g., flat surfaces).
+In other words, if being masked, the points that contain high-density information
+is more difficult to be recovered in the reconstruction task. This can be directly
+observed in reconstruction examples, as shown in Figure 2. Taking the last row
+of Figure 2 for illustration, the masked desk surface (left) can be easily recovered,
+while the reconstruction of the masked motorcycle’s wheel (right) is much worse.
+
+4
+
+Y. Pang et al.
+
+Fig. 2. Reconstruction examples on ShapeNet validation set. In each group,
+we show the original input (i.e., ground truth), masked point cloud, and reconstruction
+result from left to right. The masking ratio is 60%. It can be observed directly that
+reconstructions of key local features (such as sharp corners) are much worse than
+reconstructions of less important local features (such as flat surfaces).
+
+Although the point cloud contains uneven density of information, we find that
+random masking at a high ratio (60%-80%) works well, which is surprisingly the
+same as images. This indicates the point cloud is similar to images instead of
+languages, in terms of information density.
+Driven by the analysis, we propose a novel self-supervised learning framework for Point cloud by designing a neat and efficient scheme of Masked
+AutoEncoders, termed as Point-MAE. As shown in Figure 3, our Point-MAE
+mainly consists of a point cloud masking and embedding module, and an autoencoder. The input point cloud is divided into irregular point patches, which
+are randomly masked at a high ratio to reduce data redundancy. Then, the
+autoencoder learns high-level latent features from unmasked point patches, aiming to reconstruct masked point patches in coordinate space. Specifically, our
+autoencoder’s backbone is entirely built by standard Transformer blocks and
+adopts an asymmetric encoder-decoder structure [17]. The encoder only processes unmasked point patches. Then taking both encoded tokens and mask
+tokens as input, the lightweight decoder with a simple prediction head reconstructs masked point patches. Compared to processing mask tokens from the
+input of the encoder, shifting mask tokens to the lightweight decoder results in
+significant computational savings, and more importantly, avoiding early leakage
+of location information.
+Our approach is effective, and pre-trained models generalize well on various
+downstream tasks. In object classification tasks, our Point-MAE achieves 85.18%
+accuracy on the hardest setting of real-world dataset ScanObjectNN and 94.04%
+accuracy on a clean object dataset ModelNet40, outperforming all the other selfsupervised learning methods. Meanwhile, Point-MAE surpasses all the dedicated
+Transformers models from supervised learning. In the few-shot object classifica-
+
+Point-MAE
+
+5
+
+tion, Point-MAE significantly advances state-of-the-art accuracies by 1.5%-2.3%
+on different settings of ModelNet40. When generalized to the part segmentation
+task, Point-MAE largely improves the baseline by 1% mean IoU.
+Our main contributions can be summarized as follows:
+(1) We propose a novel scheme of masked autoencoders for point cloud selfsupervised learning, addressing key issues including backbone architecture, early
+leakage of location information, and information density of the point cloud. Our
+approach is neat and efficient, with high generalization capability on various
+downstream tasks, outperforming all the other self-supervised learning methods.
+(2) We show with our approach, a simple architecture that is entirely based
+on standard Transformers can surpass dedicated Transformer models from supervised learning. This result suggests that standard Transformers can serve as
+a potential unified architecture in the point cloud discipline.
+(3) From the perspective of multimodal learning, our work inspires that unified architectures for languages and especially images, such as masked autoencoders, are also applicable for point cloud, when equipped with a modalityspecific embedding module and a task-specific output head. We hope our field
+could be further advanced with the joint of other modality data.
+
+2
+
+Related Work
+
+2.1
+
+Self-supervised Learning
+
+In the machine learning field, Self-supervised Learning (SSL) is defined as ”the
+machine predicts any parts of its input for any observed part”6 . The main ideas
+can be summarized as: a) supervision labels are generated from the data itself
+instead of human annotating, b) the model predicts parts of the data from other
+parts [22]. This process is usually done by designing a pretext task, which relieves
+the high demand for manual labeling data.
+SSL for NLP and Image In the NLP field, SSL has been well developed. Generative SSL methods such as BERT [11] gain huge success by designing pretext
+tasks that mask input tokens, and pre-train the model to predict original vocabularies. In computer vision for images, contrastive SSL methods [8,18,47,15,9] aim
+to discriminate the degree of similarities between different augmented images.
+These methods have dominated until recent generative SSL methods [17,49,45]
+result in more competitive performance. For example, MAE [17] randomly masks
+input patches, and pre-train the model to recover masked patches in pixel space.
+SSL for Point Cloud SSL has also been widely studied for point cloud representation learning [41,58,48,36,1,20,52,34,13,51]. Pretext tasks are relatively diverse. Among them, DepthContrast [58] sets an instance discrimination task for
+two augmented versions of an input point cloud. OcCo [41] attempts to recover
+6
+
+https://aaai.org/Conferences/AAAI-20/invited-speakers/
+
+6
+
+Y. Pang et al.
+
+the original point cloud from the occluded point cloud in camera views. IAE [51]
+adopts an autoencoder to reconstruct implicit features from augmented inputs.
+A recent work Point-BERT [54] proposes a BERT-style pre-training strategy by
+masking input tokens and aims to predict discrete tokens of masked parts, with
+the assistance of dVAE [35]. Different from previous methods, we attempt to
+design a neat scheme for point cloud self-supervised learning.
+2.2
+
+Autoencoders
+
+Generally, an autoencoder consists of an encoder followed by a decoder. The
+encoder is responsible for encoding inputs to high-level latent features. Then the
+decoder decodes latent features, aiming to reconstruct the input. The optimization goal is to make the reconstructed data as similar as possible to the original
+input, such as mean squared error loss in pixel space for images.
+Specifically, our approach belongs to the class of denoising autoencoders.
+The main idea of denoising autoencoders is to enhance the robustness of the
+model by introducing input noise. Following the same principle, masked autoencoders introduce input noise through a masking operation. For example, in NLP,
+BERT [11] adopts masked language modeling. It randomly masks tokens from
+the input, then applies an autoencoder to predict vocabularies corresponding to
+masked tokens. In computer vision, both MAE [17] and SimMIM [49] propose
+a similar masked image modeling, which randomly masks input image patches.
+Then autoencoders are applied to predict the masked patches in pixel space.
+Inspired by the above ideas, our work aim to introduce masked autoencoders to
+point cloud.
+2.3
+
+Transformers
+
+Transformers [40] model global dependencies of input through the self-attention
+mechanism, and have dominated in NLP [11,4,33,32,23]. Since ViT [12], Transformers architectures have been popular in computer vision [55,25,56,43,42,59,16,6].
+However, as backbones for masked autoencoders, Transformers architectures for
+point cloud representation learning are less developed. PCT [16] designs a dedicated input embedding layer and modifies the self-attention mechanism in Transformer layers. PointTransformer [59] also modifies the Transformer layer, and
+uses extra aggregating operations between Transformer blocks. The recent work
+Point-BERT [54] introduces a standard Transformer architecture, but requires
+DGCNN [44] to assist pre-training. Different from previous works, our work
+presents an architecture that is entirely based on standard Transformers.
+
+3
+
+Point-MAE
+
+We aim to design a neat and efficient scheme of masked autoencoders for point
+cloud self-supervised learning. Figure 3 illustrates the overall scheme of our approach Point-MAE. The input point cloud is first processed by a masking and
+
+Point-MAE
+
+7
+
+Fig. 3. Overall scheme of our Point-MAE. On the left, we show the masking and
+embedding process. The input cloud is divided into point patches, which are masked
+randomly and then embedded. Autoencoder pre-training is shown on the right. The
+encoder only processes visible tokens. Mask tokens are added to the input sequence of
+the decoder to reconstruct masked point patches.
+
+embedding module. Then a standard Transformer based autoencoder is adopted,
+including a simple prediction head, to reconstruct the masked parts of the input
+point cloud.
+3.1
+
+Point Cloud Masking and Embedding
+
+Unlike images in computer vision that can be naturally divided into regular
+patches, point cloud consists of unordered points in 3D space. Based on its
+property, we process the input point cloud through three stages: point patches
+generation, masking, and embedding.
+Point Patches Generation Following Point-BERT [54], we divide input point
+cloud into irregular point patches (may overlap) via Farthest Point Sampling
+(FPS) and K-Nearest Neighborhood (KNN) algorithm. Formally, given an input
+point cloud with p points X^i \in \mathbb {R}^{p\times 3} , FPS is applied to sample n points for
+centers CT in point patches. Based on center points, KNN selects k nearest
+points from input for corresponding point patches P ,
+  CT = FPS(X^i),& \quad CT \in \mathbb {R}^{n\times 3}; \\ \label {eq:patches} P = KNN(X^i, CT),& \quad P \in \mathbb {R}^{n\times k\times 3}.
+(2)
+Note that in point patches, each point is represented by normalized coordinates with respect to its center point. This leads to better convergence.
+
+8
+
+Y. Pang et al.
+
+Masking Considering point patches may overlap, we mask them separately, in
+order to keep information complete in each point patch. With a masking ratio
+m, the set of masked patches is denoted as P_{gt} \in \mathbb {R}^{mn\times k\times 3} , which is used as
+ground truth in the computing of reconstruction loss. As for masking strategy,
+we find random masking at a high ratio (60%-80%) works well for our approach,
+see Section 4.3.
+Embedding For the embedding of each masked point patch, we replace it
+with a share-weighted learnable mask token. We denote the full set of mask
+tokens as T_m \in \mathbb {R}^{mn\times C} , where C is the embedding dimension. For the unmasked
+(visible) point patches, a naive idea is to flatten and embed them with a trainable
+linear projection, similar to ViT [12]. However, we argue that linear embedding
+fails to follow the principle of permutation invariance [29]. A more reasonable
+embedding method should be adopted. To keep neat, we implement a lightweight
+PointNet [29], which mainly consists of MLPs and max pooling layers. The visible
+point patches P_{v} \in \mathbb {R}^{(1-m)n\times k\times 3} are hence embedded into visible tokens T_v ,
+  T_v = PointNet(P_{v}), \quad T_v \in \mathbb {R}^{(1-m)n\times C}. 
+
+(3)
+
+Considering point patches are represented in normalized coordinates, providing centers’ position information to embedding tokens is essential. A simple
+method for Position Embedding (PE) is mapping coordinates of centers to embedding dimension with a learnable MLP, following previous works [54,59]. Note
+that we use two separate PE for encoder and decoder respectively in our autoencoder, introduced next.
+3.2
+
+Autoencoder’s Backbone
+
+Our autoencoder’s backbone is entirely based on standard Transformers, with
+an asymmetric encoder-decoder design [17]. The last layer of the autoencoder
+adopts a simple prediction head to achieve the reconstruction target.
+Encoder-decoder Our encoder consists of standard Transformer blocks and
+only encodes visible tokens T_v without mask tokens T_m . The encoded tokens are
+denoted as T_e . Furthermore, positional embeddings are added to every Transformer block, providing location information.
+Our decoder is similar to the encoder but contains fewer Transformer blocks.
+It takes both encoded tokens T_e and masks tokens T_m as input. A full set of
+positional embeddings is added to every Transformer block, providing location
+information to all the tokens. After processing, the decoder only outputs the
+decoded mask tokens H_m , which are fed to the following prediction head. The
+encoder-decoder structure is formulated as,
+  T_e = Encoder(T_v&), \quad T_e \in \mathbb {R}^{(1-m)n\times C} ; \\ H_m = Decoder(concat(&T_e, T_m)), \quad H_m \in \mathbb {R}^{mn\times C} .
+(5)
+
+Point-MAE
+
+9
+
+In our encoder-decoder structure, we shift the mask tokens to the lightweight
+decoder instead of processing them from the input of the encoder. This design
+is beneficial from two aspects. First, as we use high masking ratios, shifting
+mask tokens significantly reduces the number of input tokens for the encoder.
+Therefore, we can save computational resources due to the quadratic complexity
+of Transformers. More importantly, shifting mask tokens to the decoder can
+avoid early leakage of location information to the encoder, making the encoder
+learn latent features better (see Section 4.3).
+
+Prediction Head As the last layer of backbone, the prediction head aims to
+reconstruct masked point patches in coordinate space. We simply use a fully
+connected (FC) layer as our prediction head. Taking the output H_m from the
+decoder, the prediction head projects it to a vector, which has the same number
+of dimensions as the total number of coordinates in a point patch. Then followed
+by a reshape operation, predicted masked point patches P_{pre} are obtained,
+
+  P_{pre} = Reshape(FC(H_m)), \quad P_{pre} \in \mathbb {R}^{mn\times k\times 3}.
+
+3.3
+
+(6)
+
+Reconstruction Target
+
+Our reconstruction target is to recover coordinates of the points in every masked
+point patch. Given the predicted point patches P_{pre} and ground truth P_{gt} , we
+compute the reconstruction loss by l_2 Chamfer Distance [14],
+  L = \frac {1}{|P_{pre}|} \sum _{a\in P_{pre}} \mathop {\min }\limits _{b \in P_{gt}} \left \| a-b \right \|_2^2 + \frac {1}{|P_{gt}|} \sum _{b\in P_{gt}} \mathop {\min }\limits _{a \in P_{pre}} \left \| a-b \right \|_2^2 
+
+4
+
+(7)
+
+Experiments
+
+We conduct the following experiments with our Point-MAE. a) We pre-train our
+model on ShapeNet [5] training set. b) We evaluate our pre-trained model on
+various downstream tasks, including object classification, few-shot learning and
+part segmentation. c) We study different masking strategies, and we show the
+effect of shifting mask tokens.
+In our Point-MAE, for different resolutions of the input point cloud, we
+divide them into different numbers of patches with a linear scaling. A typical
+input with p = 1024 points is divided into n = 64 point patches. For the KNN
+algorithm, we set k = 32 to keep the number of points in each patch constant.
+In the autoencoder’s backbone, the encoder has 12 Transformer blocks while
+the decoder has 4 Transformer blocks. Each Transformer block has 384 hidden
+dimensions and 6 heads. MLP ratio in Transformer blocks is set to 4.
+
+10
+
+4.1
+
+Y. Pang et al.
+
+Pre-training Setup
+
+ShapeNet [5] consists of about 51,300 clean 3D models, covering 55 common
+object categories. We split the dataset into a training set and a validation set but
+only conduct pre-training on the training set. For each instance, we sample 1024
+points via FPS as input point cloud. Note that we only apply standard random
+scaling and random translation for data augmentation during pre-training. For
+pre-training details, we use an AdamW optimizer [27] and cosine learning rate
+decay [26]. The initial learning rate is set to 0.001, with a weight decay of 0.05.
+We pre-train our model for 300 epochs, with a batch size of 128.
+
+Fig. 4. Reconstruction results on ShapeNet validation set. The model is pretrained with a masking ratio of 60% but can generalize well on inputs with different
+masking ratios. Inputs are shown in the leftmost column. In the following columns, we
+show the masked input (left) and reconstruction (right) with different masking ratios.
+
+To demonstrate the effectiveness of our method, we visualize reconstruction
+results on ShapeNet validation set in Figure 4. The model is pre-trained with a
+masking ratio of 60%, but it is able to reconstruct inputs with different masking
+ratios. This high generalization capability can be expected, as our model learns
+high-level latent features well. Furthermore, our method speeds up pre-training
+by 1.7× compared to Point-BERT [54].
+4.2
+
+Downstream Tasks
+
+Object Classification on Real-World Dataset In SSL for point cloud, one
+of the main concerns is to design a model with high generalization capability. Specifically, the commonly used dataset for pre-training, ShapeNet [5], only
+contains clean object models, without any scene context such as backgrounds.
+Motivated by this, we evaluate our pre-trained model on a challenging real-world
+dataset, ScanObjectNN [39], which consists of about 15,000 objects from 15 categories. The objects are scanned from real-world indoor scene data with cluttered
+backgrounds.
+
+Point-MAE
+
+11
+
+Table 1. Object classification on real-world ScanObjectNN dataset. We evaluate our approach on three variants, among which PB-T50-RS is the hardest setting.
+Accuracy (%) for each variant is reported.
+Methods
+PointNet [29]
+SpiderCNN [50]
+PointNet++ [30]
+DGCNN [44]
+PointCNN [21]
+BGA-DGCNN [39]
+BGA-PN++ [39]
+GBNet [31]
+PRANet [10]
+Transformer [54]
+Transformer-OcCo [54]
+Point-BERT [54]
+Point-MAE
+
+OBJ-BG
+73.3
+77.1
+82.3
+82.8
+86.1
+79.86
+84.85
+87.43
+90.02
+
+OBJ-ONLY
+79.2
+79.5
+84.3
+86.2
+85.5
+80.55
+85.54
+88.12
+88.29
+
+PB-T50-RS
+68.0
+73.7
+77.9
+78.1
+78.5
+79.7
+80.2
+80.5
+81.0
+77.24
+78.79
+83.07
+85.18
+
+We conduct experiments on three variants: OBJ-BG, OBJ-ONLY, and PBT50-RS. Details are provided in supplementary materials. Note that no voting
+methods or data augmentation are used during testing. The results are presented
+in Table 1. Our Point-MAE largely improves the baseline by 10.16%, 7.74%,
+and 7.94% for three variants respectively. On the hardest variant PB-T50-RS,
+our model achieves 85.18% accuracy, outperforming Point-BERT [54] by 2.11%.
+Though being pre-trained on clean objects, our Point-MAE generalizes well on
+real-world data, presenting a strong generalization capability.
+Object Classification on clean objects dataset We evaluate our pre-trained
+model on ModelNet40 [46] for object classification. ModelNet40 consists of 12,311
+clean 3D CAD models, covering 40 object categories. We follow standard protocols to split ModelNet40 into 9843 instances for the training set and 2468
+for the testing set. Standard random scaling and random translation are applied for data augmentation during training. For fair comparisons, we also use
+the standard voting method [24] during testing. More details are provided in
+supplementary materials.
+Experiment results are presented in Table 2. For fair comparisons, all the
+reported methods are given 1024 points that only contain coordinate information without any normal information. Our Point-MAE achieves 93.8% accuracy,
+improving 2.4% accuracy compared to training from scratch (91.4%). Compared
+with other self-supervised learning methods, our Point-MAE achieves stateof-the-art performance. Specifically, our approach with standard Transformers
+backbone surpasses IAE [51] that uses a more powerful DGCNN [44] as the backbone (As shown in Table 2, when training from scratch, DGCNN achieves 92.9%
+accuracy, which is much higher). Besides, Point-MAE outperforms sophisticated
+Point-BERT [54] by 0.6% accuracy. Note that this improvement is significant
+
+12
+
+Y. Pang et al.
+
+Table 2. Object classification on ModelNet40. We compare our approach with
+various self-supervised (left) and supervised (right) methods. [T] represents the model
+is based on modified Transformers. [ST] represents the standard Transformers models.
+
+Self-supervised methods
+Accuracy
+OcCo [41]
+93.0%
+STRL [19]
+93.1%
+IAE [51]
+93.7%
+[ST]Transformer-OcCo [54] 92.1%
+[ST]Point-BERT [54]
+93.2%
+[ST]Point-MAE
+93.8%
+
+Supervised methods
+Accuracy
+PointNet [29]
+89.2%
+PointNet++ [30]
+90.7%
+PointCNN [21]
+92.5%
+KPConv [38]
+92.9%
+DGCNN [21]
+92.9%
+RS-CNN [24]
+92.9%
+[T]PCT [16]
+93.2%
+[T]PVT [57]
+93.6%
+[T]PointTransformer [59] 93.7%
+[ST]Transformer [54]
+91.4%
+
+as ModelNet40 is a relatively small dataset. Besides, our approach surpasses all
+the dedicated Transformers models from supervised learning. Furthermore, given
+8192 points as input, our Point-MAE achieves 94.04% accuracy.
+Few-shot Learning We follow previous works [54,37,41] to conduct few-shot
+learning experiments on ModelNet40 [46], adopting n-way, m-shot setting, where
+n is the number of classes that randomly selected from the dataset and m is the
+number of objects randomly sampled for each class. We use the above-mentioned
+n \times m  objects for training. During testing, we randomly sample 20 unseen objects
+from each of n classes for evaluation.
+The results with the setting of n \in \left \{ 5, 10 \right \} and m \in \left \{ 10, 20 \right \}  are presented in
+Table 3. Following standard protocol, we conduct 10 independent experiments for
+each setting and report mean accuracy with standard deviation. Our Point-MAE
+significantly advances state-of-the-art accuracies of four settings by 1.5%-2.3%,
+with smaller deviations.
+Table 3. Few-shot object classification on ModelNet40. We conduct 10 independent experiments for each setting and report mean accuracy (%) with standard
+deviation.
+Methods
+5-way,10-shot 5-way,20-shot 10-way,10-shot 10-way,20-shot
+DGCNN-rand [41]
+31.6 \pm  2.8
+40.8 \pm  4.6
+19.9 \pm  2.1
+16.9 \pm  1.5
+DGCNN-OcCo [41]
+90.6 \pm  2.8
+92.5 \pm  1.9
+82.9 \pm  1.3
+86.5 \pm  2.2
+Transformer-rand [54]
+87.8 \pm  5.2
+93.3 \pm  4.3
+84.6 \pm  5.5
+89.4 \pm  6.3
+95.9 \pm  2.3
+89.4 \pm  5.1
+92.4 \pm  4.6
+Transformer-OcCo [54] 94.0 \pm  3.6
+Point-BERT [54]
+94.6 \pm  3.1
+96.3 \pm  2.7
+91.0 \pm  5.4
+92.7 \pm  5.1
+Point-MAE
+96.3 \pm  2.5 97.8 \pm  1.8
+92.6 \pm  4.1
+95.0 \pm  3.0
+
+Part Segmentation We evaluate the representation learning capability of our
+Point-MAE on ShapeNetPart dataset [53], which contains 16,881 objects covering 16 categories. We follow previous works [29,30,54] to sample 2048 points as
+
+Point-MAE
+
+13
+
+input for each object, which results in 128 point patches. Our segmentation head
+is relatively simple and does not use any propagating operation or DGCNN [44].
+For fair comparisons, our segmentation head has a similar weight with PointBERT [54] and also uses learned features from 4th, 8th and 12th layer of Transformer block. We concatenate the three levels of features, then adopt average
+pooling and max pooling separately to obtain two global features. Besides, the
+concatenated features represent for 128 center points and are up-sampled [30]
+to 2048 input points to obtain features for each point. After concatenating per
+point features with two global features, MLP is adopted to predict the label for
+each point. More details are provided in supplementary materials. Note that no
+voting methods or data augmentation are used during testing.
+As shown in Table 4, we report mean IoU (mIoU) for all instances, with IoU
+for each category. Our Point-MAE achieves 86.1% mIoU, improving the baseline
+by 1% mIoU. Our Point-MAE with a simple segmentation head also outperforms
+Point-BERT [54], which uses DGCNN [44] and propagation in their segmentation
+head.
+Table 4. Part segmentation on ShapeNetPart dataset. We report mean IoU for
+all instances mIoU_I (%), with IoU (%) for each category.
+Methods
+
+mIoU_I aero bag
+cap car chair e-phone guitar knife
+lamp laptop motor mug pistol rocket s-board table
+PointNet [29]
+83.7 83.4 78.7 82.5 74.9 89.6 73.0
+91.5 85.9
+80.8 95.3 65.2 93.0 81.2 57.9
+72.8 80.6
+PointNet++ [30] 85.1 82.4 79.0 87.7 77.3 90.8 71.8
+91.0 85.9
+83.7 95.3 71.6 94.1 81.3 58.7
+76.4 82.6
+DGCNN [44]
+85.2 84.0 83.4 86.7 77.8 90.6 74.7
+91.2 87.5
+82.8 95.7 66.3 94.9 81.1 63.5
+74.5 82.6
+Transformer [54] 85.1 82.9 85.4 87.7 78.8 90.5 80.8
+91.1 87.7
+85.3 95.6 73.9 94.9 83.5 61.2
+74.9 80.6
+Point-BERT [54] 85.6 84.3 84.8 88.0 79.8 91.0 81.7
+91.6 87.9
+85.2 95.6 75.6 94.7 84.3 63.4
+76.3 81.5
+Point-MAE
+86.1 84.3 85.0 88.3 80.5 91.3 78.5
+92.1 87.4
+86.1 96.1 75.2 94.6 84.7 63.5
+77.1 82.4
+
+4.3
+
+Ablation Study
+
+Table 5. Ablation study on masking strategy. We conduct experiments using two
+masking strategy with different masking ratios (%), and report pre-train loss (× 1000)
+as well as fine-tune accuracy (%).
+Type Ratio Loss Acc.
+Block 40 2.83 92.67
+Block 60 2.89 92.67
+Block 80 2.98 92.50
+
+Type
+Ratio Loss Acc.
+Random 40 2.49 92.46
+Random 50 2.54 92.43
+Random 60 2.60 93.19
+
+Type
+Ratio Loss Acc.
+Random 70 2.68 93.11
+Random 80 2.77 93.03
+Random 90 2.89 92.63
+
+14
+
+Y. Pang et al.
+
+Masking Strategy To find a proper masking strategy for our method, we compare two masking types with different masking ratios. No voting method is used
+during testing. The reconstruction loss and fine-tune accuracy on ModelNet40
+are presented in Table 5. We also visualize reconstructions with different masking
+strategies in Figure 5.
+The block masking [54,3] type masks neighbouring point patches, resulting
+in masked blocks. Though this strategy is harder for reconstruction, adopting a
+medium masking ratio can also achieve good performance.
+The random masking type masks random point patches and empirically results in the best performance with a high masking ratio (i.e. 60%-80%). The
+performance degrades largely with low making ratios and also degrades slightly
+if the masking ratio is too high.
+
+Fig. 5. Reconstructions with different masking strategies. We mainly show
+three different masking strategies for same inputs (leftmost). In each column, masked
+inputs (left) and reconstructions (right) are shown. Instances are from ShapeNet validation set.
+
+Effect of shifting mask tokens Our Point-MAE shifts mask tokens from the
+input of the encoder to the lightweight decoder. To demonstrate the effectiveness
+of this design, we conduct an experiment in which the mask tokens are processed
+from the input of the encoder. For fair comparisons, the autoencoder’s backbone
+adopts the same encoder and prediction head as Point-MAE but without the
+decoder, resulting in the exact same model on fine-tune tasks. We use random
+masking at a ratio of 60% in this experiment. After pre-training, a smaller reconstruction loss is observed (2.51), compared to Point-MAE (2.60). For the
+fine-tune performance on ModelNet40, it achieves 92.14% accuracy, much lower
+than Point-MAE (93.19%). This result is not surprising and can be explained. At
+the input of the encoder, all the tokens, including mask tokens, must be provided
+with location information by positional embeddings. This causes early leakage of
+location information because mask tokens are processed for the reconstruction of
+point patches in coordinate space. The leakage of location information makes the
+reconstruction task less challenging, and the model cannot learn latent features
+well, leading to worse fine-tune performance.
+
+Point-MAE
+
+5
+
+15
+
+Conclusions
+
+In this paper, we present a novel scheme of masked autoencoders for point cloud
+self-supervised learning, termed as Point-MAE. Our Point-MAE is neat and efficient, with minimal modifications based on the properties of the point cloud.
+The effectiveness and high generalization capability of our approach are verified on various tasks, including object classification, few-shot learning, and part
+segmentation. Specifically, Point-MAE outperforms all the other self-supervised
+learning methods. We also show with our approach, a simple architecture that
+is entirely based on standard Transformers can surpass dedicated Transformer
+models from supervised learning. Furthermore, our work inspires the feasibility
+of applying unified architectures from languages and images to the point cloud.
+
+References
+1. Achlioptas, P., Diamanti, O., Mitliagkas, I., Guibas, L.: Learning representations
+and generative models for 3d point clouds. In: International conference on machine
+learning. pp. 40–49. PMLR (2018)
+2. Baevski, A., Hsu, W.N., Xu, Q., Babu, A., Gu, J., Auli, M.: Data2vec: A general framework for self-supervised learning in speech, vision and language. URL
+https://ai. facebook. com/research/data2veca-general-framework-for-self-supervi
+sed-learning-in-speech-vision-and-la nguage/. Accessed pp. 01–27 (2022)
+3. Bao, H., Dong, L., Wei, F.: Beit: Bert pre-training of image transformers. arXiv
+preprint arXiv:2106.08254 (2021)
+4. Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et al.: Language models are few-shot
+learners. Advances in neural information processing systems 33, 1877–1901 (2020)
+5. Chang, A.X., Funkhouser, T., Guibas, L., Hanrahan, P., Huang, Q., Li, Z.,
+Savarese, S., Savva, M., Song, S., Su, H., et al.: Shapenet: An information-rich
+3d model repository. arXiv preprint arXiv:1512.03012 (2015)
+6. Chen, G., Wang, M., Yue, Y., Zhang, Q., Yuan, L.: Full transformer framework for
+robust point cloud registration with deep information interaction. arXiv preprint
+arXiv:2112.09385 (2021)
+7. Chen, M., Radford, A., Child, R., Wu, J., Jun, H., Luan, D., Sutskever, I.: Generative pretraining from pixels. In: International Conference on Machine Learning.
+pp. 1691–1703. PMLR (2020)
+8. Chen, T., Kornblith, S., Norouzi, M., Hinton, G.: A simple framework for contrastive learning of visual representations. In: International conference on machine
+learning. pp. 1597–1607. PMLR (2020)
+9. Chen, X., Fan, H., Girshick, R., He, K.: Improved baselines with momentum contrastive learning. arXiv preprint arXiv:2003.04297 (2020)
+10. Cheng, S., Chen, X., He, X., Liu, Z., Bai, X.: Pra-net: Point relation-aware network
+for 3d point cloud analysis. IEEE Transactions on Image Processing 30, 4436–4448
+(2021)
+11. Devlin, J., Chang, M.W., Lee, K., Toutanova, K.: Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805
+(2018)
+
+16
+
+Y. Pang et al.
+
+12. Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner,
+T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., et al.: An image is
+worth 16x16 words: Transformers for image recognition at scale. arXiv preprint
+arXiv:2010.11929 (2020)
+13. Eckart, B., Yuan, W., Liu, C., Kautz, J.: Self-supervised learning on 3d point
+clouds by learning discrete generative models. In: Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition. pp. 8248–8257 (2021)
+14. Fan, H., Su, H., Guibas, L.J.: A point set generation network for 3d object reconstruction from a single image. In: Proceedings of the IEEE conference on computer
+vision and pattern recognition. pp. 605–613 (2017)
+15. Grill, J.B., Strub, F., Altché, F., Tallec, C., Richemond, P., Buchatskaya, E., Doersch, C., Avila Pires, B., Guo, Z., Gheshlaghi Azar, M., et al.: Bootstrap your own
+latent-a new approach to self-supervised learning. Advances in Neural Information
+Processing Systems 33, 21271–21284 (2020)
+16. Guo, M.H., Cai, J.X., Liu, Z.N., Mu, T.J., Martin, R.R., Hu, S.M.: Pct: Point
+cloud transformer. Computational Visual Media 7(2), 187–199 (2021)
+17. He, K., Chen, X., Xie, S., Li, Y., Dollár, P., Girshick, R.: Masked autoencoders are
+scalable vision learners. arXiv preprint arXiv:2111.06377 (2021)
+18. He, K., Fan, H., Wu, Y., Xie, S., Girshick, R.: Momentum contrast for unsupervised
+visual representation learning. In: Proceedings of the IEEE/CVF conference on
+computer vision and pattern recognition. pp. 9729–9738 (2020)
+19. Huang, S., Xie, Y., Zhu, S.C., Zhu, Y.: Spatio-temporal self-supervised representation learning for 3d point clouds. In: Proceedings of the IEEE/CVF International
+Conference on Computer Vision. pp. 6535–6545 (2021)
+20. Li, J., Chen, B.M., Lee, G.H.: So-net: Self-organizing network for point cloud analysis. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 9397–9406 (2018)
+21. Li, Y., Bu, R., Sun, M., Wu, W., Di, X., Chen, B.: Pointcnn: Convolution on xtransformed points. Advances in neural information processing systems 31 (2018)
+22. Liu, X., Zhang, F., Hou, Z., Mian, L., Wang, Z., Zhang, J., Tang, J.: Self-supervised
+learning: Generative or contrastive. IEEE Transactions on Knowledge and Data
+Engineering (2021)
+23. Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
+Zettlemoyer, L., Stoyanov, V.: Roberta: A robustly optimized bert pretraining
+approach. arXiv preprint arXiv:1907.11692 (2019)
+24. Liu, Y., Fan, B., Xiang, S., Pan, C.: Relation-shape convolutional neural network
+for point cloud analysis. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 8895–8904 (2019)
+25. Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., Guo, B.: Swin
+transformer: Hierarchical vision transformer using shifted windows. In: Proceedings
+of the IEEE/CVF International Conference on Computer Vision. pp. 10012–10022
+(2021)
+26. Loshchilov, I., Hutter, F.: Sgdr: Stochastic gradient descent with warm restarts.
+arXiv preprint arXiv:1608.03983 (2016)
+27. Loshchilov, I., Hutter, F.: Decoupled weight decay regularization. arXiv preprint
+arXiv:1711.05101 (2017)
+28. Pathak, D., Krahenbuhl, P., Donahue, J., Darrell, T., Efros, A.A.: Context encoders: Feature learning by inpainting. In: Proceedings of the IEEE conference on
+computer vision and pattern recognition. pp. 2536–2544 (2016)
+
+Point-MAE
+
+17
+
+29. Qi, C.R., Su, H., Mo, K., Guibas, L.J.: Pointnet: Deep learning on point sets
+for 3d classification and segmentation. In: Proceedings of the IEEE conference on
+computer vision and pattern recognition. pp. 652–660 (2017)
+30. Qi, C.R., Yi, L., Su, H., Guibas, L.J.: Pointnet++: Deep hierarchical feature learning on point sets in a metric space. Advances in neural information processing
+systems 30 (2017)
+31. Qiu, S., Anwar, S., Barnes, N.: Geometric back-projection network for point cloud
+classification. IEEE Transactions on Multimedia (2021)
+32. Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et al.: Language
+models are unsupervised multitask learners. OpenAI blog 1(8), 9 (2019)
+33. Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li,
+W., Liu, P.J.: Exploring the limits of transfer learning with a unified text-to-text
+transformer. arXiv preprint arXiv:1910.10683 (2019)
+34. Rao, Y., Lu, J., Zhou, J.: Global-local bidirectional reasoning for unsupervised
+representation learning of 3d point clouds. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 5376–5385 (2020)
+35. Rolfe, J.T.: Discrete variational autoencoders. arXiv preprint arXiv:1609.02200
+(2016)
+36. Sauder, J., Sievers, B.: Self-supervised deep learning on point clouds by reconstructing space. Advances in Neural Information Processing Systems 32 (2019)
+37. Sharma, C., Kaul, M.: Self-supervised few-shot learning on point clouds. Advances
+in Neural Information Processing Systems 33, 7212–7221 (2020)
+38. Thomas, H., Qi, C.R., Deschaud, J.E., Marcotegui, B., Goulette, F., Guibas, L.J.:
+Kpconv: Flexible and deformable convolution for point clouds. In: Proceedings of
+the IEEE/CVF international conference on computer vision. pp. 6411–6420 (2019)
+39. Uy, M.A., Pham, Q.H., Hua, B.S., Nguyen, T., Yeung, S.K.: Revisiting point cloud
+classification: A new benchmark dataset and classification model on real-world
+data. In: Proceedings of the IEEE/CVF international conference on computer vision. pp. 1588–1597 (2019)
+40. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser,
+L., Polosukhin, I.: Attention is all you need. Advances in neural information processing systems 30 (2017)
+41. Wang, H., Liu, Q., Yue, X., Lasenby, J., Kusner, M.J.: Unsupervised point cloud
+pre-training via occlusion completion. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. pp. 9782–9792 (2021)
+42. Wang, W., Xie, E., Li, X., Fan, D.P., Song, K., Liang, D., Lu, T., Luo, P., Shao,
+L.: Pyramid vision transformer: A versatile backbone for dense prediction without convolutions. In: Proceedings of the IEEE/CVF International Conference on
+Computer Vision. pp. 568–578 (2021)
+43. Wang, W., Yao, L., Chen, L., Lin, B., Cai, D., He, X., Liu, W.: Crossformer:
+A versatile vision transformer hinging on cross-scale attention. arXiv preprint
+arXiv:2108.00154 (2021)
+44. Wang, Y., Sun, Y., Liu, Z., Sarma, S.E., Bronstein, M.M., Solomon, J.M.: Dynamic
+graph cnn for learning on point clouds. Acm Transactions On Graphics (tog) 38(5),
+1–12 (2019)
+45. Wei, C., Fan, H., Xie, S., Wu, C.Y., Yuille, A., Feichtenhofer, C.: Masked feature
+prediction for self-supervised visual pre-training. arXiv preprint arXiv:2112.09133
+(2021)
+46. Wu, Z., Song, S., Khosla, A., Yu, F., Zhang, L., Tang, X., Xiao, J.: 3d shapenets: A
+deep representation for volumetric shapes. In: Proceedings of the IEEE conference
+on computer vision and pattern recognition. pp. 1912–1920 (2015)
+
+18
+
+Y. Pang et al.
+
+47. Wu, Z., Xiong, Y., Yu, S.X., Lin, D.: Unsupervised feature learning via nonparametric instance discrimination. In: Proceedings of the IEEE conference on
+computer vision and pattern recognition. pp. 3733–3742 (2018)
+48. Xie, S., Gu, J., Guo, D., Qi, C.R., Guibas, L., Litany, O.: Pointcontrast: Unsupervised pre-training for 3d point cloud understanding. In: European conference on
+computer vision. pp. 574–591. Springer (2020)
+49. Xie, Z., Zhang, Z., Cao, Y., Lin, Y., Bao, J., Yao, Z., Dai, Q., Hu, H.: Simmim:
+A simple framework for masked image modeling. arXiv preprint arXiv:2111.09886
+(2021)
+50. Xu, Y., Fan, T., Xu, M., Zeng, L., Qiao, Y.: Spidercnn: Deep learning on point sets
+with parameterized convolutional filters. In: Proceedings of the European Conference on Computer Vision (ECCV). pp. 87–102 (2018)
+51. Yan, S., Yang, Z., Li, H., Guan, L., Kang, H., Hua, G., Huang, Q.: Implicit autoencoder for point cloud self-supervised representation learning. arXiv preprint
+arXiv:2201.00785 (2022)
+52. Yang, Y., Feng, C., Shen, Y., Tian, D.: Foldingnet: Point cloud auto-encoder via
+deep grid deformation. In: Proceedings of the IEEE conference on computer vision
+and pattern recognition. pp. 206–215 (2018)
+53. Yi, L., Kim, V.G., Ceylan, D., Shen, I.C., Yan, M., Su, H., Lu, C., Huang, Q.,
+Sheffer, A., Guibas, L.: A scalable active framework for region annotation in 3d
+shape collections. ACM Transactions on Graphics (ToG) 35(6), 1–12 (2016)
+54. Yu, X., Tang, L., Rao, Y., Huang, T., Zhou, J., Lu, J.: Point-bert: Pretraining 3d point cloud transformers with masked point modeling. arXiv preprint
+arXiv:2111.14819 (2021)
+55. Yuan, L., Chen, Y., Wang, T., Yu, W., Shi, Y., Jiang, Z.H., Tay, F.E., Feng, J., Yan,
+S.: Tokens-to-token vit: Training vision transformers from scratch on imagenet. In:
+Proceedings of the IEEE/CVF International Conference on Computer Vision. pp.
+558–567 (2021)
+56. Yuan, L., Hou, Q., Jiang, Z., Feng, J., Yan, S.: Volo: Vision outlooker for visual
+recognition. arXiv preprint arXiv:2106.13112 (2021)
+57. Zhang, C., Wan, H., Liu, S., Shen, X., Wu, Z.: Pvt: Point-voxel transformer for 3d
+deep learning. arXiv preprint arXiv:2108.06076 (2021)
+58. Zhang, Z., Girdhar, R., Joulin, A., Misra, I.: Self-supervised pretraining of 3d
+features on any point-cloud. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. pp. 10252–10263 (2021)
+59. Zhao, H., Jiang, L., Jia, J., Torr, P.H., Koltun, V.: Point transformer. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. pp. 16259–
+16268 (2021)
+
+

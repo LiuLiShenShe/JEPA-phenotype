@@ -1,0 +1,5 @@
+condition,status,pretraining_data,official_coverage
+P0,COMPLETED,none,N/A
+P1,UNAVAILABLE,ShapeNet external (not obtained),not measurable
+P2,COMPLETED,"each partition's 24 Train plants only, from scratch",N/A; no external weights
+P3,NOT RUN (optional),Point-MAE CUDA dependencies/budget not established,N/A

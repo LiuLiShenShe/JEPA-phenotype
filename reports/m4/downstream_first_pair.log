@@ -1,0 +1,30 @@
+COUNT START official_count_P0_finetune_labels100_seed17 plants=24 mode=finetune
+COUNT DONE official_count_P0_finetune_labels100_seed17 MAE=1.3162 seconds=38.1
+SEG START official_segmentation_P0_finetune_labels100_seed17
+Traceback (most recent call last):
+  File "/fj/JEPA-表型/scripts/train_m4_downstream.py", line 36, in <module>
+    run_segmentation(root, partition, seed, condition, mode, device)
+  File "/fj/JEPA-表型/src/m4/downstream.py", line 289, in run_segmentation
+    loss = criterion(logits.transpose(1, 2), batch["semantic"].to(device))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m4/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m4/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m4/lib/python3.11/site-packages/torch/nn/modules/loss.py", line 1310, in forward
+    return F.cross_entropy(
+           ^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m4/lib/python3.11/site-packages/torch/nn/functional.py", line 3462, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.
+SEG START official_segmentation_P0_finetune_labels100_seed17
+SEG DONE official_segmentation_P0_finetune_labels100_seed17 mIoU=0.5749 seconds=44.9
+COUNT START official_count_P2_finetune_labels100_seed17 plants=24 mode=finetune
+COUNT DONE official_count_P2_finetune_labels100_seed17 MAE=1.2858 seconds=36.4
+SEG START official_segmentation_P2_finetune_labels100_seed17
+SEG DONE official_segmentation_P2_finetune_labels100_seed17 mIoU=0.4730 seconds=45.7
+SEG START official_segmentation_PointNet_finetune_labels100_seed17
+SEG DONE official_segmentation_PointNet_finetune_labels100_seed17 mIoU=0.4274 seconds=6.9

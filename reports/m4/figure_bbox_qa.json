@@ -1,0 +1,45 @@
+{
+  "method": "Matplotlib rendered text and legend bounding boxes; complements untrusted vision descriptions",
+  "figures": [
+    {
+      "figure": "01_pretraining_collapse.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "02_count_strong_baselines.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "03_label_efficiency_probe_vs_finetune.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "04_stage_errors.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "05_segmentation_metrics.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "06_failure_cases.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "07_segmentation_visualization.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    },
+    {
+      "figure": "08_representation_similarity_distributions.png",
+      "legend_title_bbox_overlaps": [],
+      "status": "PASS"
+    }
+  ]
+}

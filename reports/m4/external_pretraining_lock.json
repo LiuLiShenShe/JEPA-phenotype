@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-12",
+  "locked_before_sugar4d_fitting": true,
+  "p1_status": "UNAVAILABLE",
+  "official_checkpoint_url": "https://drive.google.com/file/d/1MR3OYA6N0TINyPCKgwOU3zswQoM8DXbY/view",
+  "attempts": [
+    {"endpoint": "drive.usercontent.google.com/download", "result": "ConnectTimeout after 55 seconds"},
+    {"endpoint": "drive.google.com/uc", "result": "Network is unreachable"},
+    {"endpoint": "huggingface.co/api/models?search=Point-JEPA", "result": "Network is unreachable; no verified mirror obtained"}
+  ],
+  "p2_setting": "Sugar4D-train-only-from-scratch",
+  "p2_is_external_adaptation": false,
+  "official_parameter_coverage": null,
+  "coverage_note": "No actual weight bytes were obtained. Architectural/numerical equivalence is not measured checkpoint coverage.",
+  "rule": "Do not insert an official checkpoint halfway through the locked run. P1 and external-initialized P2 require a separate explicitly labelled run. Engineering PASS remains incomplete without P1."
+}
