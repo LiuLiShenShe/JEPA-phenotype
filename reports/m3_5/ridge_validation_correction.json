@@ -1,0 +1,20 @@
+{
+  "reason": "Ensure single-output Ridge validation predictions are 2D, preventing n x n broadcast against n x 1 labels. Same fixed candidate alphas and model/seed/budget/protocol; only correct count-baseline validation regularization selection. Final unified-source runs restarted, with no test scoring before lock.",
+  "archived_paths": [
+    "outputs/m3_5/official/current",
+    "outputs/m3_5/official/organ",
+    "outputs/m3_5/official/geometry_absolute",
+    "outputs/m3_5/official/geometry_residual",
+    "outputs/m3_5/official/event",
+    "outputs/m3_5/fold0/current",
+    "outputs/m3_5/fold0/organ",
+    "outputs/m3_5/fold0/geometry_absolute",
+    "outputs/m3_5/fold0/geometry_residual",
+    "outputs/m3_5/fold0/event",
+    "outputs/m3_5/fold1/current",
+    "outputs/m3_5/fold1/organ",
+    "outputs/m3_5/fold2/current",
+    "outputs/m3_5/fold3/current"
+  ],
+  "engine_sha256": "291ea78f9d35d5ea34bd4daf7f8726c6cc7866d5c68ff709cf83a0cfc7cb5c9d"
+}

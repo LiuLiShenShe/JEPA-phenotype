@@ -1,0 +1,152 @@
+AUDIT 96/768 raw XYZ geometry and organ joins
+AUDIT 192/768 raw XYZ geometry and organ joins
+AUDIT 288/768 raw XYZ geometry and organ joins
+AUDIT 384/768 raw XYZ geometry and organ joins
+AUDIT 480/768 raw XYZ geometry and organ joins
+AUDIT 576/768 raw XYZ geometry and organ joins
+AUDIT 672/768 raw XYZ geometry and organ joins
+AUDIT 768/768 raw XYZ geometry and organ joins
+{
+  "tracks": 675,
+  "observed_records": 6778,
+  "gates": {
+    "1": {
+      "morphology": {
+        "feasible": true,
+        "failures": [],
+        "scope": "published automatic label prediction only"
+      },
+      "visibility": {
+        "feasible": true,
+        "failures": [],
+        "train_validation_only_gate": true,
+        "classes": {
+          "train": {
+            "0": {
+              "samples": 67,
+              "plants": 24,
+              "fraction": 0.026821457165732587
+            },
+            "1": {
+              "samples": 2431,
+              "plants": 24,
+              "fraction": 0.9731785428342674
+            }
+          },
+          "val": {
+            "0": {
+              "samples": 28,
+              "plants": 12,
+              "fraction": 0.023890784982935155
+            },
+            "1": {
+              "samples": 1144,
+              "plants": 12,
+              "fraction": 0.9761092150170648
+            }
+          }
+        }
+      },
+      "event": {
+        "feasible": true,
+        "failures": [],
+        "train_validation_only_gate": true,
+        "classes": {
+          "train": {
+            "0": {
+              "samples": 161,
+              "plants": 24,
+              "fraction": 0.5160256410256411
+            },
+            "1": {
+              "samples": 151,
+              "plants": 24,
+              "fraction": 0.483974358974359
+            }
+          },
+          "val": {
+            "0": {
+              "samples": 89,
+              "plants": 12,
+              "fraction": 0.5705128205128205
+            },
+            "1": {
+              "samples": 67,
+              "plants": 12,
+              "fraction": 0.42948717948717946
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "morphology": {
+        "feasible": true,
+        "failures": [],
+        "scope": "published automatic label prediction only"
+      },
+      "visibility": {
+        "feasible": true,
+        "failures": [],
+        "train_validation_only_gate": true,
+        "classes": {
+          "train": {
+            "0": {
+              "samples": 126,
+              "plants": 24,
+              "fraction": 0.0559254327563249
+            },
+            "1": {
+              "samples": 2127,
+              "plants": 24,
+              "fraction": 0.9440745672436751
+            }
+          },
+          "val": {
+            "0": {
+              "samples": 53,
+              "plants": 12,
+              "fraction": 0.05023696682464455
+            },
+            "1": {
+              "samples": 1002,
+              "plants": 12,
+              "fraction": 0.9497630331753555
+            }
+          }
+        }
+      },
+      "event": {
+        "feasible": true,
+        "failures": [],
+        "train_validation_only_gate": true,
+        "classes": {
+          "train": {
+            "0": {
+              "samples": 70,
+              "plants": 23,
+              "fraction": 0.24305555555555555
+            },
+            "1": {
+              "samples": 218,
+              "plants": 24,
+              "fraction": 0.7569444444444444
+            }
+          },
+          "val": {
+            "0": {
+              "samples": 46,
+              "plants": 12,
+              "fraction": 0.3194444444444444
+            },
+            "1": {
+              "samples": 98,
+              "plants": 12,
+              "fraction": 0.6805555555555556
+            }
+          }
+        }
+      }
+    }
+  }
+}

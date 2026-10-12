@@ -1,0 +1,7 @@
+target,horizon,plants,current_target_frame_estimation_mae,M3_past_XYZ_future_mae,future_minus_current_task_gap,gap_ci95_low,gap_ci95_high,scope
+plant_height,1,12,1.1609350513880625,1.8533142591134093,0.692379207725347,0.3585063133987563,1.0148218753220006,Same requested target scans; current estimation has target-time XYZ and is not a forecasting competitor
+plant_width,1,12,1.670413621401397,2.3489290791699005,0.6785154577685039,0.46435891078808833,0.9367117040871811,Same requested target scans; current estimation has target-time XYZ and is not a forecasting competitor
+visible_organ_count,1,12,1.924300887265952,1.7603646802087114,-0.16393620705724068,-0.3894125724073751,0.05390996341442069,Same requested target scans; current estimation has target-time XYZ and is not a forecasting competitor
+plant_height,2,12,1.1797741652994886,2.144770163076895,0.9649959977774064,0.4921939337376244,1.4184794909166,Same requested target scans; current estimation has target-time XYZ and is not a forecasting competitor
+plant_width,2,12,1.6955368882369306,2.665341832019665,0.969804943782734,0.6685387251077621,1.3274718282618692,Same requested target scans; current estimation has target-time XYZ and is not a forecasting competitor
+visible_organ_count,2,12,1.9857178142194878,1.8165266712506611,-0.1691911429688269,-0.3853813924492012,0.040194007324481015,Same requested target scans; current estimation has target-time XYZ and is not a forecasting competitor

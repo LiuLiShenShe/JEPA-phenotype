@@ -1,0 +1,67 @@
+START official organ C2-MLP seed=17
+DONE official organ C2-MLP seed=17 score=0.5357 seconds=13.6
+START official organ C2-MLP seed=42
+DONE official organ C2-MLP seed=42 score=0.5329 seconds=14.2
+START official organ C2-MLP seed=93
+DONE official organ C2-MLP seed=93 score=0.5406 seconds=14.7
+START official organ C3-GRU seed=17
+DONE official organ C3-GRU seed=17 score=0.4914 seconds=17.4
+START official organ C3-GRU seed=42
+DONE official organ C3-GRU seed=42 score=0.4864 seconds=17.2
+START official organ C3-GRU seed=93
+DONE official organ C3-GRU seed=93 score=0.4924 seconds=16.5
+START official organ C4-Repeated-GRU seed=17
+DONE official organ C4-Repeated-GRU seed=17 score=0.5394 seconds=15.9
+START official organ C4-Repeated-GRU seed=42
+DONE official organ C4-Repeated-GRU seed=42 score=0.5439 seconds=17.6
+START official organ C4-Repeated-GRU seed=93
+DONE official organ C4-Repeated-GRU seed=93 score=0.5459 seconds=17.3
+START official geometry_absolute C5-Current-Absolute seed=17
+DONE official geometry_absolute C5-Current-Absolute seed=17 score=0.4557 seconds=1.9
+START official geometry_absolute C5-Current-Absolute seed=42
+DONE official geometry_absolute C5-Current-Absolute seed=42 score=0.4655 seconds=1.9
+START official geometry_absolute C5-Current-Absolute seed=93
+DONE official geometry_absolute C5-Current-Absolute seed=93 score=0.4536 seconds=1.8
+START official geometry_absolute C5-History-Absolute seed=17
+DONE official geometry_absolute C5-History-Absolute seed=17 score=0.4805 seconds=1.9
+START official geometry_absolute C5-History-Absolute seed=42
+DONE official geometry_absolute C5-History-Absolute seed=42 score=0.4863 seconds=1.9
+START official geometry_absolute C5-History-Absolute seed=93
+DONE official geometry_absolute C5-History-Absolute seed=93 score=0.5014 seconds=1.8
+START official geometry_residual C5-Current-Residual seed=17
+DONE official geometry_residual C5-Current-Residual seed=17 score=0.8301 seconds=1.9
+START official geometry_residual C5-Current-Residual seed=42
+DONE official geometry_residual C5-Current-Residual seed=42 score=0.8246 seconds=2.0
+START official geometry_residual C5-Current-Residual seed=93
+DONE official geometry_residual C5-Current-Residual seed=93 score=0.8207 seconds=2.0
+START official geometry_residual C5-History-Residual seed=17
+DONE official geometry_residual C5-History-Residual seed=17 score=0.8292 seconds=1.9
+START official geometry_residual C5-History-Residual seed=42
+DONE official geometry_residual C5-History-Residual seed=42 score=0.8296 seconds=1.8
+START official geometry_residual C5-History-Residual seed=93
+DONE official geometry_residual C5-History-Residual seed=93 score=0.8352 seconds=2.0
+START official event E2-MLP seed=17
+DONE official event E2-MLP seed=17 score=1.3357 seconds=2.5
+START official event E2-MLP seed=42
+DONE official event E2-MLP seed=42 score=1.3398 seconds=2.6
+START official event E2-MLP seed=93
+DONE official event E2-MLP seed=93 score=1.3533 seconds=2.6
+START official event E3-GRU seed=17
+DONE official event E3-GRU seed=17 score=1.3519 seconds=2.6
+START official event E3-GRU seed=42
+DONE official event E3-GRU seed=42 score=1.3500 seconds=2.3
+START official event E3-GRU seed=93
+DONE official event E3-GRU seed=93 score=1.3443 seconds=2.2
+START official event E4-Repeated-GRU seed=17
+DONE official event E4-Repeated-GRU seed=17 score=1.3536 seconds=2.4
+START official event E4-Repeated-GRU seed=42
+DONE official event E4-Repeated-GRU seed=42 score=1.3517 seconds=2.5
+START official event E4-Repeated-GRU seed=93
+DONE official event E4-Repeated-GRU seed=93 score=1.3488 seconds=3.0
+START fold0 organ C2-MLP seed=17
+DONE fold0 organ C2-MLP seed=17 score=0.3664 seconds=13.6
+START fold0 organ C2-MLP seed=42
+DONE fold0 organ C2-MLP seed=42 score=0.3653 seconds=13.4
+START fold0 organ C2-MLP seed=93
+DONE fold0 organ C2-MLP seed=93 score=0.3696 seconds=13.7
+START fold0 organ C3-GRU seed=17

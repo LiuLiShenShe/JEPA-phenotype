@@ -1,0 +1,6 @@
+{
+  "commit": "5cf34b8d90b5699597f2875a63e40ab9a02dbe37",
+  "status": "## main...origin/main\n?? M3_5_README.md\n?? configs/m3_5/\n?? outputs/m3_5/\n?? reports/m3_5/\n?? requirements-m3_5.txt\n?? scripts/analyze_m3_5_feasibility.py\n?? scripts/evaluate_m3_5.py\n?? scripts/qa_m3_5_figures.py\n?? scripts/train_m3_5.py\n?? scripts/verify_m3_5.py\n?? src/datasets/sugar4d_organ_dataset.py\n?? src/m35/\n?? src/models/geometry_residual_forecaster.py\n?? src/models/organ_growth_baselines.py\n?? tests/test_m3_5.py\n",
+  "no_commit_merge_push": true,
+  "only_new_m35_paths": true
+}

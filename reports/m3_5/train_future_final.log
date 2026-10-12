@@ -1,0 +1,300 @@
+START official organ C2-MLP seed=17
+DONE official organ C2-MLP seed=17 score=0.5357 seconds=14.4
+START official organ C2-MLP seed=42
+DONE official organ C2-MLP seed=42 score=0.5329 seconds=13.8
+START official organ C2-MLP seed=93
+DONE official organ C2-MLP seed=93 score=0.5406 seconds=11.2
+START official organ C3-GRU seed=17
+DONE official organ C3-GRU seed=17 score=0.4914 seconds=17.3
+START official organ C3-GRU seed=42
+DONE official organ C3-GRU seed=42 score=0.4864 seconds=17.5
+START official organ C3-GRU seed=93
+DONE official organ C3-GRU seed=93 score=0.4924 seconds=17.4
+START official organ C4-Repeated-GRU seed=17
+DONE official organ C4-Repeated-GRU seed=17 score=0.5394 seconds=17.4
+START official organ C4-Repeated-GRU seed=42
+DONE official organ C4-Repeated-GRU seed=42 score=0.5439 seconds=17.9
+START official organ C4-Repeated-GRU seed=93
+DONE official organ C4-Repeated-GRU seed=93 score=0.5459 seconds=16.1
+START official geometry_absolute C5-Current-Absolute seed=17
+DONE official geometry_absolute C5-Current-Absolute seed=17 score=0.4557 seconds=1.9
+START official geometry_absolute C5-Current-Absolute seed=42
+DONE official geometry_absolute C5-Current-Absolute seed=42 score=0.4655 seconds=1.9
+START official geometry_absolute C5-Current-Absolute seed=93
+DONE official geometry_absolute C5-Current-Absolute seed=93 score=0.4536 seconds=1.9
+START official geometry_absolute C5-History-Absolute seed=17
+DONE official geometry_absolute C5-History-Absolute seed=17 score=0.4805 seconds=1.8
+START official geometry_absolute C5-History-Absolute seed=42
+DONE official geometry_absolute C5-History-Absolute seed=42 score=0.4863 seconds=1.8
+START official geometry_absolute C5-History-Absolute seed=93
+DONE official geometry_absolute C5-History-Absolute seed=93 score=0.5014 seconds=1.9
+START official geometry_residual C5-Current-Residual seed=17
+DONE official geometry_residual C5-Current-Residual seed=17 score=0.8301 seconds=1.8
+START official geometry_residual C5-Current-Residual seed=42
+DONE official geometry_residual C5-Current-Residual seed=42 score=0.8246 seconds=2.0
+START official geometry_residual C5-Current-Residual seed=93
+DONE official geometry_residual C5-Current-Residual seed=93 score=0.8207 seconds=1.8
+START official geometry_residual C5-History-Residual seed=17
+DONE official geometry_residual C5-History-Residual seed=17 score=0.8292 seconds=1.9
+START official geometry_residual C5-History-Residual seed=42
+DONE official geometry_residual C5-History-Residual seed=42 score=0.8296 seconds=2.0
+START official geometry_residual C5-History-Residual seed=93
+DONE official geometry_residual C5-History-Residual seed=93 score=0.8352 seconds=1.9
+START official event E2-MLP seed=17
+DONE official event E2-MLP seed=17 score=1.3357 seconds=2.5
+START official event E2-MLP seed=42
+DONE official event E2-MLP seed=42 score=1.3398 seconds=2.7
+START official event E2-MLP seed=93
+DONE official event E2-MLP seed=93 score=1.3533 seconds=2.8
+START official event E3-GRU seed=17
+DONE official event E3-GRU seed=17 score=1.3519 seconds=3.0
+START official event E3-GRU seed=42
+DONE official event E3-GRU seed=42 score=1.3500 seconds=3.0
+START official event E3-GRU seed=93
+DONE official event E3-GRU seed=93 score=1.3443 seconds=3.0
+START official event E4-Repeated-GRU seed=17
+DONE official event E4-Repeated-GRU seed=17 score=1.3536 seconds=3.0
+START official event E4-Repeated-GRU seed=42
+DONE official event E4-Repeated-GRU seed=42 score=1.3517 seconds=3.0
+START official event E4-Repeated-GRU seed=93
+DONE official event E4-Repeated-GRU seed=93 score=1.3488 seconds=3.0
+START fold0 organ C2-MLP seed=17
+DONE fold0 organ C2-MLP seed=17 score=0.3664 seconds=13.7
+START fold0 organ C2-MLP seed=42
+DONE fold0 organ C2-MLP seed=42 score=0.3653 seconds=12.1
+START fold0 organ C2-MLP seed=93
+DONE fold0 organ C2-MLP seed=93 score=0.3696 seconds=13.6
+START fold0 organ C3-GRU seed=17
+DONE fold0 organ C3-GRU seed=17 score=0.3537 seconds=17.1
+START fold0 organ C3-GRU seed=42
+DONE fold0 organ C3-GRU seed=42 score=0.3574 seconds=16.7
+START fold0 organ C3-GRU seed=93
+DONE fold0 organ C3-GRU seed=93 score=0.3590 seconds=17.4
+START fold0 organ C4-Repeated-GRU seed=17
+DONE fold0 organ C4-Repeated-GRU seed=17 score=0.3646 seconds=16.7
+START fold0 organ C4-Repeated-GRU seed=42
+DONE fold0 organ C4-Repeated-GRU seed=42 score=0.3603 seconds=14.7
+START fold0 organ C4-Repeated-GRU seed=93
+DONE fold0 organ C4-Repeated-GRU seed=93 score=0.3681 seconds=17.0
+START fold0 geometry_absolute C5-Current-Absolute seed=17
+DONE fold0 geometry_absolute C5-Current-Absolute seed=17 score=0.4643 seconds=1.8
+START fold0 geometry_absolute C5-Current-Absolute seed=42
+DONE fold0 geometry_absolute C5-Current-Absolute seed=42 score=0.4724 seconds=1.9
+START fold0 geometry_absolute C5-Current-Absolute seed=93
+DONE fold0 geometry_absolute C5-Current-Absolute seed=93 score=0.4684 seconds=1.9
+START fold0 geometry_absolute C5-History-Absolute seed=17
+DONE fold0 geometry_absolute C5-History-Absolute seed=17 score=0.4914 seconds=1.8
+START fold0 geometry_absolute C5-History-Absolute seed=42
+DONE fold0 geometry_absolute C5-History-Absolute seed=42 score=0.4793 seconds=1.8
+START fold0 geometry_absolute C5-History-Absolute seed=93
+DONE fold0 geometry_absolute C5-History-Absolute seed=93 score=0.4949 seconds=1.8
+START fold0 geometry_residual C5-Current-Residual seed=17
+DONE fold0 geometry_residual C5-Current-Residual seed=17 score=0.7485 seconds=1.8
+START fold0 geometry_residual C5-Current-Residual seed=42
+DONE fold0 geometry_residual C5-Current-Residual seed=42 score=0.7488 seconds=1.8
+START fold0 geometry_residual C5-Current-Residual seed=93
+DONE fold0 geometry_residual C5-Current-Residual seed=93 score=0.7676 seconds=1.8
+START fold0 geometry_residual C5-History-Residual seed=17
+DONE fold0 geometry_residual C5-History-Residual seed=17 score=0.7520 seconds=1.9
+START fold0 geometry_residual C5-History-Residual seed=42
+DONE fold0 geometry_residual C5-History-Residual seed=42 score=0.7571 seconds=1.8
+START fold0 geometry_residual C5-History-Residual seed=93
+DONE fold0 geometry_residual C5-History-Residual seed=93 score=0.7563 seconds=1.9
+START fold0 event E2-MLP seed=17
+DONE fold0 event E2-MLP seed=17 score=1.3672 seconds=2.7
+START fold0 event E2-MLP seed=42
+DONE fold0 event E2-MLP seed=42 score=1.3741 seconds=2.7
+START fold0 event E2-MLP seed=93
+DONE fold0 event E2-MLP seed=93 score=1.3525 seconds=2.7
+START fold0 event E3-GRU seed=17
+DONE fold0 event E3-GRU seed=17 score=1.3866 seconds=3.1
+START fold0 event E3-GRU seed=42
+DONE fold0 event E3-GRU seed=42 score=1.3877 seconds=3.1
+START fold0 event E3-GRU seed=93
+DONE fold0 event E3-GRU seed=93 score=1.3875 seconds=3.1
+START fold0 event E4-Repeated-GRU seed=17
+DONE fold0 event E4-Repeated-GRU seed=17 score=1.3984 seconds=3.0
+START fold0 event E4-Repeated-GRU seed=42
+DONE fold0 event E4-Repeated-GRU seed=42 score=1.4005 seconds=3.2
+START fold0 event E4-Repeated-GRU seed=93
+DONE fold0 event E4-Repeated-GRU seed=93 score=1.4013 seconds=3.0
+START fold1 organ C2-MLP seed=17
+DONE fold1 organ C2-MLP seed=17 score=0.5153 seconds=12.8
+START fold1 organ C2-MLP seed=42
+DONE fold1 organ C2-MLP seed=42 score=0.5144 seconds=13.2
+START fold1 organ C2-MLP seed=93
+DONE fold1 organ C2-MLP seed=93 score=0.5184 seconds=14.0
+START fold1 organ C3-GRU seed=17
+DONE fold1 organ C3-GRU seed=17 score=0.4863 seconds=16.7
+START fold1 organ C3-GRU seed=42
+DONE fold1 organ C3-GRU seed=42 score=0.4898 seconds=17.3
+START fold1 organ C3-GRU seed=93
+DONE fold1 organ C3-GRU seed=93 score=0.4904 seconds=17.4
+START fold1 organ C4-Repeated-GRU seed=17
+DONE fold1 organ C4-Repeated-GRU seed=17 score=0.5232 seconds=16.0
+START fold1 organ C4-Repeated-GRU seed=42
+DONE fold1 organ C4-Repeated-GRU seed=42 score=0.5185 seconds=16.9
+START fold1 organ C4-Repeated-GRU seed=93
+DONE fold1 organ C4-Repeated-GRU seed=93 score=0.5253 seconds=17.3
+START fold1 geometry_absolute C5-Current-Absolute seed=17
+DONE fold1 geometry_absolute C5-Current-Absolute seed=17 score=0.4043 seconds=2.0
+START fold1 geometry_absolute C5-Current-Absolute seed=42
+DONE fold1 geometry_absolute C5-Current-Absolute seed=42 score=0.4031 seconds=1.8
+START fold1 geometry_absolute C5-Current-Absolute seed=93
+DONE fold1 geometry_absolute C5-Current-Absolute seed=93 score=0.3981 seconds=1.8
+START fold1 geometry_absolute C5-History-Absolute seed=17
+DONE fold1 geometry_absolute C5-History-Absolute seed=17 score=0.4286 seconds=1.9
+START fold1 geometry_absolute C5-History-Absolute seed=42
+DONE fold1 geometry_absolute C5-History-Absolute seed=42 score=0.4325 seconds=1.9
+START fold1 geometry_absolute C5-History-Absolute seed=93
+DONE fold1 geometry_absolute C5-History-Absolute seed=93 score=0.4270 seconds=1.9
+START fold1 geometry_residual C5-Current-Residual seed=17
+DONE fold1 geometry_residual C5-Current-Residual seed=17 score=0.7072 seconds=1.8
+START fold1 geometry_residual C5-Current-Residual seed=42
+DONE fold1 geometry_residual C5-Current-Residual seed=42 score=0.7040 seconds=2.0
+START fold1 geometry_residual C5-Current-Residual seed=93
+DONE fold1 geometry_residual C5-Current-Residual seed=93 score=0.7156 seconds=1.8
+START fold1 geometry_residual C5-History-Residual seed=17
+DONE fold1 geometry_residual C5-History-Residual seed=17 score=0.7205 seconds=1.8
+START fold1 geometry_residual C5-History-Residual seed=42
+DONE fold1 geometry_residual C5-History-Residual seed=42 score=0.7234 seconds=2.0
+START fold1 geometry_residual C5-History-Residual seed=93
+DONE fold1 geometry_residual C5-History-Residual seed=93 score=0.7246 seconds=1.8
+START fold1 event E2-MLP seed=17
+DONE fold1 event E2-MLP seed=17 score=1.3357 seconds=2.6
+START fold1 event E2-MLP seed=42
+DONE fold1 event E2-MLP seed=42 score=1.3402 seconds=2.6
+START fold1 event E2-MLP seed=93
+DONE fold1 event E2-MLP seed=93 score=1.3620 seconds=2.6
+START fold1 event E3-GRU seed=17
+DONE fold1 event E3-GRU seed=17 score=1.2870 seconds=3.0
+START fold1 event E3-GRU seed=42
+DONE fold1 event E3-GRU seed=42 score=1.2912 seconds=2.9
+START fold1 event E3-GRU seed=93
+DONE fold1 event E3-GRU seed=93 score=1.3062 seconds=2.9
+START fold1 event E4-Repeated-GRU seed=17
+DONE fold1 event E4-Repeated-GRU seed=17 score=1.3421 seconds=2.6
+START fold1 event E4-Repeated-GRU seed=42
+DONE fold1 event E4-Repeated-GRU seed=42 score=1.3514 seconds=2.3
+START fold1 event E4-Repeated-GRU seed=93
+DONE fold1 event E4-Repeated-GRU seed=93 score=1.3427 seconds=2.3
+START fold2 organ C2-MLP seed=17
+DONE fold2 organ C2-MLP seed=17 score=0.4870 seconds=13.4
+START fold2 organ C2-MLP seed=42
+DONE fold2 organ C2-MLP seed=42 score=0.4819 seconds=13.1
+START fold2 organ C2-MLP seed=93
+DONE fold2 organ C2-MLP seed=93 score=0.4859 seconds=14.2
+START fold2 organ C3-GRU seed=17
+DONE fold2 organ C3-GRU seed=17 score=0.4636 seconds=16.9
+START fold2 organ C3-GRU seed=42
+DONE fold2 organ C3-GRU seed=42 score=0.4582 seconds=16.5
+START fold2 organ C3-GRU seed=93
+DONE fold2 organ C3-GRU seed=93 score=0.4642 seconds=15.7
+START fold2 organ C4-Repeated-GRU seed=17
+DONE fold2 organ C4-Repeated-GRU seed=17 score=0.4847 seconds=14.8
+START fold2 organ C4-Repeated-GRU seed=42
+DONE fold2 organ C4-Repeated-GRU seed=42 score=0.4786 seconds=16.5
+START fold2 organ C4-Repeated-GRU seed=93
+DONE fold2 organ C4-Repeated-GRU seed=93 score=0.4829 seconds=16.6
+START fold2 geometry_absolute C5-Current-Absolute seed=17
+DONE fold2 geometry_absolute C5-Current-Absolute seed=17 score=0.4361 seconds=1.8
+START fold2 geometry_absolute C5-Current-Absolute seed=42
+DONE fold2 geometry_absolute C5-Current-Absolute seed=42 score=0.4167 seconds=1.7
+START fold2 geometry_absolute C5-Current-Absolute seed=93
+DONE fold2 geometry_absolute C5-Current-Absolute seed=93 score=0.4369 seconds=1.8
+START fold2 geometry_absolute C5-History-Absolute seed=17
+DONE fold2 geometry_absolute C5-History-Absolute seed=17 score=0.4447 seconds=1.7
+START fold2 geometry_absolute C5-History-Absolute seed=42
+DONE fold2 geometry_absolute C5-History-Absolute seed=42 score=0.4680 seconds=1.9
+START fold2 geometry_absolute C5-History-Absolute seed=93
+DONE fold2 geometry_absolute C5-History-Absolute seed=93 score=0.4473 seconds=1.9
+START fold2 geometry_residual C5-Current-Residual seed=17
+DONE fold2 geometry_residual C5-Current-Residual seed=17 score=0.7389 seconds=1.7
+START fold2 geometry_residual C5-Current-Residual seed=42
+DONE fold2 geometry_residual C5-Current-Residual seed=42 score=0.7421 seconds=1.9
+START fold2 geometry_residual C5-Current-Residual seed=93
+DONE fold2 geometry_residual C5-Current-Residual seed=93 score=0.7338 seconds=1.8
+START fold2 geometry_residual C5-History-Residual seed=17
+DONE fold2 geometry_residual C5-History-Residual seed=17 score=0.7348 seconds=2.0
+START fold2 geometry_residual C5-History-Residual seed=42
+DONE fold2 geometry_residual C5-History-Residual seed=42 score=0.7254 seconds=1.8
+START fold2 geometry_residual C5-History-Residual seed=93
+DONE fold2 geometry_residual C5-History-Residual seed=93 score=0.7180 seconds=1.9
+START fold2 event E2-MLP seed=17
+DONE fold2 event E2-MLP seed=17 score=1.1898 seconds=2.4
+START fold2 event E2-MLP seed=42
+DONE fold2 event E2-MLP seed=42 score=1.1938 seconds=2.5
+START fold2 event E2-MLP seed=93
+DONE fold2 event E2-MLP seed=93 score=1.1783 seconds=2.6
+START fold2 event E3-GRU seed=17
+DONE fold2 event E3-GRU seed=17 score=1.1725 seconds=3.1
+START fold2 event E3-GRU seed=42
+DONE fold2 event E3-GRU seed=42 score=1.1749 seconds=2.5
+START fold2 event E3-GRU seed=93
+DONE fold2 event E3-GRU seed=93 score=1.1549 seconds=2.3
+START fold2 event E4-Repeated-GRU seed=17
+DONE fold2 event E4-Repeated-GRU seed=17 score=1.2058 seconds=2.3
+START fold2 event E4-Repeated-GRU seed=42
+DONE fold2 event E4-Repeated-GRU seed=42 score=1.2106 seconds=2.1
+START fold2 event E4-Repeated-GRU seed=93
+DONE fold2 event E4-Repeated-GRU seed=93 score=1.2007 seconds=2.7
+START fold3 organ C2-MLP seed=17
+DONE fold3 organ C2-MLP seed=17 score=0.4732 seconds=13.8
+START fold3 organ C2-MLP seed=42
+DONE fold3 organ C2-MLP seed=42 score=0.4784 seconds=13.3
+START fold3 organ C2-MLP seed=93
+DONE fold3 organ C2-MLP seed=93 score=0.4822 seconds=13.8
+START fold3 organ C3-GRU seed=17
+DONE fold3 organ C3-GRU seed=17 score=0.4444 seconds=16.7
+START fold3 organ C3-GRU seed=42
+DONE fold3 organ C3-GRU seed=42 score=0.4448 seconds=16.6
+START fold3 organ C3-GRU seed=93
+DONE fold3 organ C3-GRU seed=93 score=0.4473 seconds=14.6
+START fold3 organ C4-Repeated-GRU seed=17
+DONE fold3 organ C4-Repeated-GRU seed=17 score=0.4801 seconds=15.6
+START fold3 organ C4-Repeated-GRU seed=42
+DONE fold3 organ C4-Repeated-GRU seed=42 score=0.4850 seconds=16.8
+START fold3 organ C4-Repeated-GRU seed=93
+DONE fold3 organ C4-Repeated-GRU seed=93 score=0.4873 seconds=16.7
+START fold3 geometry_absolute C5-Current-Absolute seed=17
+DONE fold3 geometry_absolute C5-Current-Absolute seed=17 score=0.4331 seconds=1.9
+START fold3 geometry_absolute C5-Current-Absolute seed=42
+DONE fold3 geometry_absolute C5-Current-Absolute seed=42 score=0.4359 seconds=1.8
+START fold3 geometry_absolute C5-Current-Absolute seed=93
+DONE fold3 geometry_absolute C5-Current-Absolute seed=93 score=0.4401 seconds=1.8
+START fold3 geometry_absolute C5-History-Absolute seed=17
+DONE fold3 geometry_absolute C5-History-Absolute seed=17 score=0.4546 seconds=1.9
+START fold3 geometry_absolute C5-History-Absolute seed=42
+DONE fold3 geometry_absolute C5-History-Absolute seed=42 score=0.4639 seconds=1.9
+START fold3 geometry_absolute C5-History-Absolute seed=93
+DONE fold3 geometry_absolute C5-History-Absolute seed=93 score=0.4504 seconds=1.9
+START fold3 geometry_residual C5-Current-Residual seed=17
+DONE fold3 geometry_residual C5-Current-Residual seed=17 score=0.7610 seconds=1.8
+START fold3 geometry_residual C5-Current-Residual seed=42
+DONE fold3 geometry_residual C5-Current-Residual seed=42 score=0.7668 seconds=1.9
+START fold3 geometry_residual C5-Current-Residual seed=93
+DONE fold3 geometry_residual C5-Current-Residual seed=93 score=0.7616 seconds=1.8
+START fold3 geometry_residual C5-History-Residual seed=17
+DONE fold3 geometry_residual C5-History-Residual seed=17 score=0.7818 seconds=1.9
+START fold3 geometry_residual C5-History-Residual seed=42
+DONE fold3 geometry_residual C5-History-Residual seed=42 score=0.7774 seconds=1.8
+START fold3 geometry_residual C5-History-Residual seed=93
+DONE fold3 geometry_residual C5-History-Residual seed=93 score=0.7723 seconds=1.7
+START fold3 event E2-MLP seed=17
+DONE fold3 event E2-MLP seed=17 score=1.2311 seconds=2.6
+START fold3 event E2-MLP seed=42
+DONE fold3 event E2-MLP seed=42 score=1.2324 seconds=2.6
+START fold3 event E2-MLP seed=93
+DONE fold3 event E2-MLP seed=93 score=1.2365 seconds=2.5
+START fold3 event E3-GRU seed=17
+DONE fold3 event E3-GRU seed=17 score=1.2351 seconds=2.5
+START fold3 event E3-GRU seed=42
+DONE fold3 event E3-GRU seed=42 score=1.2263 seconds=2.2
+START fold3 event E3-GRU seed=93
+DONE fold3 event E3-GRU seed=93 score=1.2259 seconds=2.3
+START fold3 event E4-Repeated-GRU seed=17
+DONE fold3 event E4-Repeated-GRU seed=17 score=1.2314 seconds=2.3
+START fold3 event E4-Repeated-GRU seed=42
+DONE fold3 event E4-Repeated-GRU seed=42 score=1.2373 seconds=2.8
+START fold3 event E4-Repeated-GRU seed=93
+DONE fold3 event E4-Repeated-GRU seed=93 score=1.2334 seconds=3.0

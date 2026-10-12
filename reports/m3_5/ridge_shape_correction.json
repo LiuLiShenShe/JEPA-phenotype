@@ -1,0 +1,14 @@
+{
+  "reason": "scikit-learn single-target Ridge returned 1D output. Reshape inference to n_samples x n_targets. No protocol/model/loss/seed/budget changes. Archive and rerun for final source fingerprints.",
+  "archived_paths": [
+    "outputs/m3_5/official/current",
+    "outputs/m3_5/official/organ",
+    "outputs/m3_5/official/geometry_absolute",
+    "outputs/m3_5/official/geometry_residual",
+    "outputs/m3_5/fold0/current",
+    "outputs/m3_5/fold1/current",
+    "outputs/m3_5/fold2/current",
+    "outputs/m3_5/fold3/current"
+  ],
+  "engine_sha256": "9b7e95307b62d269a750d9e4e19f5d1b4839b4620bfc6e23cb4b791e5dddc6c7"
+}

@@ -1,0 +1,16 @@
+{
+  "reason": "Do not even precompute C5 learned current-geometry proxy on test plants before selection. Train/validation computations and all model/loss/budget choices unchanged. No test prediction error was viewed or used. Rerun all final models with consistent final source hash.",
+  "archived_paths": [
+    "outputs/m3_5/official/current",
+    "outputs/m3_5/official/organ",
+    "outputs/m3_5/official/geometry_absolute",
+    "outputs/m3_5/official/geometry_residual",
+    "outputs/m3_5/official/event",
+    "outputs/m3_5/fold0/current",
+    "outputs/m3_5/fold0/organ",
+    "outputs/m3_5/fold1/current",
+    "outputs/m3_5/fold2/current",
+    "outputs/m3_5/fold3/current"
+  ],
+  "engine_sha256": "01e3122c48ad8b8f17d336b745282a0287104570fda54553b011614d1b8da4a6"
+}

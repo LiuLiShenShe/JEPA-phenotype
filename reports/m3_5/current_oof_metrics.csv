@@ -1,0 +1,16 @@
+partition,split,task,model,horizon,target,condition,plants,seeds,plant_macro_mae,seed_mae_std,plant_macro_rmse,delta_phenotype_mae,ci95_low,ci95_high,unit
+oof,test,current,A1-PointNet,0,plant_height,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,3,1.0696106218061219,0.06365239540539745,1.2196242221726912,,0.928245959382982,1.2232487700470325,cm
+oof,test,current,A1-PointNet,0,plant_width,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,3,1.7251092966417485,0.032605234202819265,2.1174619736164053,,1.573676863997415,1.890439672498468,cm
+oof,test,current,A1-PointNet,0,visible_organ_count,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,3,1.609446814852457,0.04757182400102987,1.9194555825316268,,1.4200016840906255,1.8227680930707992,leaves
+oof,test,current,A2-DAS-Ridge,0,plant_height,DAS-only control; no geometry input,48,1,3.6651373942382697,0.0,4.132187904820448,,3.095699362190079,4.2792736529988415,cm
+oof,test,current,A2-DAS-Ridge,0,plant_width,DAS-only control; no geometry input,48,1,5.155698811879641,0.0,6.300788962391848,,4.807938618744218,5.52035337480947,cm
+oof,test,current,A2-DAS-Ridge,0,visible_organ_count,DAS-only control; no geometry input,48,1,1.4431060334529102,0.0,1.7115097657945102,,1.2910905943821536,1.5950599499743767,leaves
+oof,test,current,A2-Geometry-Ridge,0,plant_height,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,1,0.5867772683829034,0.0,0.6351833877841108,,0.47483870858403476,0.7142628603709722,cm
+oof,test,current,A2-Geometry-Ridge,0,plant_width,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,1,0.26852319426877885,0.0,0.44494757856891026,,0.2079942861975236,0.34737439388817687,cm
+oof,test,current,A2-Geometry-Ridge,0,visible_organ_count,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,1,1.407159656310169,0.0,1.6941928963907384,,1.2535071777346716,1.5660865329166198,leaves
+oof,test,current,A2-Hull-Proxy,0,plant_width,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,1,0.10053474626953805,0.0,0.2583329296009571,,0.05694645628046968,0.17156505965478033,cm
+oof,test,current,A2-Z-Quantile-Proxy,0,plant_height,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,1,4.542843675866835,0.0,5.433818986489225,,3.986852217324561,5.0994050288413515,cm
+oof,test,current,A2-Z-Range-Proxy,0,plant_height,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,1,6.245746961319386,0.0,7.54057990467944,,5.424460377984328,7.029680126297094,cm
+oof,test,current,A3-PointNet-Geometry,0,plant_height,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,3,0.76899009764889,0.008122104172861343,0.8664828455311756,,0.6414112320395352,0.9082118967682681,cm
+oof,test,current,A3-PointNet-Geometry,0,plant_width,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,3,1.242924003146735,0.040524751714439554,1.5377063427973505,,1.1325675429688742,1.359856193851797,cm
+oof,test,current,A3-PointNet-Geometry,0,visible_organ_count,Non-Oracle XYZ geometry; no phenotype or instance inputs,48,3,1.4125613430794008,0.03206291594343138,1.6975060768904815,,1.2297984181936115,1.609142403173667,leaves

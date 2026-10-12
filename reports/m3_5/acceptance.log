@@ -1,0 +1,40 @@
+{
+  "engineering_decision": "PASS",
+  "research_recommendation": "REPRESENTATION-FIRST",
+  "actual_data_only": true,
+  "raw_associations_correct": true,
+  "all_feasible_baselines_completed": true,
+  "strict_plant_partitions": true,
+  "test_exploratory_not_confirmation": true,
+  "selection_locked_before_test": true,
+  "primary_task_not_posthoc_test_selected": true,
+  "training": {
+    "neural_runs": 180,
+    "total_optimizer_steps": 119400,
+    "total_training_seconds": 1375.1307165222242,
+    "all_fixed_budget_completed": true,
+    "real_repeat_matched": true,
+    "test_used_for_selection": false
+  },
+  "tests": {
+    "tests": 108,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "protection": {
+    "files_checked": 5771,
+    "raw_files_checked": 891,
+    "changes": [],
+    "commit": "5cf34b8d90b5699597f2875a63e40ab9a02dbe37",
+    "legacy_unchanged": true,
+    "V4_archive_bytes_MD5_unchanged": true,
+    "V4_readme_MD5_unchanged": true,
+    "M0_raw_images_verified_against_original_manifest": 34164,
+    "M0_manifest_entries_without_hash": 0
+  },
+  "inference_exact_replay_runs": 180,
+  "figures": 6,
+  "m4_started": false,
+  "git_commit_merge_push": false
+}

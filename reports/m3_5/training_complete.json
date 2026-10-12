@@ -1,0 +1,8 @@
+{
+  "neural_runs": 180,
+  "total_optimizer_steps": 119400,
+  "total_training_seconds": 1375.1307165222242,
+  "all_fixed_budget_completed": true,
+  "real_repeat_matched": true,
+  "test_used_for_selection": false
+}

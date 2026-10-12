@@ -1,0 +1,67 @@
+{
+  "backend": "Python/Matplotlib",
+  "figures": [
+    {
+      "figure": "01_leaf_trajectory",
+      "caption": "Selection: lexically first longest observed validation trajectory, based on history coverage not model errors. Missing observations are gaps, never zero.",
+      "source_csv": "figures/01_leaf_trajectory_source.csv",
+      "source_sha256": "82100cae75b75299a086879b277ea6bd5494ba69f0e13ff88cb911a774a444f8",
+      "all_data_real": true,
+      "text_outside_canvas": [],
+      "rendered": true,
+      "dpi": 300
+    },
+    {
+      "figure": "02_leaf_forecasts",
+      "caption": "Same preselected validation leaf. Forecast curves average predictions for visual clarity; all inferential metrics average per-seed errors, not ensemble forecasts. C0–C4 are Oracle organ-state conditions.",
+      "source_csv": "figures/02_leaf_forecasts_source.csv",
+      "source_sha256": "b9f63ad7fec5cf52eb117a84dd50a17227c7d0fb0e4210dfe4965e08260fe3b8",
+      "all_data_real": true,
+      "text_outside_canvas": [],
+      "rendered": true,
+      "dpi": 300
+    },
+    {
+      "figure": "03_organ_history_increment",
+      "caption": "Negative differences favor real history. Independent unit: plant, 12 validation plants per split; errors averaged over three seeds then paired plant bootstrap (10,000 draws). Orange -0.5cm line is prespecified practical threshold; secondary tasks do not choose the branch. Fold training sets overlap.",
+      "source_csv": "figures/03_organ_history_increment_source.csv",
+      "source_sha256": "25664c004262ce535d95cfa06841fe318152df87b418ba4fc2f0824c6dcb4aaa",
+      "all_data_real": true,
+      "text_outside_canvas": [],
+      "rendered": true,
+      "dpi": 300
+    },
+    {
+      "figure": "04_first_observation_events",
+      "caption": "Same history-coverage-selected validation plant; cumulative event labels include scans through target. Future IDs never enter model inputs. Displayed probability curves are seed means, not the locked per-seed threshold decisions.",
+      "source_csv": "figures/04_first_observation_events_source.csv",
+      "source_sha256": "ae64026cb2ebb31029fecf6fe176e10c23559eb48727f48c2fa30a5637ac13ac",
+      "all_data_real": true,
+      "text_outside_canvas": [],
+      "rendered": true,
+      "dpi": 300
+    },
+    {
+      "figure": "05_current_geometry_vs_targets",
+      "caption": "Raw height quantile span is not official Height Maximum: no manual growth point, no semantic taproot removal or label-wise voxel reduction. Raw hull diameter also differs from official downsampled/excluded geometry. Ridge uses train-only calibration; no future correction.",
+      "source_csv": "figures/05_current_geometry_vs_targets_source.csv",
+      "source_sha256": "80439663571846fd27a14c2192b24b56a8324337323d78c3b5586ce5cde48b56",
+      "all_data_real": true,
+      "text_outside_canvas": [],
+      "rendered": true,
+      "dpi": 300
+    },
+    {
+      "figure": "06_failure_case",
+      "caption": "Post-hoc highest validation primary MAE plant and organ; diagnostic only, never used to alter task/model/branch. Missing future targets are excluded from morphology metrics but remain in visibility assessment; full measurement trace is in outputs/m3_5/data/organ_trajectories.csv.",
+      "source_csv": "figures/06_failure_case_source.csv",
+      "source_sha256": "b45d2a471d0db5abfbd953e3d795e5178c8629ec316d96af23c246083cb9a840",
+      "all_data_real": true,
+      "text_outside_canvas": [],
+      "rendered": true,
+      "dpi": 300
+    }
+  ],
+  "all_text_inside_canvas": true,
+  "AI_generated_quantitative_content": false
+}

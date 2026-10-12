@@ -1,0 +1,12 @@
+{
+  "reason": "numpy float32 validation score could not serialize to JSON. Cast score to Python float. No architecture, hyperparameter, seed, data or protocol change. Incomplete run archived, current runs rerun with final source hash.",
+  "archived_paths": [
+    "outputs/m3_5/official/current",
+    "outputs/m3_5/official/organ",
+    "outputs/m3_5/fold0/current",
+    "outputs/m3_5/fold1/current",
+    "outputs/m3_5/fold2/current",
+    "outputs/m3_5/fold3/current"
+  ],
+  "final_engine_sha256": "3002d3e536780da9215afccad24d237c1d47f9eb976c27e7871a750e009b4be2"
+}

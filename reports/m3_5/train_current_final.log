@@ -1,0 +1,60 @@
+START official A1-PointNet seed=17
+DONE official A1-PointNet seed=17 score=0.3228 seconds=16.1
+START official A1-PointNet seed=42
+DONE official A1-PointNet seed=42 score=0.3159 seconds=15.3
+START official A1-PointNet seed=93
+DONE official A1-PointNet seed=93 score=0.3050 seconds=14.4
+START official A3-PointNet-Geometry seed=17
+DONE official A3-PointNet-Geometry seed=17 score=0.2653 seconds=14.2
+START official A3-PointNet-Geometry seed=42
+DONE official A3-PointNet-Geometry seed=42 score=0.2726 seconds=15.0
+START official A3-PointNet-Geometry seed=93
+DONE official A3-PointNet-Geometry seed=93 score=0.2811 seconds=15.1
+START fold0 A1-PointNet seed=17
+DONE fold0 A1-PointNet seed=17 score=0.3429 seconds=15.2
+START fold0 A1-PointNet seed=42
+DONE fold0 A1-PointNet seed=42 score=0.3501 seconds=14.9
+START fold0 A1-PointNet seed=93
+DONE fold0 A1-PointNet seed=93 score=0.3410 seconds=14.3
+START fold0 A3-PointNet-Geometry seed=17
+DONE fold0 A3-PointNet-Geometry seed=17 score=0.2961 seconds=14.4
+START fold0 A3-PointNet-Geometry seed=42
+DONE fold0 A3-PointNet-Geometry seed=42 score=0.2801 seconds=15.1
+START fold0 A3-PointNet-Geometry seed=93
+DONE fold0 A3-PointNet-Geometry seed=93 score=0.2688 seconds=15.2
+START fold1 A1-PointNet seed=17
+DONE fold1 A1-PointNet seed=17 score=0.3491 seconds=15.1
+START fold1 A1-PointNet seed=42
+DONE fold1 A1-PointNet seed=42 score=0.3411 seconds=15.2
+START fold1 A1-PointNet seed=93
+DONE fold1 A1-PointNet seed=93 score=0.3304 seconds=13.8
+START fold1 A3-PointNet-Geometry seed=17
+DONE fold1 A3-PointNet-Geometry seed=17 score=0.2725 seconds=14.5
+START fold1 A3-PointNet-Geometry seed=42
+DONE fold1 A3-PointNet-Geometry seed=42 score=0.2818 seconds=14.9
+START fold1 A3-PointNet-Geometry seed=93
+DONE fold1 A3-PointNet-Geometry seed=93 score=0.2918 seconds=14.7
+START fold2 A1-PointNet seed=17
+DONE fold2 A1-PointNet seed=17 score=0.2832 seconds=14.8
+START fold2 A1-PointNet seed=42
+DONE fold2 A1-PointNet seed=42 score=0.2922 seconds=14.9
+START fold2 A1-PointNet seed=93
+DONE fold2 A1-PointNet seed=93 score=0.2723 seconds=14.1
+START fold2 A3-PointNet-Geometry seed=17
+DONE fold2 A3-PointNet-Geometry seed=17 score=0.2359 seconds=14.8
+START fold2 A3-PointNet-Geometry seed=42
+DONE fold2 A3-PointNet-Geometry seed=42 score=0.2456 seconds=15.2
+START fold2 A3-PointNet-Geometry seed=93
+DONE fold2 A3-PointNet-Geometry seed=93 score=0.2218 seconds=14.9
+START fold3 A1-PointNet seed=17
+DONE fold3 A1-PointNet seed=17 score=0.3564 seconds=15.1
+START fold3 A1-PointNet seed=42
+DONE fold3 A1-PointNet seed=42 score=0.3774 seconds=14.8
+START fold3 A1-PointNet seed=93
+DONE fold3 A1-PointNet seed=93 score=0.3634 seconds=14.0
+START fold3 A3-PointNet-Geometry seed=17
+DONE fold3 A3-PointNet-Geometry seed=17 score=0.2914 seconds=13.4
+START fold3 A3-PointNet-Geometry seed=42
+DONE fold3 A3-PointNet-Geometry seed=42 score=0.2927 seconds=14.9
+START fold3 A3-PointNet-Geometry seed=93
+DONE fold3 A3-PointNet-Geometry seed=93 score=0.2834 seconds=14.9

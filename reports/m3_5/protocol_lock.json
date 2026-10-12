@@ -1,0 +1,8 @@
+{
+  "sha256": "66a411fa3d2caffd6870506b71774f088aa9a5e395d22df8959cdf947a9e9ef7",
+  "locked_before_training": true,
+  "primary_task": {
+    "horizon": 2,
+    "target": "leaf_total_length"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "selection_lock_sha256": "02d1e68b67dae60220318973902b9364e942eb8dd3481bbfdef7ef9d004264c2",
+  "all_fixed_test_inference_after_lock": true,
+  "test_scope": "Exploratory: same official Test used by M3; folds share fitted training sets",
+  "plant_statistics": true,
+  "test_predictions": 176294
+}

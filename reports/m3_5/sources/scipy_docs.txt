@@ -1,0 +1,100 @@
+### Compute 2D ConvexHull of random points
+
+Source: https://github.com/scipy/scipy/blob/main/doc/source/tutorial/spatial.rst
+
+Calculate the convex hull of a 2D point set using ConvexHull.
+
+```python
+>>> from scipy.spatial import ConvexHull
+>>> rng = np.random.default_rng()
+>>> points = rng.random((30, 2))   # 30 random points in 2-D
+>>> hull = ConvexHull(points)
+```
+
+--------------------------------
+
+### Query nearest neighbor regions using KDTree
+
+Source: https://github.com/scipy/scipy/blob/main/doc/source/tutorial/spatial.rst
+
+Uses `scipy.spatial.KDTree` to identify nearest point indices and visualize Voronoi-like discrete nearest-neighbor regions with `pcolormesh`.
+
+```python
+>>> from scipy.spatial import KDTree
+>>> points = np.array([[0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2],
+...                    [2, 0], [2, 1], [2, 2]])
+>>> tree = KDTree(points)
+>>> tree.query([0.1, 0.1])
+(0.14142135623730953, 0)
+```
+
+```python
+>>> x = np.linspace(-0.5, 2.5, 31)
+>>> y = np.linspace(-0.5, 2.5, 33)
+>>> xx, yy = np.meshgrid(x, y)
+>>> xy = np.c_[xx.ravel(), yy.ravel()]
+>>> import matplotlib.pyplot as plt
+>>> dx_half, dy_half = np.diff(x[:2])[0] / 2., np.diff(y[:2])[0] / 2.
+>>> x_edges = np.concatenate((x - dx_half, [x[-1] + dx_half]))
+>>> y_edges = np.concatenate((y - dy_half, [y[-1] + dy_half]))
+>>> plt.pcolormesh(x_edges, y_edges, tree.query(xy)[1].reshape(33, 31), shading='flat')
+>>> plt.plot(points[:,0], points[:,1], 'ko')
+>>> plt.show()
+```
+
+--------------------------------
+
+### Python docstring: documented return for missing neighbors
+
+Source: https://github.com/scipy/scipy/blob/main/scipy/spatial/_ckdtree.pyx
+
+The Python docstring for cKDTree.query states that missing neighbors get infinite distance and index equal to self.n.
+
+```python
+        Returns
+        -------
+        d : array of floats
+            The distances to the nearest neighbors.
+            If ``x`` has shape ``tuple+(self.m,)``, then ``d`` has shape ``tuple+(k,)``.
+            When k == 1, the last dimension of the output is squeezed.
+            Missing neighbors are indicated with infinite distances.
+        i : ndarray of ints
+            The index of each neighbor in ``self.data``.
+            If ``x`` has shape ``tuple+(self.m,)``, then ``i`` has shape ``tuple+(k,)``.
+            When k == 1, the last dimension of the output is squeezed.
+            Missing neighbors are indicated with ``self.n``.
+```
+
+--------------------------------
+
+### ConvexHull area/volume computation via qhull
+
+Source: https://github.com/scipy/scipy/blob/main/spatial/_qhull.pyx
+
+area and volume are computed by calling qhull's volume_area() which invokes the C library qh_getarea to compute the total volume and total area.
+
+```python
+        self.volume, self.area = qhull.volume_area()
+```
+
+### Qhull 2020.2 > Abstract
+
+Source: https://github.com/scipy/scipy/blob/main/subprojects/qhull_r/libqhull_r/Announce.txt
+
+Abstract:
+
+The convex hull of a set of points is the smallest convex set that contains
+the points.  This article presents a practical convex hull algorithm that
+combines the two-dimensional Quickhull Algorithm with  the general dimension
+Beneath-Beyond Algorithm.  It is similar to the randomized, incremental
+algorithms for convex hull and Delaunay triangulation.  We provide empirical
+evidence that the algorithm runs faster when the input contains non-extreme
+points, and that it uses less memory.
+
+Computational geometry algorithms have traditionally assumed that input sets
+are well behaved.  When an algorithm is implemented with floating point
+arithmetic, this assumption can lead to serious errors.  We briefly describe
+a solution to this problem when computing the convex hull in two, three, or
+four dimensions.  The output is a set of "thick" facets that contain all
+possible exact convex hulls of the input.   A variation is effective in five
+or more dimensions.

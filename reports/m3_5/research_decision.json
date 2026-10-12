@@ -1,0 +1,94 @@
+{
+  "recommendation": "REPRESENTATION-FIRST",
+  "current_representation": [
+    {
+      "target": "plant_height",
+      "pointnet_validation_mae": 0.7126977973088154,
+      "geometry_validation_mae": 0.44958099340743707,
+      "threshold_cm": 1.0,
+      "ratio": 1.5852489490429287,
+      "unreliable": false
+    },
+    {
+      "target": "plant_width",
+      "pointnet_validation_mae": 1.680230555038909,
+      "geometry_validation_mae": 0.34221661073764204,
+      "threshold_cm": 1.0,
+      "ratio": 4.909845116568716,
+      "unreliable": true
+    }
+  ],
+  "primary_task": {
+    "horizon": 2,
+    "target": "leaf_total_length"
+  },
+  "organ_history_controls": [
+    {
+      "control": "C2-MLP",
+      "validation_improvement_pct": 14.432210108511622,
+      "validation_absolute_improvement_cm": 0.10662417013127641,
+      "validation_difference_ci95": [
+        -0.16026315425637142,
+        -0.05942494536767752
+      ],
+      "all_three_seeds_improve": true,
+      "improving_validation_folds": 4,
+      "folds": [
+        {
+          "fold": "fold0",
+          "validation_difference_cm": -0.03415652571495602
+        },
+        {
+          "fold": "fold1",
+          "validation_difference_cm": -0.07227806629989462
+        },
+        {
+          "fold": "fold2",
+          "validation_difference_cm": -0.054168525023406085
+        },
+        {
+          "fold": "fold3",
+          "validation_difference_cm": -0.08990569214272026
+        }
+      ],
+      "passed": false
+    },
+    {
+      "control": "C4-Repeated-GRU",
+      "validation_improvement_pct": 15.292262444207863,
+      "validation_absolute_improvement_cm": 0.11412526431361307,
+      "validation_difference_ci95": [
+        -0.17422206451676714,
+        -0.059427675445670014
+      ],
+      "all_three_seeds_improve": true,
+      "improving_validation_folds": 4,
+      "folds": [
+        {
+          "fold": "fold0",
+          "validation_difference_cm": -0.03842747402227293
+        },
+        {
+          "fold": "fold1",
+          "validation_difference_cm": -0.08246856236319204
+        },
+        {
+          "fold": "fold2",
+          "validation_difference_cm": -0.05748058096259475
+        },
+        {
+          "fold": "fold3",
+          "validation_difference_cm": -0.09937070919643716
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "reliable_practical_organ_temporal_signal": false,
+  "selection_evidence": "official validation plus locked four-fold validation checks only",
+  "test_is_exploratory": true,
+  "fold_validation_not_external_confirmation": true,
+  "start_m4_automatically": false,
+  "rule": "If current PointNet height or width exceeds 1cm and is >=1.5x a label-free geometry estimate on official validation, REPRESENTATION-FIRST. Otherwise ORGAN-TEMPORAL-JEPA only if the locked primary organ-history rule passes both controls; else PIVOT.",
+  "area_alone_cannot_justify_continuation": true
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "Exclude deterministic seed=-1 baseline-only row when requiring all three stochastic seed improvements. No model/data/threshold/primary-task changes. Original validation lock preceded first partial checkpoint replay; no Test metrics used in this correction. Practical 0.5cm criterion fails unchanged, recommendation remains REPRESENTATION-FIRST.",
+  "original_lock_at_utc": "2026-10-12T04:30:48.588999+00:00",
+  "original_recommendation": "REPRESENTATION-FIRST",
+  "model_retraining_required": false
+}

@@ -1,0 +1,1265 @@
+{
+  "runs": [
+    {
+      "partition": "official",
+      "model": "A1-PointNet",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "A1-PointNet",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "A1-PointNet",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "A3-PointNet-Geometry",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "A3-PointNet-Geometry",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "A3-PointNet-Geometry",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "E4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-Current-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-Current-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-Current-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-History-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-History-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-History-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-Current-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-Current-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-Current-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-History-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-History-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C5-History-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "official",
+      "model": "C4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "A1-PointNet",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "A1-PointNet",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "A1-PointNet",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "A3-PointNet-Geometry",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "A3-PointNet-Geometry",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "A3-PointNet-Geometry",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "E4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-Current-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-Current-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-Current-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-History-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-History-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-History-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-Current-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-Current-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-Current-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-History-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-History-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C5-History-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold0",
+      "model": "C4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "A1-PointNet",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "A1-PointNet",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "A1-PointNet",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "A3-PointNet-Geometry",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "A3-PointNet-Geometry",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "A3-PointNet-Geometry",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "E4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-Current-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-Current-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-Current-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-History-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-History-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-History-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-Current-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-Current-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-Current-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-History-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-History-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C5-History-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold1",
+      "model": "C4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "A1-PointNet",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "A1-PointNet",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "A1-PointNet",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "A3-PointNet-Geometry",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "A3-PointNet-Geometry",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "A3-PointNet-Geometry",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "E4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-Current-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-Current-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-Current-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-History-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-History-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-History-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-Current-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-Current-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-Current-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-History-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-History-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C5-History-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold2",
+      "model": "C4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "A1-PointNet",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "A1-PointNet",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "A1-PointNet",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "A3-PointNet-Geometry",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "A3-PointNet-Geometry",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "A3-PointNet-Geometry",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "E4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-Current-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-Current-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-Current-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-History-Absolute",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-History-Absolute",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-History-Absolute",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-Current-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-Current-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-Current-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-History-Residual",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-History-Residual",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C5-History-Residual",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C2-MLP",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C2-MLP",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C2-MLP",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C3-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C3-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C3-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C4-Repeated-GRU",
+      "seed": 17,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C4-Repeated-GRU",
+      "seed": 42,
+      "identical": true,
+      "max_difference": 0.0
+    },
+    {
+      "partition": "fold3",
+      "model": "C4-Repeated-GRU",
+      "seed": 93,
+      "identical": true,
+      "max_difference": 0.0
+    }
+  ],
+  "all_identical": true
+}

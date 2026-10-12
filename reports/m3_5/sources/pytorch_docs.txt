@@ -1,0 +1,188 @@
+### Save and Load PyTorch Module State Dictionary
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/modules.rst
+
+This snippet shows how to serialize and deserialize the `state_dict` of a PyTorch `nn.Module`. The `state_dict` contains the module's learnable parameters and persistent buffers. This is crucial for saving trained models and restoring them later for inference or further training.
+
+```python
+   # Save the module
+   torch.save(net.state_dict(), 'net.pt')
+
+   ...
+
+   # Load the module later on
+   new_net = Net()
+   new_net.load_state_dict(torch.load('net.pt'))
+```
+
+--------------------------------
+
+### Define, Save, and Load PyTorch Custom Module State Dictionary
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/serialization.rst
+
+This example defines a custom PyTorch module (`MyModule`) with linear layers, retrieves its `state_dict`, saves it to a file using `torch.save`, and then loads it back into a new instance of the module. This pattern is essential for persisting and restoring model weights and biases.
+
+```python
+# A module with two linear layers
+class MyModule(torch.nn.Module):
+      def __init__(self):
+        super().__init__()
+        self.l0 = torch.nn.Linear(4, 2)
+        self.l1 = torch.nn.Linear(2, 1)
+
+      def forward(self, input):
+        out0 = self.l0(input)
+        out0_relu = torch.nn.functional.relu(out0)
+        return self.l1(out0_relu)
+
+m = MyModule()
+# The original text shows the output of m.state_dict(), we capture it for saving.
+m_sd_to_save = m.state_dict()
+
+torch.save(m_sd_to_save, 'mymodule.pt')
+m_state_dict = torch.load('mymodule.pt')
+new_m = MyModule()
+new_m.load_state_dict(m_state_dict)
+```
+
+--------------------------------
+
+### Save/restore CUDA RNG state across all devices
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/cuda/random.py
+
+For deterministic CUDA checkpoint resume, get_rng_state_all() captures the RNG state of every CUDA device into a list of ByteTensors, and set_rng_state_all() restores them. Save these tensors alongside the model/optimizer state_dicts in the checkpoint to reproduce the random sequence after resume.
+
+```python
+def get_rng_state_all() -> list[Tensor]:
+    r"""Return a list of ByteTensor representing the random number states of all devices."""
+    results = [get_rng_state(i) for i in range(device_count())]
+    return results
+
+
+def set_rng_state(new_state: Tensor, device: int | str | torch.device = "cuda") -> None:
+    r"""Set the random number generator state of the specified GPU.
+
+    Args:
+        new_state (torch.ByteTensor): The desired state
+        device (torch.device or int, optional): The device to set the RNG state.
+            Default: ``'cuda'`` (i.e., ``torch.device('cuda')``, the current CUDA device).
+    """
+    if not is_initialized():
+        with torch._C._DisableFuncTorch():
+            # Clone the state because the callback will be triggered
+            # later when CUDA is lazy initialized.
+            new_state = new_state.clone(memory_format=torch.contiguous_format)
+    if isinstance(device, str):
+        device = torch.device(device)
+    elif isinstance(device, int):
+        device = torch.device("cuda", device)
+
+    def cb():
+        idx = device.index
+        if idx is None:
+            idx = current_device()
+        default_generator = torch.cuda.default_generators[idx]
+        default_generator.set_state(new_state)
+
+    _lazy_call(cb)
+
+
+def set_rng_state_all(new_states: Iterable[Tensor]) -> None:
+    r"""Set the random number generator state of all devices.
+
+    Args:
+        new_states (Iterable of torch.ByteTensor): The desired state for each device.
+    """
+    for i, state in enumerate(new_states):
+        set_rng_state(state, i)
+```
+
+--------------------------------
+
+### Reproducible inference benchmarking with no_grad, manual_seed, cuda.synchronize, and peak memory
+
+Source: https://github.com/pytorch/pytorch/blob/main/benchmarks/gpt_fast/generate.py
+
+Combines `@torch.no_grad()` decorator on generate(), `model.eval()` after loading, `torch.manual_seed(1234)` for deterministic RNG, `device_sync()` (wrapping `torch.cuda.synchronize()`) for accurate timing, and `torch.cuda.max_memory_reserved()` for peak memory measurement. This is the closest single-file pattern to the full reproducible inference diagnostics workflow.
+
+```python
+def device_sync(device):
+    if "cuda" in device:
+        torch.cuda.synchronize(device)
+    elif "cpu" in device:
+        pass
+
+
+@torch.no_grad()
+def generate(
+    model: torch.nn.Module, prompt: torch.Tensor, max_new_tokens: int, **sampling_kwargs
+) -> torch.Tensor:
+    ...
+
+
+def _load_model(x: GPTModelConfig, device="cuda", precision=torch.bfloat16):
+    ...
+    model.load_state_dict(state_dict, assign=True)
+    return model.eval()
+
+
+    torch.manual_seed(1234)
+    ...
+    for i in range(start, num_samples):
+        device_sync(device=device)
+        ...
+        t0 = time.perf_counter()
+        y = generate(
+            model, prompt, max_new_tokens, temperature=temperature, top_k=top_k
+        )
+        ...
+        device_sync(device=device)
+        t = time.perf_counter() - t0
+        ...
+    print(f"Memory used: {torch.cuda.max_memory_reserved() / 1e9:.02f} GB")
+```
+
+--------------------------------
+
+### GRU Input and Hidden State Shapes
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/nn/modules/rnn.py
+
+Documents the exact shapes for input (L, H_in) or (L, N, H_in), hidden state h_0 (D*num_layers, H_out) or (D*num_layers, N, H_out), and output shapes with N=batch, L=sequence, D=bidirectional multiplier, H_in=input_size, H_out=hidden_size.
+
+```python
+    Inputs: input, h_0
+        * **input**: tensor of shape :math:`(L, H_{in})` for unbatched input,
+          :math:`(L, N, H_{in})` when ``batch_first=False`` or
+          :math:`(N, L, H_{in})` when ``batch_first=True`` containing the features of
+          the input sequence.  The input can also be a packed variable length sequence.
+          See :func:`torch.nn.utils.rnn.pack_padded_sequence` or
+          :func:`torch.nn.utils.rnn.pack_sequence` for details.
+        * **h_0**: tensor of shape :math:`(D * \text{num\_layers}, H_{out})` or
+          :math:`(D * \text{num\_layers}, N, H_{out})`
+          containing the initial hidden state for the input sequence. Defaults to zeros if not provided.
+
+        where:
+
+        .. math::
+            \begin{aligned}
+                N ={} & \text{batch size} \\
+                L ={} & \text{sequence length} \\
+                D ={} & 2 \text{ if bidirectional=True otherwise } 1 \\
+                H_{in} ={} & \text{input\_size} \\
+                H_{out} ={} & \text{hidden\_size}
+            \end{aligned}
+
+    Outputs: output, h_n
+        * **output**: tensor of shape :math:`(L, D * H_{out})` for unbatched input,
+          :math:`(L, N, D * H_{out})` when ``batch_first=False`` or
+          :math:`(N, L, D * H_{out})` when ``batch_first=True`` containing the output features
+          `(h_t)` from the last layer of the GRU, for each `t`. If a
+          :class:`torch.nn.utils.rnn.PackedSequence` has been given as the input, the output
+          will also be a packed sequence.
+        * **h_n**: tensor of shape :math:`(D * \text{num\_layers}, H_{out})` or
+          :math:`(D * \text{num\_layers}, N, H_{out})` containing the final hidden state
+          for the input sequence.
+```

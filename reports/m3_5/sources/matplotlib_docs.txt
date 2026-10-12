@@ -1,0 +1,120 @@
+### Plot random walk with labels and legend
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/galleries/users_explain/axes/axes_intro.rst
+
+Creates a figure with two random walk lines, sets axis labels, title, and legend. Uses a constrained layout and a fixed figure size.
+
+```python
+fig, ax = plt.subplots(figsize=(5, 3), layout='constrained')
+    np.random.seed(19680801)
+    t = np.arange(200)
+    x = np.cumsum(np.random.randn(200))
+    y = np.cumsum(np.random.randn(200))
+    linesx = ax.plot(t, x, label='Random walk x')
+    linesy = ax.plot(t, y, label='Random walk y')
+
+    ax.set_xlabel('Time [s]')
+    ax.set_ylabel('Distance [km]')
+    ax.set_title('Random walk example')
+    ax.legend()
+```
+
+--------------------------------
+
+### Explicit Axes interface with subplots
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/galleries/users_explain/figure/api_interfaces.rst
+
+Explicit Axes interface for subplots: create a Figure and an array of Axes with plt.subplots(1, 2), then index the Axes array to plot on each subplot.
+
+```python
+import matplotlib.pyplot as plt
+
+fig, axs = plt.subplots(1, 2)
+axs[0].plot([1, 2, 3], [0, 0.5, 0.2])
+axs[1].plot([3, 2, 1], [0, 0.5, 0.2])
+```
+
+--------------------------------
+
+### Consistent imports
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/doc/devel/MEP/MEP12.rst
+
+Recommended import style for Matplotlib examples.
+
+```python
+import numpy as np
+
+import matplotlib.pyplot as plt
+```
+
+--------------------------------
+
+### Figure.savefig with format='png' or format='svg' using Agg backend
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/figure.py
+
+The Figure-level savefig method; the docstring shows the call signature and explains that format can be inferred from filename extension (e.g. .png/.svg) or set explicitly, and Agg is the default non-interactive backend for PNG (or use backend='svg' for SVG).
+
+```python
+def savefig(self, fname, *, transparent=None, **kwargs):
+    """
+    Save the current figure as an image or vector graphic to a file.
+
+    Call signature::
+
+      savefig(fname, *, transparent=None, dpi='figure', format=None,
+              metadata=None, bbox_inches=None, pad_inches=0.1,
+              facecolor='auto', edgecolor='auto', backend=None,
+              **kwargs
+             )
+
+    The available output formats depend on the backend being used.
+
+    Parameters
+    ----------
+    fname : str or path-like or binary file-like
+        A path, or a Python file-like object, or
+        possibly some backend-dependent object such as
+        `matplotlib.backends.backend_pdf.PdfPages`.
+
+        If *format* is set, it determines the output format, and the file
+        is saved as *fname*.  Note that *fname* is used verbatim, and there
+        is no attempt to make the extension, if any, of *fname* match
+        *format*, and no extension is appended.
+
+        If *format* is not set, then the format is inferred from the
+        extension of *fname*, if there is one.  If *format* is not
+        set and *fname* has no extension, then the file is saved with
+        :rc:`savefig.format` and the appropriate extension is appended to
+        *fname*.
+
+    ...
+
+    format : str
+        The file format, e.g. 'png', 'pdf', 'svg', ... The behavior when
+        this is unset is documented under *fname*.
+
+    ...
+
+    backend : str, optional
+        Use a non-default backend to render the file, e.g. to render a
+        png file with the "cairo" backend rather than the default "agg",
+        or a pdf file with the "pgf" backend rather than the default
+        "pdf".  Note that the default backend is normally sufficient.  See
+        :ref:`the-builtin-backends` for a list of valid backends for each
+        file format.  Custom backends can be referenced as "module://...".
+    """
+    kwargs.setdefault('dpi', mpl.rcParams['savefig.dpi'])
+    transparent = mpl._val_or_rc(transparent, 'savefig.transparent')
+    ...
+    self.canvas.print_figure(fname, **kwargs)
+```
+
+### test_inline_01.ipynb
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/tests/data/test_inline_01.ipynb
+
+fig, ax = plt.subplots(figsize=(3, 2))
+ax.plot([1, 3, 2])

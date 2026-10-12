@@ -1,0 +1,54 @@
+START official organ C2-MLP seed=17
+DONE official organ C2-MLP seed=17 score=0.5357 seconds=14.0
+START official organ C2-MLP seed=42
+DONE official organ C2-MLP seed=42 score=0.5329 seconds=12.9
+START official organ C2-MLP seed=93
+DONE official organ C2-MLP seed=93 score=0.5406 seconds=12.8
+START official organ C3-GRU seed=17
+DONE official organ C3-GRU seed=17 score=0.4914 seconds=14.4
+START official organ C3-GRU seed=42
+DONE official organ C3-GRU seed=42 score=0.4864 seconds=15.5
+START official organ C3-GRU seed=93
+DONE official organ C3-GRU seed=93 score=0.4924 seconds=13.1
+START official organ C4-Repeated-GRU seed=17
+DONE official organ C4-Repeated-GRU seed=17 score=0.5394 seconds=16.4
+START official organ C4-Repeated-GRU seed=42
+DONE official organ C4-Repeated-GRU seed=42 score=0.5439 seconds=16.2
+START official organ C4-Repeated-GRU seed=93
+DONE official organ C4-Repeated-GRU seed=93 score=0.5459 seconds=16.9
+START official geometry_absolute C5-Current-Absolute seed=17
+DONE official geometry_absolute C5-Current-Absolute seed=17 score=0.4557 seconds=1.6
+START official geometry_absolute C5-Current-Absolute seed=42
+DONE official geometry_absolute C5-Current-Absolute seed=42 score=0.4655 seconds=1.5
+START official geometry_absolute C5-Current-Absolute seed=93
+DONE official geometry_absolute C5-Current-Absolute seed=93 score=0.4536 seconds=1.6
+START official geometry_absolute C5-History-Absolute seed=17
+DONE official geometry_absolute C5-History-Absolute seed=17 score=0.4805 seconds=1.4
+START official geometry_absolute C5-History-Absolute seed=42
+DONE official geometry_absolute C5-History-Absolute seed=42 score=0.4863 seconds=1.6
+START official geometry_absolute C5-History-Absolute seed=93
+DONE official geometry_absolute C5-History-Absolute seed=93 score=0.5014 seconds=1.5
+START official geometry_residual C5-Current-Residual seed=17
+DONE official geometry_residual C5-Current-Residual seed=17 score=0.8301 seconds=1.0
+START official geometry_residual C5-Current-Residual seed=42
+DONE official geometry_residual C5-Current-Residual seed=42 score=0.8246 seconds=0.7
+START official geometry_residual C5-Current-Residual seed=93
+DONE official geometry_residual C5-Current-Residual seed=93 score=0.8207 seconds=0.7
+START official geometry_residual C5-History-Residual seed=17
+DONE official geometry_residual C5-History-Residual seed=17 score=0.8292 seconds=1.5
+START official geometry_residual C5-History-Residual seed=42
+DONE official geometry_residual C5-History-Residual seed=42 score=0.8296 seconds=1.6
+START official geometry_residual C5-History-Residual seed=93
+DONE official geometry_residual C5-History-Residual seed=93 score=0.8352 seconds=1.5
+Traceback (most recent call last):
+  File "/fj/JEPA-表型/scripts/train_m3_5.py", line 64, in <module>
+    run(parser.parse_args())
+  File "/fj/JEPA-表型/scripts/train_m3_5.py", line 53, in run
+    event_simple(root, partition, data, protocol)
+  File "/fj/JEPA-表型/src/m35/engine.py", line 456, in event_simple
+    records.append(tabular_prediction_frame(data, selected[keep], counts[keep], prob[keep], "E1-Logistic", -1, partition, "event"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/src/m35/engine.py", line 389, in tabular_prediction_frame
+    result[f"pred_{target}"] = absolute[:, position]
+                               ~~~~~~~~^^^^^^^^^^^^^
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed

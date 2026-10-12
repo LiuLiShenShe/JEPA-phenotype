@@ -1,0 +1,111 @@
+### Create and Use a Scikit-learn Pipeline in Python
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/1.7.1/doc/getting_started.rst
+
+Demonstrates creating a machine learning pipeline that chains data preprocessing (StandardScaler) and a prediction model (LogisticRegression). It shows fitting the entire pipeline to training data after splitting the dataset.
+
+```Python
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import make_pipeline
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+pipe = make_pipeline(
+    StandardScaler(),
+    LogisticRegression()
+)
+
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
+
+pipe.fit(X_train, y_train)
+```
+
+--------------------------------
+
+### LogisticRegression, PoissonRegressor, GammaRegressor, TweedieRegressor Sample Weight Handling
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/1.7.1/doc/whats_new/v1.6.rst
+
+Fixes in scikit-learn's linear models ensure that sample weights are correctly considered when deciding to fall back to the 'lbfgs' solver due to numerical instability in the 'newton-cholesky' solver.
+
+```python
+from sklearn.linear_model import LogisticRegression, PoissonRegressor, GammaRegressor, TweedieRegressor
+
+# Example usage demonstrating the fix:
+# model = LogisticRegression(solver='newton-cholesky')
+# model.fit(X, y, sample_weight=weights)
+# The model will now correctly fall back to 'lbfgs' if needed.
+```
+
+--------------------------------
+
+### Ridge Regression Sample Weights
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/1.7.1/doc/whats_new/v0.15.rst
+
+Ridge regression can now handle sample weights in feature space, not just sample space, utilizing the Cholesky solver.
+
+```APIDOC
+linear_model.Ridge:
+  __init__(alpha=1.0, fit_intercept=True, normalize=False, copy_X=True, max_iter=None, tol=1e-3, solver='auto', random_state=None)
+    Supports sample_weight in feature space.
+```
+
+--------------------------------
+
+### Fix for average_precision_score returning NaN with zero sample_weight
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/1.7.1/doc/whats_new/v0.20.rst
+
+A bug in `metrics.average_precision_score` where it could return `nan` when `sample_weight` contained zeros has been fixed. This ensures correct calculation even with zero-weighted samples.
+
+```APIDOC
+metrics.average_precision_score(y_true, y_score, *, average='macro', sample_weight=None, pos_label=None, type_of_target='binary')
+  - Computes the average precision (AP).
+  - Parameters:
+    - y_true: Array-like of shape (n_samples,)
+      True binary labels.
+    - y_score: Array-like of shape (n_samples,)
+      Target scores. Higher scores indicate the positive class.
+    - sample_weight: array-like of shape (n_samples,), default=None
+      Sample weights.
+  - Returns:
+    - average_precision: float
+      Average precision.
+```
+
+--------------------------------
+
+### linear_model Module Parameter Additions and Fixes
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/1.7.1/doc/whats_new/v0.20.rst
+
+Several updates across linear_model classes. SGDClassifier, SGDRegressor, PassiveAggressiveClassifier, PassiveAggressiveRegressor, and Perceptron now support 'early_stopping', 'validation_fraction', and 'n_iter_no_change' parameters. BayesianRidge supports 'sample_weight'. Fixes were made for logistic_regression_path, LogisticRegression (predict_proba), and LogisticRegressionCV (scoring and multiclass strategy). OrthogonalMatchingPursuit was fixed for normalize=False.
+
+```APIDOC
+linear_model.SGDClassifier, SGDRegressor, PassiveAggressiveClassifier, PassiveAggressiveRegressor, Perceptron:
+  - Added parameters: 'early_stopping', 'validation_fraction', 'n_iter_no_change'.
+  - New learning rate strategy: 'adaptive'.
+
+linear_model.BayesianRidge:
+  - Added 'sample_weight' parameter to fit method for weighted linear regression.
+
+logistic.logistic_regression_path:
+  - Fixed coefficient calculation for multiclass='multinomial'.
+
+linear_model.LogisticRegression:
+  - Fixed incorrect probabilities in predict_proba for binary outcomes with multi_class='multinomial'.
+
+linear_model.LogisticRegressionCV:
+  - Fixed 'score' method to use the 'scoring' parameter instead of always accuracy.
+  - Fixed 'ovr' strategy being used by default in multiclass settings instead of 'multinomial' when specified.
+
+linear_model.OrthogonalMatchingPursuit:
+  - Fixed bug when setting normalize=False.
+
+linear_model.ARDRegression:
+  - Fixed a bug (details not fully specified in source text).
+```

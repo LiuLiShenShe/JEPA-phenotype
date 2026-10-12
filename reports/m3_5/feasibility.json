@@ -1,0 +1,1276 @@
+{
+  "gates": {
+    "official": {
+      "1": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 67,
+                "plants": 24,
+                "fraction": 0.026821457165732587
+              },
+              "1": {
+                "samples": 2431,
+                "plants": 24,
+                "fraction": 0.9731785428342674
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 28,
+                "plants": 12,
+                "fraction": 0.023890784982935155
+              },
+              "1": {
+                "samples": 1144,
+                "plants": 12,
+                "fraction": 0.9761092150170648
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 161,
+                "plants": 24,
+                "fraction": 0.5160256410256411
+              },
+              "1": {
+                "samples": 151,
+                "plants": 24,
+                "fraction": 0.483974358974359
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 89,
+                "plants": 12,
+                "fraction": 0.5705128205128205
+              },
+              "1": {
+                "samples": 67,
+                "plants": 12,
+                "fraction": 0.42948717948717946
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 126,
+                "plants": 24,
+                "fraction": 0.0559254327563249
+              },
+              "1": {
+                "samples": 2127,
+                "plants": 24,
+                "fraction": 0.9440745672436751
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 53,
+                "plants": 12,
+                "fraction": 0.05023696682464455
+              },
+              "1": {
+                "samples": 1002,
+                "plants": 12,
+                "fraction": 0.9497630331753555
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 70,
+                "plants": 23,
+                "fraction": 0.24305555555555555
+              },
+              "1": {
+                "samples": 218,
+                "plants": 24,
+                "fraction": 0.7569444444444444
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 46,
+                "plants": 12,
+                "fraction": 0.3194444444444444
+              },
+              "1": {
+                "samples": 98,
+                "plants": 12,
+                "fraction": 0.6805555555555556
+              }
+            }
+          }
+        }
+      }
+    },
+    "fold0": {
+      "1": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 62,
+                "plants": 24,
+                "fraction": 0.025326797385620915
+              },
+              "1": {
+                "samples": 2386,
+                "plants": 24,
+                "fraction": 0.9746732026143791
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 32,
+                "plants": 12,
+                "fraction": 0.0258272800645682
+              },
+              "1": {
+                "samples": 1207,
+                "plants": 12,
+                "fraction": 0.9741727199354318
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 166,
+                "plants": 24,
+                "fraction": 0.532051282051282
+              },
+              "1": {
+                "samples": 146,
+                "plants": 24,
+                "fraction": 0.46794871794871795
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 82,
+                "plants": 12,
+                "fraction": 0.5256410256410257
+              },
+              "1": {
+                "samples": 74,
+                "plants": 12,
+                "fraction": 0.47435897435897434
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 118,
+                "plants": 24,
+                "fraction": 0.05349048050770626
+              },
+              "1": {
+                "samples": 2088,
+                "plants": 24,
+                "fraction": 0.9465095194922938
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 60,
+                "plants": 12,
+                "fraction": 0.053811659192825115
+              },
+              "1": {
+                "samples": 1055,
+                "plants": 12,
+                "fraction": 0.9461883408071748
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 81,
+                "plants": 24,
+                "fraction": 0.28125
+              },
+              "1": {
+                "samples": 207,
+                "plants": 24,
+                "fraction": 0.71875
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 36,
+                "plants": 11,
+                "fraction": 0.25
+              },
+              "1": {
+                "samples": 108,
+                "plants": 12,
+                "fraction": 0.75
+              }
+            }
+          }
+        }
+      }
+    },
+    "fold1": {
+      "1": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 65,
+                "plants": 24,
+                "fraction": 0.025927403270841642
+              },
+              "1": {
+                "samples": 2442,
+                "plants": 24,
+                "fraction": 0.9740725967291584
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 30,
+                "plants": 12,
+                "fraction": 0.025167785234899327
+              },
+              "1": {
+                "samples": 1162,
+                "plants": 12,
+                "fraction": 0.9748322147651006
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 157,
+                "plants": 24,
+                "fraction": 0.5032051282051282
+              },
+              "1": {
+                "samples": 155,
+                "plants": 24,
+                "fraction": 0.4967948717948718
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 86,
+                "plants": 12,
+                "fraction": 0.5512820512820513
+              },
+              "1": {
+                "samples": 70,
+                "plants": 12,
+                "fraction": 0.44871794871794873
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 126,
+                "plants": 24,
+                "fraction": 0.05572755417956656
+              },
+              "1": {
+                "samples": 2135,
+                "plants": 24,
+                "fraction": 0.9442724458204335
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 57,
+                "plants": 12,
+                "fraction": 0.05317164179104478
+              },
+              "1": {
+                "samples": 1015,
+                "plants": 12,
+                "fraction": 0.9468283582089553
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 75,
+                "plants": 22,
+                "fraction": 0.2604166666666667
+              },
+              "1": {
+                "samples": 213,
+                "plants": 24,
+                "fraction": 0.7395833333333334
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 40,
+                "plants": 12,
+                "fraction": 0.2777777777777778
+              },
+              "1": {
+                "samples": 104,
+                "plants": 12,
+                "fraction": 0.7222222222222222
+              }
+            }
+          }
+        }
+      }
+    },
+    "fold2": {
+      "1": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 65,
+                "plants": 24,
+                "fraction": 0.02610441767068273
+              },
+              "1": {
+                "samples": 2425,
+                "plants": 24,
+                "fraction": 0.9738955823293173
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 32,
+                "plants": 12,
+                "fraction": 0.025477707006369428
+              },
+              "1": {
+                "samples": 1224,
+                "plants": 12,
+                "fraction": 0.9745222929936306
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 159,
+                "plants": 24,
+                "fraction": 0.5096153846153846
+              },
+              "1": {
+                "samples": 153,
+                "plants": 24,
+                "fraction": 0.49038461538461536
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 80,
+                "plants": 12,
+                "fraction": 0.5128205128205128
+              },
+              "1": {
+                "samples": 76,
+                "plants": 12,
+                "fraction": 0.48717948717948717
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 125,
+                "plants": 24,
+                "fraction": 0.05575379125780553
+              },
+              "1": {
+                "samples": 2117,
+                "plants": 24,
+                "fraction": 0.9442462087421944
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 61,
+                "plants": 12,
+                "fraction": 0.053791887125220456
+              },
+              "1": {
+                "samples": 1073,
+                "plants": 12,
+                "fraction": 0.9462081128747796
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 70,
+                "plants": 21,
+                "fraction": 0.24305555555555555
+              },
+              "1": {
+                "samples": 218,
+                "plants": 24,
+                "fraction": 0.7569444444444444
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 41,
+                "plants": 12,
+                "fraction": 0.2847222222222222
+              },
+              "1": {
+                "samples": 103,
+                "plants": 12,
+                "fraction": 0.7152777777777778
+              }
+            }
+          }
+        }
+      }
+    },
+    "fold3": {
+      "1": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 62,
+                "plants": 24,
+                "fraction": 0.025503907856849032
+              },
+              "1": {
+                "samples": 2369,
+                "plants": 24,
+                "fraction": 0.9744960921431509
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 33,
+                "plants": 12,
+                "fraction": 0.026378896882494004
+              },
+              "1": {
+                "samples": 1218,
+                "plants": 12,
+                "fraction": 0.973621103117506
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 168,
+                "plants": 24,
+                "fraction": 0.5384615384615384
+              },
+              "1": {
+                "samples": 144,
+                "plants": 24,
+                "fraction": 0.46153846153846156
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 77,
+                "plants": 12,
+                "fraction": 0.4935897435897436
+              },
+              "1": {
+                "samples": 79,
+                "plants": 12,
+                "fraction": 0.5064102564102564
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "morphology": {
+          "feasible": true,
+          "failures": [],
+          "scope": "published automatic label prediction only"
+        },
+        "visibility": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 117,
+                "plants": 24,
+                "fraction": 0.053497942386831275
+              },
+              "1": {
+                "samples": 2070,
+                "plants": 24,
+                "fraction": 0.9465020576131687
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 65,
+                "plants": 12,
+                "fraction": 0.05767524401064774
+              },
+              "1": {
+                "samples": 1062,
+                "plants": 12,
+                "fraction": 0.9423247559893523
+              }
+            }
+          }
+        },
+        "event": {
+          "feasible": true,
+          "failures": [],
+          "train_validation_only_gate": true,
+          "classes": {
+            "train": {
+              "0": {
+                "samples": 76,
+                "plants": 23,
+                "fraction": 0.2638888888888889
+              },
+              "1": {
+                "samples": 212,
+                "plants": 24,
+                "fraction": 0.7361111111111112
+              }
+            },
+            "val": {
+              "0": {
+                "samples": 34,
+                "plants": 10,
+                "fraction": 0.2361111111111111
+              },
+              "1": {
+                "samples": 110,
+                "plants": 12,
+                "fraction": 0.7638888888888888
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "independent_unit": "plant_uid",
+  "coverage": [
+    {
+      "partition": "official",
+      "split": "train",
+      "horizon": 1,
+      "independent_plants": 24,
+      "trajectories": 340,
+      "tracks_ge3_observations": 316,
+      "eligible_windows": 2498,
+      "valid_morphology_windows": 2431,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 67,
+      "event_positive": 151,
+      "event_negative": 161,
+      "event_positive_plants": 24,
+      "event_negative_plants": 24
+    },
+    {
+      "partition": "official",
+      "split": "val",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 157,
+      "tracks_ge3_observations": 150,
+      "eligible_windows": 1172,
+      "valid_morphology_windows": 1144,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 28,
+      "event_positive": 67,
+      "event_negative": 89,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "official",
+      "split": "test",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 178,
+      "tracks_ge3_observations": 164,
+      "eligible_windows": 1268,
+      "valid_morphology_windows": 1236,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 32,
+      "event_positive": 81,
+      "event_negative": 75,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "official",
+      "split": "train",
+      "horizon": 2,
+      "independent_plants": 24,
+      "trajectories": 340,
+      "tracks_ge3_observations": 316,
+      "eligible_windows": 2253,
+      "valid_morphology_windows": 2127,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 126,
+      "event_positive": 218,
+      "event_negative": 70,
+      "event_positive_plants": 24,
+      "event_negative_plants": 23
+    },
+    {
+      "partition": "official",
+      "split": "val",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 157,
+      "tracks_ge3_observations": 150,
+      "eligible_windows": 1055,
+      "valid_morphology_windows": 1002,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 53,
+      "event_positive": 98,
+      "event_negative": 46,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "official",
+      "split": "test",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 178,
+      "tracks_ge3_observations": 164,
+      "eligible_windows": 1140,
+      "valid_morphology_windows": 1076,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 64,
+      "event_positive": 109,
+      "event_negative": 35,
+      "event_positive_plants": 12,
+      "event_negative_plants": 10
+    },
+    {
+      "partition": "fold0",
+      "split": "train",
+      "horizon": 1,
+      "independent_plants": 24,
+      "trajectories": 329,
+      "tracks_ge3_observations": 309,
+      "eligible_windows": 2448,
+      "valid_morphology_windows": 2386,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 62,
+      "event_positive": 146,
+      "event_negative": 166,
+      "event_positive_plants": 24,
+      "event_negative_plants": 24
+    },
+    {
+      "partition": "fold0",
+      "split": "val",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 156,
+      "eligible_windows": 1239,
+      "valid_morphology_windows": 1207,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 32,
+      "event_positive": 74,
+      "event_negative": 82,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold0",
+      "split": "test",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 165,
+      "eligible_windows": 1251,
+      "valid_morphology_windows": 1218,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 33,
+      "event_positive": 79,
+      "event_negative": 77,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold0",
+      "split": "train",
+      "horizon": 2,
+      "independent_plants": 24,
+      "trajectories": 329,
+      "tracks_ge3_observations": 309,
+      "eligible_windows": 2206,
+      "valid_morphology_windows": 2088,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 118,
+      "event_positive": 207,
+      "event_negative": 81,
+      "event_positive_plants": 24,
+      "event_negative_plants": 24
+    },
+    {
+      "partition": "fold0",
+      "split": "val",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 156,
+      "eligible_windows": 1115,
+      "valid_morphology_windows": 1055,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 60,
+      "event_positive": 108,
+      "event_negative": 36,
+      "event_positive_plants": 12,
+      "event_negative_plants": 11
+    },
+    {
+      "partition": "fold0",
+      "split": "test",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 165,
+      "eligible_windows": 1127,
+      "valid_morphology_windows": 1062,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 65,
+      "event_positive": 110,
+      "event_negative": 34,
+      "event_positive_plants": 12,
+      "event_negative_plants": 10
+    },
+    {
+      "partition": "fold1",
+      "split": "train",
+      "horizon": 1,
+      "independent_plants": 24,
+      "trajectories": 339,
+      "tracks_ge3_observations": 320,
+      "eligible_windows": 2507,
+      "valid_morphology_windows": 2442,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 65,
+      "event_positive": 155,
+      "event_negative": 157,
+      "event_positive_plants": 24,
+      "event_negative_plants": 24
+    },
+    {
+      "partition": "fold1",
+      "split": "val",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 163,
+      "tracks_ge3_observations": 154,
+      "eligible_windows": 1192,
+      "valid_morphology_windows": 1162,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 30,
+      "event_positive": 70,
+      "event_negative": 86,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold1",
+      "split": "test",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 156,
+      "eligible_windows": 1239,
+      "valid_morphology_windows": 1207,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 32,
+      "event_positive": 74,
+      "event_negative": 82,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold1",
+      "split": "train",
+      "horizon": 2,
+      "independent_plants": 24,
+      "trajectories": 339,
+      "tracks_ge3_observations": 320,
+      "eligible_windows": 2261,
+      "valid_morphology_windows": 2135,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 126,
+      "event_positive": 213,
+      "event_negative": 75,
+      "event_positive_plants": 24,
+      "event_negative_plants": 22
+    },
+    {
+      "partition": "fold1",
+      "split": "val",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 163,
+      "tracks_ge3_observations": 154,
+      "eligible_windows": 1072,
+      "valid_morphology_windows": 1015,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 57,
+      "event_positive": 104,
+      "event_negative": 40,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold1",
+      "split": "test",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 156,
+      "eligible_windows": 1115,
+      "valid_morphology_windows": 1055,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 60,
+      "event_positive": 108,
+      "event_negative": 36,
+      "event_positive_plants": 12,
+      "event_negative_plants": 11
+    },
+    {
+      "partition": "fold2",
+      "split": "train",
+      "horizon": 1,
+      "independent_plants": 24,
+      "trajectories": 346,
+      "tracks_ge3_observations": 321,
+      "eligible_windows": 2490,
+      "valid_morphology_windows": 2425,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 65,
+      "event_positive": 153,
+      "event_negative": 159,
+      "event_positive_plants": 24,
+      "event_negative_plants": 24
+    },
+    {
+      "partition": "fold2",
+      "split": "val",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 166,
+      "tracks_ge3_observations": 155,
+      "eligible_windows": 1256,
+      "valid_morphology_windows": 1224,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 32,
+      "event_positive": 76,
+      "event_negative": 80,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold2",
+      "split": "test",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 163,
+      "tracks_ge3_observations": 154,
+      "eligible_windows": 1192,
+      "valid_morphology_windows": 1162,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 30,
+      "event_positive": 70,
+      "event_negative": 86,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold2",
+      "split": "train",
+      "horizon": 2,
+      "independent_plants": 24,
+      "trajectories": 346,
+      "tracks_ge3_observations": 321,
+      "eligible_windows": 2242,
+      "valid_morphology_windows": 2117,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 125,
+      "event_positive": 218,
+      "event_negative": 70,
+      "event_positive_plants": 24,
+      "event_negative_plants": 21
+    },
+    {
+      "partition": "fold2",
+      "split": "val",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 166,
+      "tracks_ge3_observations": 155,
+      "eligible_windows": 1134,
+      "valid_morphology_windows": 1073,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 61,
+      "event_positive": 103,
+      "event_negative": 41,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold2",
+      "split": "test",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 163,
+      "tracks_ge3_observations": 154,
+      "eligible_windows": 1072,
+      "valid_morphology_windows": 1015,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 57,
+      "event_positive": 104,
+      "event_negative": 40,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold3",
+      "split": "train",
+      "horizon": 1,
+      "independent_plants": 24,
+      "trajectories": 336,
+      "tracks_ge3_observations": 310,
+      "eligible_windows": 2431,
+      "valid_morphology_windows": 2369,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 62,
+      "event_positive": 144,
+      "event_negative": 168,
+      "event_positive_plants": 24,
+      "event_negative_plants": 24
+    },
+    {
+      "partition": "fold3",
+      "split": "val",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 165,
+      "eligible_windows": 1251,
+      "valid_morphology_windows": 1218,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 33,
+      "event_positive": 79,
+      "event_negative": 77,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold3",
+      "split": "test",
+      "horizon": 1,
+      "independent_plants": 12,
+      "trajectories": 166,
+      "tracks_ge3_observations": 155,
+      "eligible_windows": 1256,
+      "valid_morphology_windows": 1224,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 32,
+      "event_positive": 76,
+      "event_negative": 80,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    },
+    {
+      "partition": "fold3",
+      "split": "train",
+      "horizon": 2,
+      "independent_plants": 24,
+      "trajectories": 336,
+      "tracks_ge3_observations": 310,
+      "eligible_windows": 2187,
+      "valid_morphology_windows": 2070,
+      "morphology_plants": 24,
+      "future_not_observed_windows": 117,
+      "event_positive": 212,
+      "event_negative": 76,
+      "event_positive_plants": 24,
+      "event_negative_plants": 23
+    },
+    {
+      "partition": "fold3",
+      "split": "val",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 173,
+      "tracks_ge3_observations": 165,
+      "eligible_windows": 1127,
+      "valid_morphology_windows": 1062,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 65,
+      "event_positive": 110,
+      "event_negative": 34,
+      "event_positive_plants": 12,
+      "event_negative_plants": 10
+    },
+    {
+      "partition": "fold3",
+      "split": "test",
+      "horizon": 2,
+      "independent_plants": 12,
+      "trajectories": 166,
+      "tracks_ge3_observations": 155,
+      "eligible_windows": 1134,
+      "valid_morphology_windows": 1073,
+      "morphology_plants": 12,
+      "future_not_observed_windows": 61,
+      "event_positive": 103,
+      "event_negative": 41,
+      "event_positive_plants": 12,
+      "event_negative_plants": 12
+    }
+  ],
+  "tracks": 675,
+  "observed_records": 6778,
+  "not_observed_grid_cells": 4022,
+  "disappearing_tracks": 127,
+  "reappearing_tracks": 0,
+  "all_plants_scanned_at_all_times": true,
+  "missingness_interpretation": "Not observed is not zero area, biological death, or confirmed occlusion. PLY/CSV mismatches are rejected.",
+  "measurement_agreement": {
+    "leaf_total_length": {
+      "records": 450,
+      "plants": 48,
+      "DAS": 93,
+      "mae": 1.918193016052246,
+      "bias": 1.6322823944091795,
+      "interpretation": "cross-method agreement, NOT repeated longitudinal noise floor"
+    },
+    "leaf_blade_length": {
+      "records": 450,
+      "plants": 48,
+      "DAS": 93,
+      "mae": 1.8681360236273872,
+      "bias": 1.6268444179958765,
+      "interpretation": "cross-method agreement, NOT repeated longitudinal noise floor"
+    },
+    "petiole_length": {
+      "records": 450,
+      "plants": 48,
+      "DAS": 93,
+      "mae": 2.383433158026801,
+      "bias": -2.346784245808919,
+      "interpretation": "cross-method agreement, NOT repeated longitudinal noise floor"
+    },
+    "leaf_blade_width": {
+      "records": 450,
+      "plants": 48,
+      "DAS": 93,
+      "mae": 1.0862821553548176,
+      "bias": 0.24874434407552087,
+      "interpretation": "cross-method agreement, NOT repeated longitudinal noise floor"
+    },
+    "leaf_area": {
+      "manual_validation_available": false
+    }
+  },
+  "association": {
+    "raw_csv_rows": 6778,
+    "ply_organ_rows": 6778,
+    "duplicates": 0,
+    "mismatches": 0,
+    "recomputed_all_768_ply_centroids": true,
+    "legacy_leaf_values_verified": true,
+    "legacy_plant_values_verified": true
+  },
+  "geometry_contract": {
+    "features": [
+      "z_range_cm",
+      "z_q01_cm",
+      "z_q05_cm",
+      "z_q25_cm",
+      "z_q50_cm",
+      "z_q75_cm",
+      "z_q95_cm",
+      "z_q99_cm",
+      "height_quantile_proxy_cm",
+      "extent_x_cm",
+      "extent_y_cm",
+      "hull_diameter_cm",
+      "hull_area_cm2",
+      "hull_perimeter_cm",
+      "radius_q50_cm",
+      "radius_q95_cm",
+      "xyz_std_x_cm",
+      "xyz_std_y_cm",
+      "xyz_std_z_cm",
+      "cov_eig_min_cm",
+      "cov_eig_mid_cm",
+      "cov_eig_max_cm",
+      "log_point_count",
+      "log_bbox_density",
+      "nn_mean_cm",
+      "nn_q95_cm",
+      "upper_z_fraction"
+    ],
+    "XYZ_only": true,
+    "growth_points_read": false,
+    "semantic_or_instance_features": false,
+    "proxies_not_official_measurements": true
+  },
+  "decision_scope": "Numerically feasible for automatic-label prediction; biological claims remain limited by 48 plants and label agreement."
+}

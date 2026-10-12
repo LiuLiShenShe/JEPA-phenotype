@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "python": "3.11.15",
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.17.1",
+    "sklearn": "1.7.2",
+    "matplotlib": "3.10.6"
+  },
+  "cuda": "12.8",
+  "devices": [
+    "NVIDIA RTX A6000",
+    "NVIDIA RTX A6000"
+  ],
+  "git_commit": "5cf34b8d90b5699597f2875a63e40ab9a02dbe37",
+  "git_worktree_at_start": "clean",
+  "rtk_instruction_file": "/home/test/.codex/RTK.md missing",
+  "codegraph_index_present": false,
+  "search_status": "Bocha403 quota; official Sugar4D page fetched200; no synthetic results"
+}
