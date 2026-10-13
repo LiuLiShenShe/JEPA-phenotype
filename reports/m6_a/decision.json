@@ -1,0 +1,11 @@
+{
+  "recommendation": "INSTANCE-FIRST",
+  "baseline_acceptance_passed": false,
+  "test_independent_plants": 12,
+  "primary_metric": "plant-macro observation IDF1",
+  "B1_minus_B0_idf1": -0.44361668698692125,
+  "protocol_sha256": "4df365b232acd61334c414fe387fd17d9ead42c2026765238cf571f276865bd6",
+  "no_training": true,
+  "no_cross_species_validation": true,
+  "stop_after_delivery": true
+}

@@ -1,0 +1,21 @@
+
+1. Title: Open3D
+   Context7-compatible library ID: /websites/open3d
+   Description: Open3D is an open-source library for rapid development of software that deals with 3D data, providing optimized data structures, algorithms, and support for both C++ and Python with GPU acceleration.
+   Code Snippets: 26015
+   Source Reputation: High
+   Benchmark Score: 81.56
+
+2. Title: Open3D
+   Context7-compatible library ID: /isl-org/open3d
+   Description: Open3D is an open-source library that supports rapid development of software dealing with 3D data, offering a set of data structures and algorithms in C++ and Python with a highly optimized and parallelized backend.
+   Code Snippets: 1906
+   Source Reputation: High
+   Benchmark Score: 73.82
+
+3. Title: Open3D ML
+   Context7-compatible library ID: /isl-org/open3d-ml
+   Description: Open3D ML is an extension of Open3D for 3D machine learning tasks, providing tools for semantic point cloud segmentation, 3D object detection, and training pipelines with support for TensorFlow and PyTorch.
+   Code Snippets: 204
+   Source Reputation: High
+

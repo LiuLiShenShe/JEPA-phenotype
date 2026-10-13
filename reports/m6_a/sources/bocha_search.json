@@ -1,0 +1,22 @@
+[
+  {
+    "query": "Sugar4D official dataset V4 DOI 10.60507 FK2 IS8YBZ",
+    "utc": "2026-10-12T13:33:20.426425+00:00",
+    "http": 403,
+    "response": {
+      "log_id": "08905e57ee78835a",
+      "message": "You do not have enough money or package quota",
+      "code": "403"
+    }
+  },
+  {
+    "query": "Pepper-4D PlantNet PSegNet TrackPlant3D official repositories license pretrained weights",
+    "utc": "2026-10-12T13:33:20.513408+00:00",
+    "http": 403,
+    "response": {
+      "log_id": "63eb570086883def",
+      "message": "You do not have enough money or package quota",
+      "code": "403"
+    }
+  }
+]

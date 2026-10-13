@@ -1,0 +1,4 @@
+project,official_url,code_license,github_license,pinned_source_sha,tree_entries,license_api_http,redistribution
+pepper4d,https://github.com/foysalahmed10/Pepper-4D,not declared / not verified,None,bbc676ce34590b6ee75bc76dcc74284717eb5036,17,404,not authorized by public accessibility; upstream stays local
+plantnet,https://github.com/Huang2002200/PlantNet-and-PSegNet,not declared / not verified,None,5efe9ced49473f0d59c618b7e140ffeeb692d9b1,214,404,not authorized by public accessibility; upstream stays local
+trackplant3d,https://github.com/entarot/TrackPlant3D-3D-organ-growth-tracking-framework-for-organ-level-dynamic-phenotyping,not declared / not verified,None,3c04919dc86d75acd1a3159a1e1f74893e0bc5e4,1110,404,not authorized by public accessibility; upstream stays local

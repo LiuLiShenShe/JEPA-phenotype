@@ -1,0 +1,17 @@
+{
+  "sugar_version": 4,
+  "sugar_release": "2026-08-27T09:32:11Z",
+  "license": {
+    "name": "CC BY 4.0",
+    "uri": "http://creativecommons.org/licenses/by/4.0",
+    "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+  },
+  "historical_sugar_archive_sha256": "69e25b87b470173d30a70fbac9d4caf2ae968082cd83378cd87d93601b370908",
+  "plants": 48,
+  "scans": 768,
+  "evaluated_plants": 24,
+  "evaluated_scans": 384,
+  "train_plants_unused_for_training": 24,
+  "pepper_downloaded": false,
+  "cross_species_tested": false
+}

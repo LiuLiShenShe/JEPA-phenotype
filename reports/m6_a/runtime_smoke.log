@@ -1,0 +1,2 @@
+PlantNet {'runnable': True, 'checkpoint_epoch': 199, 'strict_state_dict_load': True, 'input_columns': 3, 'synthetic_points': 4096, 'labels_repeat_exact': True, 'confidence_repeat_exact': True, 'elapsed_seconds': 10.714697646908462}
+PSegNet {'runnable': True, 'checkpoint_epoch': 199, 'strict_state_dict_load': True, 'input_columns': 3, 'synthetic_points': 4096, 'labels_repeat_exact': True, 'confidence_repeat_exact': True, 'elapsed_seconds': 8.277207961305976}

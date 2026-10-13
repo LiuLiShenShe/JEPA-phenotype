@@ -1,0 +1,101 @@
+{
+  "sha": "5efe9ced49473f0d59c618b7e140ffeeb692d9b1",
+  "node_id": "C_kwDOMLSaTtoAKDVlZmU5Y2VkNDk0NzNmMGQ1OWM2MThiN2UxNDBmZmVlYjY5MmQ5YjE",
+  "commit": {
+    "author": {
+      "name": "Huang",
+      "email": "64185853+Huang2002200@users.noreply.github.com",
+      "date": "2025-02-14T08:09:42Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-02-14T08:09:42Z"
+    },
+    "message": "Update model.py",
+    "tree": {
+      "sha": "c6d6aa1ad9d134edc58754c838bb8f6e8bab8720",
+      "url": "https://api.github.com/repos/Huang2002200/PlantNet-and-PSegNet/git/trees/c6d6aa1ad9d134edc58754c838bb8f6e8bab8720"
+    },
+    "url": "https://api.github.com/repos/Huang2002200/PlantNet-and-PSegNet/git/commits/5efe9ced49473f0d59c618b7e140ffeeb692d9b1",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnrvpGCRC1aQ7uu5UhlAAARVwQABIdK3S2RKzoJFKxMfNOkDtt\njNl41NNV/5AGtXk/izVtyq4wuQ7Vk0zYFgwCm4Vlfw9XPtHgRqqi53F8jOJe54JT\n85KLLZU6/02UNva2mArv1s4kHCpGuzj/yLS+NzpQ5VGjhCIbTWBdEWFKsl7pPEci\nbf1wf+UnbmG4jgfZtk7ZNfkQ2CDfqSfN2zH2CnLFy4FVDD+xEXugfiThCJN3ayva\nAZSelo5CxDP+XsWIS/KRCVnJlpXzv+mGtKQBjOyyp/+wCqPvzQNV8FvLOQUwuPoG\nhbbUb4JesGw+GPF871mLbUrx0UvDSZ/xoQFgUcMEK6LVqnROr7eg66Kdxyb1q7m9\nIVrPjwf9XPuZJZrrKYnZRar37DNyOOPvJiBod9WIxKy1mFkcWKtVwE0pdKSdiPzy\ns9Zovf2zSJV88H/jjDo60wkbCFKZ/gDjBl8BJTyx7Jld+YfapDemWbmnlVVf4Cxr\nyWmbzpLkEWDOv2cKNAN86bh04bvwhPJrbZK3QvmpSJZ1Mbk66g+twUN+9LcXrZ3h\nS+AufXC7jsxKBBZgvWI7s4eZFkvD8iVvIuyzChvmVYm1TQ2kjsWvhlLW0WK1wPsl\n+CSs26bP42M3amovFvDrSO0cn9mec8RkB55VZgUHOKmBCBDOUgr2af3MuFDQ1jJs\nr3uXNeDAjK0SeYTTR3iN\n=uTIi\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c6d6aa1ad9d134edc58754c838bb8f6e8bab8720\nparent e809f99ee9f5b011418b0983ea38d729cd6b5d0b\nauthor Huang <64185853+Huang2002200@users.noreply.github.com> 1739520582 +0800\ncommitter GitHub <noreply@github.com> 1739520582 +0800\n\nUpdate model.py",
+      "verified_at": "2025-02-14T08:14:44Z"
+    }
+  },
+  "url": "https://api.github.com/repos/Huang2002200/PlantNet-and-PSegNet/commits/5efe9ced49473f0d59c618b7e140ffeeb692d9b1",
+  "html_url": "https://github.com/Huang2002200/PlantNet-and-PSegNet/commit/5efe9ced49473f0d59c618b7e140ffeeb692d9b1",
+  "comments_url": "https://api.github.com/repos/Huang2002200/PlantNet-and-PSegNet/commits/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/comments",
+  "author": {
+    "login": "Huang2002200",
+    "id": 64185853,
+    "node_id": "MDQ6VXNlcjY0MTg1ODUz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/64185853?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Huang2002200",
+    "html_url": "https://github.com/Huang2002200",
+    "followers_url": "https://api.github.com/users/Huang2002200/followers",
+    "following_url": "https://api.github.com/users/Huang2002200/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Huang2002200/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Huang2002200/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Huang2002200/subscriptions",
+    "organizations_url": "https://api.github.com/users/Huang2002200/orgs",
+    "repos_url": "https://api.github.com/users/Huang2002200/repos",
+    "events_url": "https://api.github.com/users/Huang2002200/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Huang2002200/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "e809f99ee9f5b011418b0983ea38d729cd6b5d0b",
+      "url": "https://api.github.com/repos/Huang2002200/PlantNet-and-PSegNet/commits/e809f99ee9f5b011418b0983ea38d729cd6b5d0b",
+      "html_url": "https://github.com/Huang2002200/PlantNet-and-PSegNet/commit/e809f99ee9f5b011418b0983ea38d729cd6b5d0b"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "additions": 2,
+    "deletions": 2
+  },
+  "files": [
+    {
+      "sha": "e5fe8907937b6be72a857c07f2f8e082e304a592",
+      "filename": "PlantNet/PlantNet_tensorflow/models/model.py",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/Huang2002200/PlantNet-and-PSegNet/blob/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/PlantNet%2FPlantNet_tensorflow%2Fmodels%2Fmodel.py",
+      "raw_url": "https://github.com/Huang2002200/PlantNet-and-PSegNet/raw/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/PlantNet%2FPlantNet_tensorflow%2Fmodels%2Fmodel.py",
+      "contents_url": "https://api.github.com/repos/Huang2002200/PlantNet-and-PSegNet/contents/PlantNet%2FPlantNet_tensorflow%2Fmodels%2Fmodel.py?ref=5efe9ced49473f0d59c618b7e140ffeeb692d9b1",
+      "patch": "@@ -174,9 +174,9 @@ def get_loss(pred, ins_label, pred_sem, sem_label, sem_ins_fuse, pts_semseg_labe\n     C_same = 10.\n     C_diff = 80.\n \n-    pos =  tf.multiply(samegroup_mat_label, pred_simmat) # minimize distances if in the same group\n+    neg_diffsem =  tf.multiply(diffgroup_diffsem_mat_label, pred_simmat) # minimize distances if in the same group\n     neg_samesem = alpha * tf.multiply(diffgroup_samesem_mat_label, tf.maximum(tf.subtract(C_same, pred_simmat), 0))\n-    neg_diffsem = tf.multiply(diffgroup_diffsem_mat_label, tf.maximum(tf.subtract(C_diff, pred_simmat), 0))\n+    pos = tf.multiply(samegroup_mat_label, tf.maximum(tf.subtract(C_diff, pred_simmat), 0))\n \n \n     simmat_loss = neg_samesem + neg_diffsem + pos"
+    }
+  ]
+}

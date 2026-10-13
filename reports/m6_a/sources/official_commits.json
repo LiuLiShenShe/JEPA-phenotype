@@ -1,0 +1,20 @@
+[
+  {
+    "name": "pepper4d",
+    "repo": "foysalahmed10/Pepper-4D",
+    "commit": "bbc676ce34590b6ee75bc76dcc74284717eb5036",
+    "tree": "cd868980d1ca8def37fefcc630a9c60a87e36b8b"
+  },
+  {
+    "name": "plantnet",
+    "repo": "Huang2002200/PlantNet-and-PSegNet",
+    "commit": "5efe9ced49473f0d59c618b7e140ffeeb692d9b1",
+    "tree": "c6d6aa1ad9d134edc58754c838bb8f6e8bab8720"
+  },
+  {
+    "name": "trackplant3d",
+    "repo": "entarot/TrackPlant3D-3D-organ-growth-tracking-framework-for-organ-level-dynamic-phenotyping",
+    "commit": "3c04919dc86d75acd1a3159a1e1f74893e0bc5e4",
+    "tree": "88852195cf8ee2962470c67438a5b76d06b0cfcb"
+  }
+]

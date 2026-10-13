@@ -1,0 +1,13 @@
+{
+  "tested": true,
+  "used_in_baselines": false,
+  "points_tested": [
+    15033,
+    93957
+  ],
+  "differing_points": [
+    0,
+    8
+  ],
+  "decision": "rejected; retain original Open3D boundary kernel"
+}

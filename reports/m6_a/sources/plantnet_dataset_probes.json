@@ -1,0 +1,21 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Huang2002200/PlantNet-and-PSegNet/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/Data_preprocessing/FPS/002TXT2H5.py",
+    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=20)\"))"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Huang2002200/PlantNet-and-PSegNet/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/Data_preprocessing/3DEPS/004TXT2H5.py",
+    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=20)\"))"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Huang2002200/PlantNet-and-PSegNet/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/Original_Dataset/546plant_point_xyz_ins_sem_obj.rar",
+    "http": 200,
+    "bytes": 134,
+    "sha256": "f58a0fe8e3e95a23a9bb284b0b740e00b9c9698bf4c7a0bcf9cfae2356ac889b",
+    "large_dataset_downloaded": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Huang2002200/PlantNet-and-PSegNet/5efe9ced49473f0d59c618b7e140ffeeb692d9b1/Original_Dataset/test.h5 for model_epoch199.pth/test.h5",
+    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=20)\"))"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "PlantNet": {
+    "runnable": true,
+    "checkpoint_epoch": 199,
+    "strict_state_dict_load": true,
+    "input_columns": 3,
+    "synthetic_points": 4096,
+    "labels_repeat_exact": true,
+    "confidence_repeat_exact": true,
+    "elapsed_seconds": 10.714697646908462
+  },
+  "PSegNet": {
+    "runnable": true,
+    "checkpoint_epoch": 199,
+    "strict_state_dict_load": true,
+    "input_columns": 3,
+    "synthetic_points": 4096,
+    "labels_repeat_exact": true,
+    "confidence_repeat_exact": true,
+    "elapsed_seconds": 8.277207961305976
+  },
+  "TrackPlant3D": {
+    "runnable": true,
+    "boundary": {
+      "boundary_fraction": 0.2109375,
+      "empty_partition_fallback": false
+    },
+    "registration": {
+      "iterations": 27,
+      "objective_difference": 5.067759077720391e-05
+    },
+    "official_cost_and_extended_matrix": true
+  }
+}

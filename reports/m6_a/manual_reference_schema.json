@@ -1,0 +1,13 @@
+{
+  "columns": [
+    "days after sowing",
+    "plant",
+    "instance id",
+    "total length [cm]",
+    "leaf blade length [cm]",
+    "petiole length [cm]",
+    "leaf blade width [cm]"
+  ],
+  "rows": 450,
+  "caveat": "cross-method final-DAS length comparison only; no longitudinal or area manual truth"
+}

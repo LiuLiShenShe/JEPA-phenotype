@@ -1,0 +1,36 @@
+
+1. Title: SciPy
+   Context7-compatible library ID: /scipy/scipy
+   Description: SciPy library main repository
+   Code Snippets: 4327
+   Source Reputation: High
+   Benchmark Score: 75.14
+   Versions: v1.16.1
+
+2. Title: SciPy Stubs
+   Context7-compatible library ID: /scipy/scipy-stubs
+   Description: SciPy Stubs provides official, shape- and dtype-aware type stubs for SciPy, enabling comprehensive static type checking with zero runtime impact.
+   Code Snippets: 786
+   Source Reputation: High
+   Benchmark Score: 73
+
+3. Title: SciPy (DeepWiki)
+   Context7-compatible library ID: /websites/deepwiki_scipy_scipy
+   Description: SciPy is an open-source Python library for scientific computing that provides fundamental algorithms for optimization, linear algebra, integration, interpolation, and statistics.
+   Code Snippets: 1574
+   Source Reputation: High
+
+4. Title: CuPy
+   Context7-compatible library ID: /cupy/cupy
+   Description: CuPy is a NumPy/SciPy-compatible array library for GPU-accelerated computing with Python, acting as a drop-in replacement for existing code on NVIDIA CUDA or AMD ROCm platforms.
+   Code Snippets: 1093
+   Source Reputation: High
+   Benchmark Score: 73.77
+
+5. Title: scikit-image
+   Context7-compatible library ID: /scikit-image/scikit-image
+   Description: scikit-image is a Python library for image processing that provides algorithms for segmentation, geometric transformations, color space conversion, analysis, filtering, morphology, and feature detection.
+   Code Snippets: 1077
+   Source Reputation: High
+   Benchmark Score: 63.79
+

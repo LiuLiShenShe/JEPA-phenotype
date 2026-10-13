@@ -1,0 +1,9 @@
+{
+  "status": "separately recorded engineering diagnostic execution limitation",
+  "outputs": "full-resolution leaf segmentation only, unchanged 24 held-out plants and 384 scans",
+  "planned_diagnostic_tracking_executed": false,
+  "reason": "recreating uncached 256-point indices would repeat slow full-cloud boundary extraction; main experiment already includes complete tracking",
+  "primary_protocol_changed": false,
+  "primary_results_replaced": false,
+  "no_confirmatory_success_claim": true
+}

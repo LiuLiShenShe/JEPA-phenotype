@@ -1,0 +1,2 @@
+/fj/JEPA-表型/src/m6a/reporting.py:106: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  predicted["identity_error"] = ~predicted.evaluation_identity_correct.fillna(False).astype(bool)

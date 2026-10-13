@@ -1,0 +1,179 @@
+[
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/baseline_metrics.png",
+    "sha256": "78c358728296cdce46efad15e5a0dc4823f4385537df324aa7a4fed09e802fb4",
+    "inputs": [
+      "per_plant.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/baseline_metrics.pdf",
+    "sha256": "c1494e87e1f4c217781c5559fde1734a3662aa49d4d090cf4ff55320378ea6a1",
+    "inputs": [
+      "per_plant.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/baseline_metrics.svg",
+    "sha256": "fe7b084cd13ff93201aa6110e725a552befa45df6066571e3621dfb56f1af2fd",
+    "inputs": [
+      "per_plant.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/plant_041_identity_timeline.png",
+    "sha256": "d8aa51a54fa912cb512b256c29c1cdeedd388f276376f6d59f529433a1d36da1",
+    "inputs": [
+      "observations.csv",
+      "new_leaf_events.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/plant_041_identity_timeline.pdf",
+    "sha256": "d403675691565fe96ac835c7dd01c00054fab4625d9b8496c6f233ca525b7bfc",
+    "inputs": [
+      "observations.csv",
+      "new_leaf_events.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/plant_041_identity_timeline.svg",
+    "sha256": "c03646dfe863df9a735b54357d9d3d9537f432cffb3a912f17ac9a6f54674934",
+    "inputs": [
+      "observations.csv",
+      "new_leaf_events.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/plant_046_identity_timeline.png",
+    "sha256": "489e3daa9564f8a63aaaf1a54e377f73765ed37226a666bab9011424d825d684",
+    "inputs": [
+      "observations.csv",
+      "new_leaf_events.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/plant_046_identity_timeline.pdf",
+    "sha256": "76959a995a422eacfc723886aed2318ed92186708d7cb8aa35da6f7ac110c57d",
+    "inputs": [
+      "observations.csv",
+      "new_leaf_events.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/plant_046_identity_timeline.svg",
+    "sha256": "be1eb5c90c99f5da8c4e363fccd3dbe453d8f26bbbee29b1c26492a81780f17a",
+    "inputs": [
+      "observations.csv",
+      "new_leaf_events.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/tracking_new_leaf_pointcloud.png",
+    "sha256": "a3d5b88affd68610f3b8142a363dd354b7f23b76229ac2dd7b9158f033fb541d",
+    "inputs": [
+      "predicted_organs.csv",
+      "new_leaf_events.csv",
+      "outputs/m6_a/frames"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/tracking_new_leaf_pointcloud.pdf",
+    "sha256": "f437d7be8cb373e53245ce1cf4ee29a2b77e1771b7ff1eaef9325da94e8d2f3d",
+    "inputs": [
+      "predicted_organs.csv",
+      "new_leaf_events.csv",
+      "outputs/m6_a/frames"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/tracking_new_leaf_pointcloud.svg",
+    "sha256": "6b3ec0f805c0b5cf38f50f61a600700cb80c69e5cabd724c24bd937d1d1414cb",
+    "inputs": [
+      "predicted_organs.csv",
+      "new_leaf_events.csv",
+      "outputs/m6_a/frames"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/segmentation_tracking_measurement_decomposition.png",
+    "sha256": "595bb49837cbaff94bd6bbea7ee2eb9f930d8bea21d71f3f54f214e7d1781524",
+    "inputs": [
+      "error_decomposition.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/segmentation_tracking_measurement_decomposition.pdf",
+    "sha256": "12df14b267d678513788891762c8d368ee2721c1dd38c447e531e010a81ef9e4",
+    "inputs": [
+      "error_decomposition.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/segmentation_tracking_measurement_decomposition.svg",
+    "sha256": "a357c2a9890c1278c1f9be4272920235e6e5f4b838fd69c52d3ecfe58fd0fadd",
+    "inputs": [
+      "error_decomposition.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/new_leaf_events_and_confidence.png",
+    "sha256": "773ddcd514928beb4be11bb7dceea36212658aabd753ea2d16a801b2ab6a378c",
+    "inputs": [
+      "per_plant.csv",
+      "confidence_selective_risk.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/new_leaf_events_and_confidence.pdf",
+    "sha256": "38aa7781c00b46d00f70c8d0c90458835aeeb26d7654ab19772f257f40388340",
+    "inputs": [
+      "per_plant.csv",
+      "confidence_selective_risk.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  },
+  {
+    "file": "/fj/JEPA-表型/reports/m6_a/figures/new_leaf_events_and_confidence.svg",
+    "sha256": "466397967bc614c9151b7510230d31f43e88e0a8572bf7cf472894ac141c090c",
+    "inputs": [
+      "per_plant.csv",
+      "confidence_selective_risk.csv"
+    ],
+    "independent_unit": "plant",
+    "AI_generated": false
+  }
+]

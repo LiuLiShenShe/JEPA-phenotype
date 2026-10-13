@@ -1,0 +1,23 @@
+[
+  {
+    "DAS": 37,
+    "points": 15033,
+    "differing_points": 0,
+    "official_seconds": 0.26800817623734474,
+    "equivalent_knn_vector_seconds": 0.025965537875890732
+  },
+  {
+    "DAS": 44,
+    "points": 93957,
+    "differing_points": 10,
+    "official_seconds": 6.031991938129067,
+    "equivalent_knn_vector_seconds": 0.21565008908510208
+  },
+  {
+    "DAS": 54,
+    "points": 224602,
+    "differing_points": 7,
+    "official_seconds": 5.9938988564535975,
+    "equivalent_knn_vector_seconds": 0.3237768681719899
+  }
+]

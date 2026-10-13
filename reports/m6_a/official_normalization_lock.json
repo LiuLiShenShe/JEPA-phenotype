@@ -1,0 +1,9 @@
+{
+  "utc_before_diagnostic_inference": "2026-10-12T14:11:26.079106+00:00",
+  "sha256": {
+    "configs/m6_a/official_normalization_diagnostic.json": "8e7a991eb4c81b6ceb921d9df41111526981db17db00dfbcef05e9a8870a61f8",
+    "primary_protocol_lock": "ec75c61af4571ad1a542125f1895695535790c9743745c6411583c871b89f60e",
+    "official_H5_source": "30a269e0202fa963bd23c71ab9ac2d18d527100546af3d30f1216c13e3fdf9bb"
+  },
+  "status": "post-primary-lock diagnostic; never supersedes original primary"
+}

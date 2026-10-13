@@ -1,0 +1,112 @@
+### Figure.savefig with format='png' or format='svg' using Agg backend
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/figure.py
+
+The Figure-level savefig method; the docstring shows the call signature and explains that format can be inferred from filename extension (e.g. .png/.svg) or set explicitly, and Agg is the default non-interactive backend for PNG (or use backend='svg' for SVG).
+
+```python
+def savefig(self, fname, *, transparent=None, **kwargs):
+    """
+    Save the current figure as an image or vector graphic to a file.
+
+    Call signature::
+
+      savefig(fname, *, transparent=None, dpi='figure', format=None,
+              metadata=None, bbox_inches=None, pad_inches=0.1,
+              facecolor='auto', edgecolor='auto', backend=None,
+              **kwargs
+             )
+
+    The available output formats depend on the backend being used.
+
+    Parameters
+    ----------
+    fname : str or path-like or binary file-like
+        A path, or a Python file-like object, or
+        possibly some backend-dependent object such as
+        `matplotlib.backends.backend_pdf.PdfPages`.
+
+        If *format* is set, it determines the output format, and the file
+        is saved as *fname*.  Note that *fname* is used verbatim, and there
+        is no attempt to make the extension, if any, of *fname* match
+        *format*, and no extension is appended.
+
+        If *format* is not set, then the format is inferred from the
+        extension of *fname*, if there is one.  If *format* is not
+        set and *fname* has no extension, then the file is saved with
+        :rc:`savefig.format` and the appropriate extension is appended to
+        *fname*.
+
+    ...
+
+    format : str
+        The file format, e.g. 'png', 'pdf', 'svg', ... The behavior when
+        this is unset is documented under *fname*.
+
+    ...
+
+    backend : str, optional
+        Use a non-default backend to render the file, e.g. to render a
+        png file with the "cairo" backend rather than the default "agg",
+        or a pdf file with the "pgf" backend rather than the default
+        "pdf".  Note that the default backend is normally sufficient.  See
+        :ref:`the-builtin-backends` for a list of valid backends for each
+        file format.  Custom backends can be referenced as "module://...".
+    """
+    kwargs.setdefault('dpi', mpl.rcParams['savefig.dpi'])
+    transparent = mpl._val_or_rc(transparent, 'savefig.transparent')
+    ...
+    self.canvas.print_figure(fname, **kwargs)
+```
+
+--------------------------------
+
+### Marker subsampling with markevery
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/galleries/users_explain/artists/performance.rst
+
+Uses the markevery parameter to subsample markers on Line2D objects, reducing rendering time. Only available for Line2D objects, such as those created by pyplot.plot and Axes.plot. Allows naive subsampling or evenly spaced sampling along the x-axis.
+
+```python
+plt.plot(x, y, markevery=10)
+```
+
+--------------------------------
+
+### hexbin edgecolors parameter documentation
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/axes/_axes.py
+
+Documents how edgecolors can be set to 'face', 'none', None, or an explicit color for controlling hexagon outlines.
+
+```python
+        edgecolors : {'face', 'none', *None*} or color, default: 'face'
+            The color of the hexagon edges. Possible values are:
+
+            - 'face': Draw the edges in the same color as the fill color.
+            - 'none': No edges are drawn. This can sometimes lead to unsightly
+              unpainted pixels between the hexagons.
+            - *None*: Draw outlines in the default color.
+            - An explicit color.
+```
+
+--------------------------------
+
+### UAT 5 - Plot without show in non-interactive mode
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/backends/web_backend/nbagg_uat.ipynb
+
+In non-interactive mode, plotting without plt.show() should not display a new figure or update an existing one. The output is a list of Line2D instances.
+
+```python
+plt.plot(range(10))
+
+```
+
+### The mplot3d toolkit > Scatter plots
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/galleries/users_explain/toolkits/mplot3d.rst
+
+Scatter plots
+=============
+See `.Axes3D.scatter` for API documentation.

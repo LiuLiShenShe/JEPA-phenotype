@@ -1,0 +1,35 @@
+
+1. Title: Matplotlib
+   Context7-compatible library ID: /websites/matplotlib_stable
+   Description: Matplotlib is a comprehensive Python library for creating static, animated, and interactive visualizations in various formats.
+   Code Snippets: 24691
+   Source Reputation: High
+   Benchmark Score: 85.04
+
+2. Title: Matplotlib
+   Context7-compatible library ID: /matplotlib/matplotlib
+   Description: Matplotlib is a comprehensive Python library for creating static, animated, and interactive visualizations across various platforms and environments.
+   Code Snippets: 1101
+   Source Reputation: High
+   Benchmark Score: 64.31
+
+3. Title: mplfinance
+   Context7-compatible library ID: /matplotlib/mplfinance
+   Description: mplfinance provides matplotlib utilities for the visualization and visual analysis of financial data, making it easier to create financial plots and interface with Pandas DataFrames.
+   Code Snippets: 1787
+   Source Reputation: High
+   Benchmark Score: 79.08
+
+4. Title: mplcairo
+   Context7-compatible library ID: /matplotlib/mplcairo
+   Description: mplcairo is a cairo backend for Matplotlib that can be used to render figures faster and with higher accuracy, supporting PyQt, PyGObject, Tkinter, wxPython, and macOS UI, or non-interactive file saving.
+   Code Snippets: 38
+   Source Reputation: High
+
+5. Title: Seaborn
+   Context7-compatible library ID: /websites/seaborn_pydata
+   Description: Seaborn is a Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.
+   Code Snippets: 2600
+   Source Reputation: High
+   Benchmark Score: 86.46
+

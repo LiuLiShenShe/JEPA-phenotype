@@ -1,0 +1,6 @@
+FRAME 1/384 plant_001 DAS=37 split=val points=15033 pred_leaves=5 seconds=5.39
+FRAME 2/384 plant_001 DAS=40 split=val points=40675 pred_leaves=7 seconds=4.38
+FRAME 3/384 plant_001 DAS=44 split=val points=93957 pred_leaves=6 seconds=18.63
+FRAME 4/384 plant_001 DAS=47 split=val points=120992 pred_leaves=9 seconds=33.20
+FRAME 5/384 plant_001 DAS=51 split=val points=194820 pred_leaves=11 seconds=84.88
+FRAME 6/384 plant_001 DAS=54 split=val points=224602 pred_leaves=11 seconds=111.12

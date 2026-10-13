@@ -1,0 +1,17 @@
+{
+  "python": "3.11.15 (main, Mar 10 2026, 18:16:52) [Clang 21.1.4 ]",
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.8.0",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "open3d": "0.19.0",
+    "pytest": "8.4.2",
+    "requests": "2.34.2",
+    "threadpoolctl": "3.7.0"
+  },
+  "isolation": ".venv-m6-a uses own geometry/UI dependencies; read-only .pth access to .venv-m4 torch; no historical package changed"
+}

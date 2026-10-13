@@ -1,0 +1,16 @@
+{
+  "status": "post-primary-lock engineering diagnostic, not a replacement primary endpoint",
+  "reason": "Official H5 preprocessing fetched through GitHub blob API showed bounding-box-midpoint and largest positive coordinate scaling, different from the pre-frozen unit-sphere input policy. Primary partial results existed before this source was successfully fetched.",
+  "official_source": "Data_preprocessing/FPS/002TXT2H5.py:change_scale; same in 3DEPS/004TXT2H5.py",
+  "plants": "all unchanged 12 val and 12 test plants",
+  "checkpoint": "same PlantNet epoch199",
+  "sampling": "same exact 4096 XYZ indices",
+  "normalization": "midpoint of sampled XYZ per-axis min/max; divide centered sample by global maximum positive coordinate",
+  "tracking": "same cached geometry-only 3DEPS/CPD, same TrackPlant3D costs, same B2 matcher",
+  "measurement": "same PCA span and planar hull",
+  "labels": "no GT labels in inference or tracker",
+  "metrics": "identical frozen main metrics and thresholds, reported separately",
+  "acceptance": "cannot overturn failed original primary with this post-lock diagnostic or claim confirmatory success",
+  "decision": "report whether original bottleneck diagnosis remains under the correct official normalization; disagreement limits the research recommendation",
+  "training_steps": 0
+}

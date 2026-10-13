@@ -1,0 +1,11 @@
+{
+  "utc_before_inference": "2026-10-12T13:11:31.270075+00:00",
+  "sha256": {
+    "configs/m6_a/protocol.json": "4df365b232acd61334c414fe387fd17d9ead42c2026765238cf571f276865bd6",
+    "reports/m3/plant_splits.json": "b3d675218a85bf2f2aece4c455260336a58be9d176331e832ab31aac5870d55f",
+    "reports/m3/raw_file_manifest.json": "373ddc18569edc1ae374f08a5ccfc9a0c1562516de4f97f19a66fd55f171e6cf",
+    "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/checkpoints/model_epoch199.pth": "efbea61d1a562ae8c58ca12fa60c49deae0db0de5bcca08356dd8dc1ee373e69"
+  },
+  "inference_started": false,
+  "training_steps": 0
+}

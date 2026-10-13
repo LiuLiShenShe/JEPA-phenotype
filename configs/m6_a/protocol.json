@@ -1,0 +1,92 @@
+{
+  "milestone": "M6-A",
+  "frozen_date": "2026-10-12",
+  "scope": "baseline feasibility and error decomposition only; no JEPA, no future prediction, no new algorithm",
+  "dataset": {
+    "name": "Sugar4D",
+    "version": "V4",
+    "archive_sha256": "69e25b87b470173d30a70fbac9d4caf2ae968082cd83378cd87d93601b370908",
+    "split_source": "reports/m3/plant_splits.json:assignments.official",
+    "plants": {"train": 24, "val": 12, "test": 12},
+    "scans_per_plant": 16,
+    "independent_unit": "plant_uid",
+    "all_plants_retained": true,
+    "test_caveat": "held out from these pretrained models, but previously used in M3/M4; not a fresh confirmatory cohort",
+    "pepper_policy": "attempt official download; if unavailable do not claim cross-species validation"
+  },
+  "seed": 20261012,
+  "pipelines": {
+    "B0": "current GT leaf instance masks relabeled independently at every scan + official TrackPlant3D CPD and extended MWPM",
+    "B1": "fixed official PlantNet epoch199 checkpoint, XYZ-only zero-shot predictions + same TrackPlant3D adapter",
+    "B2": "same B1 instances + normalized current centroid Hungarian matching, 0.25 distance gate; no registration",
+    "B2_GT": "diagnostic only: B0 masks + B2 matcher; never substitute for B2 primary",
+    "PSegNet": "download and runtime smoke audit only; do not select between networks using target scores"
+  },
+  "segmentation": {
+    "checkpoint": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/checkpoints/model_epoch199.pth",
+    "training": false,
+    "input": "XYZ only, all raw points included before geometry-only sampling",
+    "sample_points": 4096,
+    "sampling": "deterministic uniform without replacement, no label stratification",
+    "normalization": "current scan centered and unit sphere; no temporal or GT alignment",
+    "mean_shift_bandwidth": 0.6,
+    "leaf_semantic_classes": [1, 3, 5],
+    "cluster_filter": "official 1% public mean_ins_size for majority semantic class",
+    "dense_prediction": "nearest sampled XYZ label and confidence propagation",
+    "primary_metrics": ["leaf PQ at strict IoU > 0.5", "SBD: min of directional mean best Dice"],
+    "evaluation_resolution": "full raw PLY points, not only 4096 samples"
+  },
+  "tracking": {
+    "sample_points": 256,
+    "sampling": "official 3DEPS: Open3D boundary, 4096 random edge/core, FPS 128 each; fixed seeds",
+    "cpd": {"alpha": 2.0, "beta": 2.0, "max_iterations": 100, "tolerance": 0.001, "low_rank": false},
+    "cost_weights": {"symmetric_unsquared_chamfer": 0.7, "centroid": 0.1, "relative_radius": 0.2},
+    "dummy_cost": "official extend_matrix: 0.9 times nearest real cost",
+    "primary_metric": "plant-macro observation IDF1 after full-sequence evaluation-only one-to-one GT/track alignment",
+    "secondary_metrics": ["detected leaf temporal identity accuracy", "end-to-end adjacent GT identity link recall", "ID switches", "longest correct track fraction", "complete-track fraction"],
+    "no_gt_temporal_identity_input": true,
+    "unknown disappearance": "tracker termination is not biological death",
+    "confidence": "semantic max-softmax times current assignment margin; heuristic, not calibrated probability"
+  },
+  "events": {
+    "definition": "first observation of a GT organ after initial scan; not botanical emergence",
+    "matching": "same scan IoU > 0.5 frame association; tracker new ID is positive event",
+    "metrics": ["precision", "recall", "F1", "missed_instance", "attached_to_old_identity", "false_rebirth", "spurious_instance"],
+    "initial_scan_excluded": true
+  },
+  "measurement": {
+    "method": "fixed geometry baseline: PCA major-axis 1%-99% span (cm); planar PCA convex hull (cm2)",
+    "labels": "released total length and leaf area are evaluation-only automatic references; final length manual reference secondary",
+    "diagnostic_oracle": "evaluator may use true within-frame association and true adjacent GT links solely to isolate error propagation",
+    "sampling": "at most 4096 evenly indexed points within each full-resolution mask",
+    "growth": "difference across adjacent actual scans, signed change and per-day rate; no future prediction",
+    "missing": "NaN plus explicit coverage; never silently zero morphology",
+    "primary_error": "relative absolute error, all eligible GT organs included via clipped loss min(error,2); missing measurements receive loss 2",
+    "severe_static": "relative absolute error > 0.5 or missing",
+    "severe_change": "absolute change error / max(previous reference,1) > 0.5 or missing",
+    "area_caveat": "planar convex hull is an imperfect area proxy, no independent manual area or longitudinal biological truth"
+  },
+  "acceptance": {
+    "split": "test; validation reported separately; no tuning on either",
+    "leaf_pq_min": 0.7,
+    "idf1_min": 0.8,
+    "new_event_f1_min": 0.7,
+    "measurement_coverage_min": 0.9,
+    "length_penalized_relative_error_max": 0.2,
+    "area_penalized_relative_error_max": 0.25,
+    "severe_change_failure_rate_max": 0.1,
+    "minimum_reliable_plant_fraction": 0.8,
+    "confidence_error_auroc_useful_min": 0.7,
+    "minimum_track_vs_oracle_change_loss_delta": 0.05,
+    "paired_ci": "10000 bootstrap resamples of independent plants; seed 20261012; differences B1-B0 and tracker-minus-evaluation-oracle"
+  },
+  "decision": {
+    "PIVOT": "engineering/identity evidence inadequate, or every diagnostic including GT masks and GT temporal evaluation links cannot support auditable measurements",
+    "INSTANCE-FIRST": "B1 PQ fails and B1 minus B0 IDF1 <= -0.15, with B0 sufficiently better to localize segmentation as major bottleneck",
+    "TRACKING-FIRST": "B0 tracking IDF1 fails and oracle-frame measurement is materially better; identity loss dominates despite adequate masks",
+    "MEASUREMENT-FIRST": "identity is adequate or segmentation is not demonstrated dominant, but oracle-mask/oracle-link measurement or confidence fails",
+    "precedence": ["PIVOT for engineering insufficiency", "INSTANCE-FIRST", "TRACKING-FIRST", "MEASUREMENT-FIRST"],
+    "exactly_one_recommendation": true,
+    "stop_after_report": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T14:19:26.992655+00:00",
+  "frames": 192,
+  "plants": 12,
+  "splits": [
+    "test"
+  ],
+  "training_steps": 0,
+  "lock_sha256": "ec75c61af4571ad1a542125f1895695535790c9743745c6411583c871b89f60e",
+  "checkpoint_sha256": "efbea61d1a562ae8c58ca12fa60c49deae0db0de5bcca08356dd8dc1ee373e69",
+  "input": "XYZ only; GT current masks confined to B0 and B2_GT; no GT temporal identities in any tracker"
+}

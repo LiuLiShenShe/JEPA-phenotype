@@ -1,0 +1,40 @@
+{
+  "full_resolution_frames": 384,
+  "independent_plants": 24,
+  "all_prespecified_plants_retained": true,
+  "per_plant_pipeline_rows": 96,
+  "metric_bounds_valid": true,
+  "B1_B2_same_masks_and_PQ": true,
+  "all_cache_hashes_valid": true,
+  "decomposition_additivity_valid": true,
+  "real_frame_repeats": [
+    {
+      "plant_uid": "plant_001",
+      "DAS": 37,
+      "labels_repeat_exact": true,
+      "confidence_repeat_exact": true,
+      "sample_indices_repeat_exact": true,
+      "track_sampled_gt_masks_repeat_exact": true,
+      "relabelled_gt_pq": 1.0
+    },
+    {
+      "plant_uid": "plant_046",
+      "DAS": 93,
+      "labels_repeat_exact": true,
+      "confidence_repeat_exact": true,
+      "sample_indices_repeat_exact": true,
+      "track_sampled_gt_masks_repeat_exact": true,
+      "relabelled_gt_pq": 1.0
+    }
+  ],
+  "historical_protection": {
+    "historical_files": 13320,
+    "sha256_tracked_files": 833,
+    "sha256_raw_files": 891,
+    "changes": [],
+    "unchanged": true,
+    "git_head_unchanged": true
+  },
+  "protocol_sha256": "4df365b232acd61334c414fe387fd17d9ead42c2026765238cf571f276865bd6",
+  "training_steps": 0
+}

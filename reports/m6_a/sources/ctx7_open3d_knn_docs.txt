@@ -1,0 +1,79 @@
+### Nearest neighbor search
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/agent_skills/open3d-python/SKILL.md
+
+Perform k-nearest neighbor and fixed-radius searches on a point cloud.
+
+```python
+import numpy as np
+import open3d as o3d
+
+points = o3d.core.Tensor(np.random.rand(1000, 3).astype(np.float32))
+queries = points[:5]
+nns = o3d.core.nns.NearestNeighborSearch(points)
+
+nns.knn_index()
+indices, squared_dists = nns.knn_search(queries, 8)          # (5, 8)
+
+nns.fixed_radius_index(0.2)                                  # radius given at index time
+idx, dist2, splits = nns.fixed_radius_search(queries, 0.2)   # ragged + row-split offsets
+```
+
+--------------------------------
+
+### Nearest neighbor search with core::nns::NearestNeighborSearch
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/agent_skills/open3d-cpp/SKILL.md
+
+Performs k-nearest neighbor and fixed-radius searches on a point cloud using the core::nns::NearestNeighborSearch class. Builds the index with KnnIndex() and FixedRadiusIndex(0.5) before calling KnnSearch and FixedRadiusSearch, which return indices and squared distances (and split offsets for the radius search).
+
+```cpp
+core::Tensor points = core::Tensor::Init<float>({{0, 0, 0}, {1, 0, 0}, {0, 1, 0}});
+core::nns::NearestNeighborSearch nns(points);
+
+nns.KnnIndex();
+auto [indices, distances2] = nns.KnnSearch(points, 2);
+
+nns.FixedRadiusIndex(0.5);
+auto [r_idx, r_dist2, r_splits] = nns.FixedRadiusSearch(points, 0.5);
+```
+
+--------------------------------
+
+### Import Open3D Core and NumPy
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/core/tensor.ipynb
+
+Imports the Open3D core module and NumPy, which are required for the tensor examples on this page.
+
+```python
+import open3d.core as o3c
+import numpy as np
+```
+
+### Verified Snippets > Nearest neighbor search
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/agent_skills/open3d-python/SKILL.md
+
+```python
+import numpy as np
+import open3d as o3d
+
+points = o3d.core.Tensor(np.random.rand(1000, 3).astype(np.float32))
+queries = points[:5]
+nns = o3d.core.nns.NearestNeighborSearch(points)
+
+nns.knn_index()
+indices, squared_dists = nns.knn_search(queries, 8)          # (5, 8)
+
+nns.fixed_radius_index(0.2)                                  # radius given at index time
+idx, dist2, splits = nns.fixed_radius_search(queries, 0.2)   # ragged + row-split offsets
+```
+
+--------------------------------
+
+### KDTree > Find neighboring points
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/geometry/kdtree.ipynb
+
+Open3D offers `search_hybrid_vector_3d`, a hybrid search function that combines KNN and RNN criteria. It returns at most k nearest neighbors within a specified radius, offering performance benefits in many practical scenarios and being integral to numerous Open3D functions.

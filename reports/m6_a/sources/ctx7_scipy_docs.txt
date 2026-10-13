@@ -1,0 +1,130 @@
+### Query nearest neighbor regions using KDTree
+
+Source: https://github.com/scipy/scipy/blob/main/doc/source/tutorial/spatial.rst
+
+Uses `scipy.spatial.KDTree` to identify nearest point indices and visualize Voronoi-like discrete nearest-neighbor regions with `pcolormesh`.
+
+```python
+>>> from scipy.spatial import KDTree
+>>> points = np.array([[0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2],
+...                    [2, 0], [2, 1], [2, 2]])
+>>> tree = KDTree(points)
+>>> tree.query([0.1, 0.1])
+(0.14142135623730953, 0)
+```
+
+```python
+>>> x = np.linspace(-0.5, 2.5, 31)
+>>> y = np.linspace(-0.5, 2.5, 33)
+>>> xx, yy = np.meshgrid(x, y)
+>>> xy = np.c_[xx.ravel(), yy.ravel()]
+>>> import matplotlib.pyplot as plt
+>>> dx_half, dy_half = np.diff(x[:2])[0] / 2., np.diff(y[:2])[0] / 2.
+>>> x_edges = np.concatenate((x - dx_half, [x[-1] + dx_half]))
+>>> y_edges = np.concatenate((y - dy_half, [y[-1] + dy_half]))
+>>> plt.pcolormesh(x_edges, y_edges, tree.query(xy)[1].reshape(33, 31), shading='flat')
+>>> plt.plot(points[:,0], points[:,1], 'ko')
+>>> plt.show()
+```
+
+--------------------------------
+
+### cKDTree.query signature with eps=0.0 (exact queries)
+
+Source: https://github.com/scipy/scipy/blob/main/spatial/_ckdtree.pyx
+
+The method signature showing `eps=0.0` guarantees exact nearest neighbors (the default is an exact query). The docstring documents that eps returns approximate nearest neighbors within `(1+eps)` times the true distance.
+
+```cython
+@cython.boundscheck(False)
+def query(cKDTree self, object x, object k=1, np.float64_t eps=0.0,
+          np.float64_t p=2.0, np.float64_t distance_upper_bound=INFINITY,
+          object workers=None, **kwargs):
+```
+
+--------------------------------
+
+### Batch nearest neighbors: multi-threaded dispatch to C++ query_knn
+
+Source: https://github.com/scipy/scipy/blob/main/spatial/_ckdtree.pyx
+
+Handles multiple query points by expanding scalar `k` into `np.arange(1, k+1)` and supports a list of k values. The input is reshaped into a 2D array, then the work is split across `num_workers` threads via `_run_threads`, each calling the nogil C++ `query_knn` function. Results are reshaped to match input shape. When `k==1`, the last dimension is squeezed; single-point inputs return Python scalars.
+
+```cython
+cdef:
+    bool single = (x_arr.ndim == 1)
+    bool nearest = False
+
+if np.isscalar(k):
+    if k == 1:
+        nearest = True
+    k = np.arange(1, k + 1)
+
+retshape = np.shape(x_arr)[:-1]
+
+cdef:
+    np.float64_t [:, ::1] dd = np.empty((n,len(k)),dtype=np.float64)
+    np.intp_t [:, ::1] ii = np.empty((n,len(k)),dtype=np.intp)
+    np.intp_t [::1] kk = np.array(k, dtype=np.intp)
+    np.intp_t kmax = np.max(k)
+
+def _thread_func(np.intp_t start, np.intp_t stop):
+    cdef:
+        np.float64_t *pdd = &dd[start,0]
+        np.intp_t *pii = &ii[start,0]
+        const np.float64_t *pxx = &xx[start,0]
+        np.intp_t *pkk = &kk[0]
+    with nogil:
+        query_knn(cself, pdd, pii,
+            pxx, stop-start, pkk, kk.shape[0], kmax, eps, p, distance_upper_bound)
+
+_run_threads(_thread_func, n, num_workers)
+
+ddret = np.reshape(dd, retshape + (len(k),))
+iiret = np.reshape(ii, retshape + (len(k),))
+
+if nearest:
+    ddret = ddret[..., 0]
+    iiret = iiret[..., 0]
+    if single:
+        ddret = float(ddret)
+        iiret = int(iiret)
+
+return ddret, iiret
+```
+
+### Extrapolation in ``D > 1``
+
+Source: https://github.com/scipy/scipy/blob/main/doc/source/tutorial/interpolate/extrapolation_examples.rst
+
+The basic idea of implementing extrapolation manually in a wrapper class
+or function can be easily generalized to higher dimensions. As an
+example, we consider a C1-smooth interpolation problem of 2D data using
+`CloughTocher2DInterpolator`. By default, it fills the out of bounds values
+with ``nan``\ s, and we want to instead use for each query
+point the value of its nearest neighbor.
+
+Since `CloughTocher2DInterpolator` accepts either 2D data or a Delaunay
+triangulation of the data points, the efficient way of finding nearest
+neighbors of query points would be to construct the triangulation (using
+`scipy.spatial` tools) and use it to find nearest neighbors on the convex hull
+of the data.
+
+We will instead use a simpler, naive method and rely on looping over the
+whole dataset using NumPy broadcasting.
+
+--------------------------------
+
+### scipy.spatial improvements
+
+Source: https://github.com/scipy/scipy/blob/main/doc/source/release/1.5.0-notes.rst
+
+`scipy.spatial.geometric_slerp` has been added to enable geometric
+spherical linear interpolation on an n-sphere
+
+`scipy.spatial.SphericalVoronoi` now supports calculation of region areas in 2D
+and 3D cases
+
+The tree building algorithm used by ``cKDTree`` has improved from quadratic
+worst case time complexity to loglinear. Benchmarks are also now available for
+building and querying of balanced/unbalanced kd-trees.

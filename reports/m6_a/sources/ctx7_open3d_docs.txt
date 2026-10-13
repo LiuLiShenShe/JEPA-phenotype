@@ -1,0 +1,110 @@
+### Estimate normals with estimate_normals and visualize
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/t_geometry/pointcloud.ipynb
+
+Estimates normals for a downsampled point cloud using hybrid search (radius and max_nn) and visualizes them with point_show_normal=True. The radius and max_nn arguments control search radius and maximum neighbors; specifying only one uses knn or radius search respectively. It is recommended to specify both, especially on CUDA devices.
+
+```python
+print("Recompute the normal of the downsampled point cloud using hybrid nearest neighbor search with 30 max_nn and radius of 0.1m.")
+downpcd.estimate_normals(max_nn=30, radius=0.1)
+o3d.visualization.draw_geometries([downpcd.to_legacy()],
+                                  zoom=0.3412,
+                                  front=[0.4257, -0.2125, -0.8795],
+                                  lookat=[2.6172, 2.0475, 1.532],
+                                  up=[-0.0694, -0.9768, 0.2024],
+                                  point_show_normal=True)
+```
+
+--------------------------------
+
+### Vertex normal estimation with estimate_normals
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/geometry/pointcloud.ipynb
+
+Estimates normals for each point in the downsampled point cloud using a KDTreeSearchParamHybrid with radius 0.1 and max_nn 30, then visualizes the normals. The normal orientation may be ambiguous; use orient_normals_to_align_with_direction or orient_normals_towards_camera_location if orientation matters.
+
+```python
+print("Recompute the normal of the downsampled point cloud")
+downpcd.estimate_normals(
+    search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=30))
+o3d.visualization.draw_geometries([downpcd],
+                                  zoom=0.3412,
+                                  front=[0.4257, -0.2125, -0.8795],
+                                  lookat=[2.6172, 2.0475, 1.532],
+                                  up=[-0.0694, -0.9768, 0.2024],
+                                  point_show_normal=True)
+```
+
+--------------------------------
+
+### Boundary detection with compute_boundary_points
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/t_geometry/pointcloud.ipynb
+
+Reads a point cloud and computes boundary points using the `compute_boundary_points` method with a radius of 0.02 and max_nn of 30. The boundary points are painted red and the original cloud gray, then both are visualized together.
+
+```python
+ply_point_cloud = o3d.data.DemoCropPointCloud()
+pcd = o3d.t.io.read_point_cloud(ply_point_cloud.point_cloud_path)
+
+boundarys, mask = pcd.compute_boundary_points(0.02, 30)
+# TODO: not good to get size of points.
+print(f"Detect {boundarys.point.positions.shape[0]} bnoundary points from {pcd.point.positions.shape[0]} points.")
+
+boundarys = boundarys.paint_uniform_color([1.0, 0.0, 0.0])
+pcd = pcd.paint_uniform_color([0.6, 0.6, 0.6])
+o3d.visualization.draw_geometries([pcd.to_legacy(), boundarys.to_legacy()],
+                                      zoom=0.3412,
+                                      front=[0.3257, -0.2125, -0.8795],
+                                      lookat=[2.6172, 2.0475, 1.532],
+                                      up=[-0.0694, -0.9768, 0.2024])
+```
+
+--------------------------------
+
+### Creating PointCloud Instances
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/t_geometry/pointcloud.ipynb
+
+This section demonstrates multiple ways to define a PointCloud tensor. It covers an empty cloud, creation from Open3D tensors (float32/float64), creation from a NumPy array (copied), from a Python list, and shows the expected shape requirement (N,3). A try/except block is included to show the error if the shape is incorrect.
+
+```python
+# Create an empty point cloud on CPU.
+pcd = o3d.t.geometry.PointCloud()
+print(pcd, "\n")
+
+# To create a point cloud on CUDA or SYCL, specify the device.
+# pcd = o3d.t.geometry.PointCloud(o3c.Device("CUDA:0"))
+# pcd = o3d.t.geometry.PointCloud(o3c.Device("SYCL:0"))
+
+# Create a point cloud from an Open3D tensor with dtype float32.
+pcd = o3d.t.geometry.PointCloud(o3c.Tensor([[0, 0, 0], [1, 1, 1]], o3c.float32))
+print(pcd, "\n")
+
+# Create a point cloud from an Open3D tensor with dtype float64.
+pcd = o3d.t.geometry.PointCloud(o3c.Tensor([[0, 0, 0], [1, 1, 1]], o3c.float64))
+print(pcd, "\n")
+
+# Create a point cloud from a NumPy array. The array will be copied.
+pcd = o3d.t.geometry.PointCloud(
+    np.array([[0, 0, 0], [1, 1, 1]], dtype=np.float32))
+print(pcd, "\n")
+
+# Create a point cloud from a Python list.
+pcd = o3d.t.geometry.PointCloud([[0., 0., 0.], [1., 1., 1.]])
+print(pcd, "\n")
+
+# Error creation. The point cloud must have shape (N, 3).
+try:
+    pcd = o3d.t.geometry.PointCloud(o3c.Tensor([0, 0, 0, 0], o3c.float32))
+except:
+    print("Error creation. The point cloud must have shape (N, 3).")
+
+```
+
+### Boundary detection
+
+Source: https://github.com/isl-org/open3d/blob/main/docs/jupyter/t_geometry/pointcloud.ipynb
+
+## Boundary detection
+Open3D implements the boundary detection algorithm inspired by [PCL](https://pointclouds.org/documentation/classpcl_1_1_boundary_estimation.html). The algorithm find the boundary points among a unordered point cloud by analyzing the angle among the normals of a point and its neighbors. The method has three arguments: `radius` and `max_nn` specify the hybrid nearest search parameters; The `angle_threshold` defines the maximum angle between the normals of a point and its neighbors to be considered as a boundary point. The functions returns the boundary points and a boolean tensor of the same size as the input point cloud.
