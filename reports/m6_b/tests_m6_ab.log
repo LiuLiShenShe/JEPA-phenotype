@@ -1,0 +1,9 @@
+.............................                                            [100%]
+=============================== warnings summary ===============================
+tests/test_m6_b.py::test_full_resolution_restore_and_no_gt_filtering
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/sklearn/cluster/_mean_shift.py:291: UserWarning: Binning data failed with provided bin_size=0.600000, using data points as seeds.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+--------- generated xml file: /fj/JEPA-表型/reports/m6_b/tests_m6_ab.xml ---------
+29 passed, 1 warning in 6.33s

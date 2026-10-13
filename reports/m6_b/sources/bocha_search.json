@@ -1,0 +1,10 @@
+{
+  "queried_at": "2026-10-13T01:51:39.664107+00:00",
+  "query": "Sugar4D V4 PlantNet PSegNet Organ3DNet 10.1016/j.aiia.2025.10.011 supervised instance segmentation official source",
+  "http_status": 403,
+  "response": {
+    "message": "You do not have enough money or package quota",
+    "log_id": "c3f2cfa53f1f582a",
+    "code": "403"
+  }
+}

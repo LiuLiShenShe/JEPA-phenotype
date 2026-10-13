@@ -1,0 +1,33 @@
+{
+  "historical_S0_prediction_replay": [
+    {
+      "split": "val",
+      "plants": 12,
+      "max_abs_differences": {
+        "pq": 0.0,
+        "idf1": 0.0,
+        "id_switches": 0.0,
+        "continuity": 0.0,
+        "new_event_f1": 0.0,
+        "length_change_tracked_coverage": 0.0,
+        "length_change_tracked_severe": 0.0
+      },
+      "exact_equal_except_rounding": true
+    },
+    {
+      "split": "test",
+      "plants": 12,
+      "max_abs_differences": {
+        "pq": 0.0,
+        "idf1": 0.0,
+        "id_switches": 0.0,
+        "continuity": 0.0,
+        "new_event_f1": 0.0,
+        "length_change_tracked_coverage": 0.0,
+        "length_change_tracked_severe": 0.0
+      },
+      "exact_equal_except_rounding": true
+    }
+  ],
+  "historical_results_not_overwritten": true
+}

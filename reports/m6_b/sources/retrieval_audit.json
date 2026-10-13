@@ -1,0 +1,1475 @@
+{
+  "utc": "2026-10-13T01:59:21.982661+00:00",
+  "http": [
+    {
+      "name": "sugar4d_page",
+      "url": "https://www.ipb.uni-bonn.de/data/sugar4d/index.html",
+      "http": 200,
+      "final_url": "https://www.ipb.uni-bonn.de/data/sugar4d/index.html",
+      "bytes": 21269,
+      "sha256": "7226404a3924922da0838634d805a3cafd1ef747af800050af3e19e064537e94"
+    },
+    {
+      "name": "sugar4d_metadata",
+      "url": "https://bonndata.uni-bonn.de/api/datasets/:persistentId/?persistentId=doi:10.60507/FK2/IS8YBZ",
+      "http": 200,
+      "final_url": "https://bonndata.uni-bonn.de/api/datasets/:persistentId/?persistentId=doi:10.60507/FK2/IS8YBZ",
+      "bytes": 13976,
+      "sha256": "d08e777daefbaef9086e011ae2925dbb7985679c5659675e846a80a7e9171080"
+    },
+    {
+      "name": "organ3dnet_checkpoint_reference",
+      "url": "https://raw.githubusercontent.com/Huang2002200/Organ3DNet/06f711fc3d9884933c61766c009b2bcd86837139/checkpoint/checkpoint_file.txt",
+      "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=60)"
+    },
+    {
+      "name": "organ3dnet_paper",
+      "url": "https://doi.org/10.1016/j.aiia.2025.10.011",
+      "http": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2589721725000911",
+      "bytes": 2716,
+      "sha256": "13f073f6a8d3af29777a771641c9aecd05fc859c750af92e8ee39e5aac8b86f4"
+    },
+    {
+      "name": "organ3dnet_archive",
+      "url": "https://codeload.github.com/Huang2002200/Organ3DNet/zip/06f711fc3d9884933c61766c009b2bcd86837139",
+      "http": 200,
+      "bytes": 342125,
+      "sha256": "412b68fd7d0cf7e409ba7baa9c916781ecba391332076afbd0d8f0a723645fd9",
+      "commit": "06f711fc3d9884933c61766c009b2bcd86837139"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/train.sh",
+      "bytes": 518,
+      "sha256": "c9293ab0050d719793f5e0b89e91a56201b4c722e2c003622e948cb0aff0e797"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/main_instance_segmentation.py",
+      "bytes": 3333,
+      "sha256": "0fdfada6d0117e33b6f5fc908cb780e7e670571ecbc5077aa1183dd305c85922"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/.gitattributes",
+      "bytes": 43,
+      "sha256": "c9811b282f382c04dfa5077f73101a231bc3af0fc1dad1886bf0a568114f50a8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/.gitignore",
+      "bytes": 51,
+      "sha256": "866d62bddfe8bf1c8473a73829943937db95dc2860e4b7d25528b0ca924afed3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/test.sh",
+      "bytes": 511,
+      "sha256": "cf5542411e0ee29797e89e04eb6746b9143da2c7869e99735ae6e13b5ecedbef"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/environment.yml",
+      "bytes": 6437,
+      "sha256": "f51085122b604899bf3c1b0bfb4642cd7d3c33bb4ae01e130485cce12571f2d2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/README.md",
+      "bytes": 8424,
+      "sha256": "d273b8b57f8ac89c6cdd89319d2e79008c66c3330657b4523ea422f41714b183"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/checkpoint/checkpoint_file.txt",
+      "bytes": 55,
+      "sha256": "82aa6cff912d7776f2c53654bd3d2612abd38c54d4228fa45d86d991200adac2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/utils.py",
+      "bytes": 21853,
+      "sha256": "82347ef09f69f03141a2063ee17f32d8b859a8c77ac5e4d463707241f71a035c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/semseg.py",
+      "bytes": 15697,
+      "sha256": "ee94cf1936f77aa1ede7ab0803e4e1e4b142bbd3530cc832e94a6832bd7a53c2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/preprocessing/base_preprocessing.py",
+      "bytes": 6733,
+      "sha256": "fa6d81eb8ad4af5861c12eea4ff9e94790224642446affd52308a0293724e835"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/preprocessing/plant_preprocessing.py",
+      "bytes": 5664,
+      "sha256": "713bae5ed9450fcad9391fe3ea390f361712e61e6847190ef05e7a39f7fb81dd"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/preprocessing/data_prepare/get_edge.py",
+      "bytes": 1583,
+      "sha256": "41ef2ccaad076037e53dd53b8e868e19551b23878aef7e060f69da65d05e75bf"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/preprocessing/data_prepare/traindata_agument.py",
+      "bytes": 4509,
+      "sha256": "8151093c4b4af4adef41320a7c87c3f08328ac3636dc613220ec6514d28d5130"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/datasets/preprocessing/data_prepare/scale pointcloud.py",
+      "bytes": 1640,
+      "sha256": "c962d9793fb042c1a8ca2f3b2bf0c28a74233b62ae54513ea56a34ee3d1d5267"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/train.sh",
+      "bytes": 518,
+      "sha256": "c9293ab0050d719793f5e0b89e91a56201b4c722e2c003622e948cb0aff0e797"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/utils.py",
+      "bytes": 4941,
+      "sha256": "4dabe10b194b323169954c5af0efba0b71bbf55351a9a8c2ab5e68d3f0474f35"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/point_cloud_utils.py",
+      "bytes": 2520,
+      "sha256": "5e6a854524b5ee445d3514169e620051b6fdee765acdc2ace72eebca758c2855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/main_instance_segmentation.py",
+      "bytes": 3333,
+      "sha256": "0fdfada6d0117e33b6f5fc908cb780e7e670571ecbc5077aa1183dd305c85922"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/test.sh",
+      "bytes": 511,
+      "sha256": "cf5542411e0ee29797e89e04eb6746b9143da2c7869e99735ae6e13b5ecedbef"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/environment.yml",
+      "bytes": 6437,
+      "sha256": "f51085122b604899bf3c1b0bfb4642cd7d3c33bb4ae01e130485cce12571f2d2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pc_visualizations.py",
+      "bytes": 5688,
+      "sha256": "5ad5958a6e6b92acafb06d2d140e1b5f65246310ec91238ff723b6adee3c04aa"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/gradflow_check.py",
+      "bytes": 2347,
+      "sha256": "1650280870e3760d858a03bc93b6e2fcde337563cf64e3b273fef00ced428cf0"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/README.md",
+      "bytes": 4723,
+      "sha256": "801c9af13792c4a3dc0549e0447658b82fa0aeda75479710ff1ecc76c04f3a1e"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/kfold.py",
+      "bytes": 3148,
+      "sha256": "f42be8f09ae38429917482bed967e02739cb61b27d820145e6316ac40b2df226"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/box_util.py",
+      "bytes": 10961,
+      "sha256": "65ebba0ea41e35613a21e685103f436f26c703e60b4816246cd09c2dc1012ef3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/eval_det.py",
+      "bytes": 9320,
+      "sha256": "5f946b75655dac8abd825c4ccdc15870bad66c6f64e743adc77ca101e9ab07b8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/tf_logger.py",
+      "bytes": 2575,
+      "sha256": "3e7a8010e255145edf23c5ca0c94ce85879c69b7d68e6718fcfd9cf9c86a625b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/nn_distance.py",
+      "bytes": 2953,
+      "sha256": "97e982287ce59bbcc06c66341a2e080fc8baa9aae91af5f0e29c3c1a73a246eb"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/metric_util.py",
+      "bytes": 5873,
+      "sha256": "3fb25d4060d25e587cbd9bb502e477d02e2b1b2ddfadc98ec5f1c4108ba1acd4"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/tf_visualizer.py",
+      "bytes": 1876,
+      "sha256": "03123eac9f9e442598933ab6061d51802495dc26cf40fad1ed13951dd13d87e3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/pc_util.py",
+      "bytes": 18952,
+      "sha256": "d893e17b64c0bca41490cb20fe165e2ec52cd3d698d6f8ed02489c9b6ef423aa"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/votenet_utils/nms.py",
+      "bytes": 5206,
+      "sha256": "41f9d8ee6955fd4ea6657904768e98d95128a2196fb5e3ac28d631c706349e92"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/checkpoint/checkpoint_file.txt",
+      "bytes": 55,
+      "sha256": "82aa6cff912d7776f2c53654bd3d2612abd38c54d4228fa45d86d991200adac2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/utils.py",
+      "bytes": 21853,
+      "sha256": "82347ef09f69f03141a2063ee17f32d8b859a8c77ac5e4d463707241f71a035c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/semseg.py",
+      "bytes": 15697,
+      "sha256": "ee94cf1936f77aa1ede7ab0803e4e1e4b142bbd3530cc832e94a6832bd7a53c2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/preprocessing/base_preprocessing.py",
+      "bytes": 6733,
+      "sha256": "fa6d81eb8ad4af5861c12eea4ff9e94790224642446affd52308a0293724e835"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/preprocessing/plant_preprocessing.py",
+      "bytes": 5664,
+      "sha256": "713bae5ed9450fcad9391fe3ea390f361712e61e6847190ef05e7a39f7fb81dd"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/preprocessing/data_prepare/get_edge.py",
+      "bytes": 1583,
+      "sha256": "41ef2ccaad076037e53dd53b8e868e19551b23878aef7e060f69da65d05e75bf"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/preprocessing/data_prepare/traindata_agument.py",
+      "bytes": 4509,
+      "sha256": "8151093c4b4af4adef41320a7c87c3f08328ac3636dc613220ec6514d28d5130"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/datasets/preprocessing/data_prepare/scale pointcloud.py",
+      "bytes": 1640,
+      "sha256": "c962d9793fb042c1a8ca2f3b2bf0c28a74233b62ae54513ea56a34ee3d1d5267"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/setup.py",
+      "bytes": 1779,
+      "sha256": "20772c58dedc27e76b8b9ded6a66eb7bb6f8ec579bdb5f4af7ac2cdd63ad4a6a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/cuda_utils.h",
+      "bytes": 644,
+      "sha256": "98bee32f25de63f31ae77339ac95368bcbdf3cb24d4f266dee5e7c55bb68cce3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/pointops_api.cpp",
+      "bytes": 3794,
+      "sha256": "2f717bfafd646b9c6dc8a7f60124be6382d47c7ad8964bf0a5c49bba71f973b1"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/grouping/grouping_cuda_kernel.cu",
+      "bytes": 2066,
+      "sha256": "d8dedca5a5e9baf252860d2c3f1e0d23bfd388240840edb0beb6acd9d6e0f601"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/grouping/grouping_cuda_kernel.h",
+      "bytes": 737,
+      "sha256": "dadcdccf6582ed45f9ffd8fe0d17ddc5bd4fe2078c5e84643a0ac53a2f977b5b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/grouping/grouping_cuda.cpp",
+      "bytes": 913,
+      "sha256": "103e749892b1304c5508ac6470c391d18e482ee0480535912b2316b8fdb4035f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/rpe_v2/relative_pos_encoding_cuda_kernel_v2.cu",
+      "bytes": 21831,
+      "sha256": "6c80b4d4c1d343664dec57fef9fd78009f6eeb6d2442fed7f33793383d0e6011"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/rpe_v2/relative_pos_encoding_cuda_kernel_v2.h",
+      "bytes": 4236,
+      "sha256": "5aed2ab63f243f31b8a9f4fdfff212da265711882153ed8d42fe6e3d949ffc1f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/rpe_v2/relative_pos_encoding_cuda_v2.cpp",
+      "bytes": 7017,
+      "sha256": "89af43ac373fc6bf2c8f8ecb84dc280b7af67f2ed4eed25e6645afeebc8378dc"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/interpolation/interpolation_cuda_kernel.cu",
+      "bytes": 2074,
+      "sha256": "ab7f2d860ed0a65da94e91778baac22151e63e7d8d6881187074a90d6f84f7f2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/interpolation/interpolation_cuda_kernel.h",
+      "bytes": 837,
+      "sha256": "9f926b78dfffe53e87d6fdfbfa87177396b97ca584fb40a925b84cc8212e8ec1"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/interpolation/interpolation_cuda.cpp",
+      "bytes": 1100,
+      "sha256": "e002b8668931d6cd50186edd839d2af0ab16a6e4632b29a713537625e7bc7f88"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/aggregation/aggregation_cuda_kernel.h",
+      "bytes": 1138,
+      "sha256": "7e0b0af26ae73f2659858a3ab3854fc079d7843c366e38312f6d8d077d02634b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/aggregation/aggregation_cuda_kernel.cu",
+      "bytes": 3296,
+      "sha256": "c10500f39f0937684ed6b031bdfa9db1a32f8b21030b7c1878f39ec21faedc78"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/aggregation/aggregation_cuda.cpp",
+      "bytes": 1652,
+      "sha256": "4207de2232f0bd3d0ca910888f91ad06f1d0aab9a7319da66751e1d6b06131d0"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/rpe/relative_pos_encoding_cuda_kernel.h",
+      "bytes": 2150,
+      "sha256": "2c45c9a1813d2f26ac8dd53683b85add50f17222d5f670f857c94ab824a88211"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/rpe/relative_pos_encoding_cuda.cpp",
+      "bytes": 3357,
+      "sha256": "cf67e890bee78cb9ea7b1083c2040235cd4d71d0d1a88ce2091fc546262440fb"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/rpe/relative_pos_encoding_cuda_kernel.cu",
+      "bytes": 6577,
+      "sha256": "0caba4420f87ca51498ebc33fd402c46b82555ebab3c3350099111d1d63d8daa"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/sampling/sampling_cuda_kernel.cu",
+      "bytes": 5476,
+      "sha256": "2056408cd7fad30e14a29caf748ab44971e48e2b0580a4abff2c0dfed5c1c2d6"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/sampling/sampling_cuda.cpp",
+      "bytes": 654,
+      "sha256": "357437ad7da3f15913d209ae0b8e20ab262b6e00b3d6f8902a84cf386f89f966"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/sampling/sampling_cuda_kernel.h",
+      "bytes": 527,
+      "sha256": "5e651d12975fc92514d3fcf6542255ed127f3b19805335907dd52fe2cddafe09"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/knnquery/knnquery_cuda_kernel.cu",
+      "bytes": 2985,
+      "sha256": "86759f1152fc0f148819f52de407b16d209745526655e6fc3729b76de1aaf258"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/knnquery/knnquery_cuda_kernel.h",
+      "bytes": 576,
+      "sha256": "cfe97d73cc4207e5c1d840a2828336c3dd12682592aec49e70a7114b94e17cac"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/knnquery/knnquery_cuda.cpp",
+      "bytes": 755,
+      "sha256": "779ea3eaacc4914a420ccf73e8ab653d485d25f83f89d3ea0f4757698f67aaa9"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/subtraction/subtraction_cuda_kernel.h",
+      "bytes": 857,
+      "sha256": "5ad49f5fd7435906164a79139744c26fdd4f204203e74efd32656d89fbbefa37"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/subtraction/subtraction_cuda.cpp",
+      "bytes": 1136,
+      "sha256": "3efd607e5ef9661b7a3d8173b326441f72ca58c51f9895f9151345ecb355700b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/subtraction/subtraction_cuda_kernel.cu",
+      "bytes": 2405,
+      "sha256": "531cba1ca2dc061212cb0b44defaff117da8ca8fa21924d7b5a72e3f57566a4d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/attention_v2/attention_cuda_v2.cpp",
+      "bytes": 2873,
+      "sha256": "75cab8236da1992ec68111db4876d41390a241ea4783d5b77707cf3fe9ff2ee2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/attention_v2/attention_cuda_kernel_v2.cu",
+      "bytes": 7484,
+      "sha256": "2104968d76ca704ef4eb25aa4ee5bca6d9ed9c4278b184d220cb897f0dd577f8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/attention_v2/attention_cuda_kernel_v2.h",
+      "bytes": 1959,
+      "sha256": "d4f1f197e1f75f6e58821915c2e7170d3ac741b092daf2a4789a10e1b431e974"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/attention/attention_cuda_kernel.cu",
+      "bytes": 4708,
+      "sha256": "2cd18e40ac28d572df35ffc901657ff043c49a44034075265ae8369c544df4c4"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/attention/attention_cuda_kernel.h",
+      "bytes": 1793,
+      "sha256": "511b873e4d847eb128c4119f6bcaec41706f63303eb3cef85b67024d8d08c098"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/src/attention/attention_cuda.cpp",
+      "bytes": 2716,
+      "sha256": "311ac03652910c046e251608971ab41e6d39a8dde32742c9d6539324b5317224"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_attention_op_step1.py",
+      "bytes": 2734,
+      "sha256": "d53856297eafd1bc9681ef76d321256be0843821997194a6f8a7d746c82aa586"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/pointops2.py",
+      "bytes": 8835,
+      "sha256": "14802f5a7f92eecb6b7e7c7ac42ce8a167dd8d1d9255dcfc5d04ed3b41da6e86"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_attention_op_step1_v2.py",
+      "bytes": 3369,
+      "sha256": "5c231fb97db6aa448a168b32d37a86e1c4e7013a151250b4153dfff98538344f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_relative_pos_encoding_op_step1.py",
+      "bytes": 1969,
+      "sha256": "d0d2ba91024e72875d04e74c34912cf28500f42bc24230291242438adc17577e"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/pointops_ablation.py",
+      "bytes": 8904,
+      "sha256": "2a1324e73f0da9e04ab544353f6443cf185d711e97b04efe9deb9d9c4475e7b3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/pointops.py",
+      "bytes": 38234,
+      "sha256": "2d69f8dac8900eed6a7f0b66335bc014c3bea055fae911811b961bcbdcccf0ae"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_relative_pos_encoding_op_step1_v3.py",
+      "bytes": 3005,
+      "sha256": "6468526dd199d4953adad3930640f31eb8ce08f54172a2d16c3b63ee791b8b30"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_relative_pos_encoding_op_step2_v2.py",
+      "bytes": 2932,
+      "sha256": "333a6d9d479887f6bcd7b7542bbe4bc06210c0269f4f5257b6c4f2d248bacd18"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_relative_pos_encoding_op_step2.py",
+      "bytes": 2434,
+      "sha256": "e125d77328fce4175efe377db475126b27ff0b9715e06dff400045f9997858ff"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_relative_pos_encoding_op_step1_v2.py",
+      "bytes": 2234,
+      "sha256": "8c5315798a234167c681a02c56ed5657b26769420575bf3c7b064e12c325bb53"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/pointops2/functions/test_attention_op_step2.py",
+      "bytes": 1754,
+      "sha256": "ac848208299b621e2a7007096a99f4f388a4f2fdb265e69b412763e1b93d8f17"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/misc.py",
+      "bytes": 3978,
+      "sha256": "40e0cda9567ae890e8c1701c8d7165837ac40a4de8e385c5a25ffebebf89af7c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/resunet.py",
+      "bytes": 17273,
+      "sha256": "6f62243aa03bf189aada3b6b5cf9b3f37ae65da3f5924432a0824e0a68bdbe43"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/model.py",
+      "bytes": 746,
+      "sha256": "aa8962cf19663903635705495d6483f579f5732448c004080b5b0aa899c247dd"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/criterion.py",
+      "bytes": 12614,
+      "sha256": "7fd2ca13bb124814d1371327d283528888064a09c19dd65517d4d0e0f2fa1407"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/resnet.py",
+      "bytes": 6117,
+      "sha256": "d72ed25df837ffbe3fd52e366cfdacbd5f55c631cd2ccdfe26028f4b6114fc26"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/__init__.py",
+      "bytes": 1029,
+      "sha256": "c1952cdf21b3353c98fa6853b79426d4536e3b75f2493b8eebcca8bed8fd37ee"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/wrapper.py",
+      "bytes": 1033,
+      "sha256": "ec62b50bcde19b1c8d1ece798fc6791afb22ed1d4ea3dd9b386ecf881d12069c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/Organ3DNet.py",
+      "bytes": 27289,
+      "sha256": "c2a21b7a0bbdd27b909c98f938ee020aa136ab070dd0487fadef065afa0f916d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/matcher.py",
+      "bytes": 8542,
+      "sha256": "ce8be3c556b8263cd88011f92361fbb6ab2eff322f3f6dda94ea031a80148ca8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/resnet.py.tmp",
+      "bytes": 6080,
+      "sha256": "7be770b2608c6d87a1c30ff7dc75c22bfe170bb9aaa73b0bf21fe8d9e382d85c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/position_embedding.py",
+      "bytes": 6174,
+      "sha256": "f94e17ab765047b0a34f12b93b5b2486aad8e5fe3774c6bea72d085dc45c365a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/res16unet.py",
+      "bytes": 12436,
+      "sha256": "2efbf301d07436760784cb178452466a86c1ec9228fefe1f43cf67c5c595da37"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/metrics/confusionmatrix.py",
+      "bytes": 3907,
+      "sha256": "8cb47930295569d48c8acc89959a9b9d5e7ce8c7cac704bbce870932375c8463"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/metrics/__init__.py",
+      "bytes": 108,
+      "sha256": "e5ae7d4ca28476d9eb83e13bbf4d238f21e4e3872662e9411dd96c866c5adf32"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/metrics/metrics.py",
+      "bytes": 1718,
+      "sha256": "9a5223259808c09a30228ae7a9525523ebe42bb55f8cdeef3a0f3df2a2b5fdf7"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/helpers_3detr.py",
+      "bytes": 3180,
+      "sha256": "2ede87a08bc311d5120fff4be719292b8a0b246be308a5e75f019602d8087bd8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/senet_block.py",
+      "bytes": 3258,
+      "sha256": "ae34dfe4d324e52bc63114368a597f0c5e1c1833d10426d63bd62814d5a7b621"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/3detr_helpers.py",
+      "bytes": 3180,
+      "sha256": "2ede87a08bc311d5120fff4be719292b8a0b246be308a5e75f019602d8087bd8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/sample_3deps.py",
+      "bytes": 1259,
+      "sha256": "04b917e20e11eda8df84731781bbbbcadab3c5ab53d267a471922ab24922827a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/common.py",
+      "bytes": 12219,
+      "sha256": "7798ef5d47e4b6605909c9dbfbf43e0f95ac7686f1ad86a56791b29bb384d033"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/resnet_block.py",
+      "bytes": 3569,
+      "sha256": "199e9c8f15596477604aa846083e995e5a35961e460577fda329d8cdd981f03f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/models/modules/resnet_block.py.tmp",
+      "bytes": 3487,
+      "sha256": "5f41b1365dc522eaa56d8128b903dcb930d74f52583e536a2f01f73223399d20"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/trainer/trainer.py",
+      "bytes": 40700,
+      "sha256": "7ba94289958cbeca6b08a946f3a1472012a4675e469f105bfc8507746390cf44"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/trainer/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/benchmark/util.py",
+      "bytes": 3605,
+      "sha256": "4e10927563a392c4f874a28f027f747858424261bdd4f57307777dfd46495114"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/benchmark/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/benchmark/evaluate_semantic_instance.py",
+      "bytes": 28711,
+      "sha256": "0ddfd5a4ac6cf3d9c4f9770be9a5a2b238862118f7d9cb90feb9121d36b90b9c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/benchmark/util_3d.py",
+      "bytes": 5719,
+      "sha256": "52cf4be5185ffdd8f67820eebe4824d3f4ec12064f357aaac2c48776369d1f23"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/pointnet2_utils.py",
+      "bytes": 12334,
+      "sha256": "a1f369b2576916651d9334e1c83a8f9d4dade9a3868e6f4a69201f0306e37a73"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/setup.py",
+      "bytes": 1174,
+      "sha256": "523296b65f2fb88b7b3b6597a770e79cd77425916bd04ad52a125f1068a4fc81"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/pytorch_utils.py",
+      "bytes": 7093,
+      "sha256": "5271aa91f7951663ce7a1db137a3a75edda65bc49a113d9106ecf48e0a13737c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/pointnet2_modules.py",
+      "bytes": 18113,
+      "sha256": "6610f30b50a688c7b6937e8dd4b3a31d980ca60e74e23c7c8289108425686e41"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/pointnet2_test.py",
+      "bytes": 951,
+      "sha256": "003679163666c5d20b5fa1d0da1781754d0f295f903bace6daa615291dae60a0"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/sampling_gpu.cu",
+      "bytes": 7073,
+      "sha256": "03a5edcfb5bf68e72d20a8251f29be1ba35ffbafa96c558a4e49cde1aa657407"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/ball_query.cpp",
+      "bytes": 1079,
+      "sha256": "f2550d452808a91ad144afffd97b18492d6be9fd155eab0e6b4c606b98eb489a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/bindings.cpp",
+      "bytes": 624,
+      "sha256": "fbe0294a0efde4ec5356b56e4f0f6061118fd54533edac203f2f8b6fa0a9e87f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/sampling.cpp",
+      "bytes": 2873,
+      "sha256": "5c3cdd4d7c682d3e5a2ceac374a2861fd6f3945668f36bfc0fb68ca471bb0530"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/interpolate.cpp",
+      "bytes": 3309,
+      "sha256": "3631dff2c41f3d1795526cacdf079a63248e5d7ef96307354056ac27cd433465"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/interpolate_gpu.cu",
+      "bytes": 5195,
+      "sha256": "b754fdc7a68a61470a6941bdf0c39def59fd9982af1eb24d18985ec48bac449d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/group_points_gpu.cu",
+      "bytes": 2939,
+      "sha256": "5c4c251eb41308cc4dfba52742494282a8c9d79c858c7ec1c870c6af48b0b7f8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/ball_query_gpu.cu",
+      "bytes": 1838,
+      "sha256": "6e9e1466b77f1153561ecb14d61ab2cdba99908ee117c4457d0a42c42d7fffa3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/src/group_points.cpp",
+      "bytes": 1942,
+      "sha256": "41e05d97ee4c6f962ba3cbdf7e9f1070e4e84cd81ceee7a9c51a9a30e927e03b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/include/ball_query.h",
+      "bytes": 216,
+      "sha256": "5ff1a6e82824df7d9723030028dce66dabb8375a0276b7e9a2d03a51e74c35b0"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/include/interpolate.h",
+      "bytes": 439,
+      "sha256": "a70fee34b6ac759a7ccfc3041d16a36e07162fd269b892f4126d763814ec16a2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/include/utils.h",
+      "bytes": 1041,
+      "sha256": "e77c1f692af0bf87b6ec272413de09e586bacae3071e89d90f05ad95af3a2430"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/include/cuda_utils.h",
+      "bytes": 1356,
+      "sha256": "ebc0f18843cff0e140924357fca46c3f976647b233c3bef88b586e9872fa7b83"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/include/group_points.h",
+      "bytes": 237,
+      "sha256": "34db9aa8078032b38b337067cf11f19348f0f1a3f8b336f353c945795136a9ca"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/third_party/pointnet2/_ext_src/include/sampling.h",
+      "bytes": 314,
+      "sha256": "517bdeeff6356ac1ba8254f0bb6862bd1e64d2a6442afbc9127bf5f375b6265c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/config_base_instance_segmentation.yaml",
+      "bytes": 1303,
+      "sha256": "3176820416a5cbd1c728aa1fb795240928382b044e2c608159df0045cbd48570"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/metrics/miou.yaml",
+      "bytes": 127,
+      "sha256": "1bba7625a5b7aefb7563bee7569a8ee91dbd452159300452f4257f2eda8a2aae"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/loss/set_criterion_custom_weights_1.yaml",
+      "bytes": 305,
+      "sha256": "4f22e54a5c4eb9bfadb9943792f18e33802f23963bf4ca0cb1e1d6b9b213a9ec"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/loss/set_criterion.yaml",
+      "bytes": 246,
+      "sha256": "63fde1a26d43590d03b0d4d73c6bda44aaca8056e195ac83890158ab4da5645c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/loss/cross_entropy.yaml",
+      "bytes": 90,
+      "sha256": "7e2a59d11a45d53c7ae530b77bb0bc23d00234aef15f7ec7af1bda710fdcacaf"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/callbacks/callbacks_instance_segmentation.yaml",
+      "bytes": 302,
+      "sha256": "ef33a3ae19b2df0595070f9eeb80deb6fb1971ebcda7a10546f5d55f90e2341e"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/optimizer/adamw.yaml",
+      "bytes": 57,
+      "sha256": "eee337d9822d68f1d1d6d2a3d878b1645941eb8b52ac44c296fa212827efdaf7"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/optimizer/adamw_lower.yaml",
+      "bytes": 57,
+      "sha256": "c62e16538baee9bf70060619e83b71a31b6f8597ccff29ee4230136aa64354c5"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/logging/full.yaml",
+      "bytes": 238,
+      "sha256": "6e00623f2d815e6c7bd683643c64a5dd4e591f79ab1e4af34cf10126102eecac"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/logging/minimal.yaml",
+      "bytes": 162,
+      "sha256": "4e9701558787bb83d7d90a82d1bca602473a38d588ef0ec85c8ff88c1fca00a3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/logging/base.yaml",
+      "bytes": 344,
+      "sha256": "9fa675a59749a6cde381285b873cdf9e5b9d8c67af9dc9963343576e30003343"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/logging/offline.yaml",
+      "bytes": 313,
+      "sha256": "d9b36a6a9d1744dd0fa796b69874555be6ec6335f6a9717a0a7fd40b5f8eb47d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/scheduler/lambdalr.yaml",
+      "bytes": 139,
+      "sha256": "9823c3f420e0855fa39e34a48ae2015a7aba46754c0e4fc8808465f5a3c56b78"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/scheduler/exponentiallr.yaml",
+      "bytes": 264,
+      "sha256": "3fd421af6d0d78265a1be75751c94bdd36078d51ddf65d0b15f4d08b92cc48a6"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/scheduler/onecyclelr.yaml",
+      "bytes": 259,
+      "sha256": "f457f7a45f6c366c26d42ae3577cb1f7c8500b5c5f08bc54718e831fa4961f10"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/model/Organ3D.yaml",
+      "bytes": 984,
+      "sha256": "41c1d84237b50440428af0967cae3b6bb3f1c4317d2287a8ff18f785ca99d20f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/matcher/hungarian_matcher.yaml",
+      "bytes": 119,
+      "sha256": "5fca0add1d192feaf9d47e6ea4b3d56bf741830b3c1f061197e00549e8d3ac18"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/trainer/trainer.yaml",
+      "bytes": 151,
+      "sha256": "bf8fecb84250fafb9d635ee334c9ff38b4fc5ccfdfaa0fb5edb1d574627c41aa"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/augmentation/volumentations_aug.yaml",
+      "bytes": 1276,
+      "sha256": "1ff353485c25fb37cf89776a60921c40d257bf627d9f89f8665ef49cc1e85cd4"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/data/indoor.yaml",
+      "bytes": 667,
+      "sha256": "45ab01eed2b5eaabe54916f264b02e97ba95222a7119cf4dbbd7942903dbd77b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/data/datasets/5plant.yaml",
+      "bytes": 1835,
+      "sha256": "3145527894834feceef096b1491f9aea16406f84687eafdac85b5f8c96bf80a3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/data/collation_functions/voxelize_collate_merge.yaml",
+      "bytes": 1007,
+      "sha256": "17c157426257bcf3d817193b75529e6fd775ebaa0ac9e17b2ffc0945d539cfdd"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/data/collation_functions/voxelize_collate.yaml",
+      "bytes": 1464,
+      "sha256": "71814f7f99ce446f098549284328c0a9db8c9d35b20702cf9acbdc47ea8c071c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/data/data_loaders/simple_loader_save_memory.yaml",
+      "bytes": 524,
+      "sha256": "49aa08881668d2ba8a4310d9512034d39937625d48811db30fefe81b4e93fdc9"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/utils/conf/data/data_loaders/simple_loader.yaml",
+      "bytes": 560,
+      "sha256": "acf546880a7be65f6ea4ce2f9f75c1225cff84b63343b9006dc7686ec4945775"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/misc.py",
+      "bytes": 3978,
+      "sha256": "40e0cda9567ae890e8c1701c8d7165837ac40a4de8e385c5a25ffebebf89af7c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/resunet.py",
+      "bytes": 17273,
+      "sha256": "6f62243aa03bf189aada3b6b5cf9b3f37ae65da3f5924432a0824e0a68bdbe43"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/model.py",
+      "bytes": 746,
+      "sha256": "aa8962cf19663903635705495d6483f579f5732448c004080b5b0aa899c247dd"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/criterion.py",
+      "bytes": 12614,
+      "sha256": "7fd2ca13bb124814d1371327d283528888064a09c19dd65517d4d0e0f2fa1407"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/resnet.py",
+      "bytes": 6117,
+      "sha256": "d72ed25df837ffbe3fd52e366cfdacbd5f55c631cd2ccdfe26028f4b6114fc26"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/__init__.py",
+      "bytes": 1029,
+      "sha256": "c1952cdf21b3353c98fa6853b79426d4536e3b75f2493b8eebcca8bed8fd37ee"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/wrapper.py",
+      "bytes": 1033,
+      "sha256": "ec62b50bcde19b1c8d1ece798fc6791afb22ed1d4ea3dd9b386ecf881d12069c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/Organ3DNet.py",
+      "bytes": 27289,
+      "sha256": "c2a21b7a0bbdd27b909c98f938ee020aa136ab070dd0487fadef065afa0f916d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/matcher.py",
+      "bytes": 8542,
+      "sha256": "ce8be3c556b8263cd88011f92361fbb6ab2eff322f3f6dda94ea031a80148ca8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/resnet.py.tmp",
+      "bytes": 6080,
+      "sha256": "7be770b2608c6d87a1c30ff7dc75c22bfe170bb9aaa73b0bf21fe8d9e382d85c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/position_embedding.py",
+      "bytes": 6174,
+      "sha256": "f94e17ab765047b0a34f12b93b5b2486aad8e5fe3774c6bea72d085dc45c365a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/res16unet.py",
+      "bytes": 12436,
+      "sha256": "2efbf301d07436760784cb178452466a86c1ec9228fefe1f43cf67c5c595da37"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/metrics/confusionmatrix.py",
+      "bytes": 3907,
+      "sha256": "8cb47930295569d48c8acc89959a9b9d5e7ce8c7cac704bbce870932375c8463"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/metrics/__init__.py",
+      "bytes": 108,
+      "sha256": "e5ae7d4ca28476d9eb83e13bbf4d238f21e4e3872662e9411dd96c866c5adf32"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/metrics/metrics.py",
+      "bytes": 1718,
+      "sha256": "9a5223259808c09a30228ae7a9525523ebe42bb55f8cdeef3a0f3df2a2b5fdf7"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/helpers_3detr.py",
+      "bytes": 3180,
+      "sha256": "2ede87a08bc311d5120fff4be719292b8a0b246be308a5e75f019602d8087bd8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/senet_block.py",
+      "bytes": 3258,
+      "sha256": "ae34dfe4d324e52bc63114368a597f0c5e1c1833d10426d63bd62814d5a7b621"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/3detr_helpers.py",
+      "bytes": 3180,
+      "sha256": "2ede87a08bc311d5120fff4be719292b8a0b246be308a5e75f019602d8087bd8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/sample_3deps.py",
+      "bytes": 1259,
+      "sha256": "04b917e20e11eda8df84731781bbbbcadab3c5ab53d267a471922ab24922827a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/common.py",
+      "bytes": 12219,
+      "sha256": "7798ef5d47e4b6605909c9dbfbf43e0f95ac7686f1ad86a56791b29bb384d033"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/resnet_block.py",
+      "bytes": 3569,
+      "sha256": "199e9c8f15596477604aa846083e995e5a35961e460577fda329d8cdd981f03f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/modules/resnet_block.py.tmp",
+      "bytes": 3487,
+      "sha256": "5f41b1365dc522eaa56d8128b903dcb930d74f52583e536a2f01f73223399d20"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/trainer/trainer.py",
+      "bytes": 40700,
+      "sha256": "7ba94289958cbeca6b08a946f3a1472012a4675e469f105bfc8507746390cf44"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/trainer/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/benchmark/util.py",
+      "bytes": 3605,
+      "sha256": "4e10927563a392c4f874a28f027f747858424261bdd4f57307777dfd46495114"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/benchmark/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/benchmark/evaluate_semantic_instance.py",
+      "bytes": 28711,
+      "sha256": "0ddfd5a4ac6cf3d9c4f9770be9a5a2b238862118f7d9cb90feb9121d36b90b9c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/benchmark/util_3d.py",
+      "bytes": 5719,
+      "sha256": "52cf4be5185ffdd8f67820eebe4824d3f4ec12064f357aaac2c48776369d1f23"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/pointnet2_utils.py",
+      "bytes": 12334,
+      "sha256": "a1f369b2576916651d9334e1c83a8f9d4dade9a3868e6f4a69201f0306e37a73"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/setup.py",
+      "bytes": 1174,
+      "sha256": "523296b65f2fb88b7b3b6597a770e79cd77425916bd04ad52a125f1068a4fc81"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/pytorch_utils.py",
+      "bytes": 7093,
+      "sha256": "5271aa91f7951663ce7a1db137a3a75edda65bc49a113d9106ecf48e0a13737c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/pointnet2_modules.py",
+      "bytes": 18113,
+      "sha256": "6610f30b50a688c7b6937e8dd4b3a31d980ca60e74e23c7c8289108425686e41"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/pointnet2_test.py",
+      "bytes": 951,
+      "sha256": "003679163666c5d20b5fa1d0da1781754d0f295f903bace6daa615291dae60a0"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/__pycache__/pytorch_utils.cpython-310.pyc",
+      "bytes": 6882,
+      "sha256": "8e3296ca4e115335fcefa1688728e1bf90fd920fb33e16a6c73667c29c1589b6"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/__pycache__/pointnet2_utils.cpython-310.pyc",
+      "bytes": 11171,
+      "sha256": "bdf7f6a000040da6885666b293c3c318e70b87b6a249e4e77854891e4d049191"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/sampling_gpu.cu",
+      "bytes": 7073,
+      "sha256": "03a5edcfb5bf68e72d20a8251f29be1ba35ffbafa96c558a4e49cde1aa657407"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/ball_query.cpp",
+      "bytes": 1079,
+      "sha256": "f2550d452808a91ad144afffd97b18492d6be9fd155eab0e6b4c606b98eb489a"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/bindings.cpp",
+      "bytes": 624,
+      "sha256": "fbe0294a0efde4ec5356b56e4f0f6061118fd54533edac203f2f8b6fa0a9e87f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/sampling.cpp",
+      "bytes": 2873,
+      "sha256": "5c3cdd4d7c682d3e5a2ceac374a2861fd6f3945668f36bfc0fb68ca471bb0530"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/interpolate.cpp",
+      "bytes": 3309,
+      "sha256": "3631dff2c41f3d1795526cacdf079a63248e5d7ef96307354056ac27cd433465"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/interpolate_gpu.cu",
+      "bytes": 5195,
+      "sha256": "b754fdc7a68a61470a6941bdf0c39def59fd9982af1eb24d18985ec48bac449d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/group_points_gpu.cu",
+      "bytes": 2939,
+      "sha256": "5c4c251eb41308cc4dfba52742494282a8c9d79c858c7ec1c870c6af48b0b7f8"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/ball_query_gpu.cu",
+      "bytes": 1838,
+      "sha256": "6e9e1466b77f1153561ecb14d61ab2cdba99908ee117c4457d0a42c42d7fffa3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/src/group_points.cpp",
+      "bytes": 1942,
+      "sha256": "41e05d97ee4c6f962ba3cbdf7e9f1070e4e84cd81ceee7a9c51a9a30e927e03b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/include/ball_query.h",
+      "bytes": 216,
+      "sha256": "5ff1a6e82824df7d9723030028dce66dabb8375a0276b7e9a2d03a51e74c35b0"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/include/interpolate.h",
+      "bytes": 439,
+      "sha256": "a70fee34b6ac759a7ccfc3041d16a36e07162fd269b892f4126d763814ec16a2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/include/utils.h",
+      "bytes": 1041,
+      "sha256": "e77c1f692af0bf87b6ec272413de09e586bacae3071e89d90f05ad95af3a2430"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/include/cuda_utils.h",
+      "bytes": 1356,
+      "sha256": "ebc0f18843cff0e140924357fca46c3f976647b233c3bef88b586e9872fa7b83"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/include/group_points.h",
+      "bytes": 237,
+      "sha256": "34db9aa8078032b38b337067cf11f19348f0f1a3f8b336f353c945795136a9ca"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/third_party/pointnet2/_ext_src/include/sampling.h",
+      "bytes": 314,
+      "sha256": "517bdeeff6356ac1ba8254f0bb6862bd1e64d2a6442afbc9127bf5f375b6265c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/leaf_phenotyping/02_Align_leaves.py",
+      "bytes": 4215,
+      "sha256": "b37b901896172b1082876ddd3822f8b55d89032903d8ef6666a6aa7509aa58b2"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/leaf_phenotyping/01_Inverse_normalization.py",
+      "bytes": 7170,
+      "sha256": "0b2b4a211926acd0ef34940b3f3ffcfa1de7c81886b5eee45ca1e5521ceafe83"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/leaf_phenotyping/03_Calculate_the_phenotypic_traits.py",
+      "bytes": 24726,
+      "sha256": "0e81cbc934b33fe67d8f83a5ea17e048f76ead4bdef36438cc32f9064f085cd7"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/config_base_instance_segmentation.yaml",
+      "bytes": 1303,
+      "sha256": "3176820416a5cbd1c728aa1fb795240928382b044e2c608159df0045cbd48570"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/metrics/miou.yaml",
+      "bytes": 127,
+      "sha256": "1bba7625a5b7aefb7563bee7569a8ee91dbd452159300452f4257f2eda8a2aae"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/loss/set_criterion_custom_weights_1.yaml",
+      "bytes": 305,
+      "sha256": "4f22e54a5c4eb9bfadb9943792f18e33802f23963bf4ca0cb1e1d6b9b213a9ec"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/loss/set_criterion.yaml",
+      "bytes": 246,
+      "sha256": "63fde1a26d43590d03b0d4d73c6bda44aaca8056e195ac83890158ab4da5645c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/loss/cross_entropy.yaml",
+      "bytes": 90,
+      "sha256": "7e2a59d11a45d53c7ae530b77bb0bc23d00234aef15f7ec7af1bda710fdcacaf"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/callbacks/callbacks_instance_segmentation.yaml",
+      "bytes": 302,
+      "sha256": "ef33a3ae19b2df0595070f9eeb80deb6fb1971ebcda7a10546f5d55f90e2341e"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/optimizer/adamw.yaml",
+      "bytes": 57,
+      "sha256": "eee337d9822d68f1d1d6d2a3d878b1645941eb8b52ac44c296fa212827efdaf7"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/optimizer/adamw_lower.yaml",
+      "bytes": 57,
+      "sha256": "c62e16538baee9bf70060619e83b71a31b6f8597ccff29ee4230136aa64354c5"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/logging/full.yaml",
+      "bytes": 238,
+      "sha256": "6e00623f2d815e6c7bd683643c64a5dd4e591f79ab1e4af34cf10126102eecac"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/logging/minimal.yaml",
+      "bytes": 162,
+      "sha256": "4e9701558787bb83d7d90a82d1bca602473a38d588ef0ec85c8ff88c1fca00a3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/logging/base.yaml",
+      "bytes": 344,
+      "sha256": "9fa675a59749a6cde381285b873cdf9e5b9d8c67af9dc9963343576e30003343"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/logging/offline.yaml",
+      "bytes": 313,
+      "sha256": "d9b36a6a9d1744dd0fa796b69874555be6ec6335f6a9717a0a7fd40b5f8eb47d"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/scheduler/lambdalr.yaml",
+      "bytes": 139,
+      "sha256": "9823c3f420e0855fa39e34a48ae2015a7aba46754c0e4fc8808465f5a3c56b78"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/scheduler/exponentiallr.yaml",
+      "bytes": 264,
+      "sha256": "3fd421af6d0d78265a1be75751c94bdd36078d51ddf65d0b15f4d08b92cc48a6"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/scheduler/onecyclelr.yaml",
+      "bytes": 259,
+      "sha256": "f457f7a45f6c366c26d42ae3577cb1f7c8500b5c5f08bc54718e831fa4961f10"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/model/Organ3D.yaml",
+      "bytes": 984,
+      "sha256": "41c1d84237b50440428af0967cae3b6bb3f1c4317d2287a8ff18f785ca99d20f"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/matcher/hungarian_matcher.yaml",
+      "bytes": 119,
+      "sha256": "5fca0add1d192feaf9d47e6ea4b3d56bf741830b3c1f061197e00549e8d3ac18"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/trainer/trainer.yaml",
+      "bytes": 151,
+      "sha256": "bf8fecb84250fafb9d635ee334c9ff38b4fc5ccfdfaa0fb5edb1d574627c41aa"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/augmentation/volumentations_aug.yaml",
+      "bytes": 1276,
+      "sha256": "1ff353485c25fb37cf89776a60921c40d257bf627d9f89f8665ef49cc1e85cd4"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/data/indoor.yaml",
+      "bytes": 667,
+      "sha256": "45ab01eed2b5eaabe54916f264b02e97ba95222a7119cf4dbbd7942903dbd77b"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/data/datasets/5plant.yaml",
+      "bytes": 1835,
+      "sha256": "3145527894834feceef096b1491f9aea16406f84687eafdac85b5f8c96bf80a3"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/data/collation_functions/voxelize_collate_merge.yaml",
+      "bytes": 1007,
+      "sha256": "17c157426257bcf3d817193b75529e6fd775ebaa0ac9e17b2ffc0945d539cfdd"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/data/collation_functions/voxelize_collate.yaml",
+      "bytes": 1464,
+      "sha256": "71814f7f99ce446f098549284328c0a9db8c9d35b20702cf9acbdc47ea8c071c"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/data/data_loaders/simple_loader_save_memory.yaml",
+      "bytes": 524,
+      "sha256": "49aa08881668d2ba8a4310d9512034d39937625d48811db30fefe81b4e93fdc9"
+    },
+    {
+      "path": "data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/conf/data/data_loaders/simple_loader.yaml",
+      "bytes": 560,
+      "sha256": "acf546880a7be65f6ea4ce2f9f75c1225cff84b63343b9006dc7686ec4945775"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/utils/test_utils.py",
+      "bytes": 11656,
+      "sha256": "87cd9e6fbbb821c128f23d7b3812e767c7da22bcb0b006d8c53115fbc695ab83"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/utils/loss_pytorch.py",
+      "bytes": 4167,
+      "sha256": "e76885c3d11660d8683a5d6b02cb4eb7b08c5b1d9f000b438570716d1d902480"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/utils/clustering.py",
+      "bytes": 2159,
+      "sha256": "6732c23c716ffe3c7981b113b1bc74f66c40dcdfaf055827539b99ba9c359e26"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/utils/torch_util.py",
+      "bytes": 4612,
+      "sha256": "cb36dc4aa4b01f0098d9c46850d3e57b9ff18781e7650f7c6135b2b96f43b831"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/utils/pointnet2_util_pytorch.py",
+      "bytes": 6339,
+      "sha256": "a0cc52c1c172613b4d0a39ece5b0586a7fc56f5a167a8a7a8016ae6c6d0dd50a"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/provider.py",
+      "bytes": 3323,
+      "sha256": "6c5fe3ba768fb760fa923aa487b0dd2369845fddf2308fc54ad201064eec69a0"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/04changeresulttoins.gt,sem.gt,ins,sem.py",
+      "bytes": 2071,
+      "sha256": "114228af5e2438c22c0f121201466517b3b8bc9eceef66d86f7d6e75810ca870"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/mean_ins_size.txt",
+      "bytes": 1000,
+      "sha256": "0b9074d7e219a783ca7ba6b2fbb976fd56260e17265ba73c1ef995f51b055d45"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/model_pytorch.py",
+      "bytes": 10267,
+      "sha256": "2fce6fb4e7cf1dd6717f3bb19802777cf4328f3dd7e65147587cd7237c6506d6"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/03eval_iou_accuracy.py",
+      "bytes": 7864,
+      "sha256": "5f5bdf44d7a09bacb654d7322080171511d2990f54b55d2c8000481a8732b4a9"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/part_color_mapping.json",
+      "bytes": 8919,
+      "sha256": "ec88c6adf34552f7cd1ab13e62b53e8b0182ee58837f1771b6753117991fabc8"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/01train.py",
+      "bytes": 14383,
+      "sha256": "37da4643de12679abc9f378fdc7e1c956447ef41628f07aabc60966a3eb2ae6e"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/log_6_BS74_0.3.txt",
+      "bytes": 1368,
+      "sha256": "27cad114154b08d5ce54c3f7d84c5855beb9ee226f90849da4c32861e94f459f"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/02test.py",
+      "bytes": 7673,
+      "sha256": "e6cf48a55011c1503506e687a426e1e6a654b33d6a8bf35f2dbdc20696e12ad9"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/00estimate_mean_ins_size.py",
+      "bytes": 1640,
+      "sha256": "f6ff4f15d2dbfdcaddb859be2746c75f28d396677978e9ea9c2b760ad596efd3"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/checkpoints/model_epoch199.pth",
+      "bytes": 53599453,
+      "sha256": "efbea61d1a562ae8c58ca12fa60c49deae0db0de5bcca08356dd8dc1ee373e69"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/data/test_file_list.txt",
+      "bytes": 13,
+      "sha256": "f7f61a4c282dfedfbb1f80c4b201a3cdb076e1356bc0bf5252237365e90c1a55"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/data/train_file_list.txt",
+      "bytes": 14,
+      "sha256": "a2bea0625051caa3683d6f886da16d02ca2591322e4c57d371f5499064c1724a"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/eval_iou_accuracy.py",
+      "bytes": 6461,
+      "sha256": "5eee6f10c177704fa93fdcfc321d5f27f747d7465ed5e3612fd5ae2efa2d4199"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/test_utils.py",
+      "bytes": 11656,
+      "sha256": "87cd9e6fbbb821c128f23d7b3812e767c7da22bcb0b006d8c53115fbc695ab83"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/loss_pytorch.py",
+      "bytes": 4192,
+      "sha256": "759127080383102262786312f27d0880972127c00bb88b156f00ace84580a052"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/clustering.py",
+      "bytes": 2160,
+      "sha256": "f0444874c76eb749bc615669ba4dd9cc06607a11f69a3101bc061cb5fbb0e6c9"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/torch_util.py",
+      "bytes": 2985,
+      "sha256": "6967d11bb46ed5cff7680e291002c2248c64d7e16622d4743728d10852ebe37b"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/pointnet2_util_pytorch.py",
+      "bytes": 10709,
+      "sha256": "192a0458704b18bada130ae1da6436c398308be08f5300f6a82909abb539f208"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/__pycache__/pointnet2_util_pytorch.cpython-38.pyc",
+      "bytes": 9573,
+      "sha256": "969ce1760b02dbcd54137562e0f0d1d95bbb3f44f9f4629e4a6b0c8ba41978a0"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/__pycache__/torch_util.cpython-38.pyc",
+      "bytes": 8006,
+      "sha256": "e3c3f50616e481e41eb6b86a037b573a5943a1f3269f8b5f63d33ca879ac0fbc"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/__pycache__/test_utils.cpython-38.pyc",
+      "bytes": 7524,
+      "sha256": "e9c46329c6ad932470cf65fd214fb4f1e4b9e77ed9836042d8933157546dda2f"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/__pycache__/loss_pytorch.cpython-38.pyc",
+      "bytes": 2892,
+      "sha256": "12cf698aef8528fe596505b362fde7f43889ce488f4bd9cda88c8ae8bee23d75"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/utils/__pycache__/clustering.cpython-38.pyc",
+      "bytes": 1956,
+      "sha256": "b3726d73f0b7e8e3a14f74ac83b50ae83f5199023f8f1b90d7fae7d96eb75b90"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/provider.py",
+      "bytes": 3323,
+      "sha256": "6c5fe3ba768fb760fa923aa487b0dd2369845fddf2308fc54ad201064eec69a0"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/04changeresulttoins.gt,sem.gt,ins,sem.py",
+      "bytes": 2071,
+      "sha256": "114228af5e2438c22c0f121201466517b3b8bc9eceef66d86f7d6e75810ca870"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/mean_ins_size.txt",
+      "bytes": 1000,
+      "sha256": "0b9074d7e219a783ca7ba6b2fbb976fd56260e17265ba73c1ef995f51b055d45"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/model_pytorch.py",
+      "bytes": 11747,
+      "sha256": "61cc00adc3573981a6c7cbbc80d8cfb3dcb82547d48a126f7a4ceffaf497f937"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/03eval_iou_accuracy.py",
+      "bytes": 7866,
+      "sha256": "7b8b8408e650199babb8a780de5cfbd7379a2c5f087d1417129e134f14ae2288"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/part_color_mapping.json",
+      "bytes": 8919,
+      "sha256": "ec88c6adf34552f7cd1ab13e62b53e8b0182ee58837f1771b6753117991fabc8"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/01train.py",
+      "bytes": 15114,
+      "sha256": "55809e33b4804dad90684ba2f608af6be0e5419cd543dda4e1cc503a4b9a3738"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/log_6_BS74_0.3.txt",
+      "bytes": 1187,
+      "sha256": "8d73392c6809d58141e106d9107c75d6f688935f4441b3dd524fecd48721cf81"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/02test.py",
+      "bytes": 7662,
+      "sha256": "24c42b0518467394488995bff29dd827b022500ba472cb37c0b5727e84e89173"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/00estimate_mean_ins_size.py",
+      "bytes": 1640,
+      "sha256": "f6ff4f15d2dbfdcaddb859be2746c75f28d396677978e9ea9c2b760ad596efd3"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/checkpoints/model_epoch199.pth",
+      "bytes": 40459367,
+      "sha256": "9c2d2dfe8fd30217aa42f7ff179998ab41e288cf9880831f292fc99c0e8e64f6"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/data/test_file_list.txt",
+      "bytes": 13,
+      "sha256": "f7f61a4c282dfedfbb1f80c4b201a3cdb076e1356bc0bf5252237365e90c1a55"
+    },
+    {
+      "path": "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/data/train_file_list.txt",
+      "bytes": 14,
+      "sha256": "a2bea0625051caa3683d6f886da16d02ca2591322e4c57d371f5499064c1724a"
+    }
+  ],
+  "licenses": "no declared repository code/weight license; do not redistribute"
+}

@@ -1,0 +1,3 @@
+scripts/train_m6_b_finetune_gpu1.sh: line 5: 522686 Killed                  .venv-m6-b/bin/python scripts/run_m6_b.py train --method S2 --seed "$seed" > "reports/m6_b/train_S2_${seed}_gpu1.log" 2>&1
+scripts/train_m6_b_finetune_gpu1.sh: line 5: 522687 Killed                  .venv-m6-b/bin/python scripts/run_m6_b.py train --method S2 --seed "$seed" > "reports/m6_b/train_S2_${seed}_gpu1.log" 2>&1
+scripts/train_m6_b_finetune_gpu1.sh: line 5: 522688 Killed                  .venv-m6-b/bin/python scripts/run_m6_b.py train --method S2 --seed "$seed" > "reports/m6_b/train_S2_${seed}_gpu1.log" 2>&1

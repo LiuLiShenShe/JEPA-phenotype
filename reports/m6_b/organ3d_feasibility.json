@@ -1,0 +1,28 @@
+{
+  "method": "S4 Organ3DNet",
+  "status": "BLOCKED",
+  "official_commit": "06f711fc3d9884933c61766c009b2bcd86837139",
+  "minkowski_commit": "02fc608bea4c0549b0a7b00ca1bf15dee4a0b228",
+  "python": "3.10",
+  "torch": "1.12.1+cu113",
+  "installed_torch_cuda": "11.3",
+  "available_nvcc": "12.6",
+  "pointnet2_extension_build_exit": 1,
+  "minkowski_build_exit": 1,
+  "official_model_import_exit": 1,
+  "checkpoint": {
+    "source": "https://zenodo.org/api/records/17446444/files/last-epoch.ckpt/content",
+    "path": "data/raw/m6_b/official/organ3dnet_last-epoch.ckpt",
+    "bytes": 481057352,
+    "md5": "e3266d804ab27d6ab89d7c0a61cc8ade",
+    "sha256": "af7c4129e0114d8f3ac69f71738e6d8203dffddf9bac5b7d6c5fb77338fc4b75",
+    "zenodo_record_license": {
+      "id": "cc-by-4.0"
+    },
+    "strict_load": false
+  },
+  "official_example_smoke": "not completed: native dependency build prevents official model import",
+  "target_supervised_steps": 0,
+  "simplified_replacement": false,
+  "policy": "No alternate architecture. Keep sources and weights local; checkpoint record CC-BY-4.0 does not establish repository code license. Stop bounded port attempt."
+}

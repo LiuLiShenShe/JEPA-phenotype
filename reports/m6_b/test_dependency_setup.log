@@ -1,0 +1,5 @@
+Using Python 3.11.15 environment at: .venv-m6-b
+Resolved 2 packages in 476ms
+Installed 2 packages in 69ms
+ + et-xmlfile==2.0.0
+ + openpyxl==3.1.5

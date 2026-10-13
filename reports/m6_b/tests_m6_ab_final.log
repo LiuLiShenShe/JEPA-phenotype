@@ -1,0 +1,35 @@
+...................................                                      [100%]
+=============================== warnings summary ===============================
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+tests/test_m6_b.py::test_research_decision_does_not_blame_segmentation_for_tracking_only_failure[0.9-0.9-0.8-0.9-True-INSTANCE-SOLVED-FOR-TRACKING]
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+tests/test_m6_b.py::test_full_resolution_restore_and_no_gt_filtering
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/sklearn/cluster/_mean_shift.py:291: UserWarning: Binning data failed with provided bin_size=0.600000, using data points as seeds.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+------ generated xml file: /fj/JEPA-表型/reports/m6_b/tests_m6_ab_final.xml ------
+35 passed, 15 warnings in 4.75s

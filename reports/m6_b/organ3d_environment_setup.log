@@ -1,0 +1,32 @@
+Using CPython 3.10.20
+Creating virtual environment at: .venv-m6-b-organ3d
+Activate with: source .venv-m6-b-organ3d/bin/activate
+Using Python 3.10.20 environment at: .venv-m6-b-organ3d
+Resolved 15 packages in 4.25s
+   Building antlr4-python3-runtime==4.8
+Downloading torchvision (22.3MiB)
+Downloading torch (1.7GiB)
+Downloading pillow (6.6MiB)
+Downloading numpy (16.3MiB)
+      Built antlr4-python3-runtime==4.8
+ Downloaded torchvision
+ Downloaded pillow
+ Downloaded numpy
+ Downloaded torch
+Prepared 11 packages in 54.82s
+Installed 15 packages in 7.10s
+ + antlr4-python3-runtime==4.8
+ + certifi==2026.7.22
+ + charset-normalizer==3.5.2
+ + hydra-core==1.0.5
+ + idna==3.20
+ + ninja==1.13.2
+ + numpy==1.23.5
+ + omegaconf==2.0.6
+ + pillow==12.3.0
+ + pyyaml==6.0.3
+ + requests==2.34.2
+ + torch==1.12.1+cu113
+ + torchvision==0.13.1+cu113
+ + typing-extensions==4.16.0
+ + urllib3==2.8.0

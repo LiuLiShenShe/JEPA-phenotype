@@ -1,0 +1,11 @@
+method,seed,split,frames,forward_seconds_mean,cluster_restore_seconds_mean,frames_per_second_total,peak_vram_GB,note
+S1,17,val,192,1.124172069467022,0.20711800987191964,0.75115109435545,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S1,17,test,192,0.3015303827802806,0.21791564103720398,1.9251278364802065,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S1,29,val,192,1.1493487127154367,0.1836006160786686,0.7502160647807082,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S1,43,val,192,1.1201622581041495,0.17732203360355925,0.7707222402545089,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S2,17,val,192,0.6405953875655541,0.18011061054615615,1.2184631308907348,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S2,17,test,192,0.30295219203496043,0.196624324361134,2.0016953703387044,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S2,29,val,192,0.6155237535955772,0.18214432756455304,1.253654275028277,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S2,43,val,192,0.6332765886230239,0.18180818083055783,1.226866256708958,0.319424,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S3,17,val,192,0.30742418877101346,0.2006216934629871,1.9683261590523244,0.301653504,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"
+S3,17,test,192,0.30882201322431985,0.2132992636616109,1.915263836716757,0.301653504,"concurrent GPU0 training/inference may affect speed; VRAM is per-process allocator, not whole-card peak"

@@ -1,0 +1,150 @@
+### Accumulate Scaled Gradients with PyTorch GradScaler
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/amp_examples.rst
+
+This code demonstrates how to perform gradient accumulation using `torch.cuda.amp.GradScaler` and `autocast`. It shows how to scale the loss, accumulate gradients over several iterations, and then unscale and step the optimizer after the desired accumulation steps. The loss is divided by `iters_to_accumulate` to average the gradients correctly.
+
+```python
+scaler = GradScaler()
+
+for epoch in epochs:
+    for i, (input, target) in enumerate(data):
+        with autocast(device_type='cuda', dtype=torch.float16):
+            output = model(input)
+            loss = loss_fn(output, target)
+            loss = loss / iters_to_accumulate
+
+        # Accumulates scaled gradients.
+        scaler.scale(loss).backward()
+
+        if (i + 1) % iters_to_accumulate == 0:
+            # may unscale_ here if desired (e.g., to allow clipping unscaled gradients)
+
+            scaler.step(optimizer)
+            scaler.update()
+            optimizer.zero_grad()
+```
+
+--------------------------------
+
+### Define an elastic PyTorch training script with checkpointing in Python
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/elastic/train_script.rst
+
+This Python code snippet provides an example of a training script designed for PyTorch's elastic distributed training. It demonstrates initializing the distributed process group using `torch.distributed.init_process_group`, loading an initial state or checkpoint, and crucially, saving the training state at the end of each epoch using `save_checkpoint`. This checkpointing mechanism is vital for recovering progress in an elastic environment where workers might fail and restart, ensuring that the maximum progress lost is one epoch.
+
+```python
+def main():
+       args = parse_args(sys.argv[1:])
+       state = load_checkpoint(args.checkpoint_path)
+       initialize(state)
+
+       # torch.distributed.run ensures that this will work
+       # by exporting all the env vars needed to initialize the process group
+       torch.distributed.init_process_group(backend=args.backend)
+
+       for i in range(state.epoch, state.total_num_epochs):
+            for batch in iter(state.dataset):
+                train(batch, state.model)
+
+            state.epoch += 1
+            save_checkpoint(state)
+```
+
+--------------------------------
+
+### Configure PyTorch DataLoader for Reproducible Data Loading (Python)
+
+Source: https://github.com/pytorch/pytorch/blob/v2.8.0/docs/source/notes/randomness.rst
+
+This example illustrates how to make PyTorch's `DataLoader` behavior reproducible, especially when using multiple worker processes. It involves defining a `seed_worker` function to reseed worker-specific random number generators (for `torch`, `numpy`, and `random`) and passing a `torch.Generator` instance to the `DataLoader`. This ensures consistent data shuffling and transformations across runs.
+
+```python
+import torch
+import numpy
+import random
+from torch.utils.data import DataLoader, Dataset
+
+# Assume train_dataset is an instance of torch.utils.data.Dataset
+# For example purposes, a dummy dataset:
+class DummyDataset(Dataset):
+    def __len__(self):
+        return 100
+    def __getitem__(self, idx):
+        return torch.tensor(idx)
+
+train_dataset = DummyDataset()
+batch_size = 16
+num_workers = 4
+
+def seed_worker(worker_id):
+    worker_seed = torch.initial_seed() % 2**32
+    numpy.random.seed(worker_seed)
+    random.seed(worker_seed)
+
+g = torch.Generator()
+g.manual_seed(0)
+
+data_loader = DataLoader(
+    train_dataset,
+    batch_size=batch_size,
+    num_workers=num_workers,
+    worker_init_fn=seed_worker,
+    generator=g,
+)
+```
+
+--------------------------------
+
+### Adam training step with CrossEntropyLoss
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/testing/_internal/common_quantization.py
+
+Full training loop using Adam optimizer and CrossEntropyLoss, including zero_grad, forward, loss, backward, and step.
+
+```python
+_default_loss_fn = torch.nn.CrossEntropyLoss()
+
+
+def test_only_train_fn(model, train_data, loss_fn=_default_loss_fn):
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    train_loss, correct, total = 0, 0, 0
+    for _ in range(10):
+        model.train()
+
+        for data, target in train_data:
+            optimizer.zero_grad()
+            output = model(data)
+            loss = loss_fn(output, target)
+            loss.backward()
+            optimizer.step()
+            train_loss += loss.item()
+            _, predicted = torch.max(output, 1)
+            total += target.size(0)
+            correct += (predicted == target).sum().item()
+    return train_loss, correct, total
+```
+
+--------------------------------
+
+### LRScheduler base class — ordering warning and last_epoch for checkpoint resume
+
+Source: https://github.com/pytorch/pytorch/blob/main/torch/optim/lr_scheduler.py
+
+Documents that scheduler initialization overwrites param_group["lr"], and that when resuming training, you must initialize the scheduler BEFORE calling optimizer.load_state_dict(). Also documents last_epoch parameter for checkpoint restore.
+
+```python
+    Args:
+        optimizer (Optimizer): The optimizer this scheduler will adjust the
+            learning rates of.
+        last_epoch (int): Index of the last epoch seen by the scheduler. Use
+            ``-1`` (default) to initialize the scheduler. Only use a non-default
+            value when restoring this scheduler from a saved checkpoint.
+
+    .. warning::
+        Initializing a scheduler overwrites its optimizer's
+        ``param_group["lr"]``\s. When restoring a checkpoint, initialize the
+        scheduler **before** calling your optimizer's
+        :meth:`~torch.optim.Optimizer.load_state_dict` to avoid overwriting the
+        loaded learning rates.
+```

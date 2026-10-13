@@ -1,0 +1,154 @@
+### Set tick locator and formatter with MaxNLocator and FormatStrFormatter
+
+Source: https://matplotlib.org/stable/_downloads/d0d8ff965c8915500c57be0a60da41d2/text_intro.ipynb
+
+Configures multiple subplots with different tick locators and formatters. Uses MaxNLocator with custom steps and nbins, AutoLocator, and FormatStrFormatter to control tick positions and label formatting.
+
+```python
+fig, axs = plt.subplots(2, 2, figsize=(8, 5), tight_layout=True)
+for n, ax in enumerate(axs.flat):
+    ax.plot(x1*10., y1)
+
+formatter = matplotlib.ticker.FormatStrFormatter('%1.1f')
+locator = matplotlib.ticker.MaxNLocator(nbins='auto', steps=[1, 4, 10])
+axs[0, 1].xaxis.set_major_locator(locator)
+axs[0, 1].xaxis.set_major_formatter(formatter)
+
+formatter = matplotlib.ticker.FormatStrFormatter('%1.5f')
+locator = matplotlib.ticker.AutoLocator()
+axs[1, 0].xaxis.set_major_formatter(formatter)
+axs[1, 0].xaxis.set_major_locator(locator)
+
+formatter = matplotlib.ticker.FormatStrFormatter('%1.5f')
+locator = matplotlib.ticker.MaxNLocator(nbins=4)
+axs[1, 1].xaxis.set_major_formatter(formatter)
+axs[1, 1].xaxis.set_major_locator(locator)
+
+plt.show()
+```
+
+--------------------------------
+
+### Set MaxNLocator for axis ticks
+
+Source: https://matplotlib.org/stable/release/prev_whats_new/dflt_style_changes.html
+
+Creates a new MaxNLocator with up to 9 bins and steps [1, 2, 5, 10] and sets it as the major locator. Note the missing closing parenthesis in the source; the algorithm has been improved and may change tick locations.
+
+```python
+import matplotlib.ticker as mticker
+ax.set_major_locator(mticker.MaxNLocator(nbins=9, steps=[1, 2, 5, 10])
+
+```
+
+--------------------------------
+
+### Set 3D axis label and tick positions
+
+Source: https://matplotlib.org/stable/release/prev_whats_new/whats_new_3.8.0.html
+
+Creates a 2x3 grid of 3D subplots and sets the label and tick positions for each axis to one of 'lower', 'upper', 'default', 'both', or 'none'. The last subplot is turned off with axis('off').
+
+```python
+import matplotlib.pyplot as plt
+
+positions = ['lower', 'upper', 'default', 'both', 'none']
+fig, axs = plt.subplots(2, 3, figsize=(12, 8),
+                        subplot_kw={'projection': '3d'})
+for ax, pos in zip(axs.flatten(), positions):
+    for axis in ax.xaxis, ax.yaxis, ax.zaxis:
+        axis.set_label_position(pos)
+        axis.set_ticks_position(pos)
+    title = f'position="{pos}"'
+    ax.set(xlabel='x', ylabel='y', zlabel='z', title=title)
+axs[1, 2].axis('off')
+```
+
+--------------------------------
+
+### Axes3D.tick_params()
+
+Source: https://matplotlib.org/stable/api/_as_gen/mpl_toolkits.mplot3d.axes3d.Axes3D.tick_params.html
+
+Convenience method for changing the appearance of ticks and tick labels on 3D axes. See Axes.tick_params for full documentation. Supports 'z' axis and autoscales all three axes when 'both' is set.
+
+```APIDOC
+## [METHOD] Axes3D.tick_params
+
+### Description
+Convenience method for changing the appearance of ticks and tick labels on 3D axes. This method is a wrapper for `Axes.tick_params`, adapted for 3D axes. It supports the 'z' axis and, when 'both' is specified, autoscales all three axes. Some settings may be ignored due to the unique drawing of 3D axes.
+
+### Method
+Not applicable (method call)
+
+### Endpoint
+Not applicable (method call)
+
+### Parameters
+#### Path Parameters
+- None
+
+#### Query Parameters
+- None
+
+#### Request Body
+- **axis** (str) - Optional - The axis to apply the parameters to. Can be 'x', 'y', 'z', or 'both'. Default is 'both'. When 'both', all three axes are autoscaled.
+- ****kwargs** - Optional - Additional keyword arguments as accepted by `Axes.tick_params`.
+
+### Request Example
+```python
+ax.tick_params(axis='both', labelsize=10, colors='red')
+```
+
+### Response
+#### Success Response (200)
+- None (method returns None)
+
+#### Response Example
+```python
+None
+```
+
+```
+
+### Saving figures
+
+Source: https://matplotlib.org/stable/users/explain/configuration.html?highlight=agg.path.chunksize
+
+## Saving figures# 
+
+savefig.dpi: `'figure'`
+    
+figure dots per inch or 'figure' 
+
+savefig.facecolor: `'auto'`
+    
+figure face color when saving 
+
+savefig.edgecolor: `'auto'`
+    
+figure edge color when saving 
+
+savefig.format: `'png'`
+    
+{png, ps, pdf, svg} 
+
+savefig.bbox: `None`
+    
+{tight, standard} 'tight' is incompatible with generating frames for animation 
+
+savefig.pad_inches: `0.1`
+    
+padding to be used, when bbox is set to 'tight' 
+
+savefig.directory: `'~'`
+    
+default directory in savefig dialog, gets updated after interactive saves, unless set to the empty string (i.e. the current directory); use '.' to start at the current directory but update after interactive saves 
+
+savefig.transparent: `False`
+    
+whether figures are saved with a transparent background by default 
+
+savefig.orientation: `'portrait'`
+    
+orientation of saved figure, for PostScript output only

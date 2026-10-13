@@ -1,0 +1,77 @@
+[
+  {
+    "DAS": 37,
+    "seed": 20261149,
+    "exact": true,
+    "max_abs": 0.0,
+    "current_info": {
+      "boundary_fraction": 0.17415020288698196,
+      "empty_partition_fallback": false,
+      "equivalent_neighbor_radius": 0.016519335607207572
+    },
+    "old_info": {
+      "plant_uid": "plant_001",
+      "DAS": 37,
+      "split": "val",
+      "raw_points": 15033,
+      "inference_seconds": 3.2697094548493624,
+      "sampling_seconds": 2.07216929923743,
+      "registration_seconds": 1.0256655514240265e-05,
+      "measurement_seconds": 0.02336957398802042,
+      "boundary_fraction": 0.17415020288698196,
+      "empty_partition_fallback": false,
+      "iterations": 0,
+      "objective_difference": 0.0
+    }
+  },
+  {
+    "DAS": 40,
+    "seed": 20261152,
+    "exact": false,
+    "max_abs": 1.2945411205291748,
+    "current_info": {
+      "boundary_fraction": 0.13598033189920097,
+      "empty_partition_fallback": false,
+      "equivalent_neighbor_radius": 0.006553409169808462
+    },
+    "old_info": {
+      "plant_uid": "plant_001",
+      "DAS": 40,
+      "split": "val",
+      "raw_points": 40675,
+      "inference_seconds": 1.217410578392446,
+      "sampling_seconds": 3.0602096701040864,
+      "registration_seconds": 0.04102647490799427,
+      "measurement_seconds": 0.026381966657936573,
+      "boundary_fraction": 0.13598033189920097,
+      "empty_partition_fallback": false,
+      "iterations": 8,
+      "objective_difference": 0.0006678989947704701
+    }
+  },
+  {
+    "DAS": 44,
+    "seed": 20261156,
+    "exact": false,
+    "max_abs": 1.4049404859542847,
+    "current_info": {
+      "boundary_fraction": 0.12139595772534244,
+      "empty_partition_fallback": false,
+      "equivalent_neighbor_radius": 0.02257502961980887
+    },
+    "old_info": {
+      "plant_uid": "plant_001",
+      "DAS": 44,
+      "split": "val",
+      "raw_points": 93957,
+      "inference_seconds": 1.1077746087685227,
+      "sampling_seconds": 17.377910771407187,
+      "registration_seconds": 0.037049708887934685,
+      "measurement_seconds": 0.04436678532510996,
+      "boundary_fraction": 0.12137467139223261,
+      "empty_partition_fallback": false,
+      "iterations": 8,
+      "objective_difference": 0.0009343410898023548
+    }
+  }
+]

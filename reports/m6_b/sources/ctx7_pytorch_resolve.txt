@@ -1,0 +1,37 @@
+
+1. Title: PyTorch
+   Context7-compatible library ID: /pytorch/pytorch
+   Description: PyTorch is an open-source machine learning framework that accelerates the path from research prototyping to production deployment, offering tensor computation with strong GPU acceleration and deep neural networks built on a tape-based autograd system.
+   Code Snippets: 11175
+   Source Reputation: High
+   Benchmark Score: 77.1
+   Versions: v2.5.1, v2_8_0, v2.9.1, v2.11.0, v2.14.0, v2.6.0
+
+2. Title: PyTorch Tutorials
+   Context7-compatible library ID: /pytorch/tutorials
+   Description: PyTorch Tutorials is a comprehensive collection of interactive tutorials for learning PyTorch, covering beginner to advanced topics and practical recipes for deep learning.
+   Code Snippets: 1473
+   Source Reputation: High
+   Benchmark Score: 64.71
+
+3. Title: PyTorch AO
+   Context7-compatible library ID: /pytorch/ao
+   Description: TorchAO is a PyTorch-native model optimization framework for training-to-serving, leveraging quantization and sparsity for enhanced performance.
+   Code Snippets: 1058
+   Source Reputation: High
+   Benchmark Score: 69.79
+
+4. Title: PyTorch RL
+   Context7-compatible library ID: /pytorch/rl
+   Description: TorchRL is an open-source Reinforcement Learning (RL) library for PyTorch, offering a modular and efficient framework for RL research and development, including a new LLM API for fine-tuning language models.
+   Code Snippets: 1561
+   Source Reputation: High
+   Benchmark Score: 68.61
+
+5. Title: PyTorch
+   Context7-compatible library ID: /rocm/pytorch
+   Description: PyTorch is a Python package providing tensor computation with GPU acceleration and deep neural networks built on a tape-based autograd system, allowing integration with existing Python libraries.
+   Code Snippets: 13091
+   Source Reputation: High
+   Benchmark Score: 68.94
+

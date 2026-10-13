@@ -1,0 +1,13 @@
+{
+  "utc_before_training": "2026-10-13T02:14:00.211981+00:00",
+  "sha256": {
+    "configs/m6_b/protocol.json": "39a31f73de48568998defea76715f538b9caf77a2cc4164e501848be2698ccd9",
+    "configs/m6_a/protocol.json": "4df365b232acd61334c414fe387fd17d9ead42c2026765238cf571f276865bd6",
+    "reports/m3/plant_splits.json": "b3d675218a85bf2f2aece4c455260336a58be9d176331e832ab31aac5870d55f",
+    "reports/m3/raw_file_manifest.json": "373ddc18569edc1ae374f08a5ccfc9a0c1562516de4f97f19a66fd55f171e6cf",
+    "reports/m6_b/sources/retrieval_audit.json": "5520a72204d323e8f4ee4d138c52c04bd07a9180e5bf9148dc49cfb8465707f0",
+    "data/raw/m6_a/official/plantnet/PlantNet/PlantNet_pytorch/models/checkpoints/model_epoch199.pth": "efbea61d1a562ae8c58ca12fa60c49deae0db0de5bcca08356dd8dc1ee373e69",
+    "data/raw/m6_a/official/plantnet/PSegNet/PSegNet_pytorch/models/checkpoints/model_epoch199.pth": "9c2d2dfe8fd30217aa42f7ff179998ab41e288cf9880831f292fc99c0e8e64f6"
+  },
+  "supervised_training_started": false
+}

@@ -1,0 +1,89 @@
+{
+  "milestone": "M6-B",
+  "dataset": "Sugar4D V4",
+  "official_split": "reports/m3/plant_splits.json assignments.official; 24 train/12 val/12 test plants; 16 scans each",
+  "primary": "plant-level macro leaf instance PQ; strict IoU > 0.5, identical to M6-A",
+  "sampling": {
+    "points": 4096,
+    "training_pool_points": 32768,
+    "sampling": "uniform without replacement, no GT-guided sampling; epoch-specific resampling from fixed train pool",
+    "inference": "fixed uniform full-cloud sample; deterministic seed 20261012+plant_id*100+DAS; nearest-neighbor restoration to every PLY vertex",
+    "normalization": "full-cloud bounding-box midpoint and half maximum extent; retain center_m and scale_m; inverse xyz=normalized*scale+center",
+    "augmentation": "train only: z-axis rotation; no future, labels or phenotype metadata as input"
+  },
+  "supervision": {
+    "semantic": "0 taproot, 1 core, 2 leaf, unchanged three-way CE; never interpret source species stem/leaf codes as Sugar4D codes",
+    "instance": "current-frame leaf nonnegative IDs remapped locally, randomly permuted per epoch; nonleaf sentinel -1",
+    "loss": "official 10 CE + 10 L1 discriminative embedding (delta_v=.5, delta_d=1.5, reg=.001) + published-source double-hinge similarity (alpha=10,C_same=10,C_diff=80)",
+    "masking": "taproot/core retain distinct semantic supervision; discriminative and pair similarity leaf-only; pair weights computed independently per frame",
+    "source_fidelity": "retain official unusual positive-pair relu(80-D) exactly; no undocumented hinge-sign correction",
+    "forbidden": ["validation/test training labels", "GT cross-time identity as input", "future scans", "GT leaf count or GT-guided points"]
+  },
+  "training": {
+    "methods": {"S1": "official PlantNet scratch", "S2": "official PlantNet pretrained epoch199 finetune; all trainable, semantic head random", "S3": "official PSegNet scratch"},
+    "seeds": [17, 29, 43],
+    "S3_seeds": [17],
+    "epochs": 60,
+    "batch_size": 4,
+    "optimizer": "Adam",
+    "learning_rate": {"S1": 0.001, "S2": 0.001, "S3": 0.001},
+    "weight_decay": 0.001,
+    "lr_schedule": "cosine decay to 0.00002 over exactly 60 epochs",
+    "precision": "float32; no AMP",
+    "gradient_clip": 10,
+    "validation_epochs": [10, 20, 30, 40, 50, 60],
+    "checkpoint_selection": "highest Validation plant-macro full-resolution PQ with bandwidth .6; ties earliest epoch; never use Test",
+    "validation_loss": "no label updates or batchnorm updates; current evaluation labels only in evaluator",
+    "budget_policy": "all 384 train frames each epoch; no result-dependent extension; 23040 frame presentations, 5760 optimizer updates per run",
+    "adequacy": "60 vs official 200 epochs is bounded target-domain baseline; report convergence diagnostics and do not interpret undertraining as architecture failure"
+  },
+  "postprocessing": {
+    "cluster": "official sklearn MeanShift, bin_seeding=True,n_jobs=1 on five-dimensional embedding; clusters of predicted semantic leaf points only",
+    "bandwidth_candidates": [0.4, 0.6, 0.8],
+    "selection": "after checkpoint selection, select per run highest Validation plant-macro PQ; tie .6 then smaller bandwidth",
+    "minimum_sample_points": 1,
+    "filter": "do not delete clusters by GT counts/sizes; no source-species mean-size filter on target leaves",
+    "full_resolution": true
+  },
+  "evaluation": {
+    "main_split": "val",
+    "test_role": "exploratory fixed-scheme replication; repeatedly used in M3-M6-A, not an untouched blind test",
+    "metrics": ["PQ", "SBD", "instance precision/recall", "miss rate", "merge/split rates", "small-leaf recall", "early-leaf errors", "core-adjacent errors", "DAS/leaf-count strata", "speed/VRAM"],
+    "small_leaf": "GT fraction <= train-only q25 leaf-point fraction; no GT-guided inference",
+    "early": "DAS <= 47",
+    "core_adjacent": "at least 10 percent of leaf points within 5mm of current-frame GT core; evaluation-only proximity proxy, not manually certified unseparated leaf",
+    "strata": "all DAS scans; leaf count <=6,7-10,>10",
+    "error_definitions": "M6-A overlap >10% of GT leaf for merge/split; report denominators explicitly",
+    "confidence_interval": "10000 independent-plant bootstrap samples, seed 20261013; paired differences preserve plant pairing; seeds are not independent plants",
+    "seed_reporting": "per seed and mean-across-seed per plant; representative downstream seed fixed at 17, not best seed",
+    "plant_exclusion": "none, all legal leaves retained",
+    "cross_validation": "not run; official split only"
+  },
+  "tracking": {
+    "method": "M6-A OfficialTracker unchanged fixed configuration, no training",
+    "sampling_registration": "reuse verified label-independent M6-A 256-point 3DEPS XYZ and official CPD cache, same physical point clouds; GT/pred labels never alter geometry sampling",
+    "identities": "each frame independently randomized local numbering before tracker; no GT temporal ID; evaluator-only GT identities",
+    "B0": "historical GT masks + TrackPlant3D",
+    "B1": "historical S0 PlantNet + TrackPlant3D",
+    "B3": "seed17 of better S1/S2 family by average three-seed Validation PQ",
+    "B4": "S3 if runnable; explicitly label only one seed and do not call untested Organ3DNet a result",
+    "measurer": "unchanged m6a.metrics.measurements and m6a.experiment.measurement_losses",
+    "caveat": "biased absolute leaf length/area; improved segmentation/tracking is not whole-system phenotype reliability"
+  },
+  "strong_baseline": {
+    "Organ3DNet_commit": "06f711fc3d9884933c61766c009b2bcd86837139",
+    "policy": "bounded official dependency/example attempt before target adaptation; if actual toolchain/checkpoint blocker, BLOCKED without simplified architecture",
+    "no_unlimited_port": true
+  },
+  "continuation": {
+    "PQ_min": 0.70,
+    "IDF1_min": 0.80,
+    "new_first_observation_F1_min": 0.70,
+    "stable_direction": "representative seed17 and mean-seed PQ improvements over S0 in >=9/12 Validation plants and paired CI lower >0",
+    "early_small_recall_min": 0.50,
+    "decision_order": ["INSTANCE-SOLVED-FOR-TRACKING if locked segmentation/tracking/event thresholds and stable direction, no pronounced early-small failures", "INSTANCE-METHOD-NEEDED only if adequate supervised converged baselines fail with identifiable instance errors and direction evidence stable", "DATA-LIMITED if plant-level uncertainty, incomplete strong baseline or bounded convergence evidence prevents stable technical judgment; stop tuning and improve independent data/protocol"],
+    "measurement_not_required": true,
+    "exactly_one": true,
+    "stop_after_delivery": true
+  }
+}

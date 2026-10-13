@@ -1,0 +1,39 @@
+WARNING: Ignoring invalid distribution ~glang-kernel (/home/test/biosoft/enter/lib/python3.13/site-packages)
+WARNING: Skipping MinkowskiEngine as it is not installed.
+--------------------------------
+| FORCE_CUDA set                |
+--------------------------------
+--------------------------------
+| CUDA compilation set         |
+--------------------------------
+
+Using BLAS=openblas
+Using the default compiler
+running build_ext
+Traceback (most recent call last):
+  File "/fj/JEPA-表型/data/raw/m6_b/official/MinkowskiEngine-02fc608bea4c0549b0a7b00ca1bf15dee4a0b228/setup.py", line 320, in <module>
+    setup(
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/__init__.py", line 104, in setup
+    return distutils.core.setup(**attrs)
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+    return run_commands(dist)
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+    dist.run_commands()
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+    self.run_command(cmd)
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+    super().run_command(command)
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 91, in run
+    _build_ext.run(self)
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 359, in run
+    self.build_extensions()
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 434, in build_extensions
+    self._check_cuda_version(compiler_name, compiler_version)
+  File "/fj/JEPA-表型/.venv-m6-b-organ3d/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 812, in _check_cuda_version
+    raise RuntimeError(CUDA_MISMATCH_MESSAGE.format(cuda_str_version, torch.version.cuda))
+RuntimeError: 
+The detected CUDA version (12.6) mismatches the version that was used to compile
+PyTorch (11.3). Please make sure to use the same CUDA versions.
+

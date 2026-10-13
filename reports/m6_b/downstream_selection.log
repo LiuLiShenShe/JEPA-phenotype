@@ -1,0 +1,1 @@
+{'B3_method': 'S2', 'B3_seed': 17, 'B4_method': 'S3', 'B4_seed': 17, 'selection': 'mean over three Validation seeds; downstream seed17 fixed before outcomes', 'family_validation_pq': {'S2': 0.8679893544965386, 'S1': 0.8557235828175639}, 'no_test_selection': True}

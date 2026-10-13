@@ -1,0 +1,72 @@
+..................................................F..................... [ 40%]
+........................................................................ [ 81%]
+................................                                         [100%]
+=================================== FAILURES ===================================
+______________ test_official_encoder_real_cache_and_letterboxing _______________
+
+    def test_official_encoder_real_cache_and_letterboxing():
+        root = Path(__file__).resolve().parents[1]
+        if not (root / "reports/m1/feature_cache.json").exists():
+            pytest.skip("Requires official pretrained cache artifacts")
+>       from extract_dinov2_features import load_encoder,preprocess
+
+tests/test_m1_models.py:181: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    #!/usr/bin/env python3
+    """Extract immutable, RGB-only official frozen DINOv2 embeddings."""
+    
+    from __future__ import annotations
+    
+    import argparse
+    import hashlib
+    import json
+    import platform
+    import subprocess
+    import sys
+    import time
+    from pathlib import Path
+    
+    import numpy as np
+    import pandas as pd
+    import torch
+>   import torchvision
+E   ModuleNotFoundError: No module named 'torchvision'
+
+scripts/extract_dinov2_features.py:18: ModuleNotFoundError
+=============================== warnings summary ===============================
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+.venv-m6-b/lib/python3.11/site-packages/matplotlib/_mathtext.py:45
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+tests/test_m6_b.py::test_full_resolution_restore_and_no_gt_filtering
+  /fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/sklearn/cluster/_mean_shift.py:291: UserWarning: Binning data failed with provided bin_size=0.600000, using data points as seeds.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+---------- generated xml file: /fj/JEPA-表型/reports/m6_b/tests_all.xml ----------
+=========================== short test summary info ============================
+FAILED tests/test_m1_models.py::test_official_encoder_real_cache_and_letterboxing
+1 failed, 175 passed, 15 warnings in 166.37s (0:02:46)

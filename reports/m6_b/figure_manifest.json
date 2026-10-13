@@ -1,0 +1,80 @@
+{
+  "selection": "minimum/maximum B3 Validation plant PQ, no hand-picked successes",
+  "figures": [
+    {
+      "name": "validation_instance_summary",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "eb6045b90e0dd4b1b13283ba88ccf6fed26da0589ea66a65b3bf977620f7a4c1",
+      "pdf_sha256": "16d70d2182dceb58953944013752beba2ee3355fe2dd2e5e044b8676311d74cd",
+      "svg_sha256": "5e750a2c91fcf7ec6c4de4ecfee836a37b909cad37fcbf14b771d182873700ec"
+    },
+    {
+      "name": "validation_learning_curves",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "d8876c5b1ecdb72b04bdede0df7e66450bc95b4b7f27b262ef5db4b016cd01da",
+      "pdf_sha256": "444182725b14cb964d308fe670a8154f3308c362973be99bee4d2b75853c3fba",
+      "svg_sha256": "44751f79655fbd51b4c86838d9dd0cadb5e666f86864f6ac169fb2442e629198"
+    },
+    {
+      "name": "segmentation_to_tracking",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "b156aff7bd52b82a94605f1db7bfa920010928d98946847be0eb45e026430c0f",
+      "pdf_sha256": "489f997dc17ebc87a0801a2e93a20f816ca6c150decc4a76dda4796970110eac",
+      "svg_sha256": "e00a983faa95896ec547f23fec1ff99b69547cf832e4dc27d118ad694ddcf96e"
+    },
+    {
+      "name": "detection_vs_identity_errors",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "318bc6cb065435868ad22b53d3bc35f3cd725dec9361d8dc3633fa28a41d6a1d",
+      "pdf_sha256": "fb458513097ea29b26df3e302e15140f162bce02f2e42485de956181a25abc73",
+      "svg_sha256": "af4f356b6831dc8c523614f1474cd7d9db5653b073e140c1e253c5c233d0ba4b"
+    },
+    {
+      "name": "plant_004_instance_cases",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "abcb95dbd30887a0430b1c35102ffad18d999a4542473b0aad318807f9392474",
+      "pdf_sha256": "ead6b7509a8e2a54a065e2b1a2a6f424b6b3ecf348c8214ec582c70c94eadba0",
+      "svg_sha256": "18531b4d9db66e700d43d2b86a203a3545d9f3a82ff2af60196fc6d0b7f9ed46"
+    },
+    {
+      "name": "plant_004_early_instances_3d",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "1b84e2eee340056552106fb360be993471c19556320407eb8ab428511717c68c",
+      "pdf_sha256": "75c634121702eaa37de1741076480cf7e4f2a9d0f3b4e9c3a9f2720b0f20d4db",
+      "svg_sha256": "931bc0071380578f67079f40fe20d7d6877282f8323e5a3a614fcab57453c58e"
+    },
+    {
+      "name": "plant_019_instance_cases",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "31679c4cc993302e4e6ef8adac548b409310086cc5ffc2f20a7939c1b60832c2",
+      "pdf_sha256": "200edde93609438ec2da9c4ada645ef34cf3e082d5aefa48755e9c31a9c02b62",
+      "svg_sha256": "7bf25ec51ed8ac5d84fe538722c36dd37708860c16e26333ed3c6dea18e12df1"
+    },
+    {
+      "name": "plant_019_early_instances_3d",
+      "data_source": "real Sugar4D PLY and scored predictions; no generative pixels",
+      "png_sha256": "6e5bee144bd6fe61188f06add7da281509acc9ced734773f6632bb2a41917df5",
+      "pdf_sha256": "9090dfdc03a47df756af428bdb6103da91c81fc1a5a7b7e8afb27b22772d1125",
+      "svg_sha256": "4dec25a4387f8f87103f37b166491dc206fcef4875fcc1322107b46b48e8843f"
+    }
+  ],
+  "vision_review_required": false,
+  "source_csv_sha256": {
+    "segmentation_per_plant.csv": "07346c53ef5a8025efd623a690dcda2b1b926f6dd4b5e5336ebb61c7ff4b74eb",
+    "tracking_per_plant.csv": "8b6e8399129d814f9e0f736ecb1014e82fce1fbcd1244c70c295fda0db7e29cc",
+    "validation_learning_curves.csv": "fbb70a16af9eda1fb33866ef085c61e276c09349196bfe1c925c2c2f5ca739cb",
+    "tracking_error_decomposition.csv": "63fffcc7b136b7dd9a65f10334624788a49969da4f3a9be9a72cae4ee927ff1f"
+  },
+  "direct_visual_review": {
+    "reviewed_utc": "2026-10-13T08:40:30.566599+00:00",
+    "method": "current model directly opened local PNG with view_image; no external vision API",
+    "all_eight_actual_figures_viewed": true,
+    "display_only_findings_fixed": [
+      "long diagnostic ylabel",
+      "crowded early3D ticks"
+    ],
+    "metric_data_unchanged": true,
+    "human_signoff": false,
+    "QA_file": "reports/m6_b/FIGURE_QA.md"
+  }
+}

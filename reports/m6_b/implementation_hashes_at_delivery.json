@@ -1,0 +1,27 @@
+{
+  "time_utc": "2026-10-13T08:40:30.577437+00:00",
+  "meaning": "final delivered implementation hashes; earlier implementation_hashes.json remains pre-final engineering snapshot, not changed registered training sources",
+  "sha256": {
+    "src/m6b/evaluation.py": "1c611884a34f464c148c3e909a6bc00f8464789aff0838198ab1156b5bc027ff",
+    "src/m6b/tracking.py": "62f8b4930973e18bf952e4a6eb4de55032258da9016fecb2ec7973071eb64c8e",
+    "src/m6b/models.py": "ebd5d5e85b39595e9787bca50f427a020ef7069e04c6bd3b9471ae3309015070",
+    "src/m6b/__init__.py": "2c0a7ce646f2ab3b86e742acefc1df91b77ea4620e3541482fce9a2214eb34cf",
+    "src/m6b/training.py": "eff0c73c009397b5c82ac94e2dae757e6e765a098a6153a4aa8f1aed78f56c7b",
+    "src/m6b/analysis.py": "48b267e5fbbe306def4232b851c7b55ccaf27231bf462e975aba841aff7d6f51",
+    "src/m6b/common.py": "7aa325e9e7327aef23d0a442777a19e8ecc8bf8f59e6862df46276aedae5529c",
+    "src/m6b/data.py": "293bcad40b216498054d3033edda0bee7a7ed52120bd2a193e5273a290babb7f",
+    "src/m6b/reporting.py": "5210fc6541f8d212df58af6c318ee763668384302ece6666692ed4e9cd643b8c",
+    "scripts/verify_m6_b.py": "8714f9c45836bdb9a5d1c2e65a8055e463233a837fdec917466a051837dae1c1",
+    "scripts/smoke_m6_b_organ3d.py": "750051fa3b0574a98b85486423db07b821ccba4445343cd43cf9fa92fb6fdfec",
+    "scripts/setup_m6_b_environment.sh": "2df0bb4c8ee8e66e046bb4543d8aea69f94bf5e21e0ef64243176b83df4fa356",
+    "scripts/audit_m6_b_sources.py": "8a24770ea49cc415ebb5b2a2130a8dda5309632f6ad7e58f2d36c7e4cdf4b0cf",
+    "scripts/train_m6_b_finetune_gpu1.sh": "9e39b0b50851254b2996657e42281f67b7e6a9158da45579274e3e5a72aa22e3",
+    "scripts/finish_m6_b_delivery.sh": "2a08a773bd80ac54f401c34425fc2658e86a17d93c08d7e993dd240abcb8eb21",
+    "scripts/run_m6_b.py": "de385cbb2531b2e3623437dd5ec3fd16dc3939828695f98ba0f88991311afb3f",
+    "scripts/prepare_m6_b_tracking_geometry.py": "06d114200283174d3a22c89b5ee1592f85d0487c1e971a6092cd3001ec338c3d",
+    "scripts/benchmark_m6_b_inference.py": "278d07ff89da32363ad2ed9a2698fc89629fff516054337f670da2d883c98829",
+    "scripts/train_m6_b_matrix.sh": "f094219ae52a7495d93f6d00f42787445f7ab336a045e3b66b81883c0f202a3f",
+    "configs/m6_b/protocol.json": "39a31f73de48568998defea76715f538b9caf77a2cc4164e501848be2698ccd9",
+    "tests/test_m6_b.py": "f9fc4587c75ff0a1fbcf2e3b6aa77a16c404c84a35fad08dd284abb6831d9f4d"
+  }
+}

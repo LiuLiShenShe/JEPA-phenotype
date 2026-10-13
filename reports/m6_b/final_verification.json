@@ -1,0 +1,63 @@
+{
+  "protocol_lock_sha256": "c4fcaa3780f096d9deb0f58bba66f62c39060c724821a500b6028f5b9841dfd2",
+  "checks": [
+    {
+      "method": "S1",
+      "seed": 17,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    },
+    {
+      "method": "S1",
+      "seed": 29,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    },
+    {
+      "method": "S1",
+      "seed": 43,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    },
+    {
+      "method": "S2",
+      "seed": 17,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    },
+    {
+      "method": "S2",
+      "seed": 29,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    },
+    {
+      "method": "S2",
+      "seed": 43,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    },
+    {
+      "method": "S3",
+      "seed": 17,
+      "epochs": 60,
+      "steps": 5760,
+      "valid": true
+    }
+  ],
+  "all_required_supervised_runs_actual": true,
+  "all_full_resolution_predictions_present": true,
+  "all_legal_leaf_error_rows_present": true,
+  "all_legal_first_observation_events_present": true,
+  "historical_protection": true,
+  "HEAD_unchanged": true,
+  "S4": "BLOCKED without replacement",
+  "recommendation": "INSTANCE-METHOD-NEEDED",
+  "passed": true
+}

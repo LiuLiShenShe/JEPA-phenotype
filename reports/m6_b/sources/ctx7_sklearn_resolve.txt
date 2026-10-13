@@ -1,0 +1,23 @@
+
+1. Title: scikit-learn
+   Context7-compatible library ID: /websites/scikit-learn_stable
+   Description: scikit-learn is an open-source Python library providing simple and efficient tools for predictive data analysis, including algorithms for classification, regression, clustering, dimensionality reduction, and model selection.
+   Code Snippets: 22017
+   Source Reputation: High
+   Benchmark Score: 84.65
+
+2. Title: scikit-learn
+   Context7-compatible library ID: /websites/scikit-learn_dev
+   Description: scikit-learn is a free and open-source Python machine learning library that provides simple and efficient tools for data analysis, predictive modeling, and statistical learning.
+   Code Snippets: 24874
+   Source Reputation: High
+   Benchmark Score: 78.96
+
+3. Title: Scikit-learn
+   Context7-compatible library ID: /scikit-learn/scikit-learn
+   Description: scikit-learn: machine learning in Python
+   Code Snippets: 4692
+   Source Reputation: High
+   Benchmark Score: 77.12
+   Versions: 1.7.1, 1.9.1, 1.9.0
+

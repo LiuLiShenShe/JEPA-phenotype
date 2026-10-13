@@ -1,0 +1,41 @@
+{
+  "time_local": "2026-10-13 14:28:06 +0800",
+  "reason": "shared GPU1 new external CUDA job; resume unchanged bounded runs on available same-model GPU0",
+  "no_external_process_touched": true,
+  "full_state_resume": true,
+  "rows": [
+    {
+      "seed": 17,
+      "old_own_pid": 522686,
+      "saved_epoch": 37,
+      "optimizer_updates": 3552,
+      "latest_sha256": "f2dad6e257b2caa40176dbb64c19f4d7884bd71536f20eb926a038c65e8992b4",
+      "optimizer_state_present": true,
+      "torch_rng_present": true,
+      "cuda_rng_states": 1,
+      "protocol_lock_sha256": "c4fcaa3780f096d9deb0f58bba66f62c39060c724821a500b6028f5b9841dfd2"
+    },
+    {
+      "seed": 29,
+      "old_own_pid": 522687,
+      "saved_epoch": 37,
+      "optimizer_updates": 3552,
+      "latest_sha256": "7328f411266db778c772e4241973ca392fd494ddfac125a97ee93658323d19e3",
+      "optimizer_state_present": true,
+      "torch_rng_present": true,
+      "cuda_rng_states": 1,
+      "protocol_lock_sha256": "c4fcaa3780f096d9deb0f58bba66f62c39060c724821a500b6028f5b9841dfd2"
+    },
+    {
+      "seed": 43,
+      "old_own_pid": 522688,
+      "saved_epoch": 37,
+      "optimizer_updates": 3552,
+      "latest_sha256": "12c87d3e8e9f9753efb1de09ea43df9de8a1aeb3df512aa09349cdef1168208e",
+      "optimizer_state_present": true,
+      "torch_rng_present": true,
+      "cuda_rng_states": 1,
+      "protocol_lock_sha256": "c4fcaa3780f096d9deb0f58bba66f62c39060c724821a500b6028f5b9841dfd2"
+    }
+  ]
+}

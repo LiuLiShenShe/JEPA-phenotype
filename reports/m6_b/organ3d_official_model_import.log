@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/fj/JEPA-表型/data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/__init__.py", line 1, in <module>
+    import models.resunet as resunet
+  File "/fj/JEPA-表型/data/raw/m6_b/official/Organ3DNet-06f711fc3d9884933c61766c009b2bcd86837139/models/resunet.py", line 2, in <module>
+    import MinkowskiEngine as ME
+ModuleNotFoundError: No module named 'MinkowskiEngine'

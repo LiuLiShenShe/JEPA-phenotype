@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/17446444",
+    "status": 200,
+    "utc": "2026-10-13T02:26:03.578074+00:00"
+  },
+  {
+    "url": "https://api.github.com/repos/NVIDIA/MinkowskiEngine/git/trees/02fc608bea4c0549b0a7b00ca1bf15dee4a0b228?recursive=1",
+    "status": 200,
+    "utc": "2026-10-13T02:26:04.164471+00:00"
+  }
+]

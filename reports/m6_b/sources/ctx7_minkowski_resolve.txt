@@ -1,0 +1,8 @@
+
+1. Title: Minkowski Engine
+   Context7-compatible library ID: /nvidia/minkowskiengine
+   Description: Minkowski Engine is an auto-differentiation library for sparse tensors that supports all standard neural network layers such as convolution, pooling, and broadcasting operations.
+   Code Snippets: 258
+   Source Reputation: High
+   Benchmark Score: 91
+

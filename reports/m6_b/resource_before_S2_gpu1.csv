@@ -1,0 +1,9 @@
+index, name, utilization.gpu [%], memory.used [MiB]
+0, NVIDIA RTX A6000, 100 %, 21464 MiB
+1, NVIDIA RTX A6000, 0 %, 14 MiB
+gpu_uuid, pid, used_gpu_memory [MiB]
+GPU-db3ec610-630b-fa4f-66f2-b69f269ca856, 4134805, 4240 MiB
+GPU-db3ec610-630b-fa4f-66f2-b69f269ca856, 4134807, 4240 MiB
+GPU-db3ec610-630b-fa4f-66f2-b69f269ca856, 4134808, 4240 MiB
+GPU-db3ec610-630b-fa4f-66f2-b69f269ca856, 174269, 4372 MiB
+GPU-db3ec610-630b-fa4f-66f2-b69f269ca856, 195763, 3464 MiB

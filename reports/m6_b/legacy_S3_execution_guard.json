@@ -1,0 +1,6 @@
+{
+  "legacy_pre_lock_cli_pid": 174269,
+  "method": "S3",
+  "seed": 17,
+  "policy": "guard existing pre-lock process; release when it exits; no training or artifact mutations"
+}

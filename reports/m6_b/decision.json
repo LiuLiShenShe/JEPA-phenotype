@@ -1,0 +1,39 @@
+{
+  "recommendation": "INSTANCE-METHOD-NEEDED",
+  "rationale": "A converged bounded supervised baseline improves independent plants stably but fails locked gates with low PQ/early-small recall or predominantly instance-missed first observations; a tracking-only failure is not attributed to segmentation. No dense strong-baseline superiority is claimed.",
+  "validation_gates": [
+    {
+      "pipeline": "B3",
+      "method": "S2",
+      "pq": 0.869209488627995,
+      "idf1": 0.8495825042572932,
+      "new_event_f1": 0.31376863876863875,
+      "stable_improvement": true,
+      "early_small_recall": 0.6363636363636365,
+      "new_missed_instance": 4.583333333333333,
+      "new_attached_old_identity": 1.1666666666666667,
+      "passes": false
+    },
+    {
+      "pipeline": "B4",
+      "method": "S3",
+      "pq": 0.8545394261766183,
+      "idf1": 0.846246658212627,
+      "new_event_f1": 0.18640472803891095,
+      "stable_improvement": true,
+      "early_small_recall": 0.6666666666666666,
+      "new_missed_instance": 3.6666666666666665,
+      "new_attached_old_identity": 3.1666666666666665,
+      "passes": false
+    }
+  ],
+  "convergence_adequate_for_method_needed": true,
+  "instance_bottleneck_diagnostic": true,
+  "attribution_diagnostic": "post-training diagnosis, not a changed success gate: first-observation instance-missed count compared with old-identity-attached count; low PQ or early-small recall also identifies an instance failure",
+  "convergence_diagnostic": "disclosed post-training adequacy diagnostic, not an added success gate: all final-vs50 PQ changes <.03 and last10 embedding loss <.25",
+  "measurement_system_certified": false,
+  "S4": "BLOCKED",
+  "test_not_used_for_decision": true,
+  "exactly_one": true,
+  "no_automatic_next_method": true
+}

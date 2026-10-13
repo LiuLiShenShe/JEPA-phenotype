@@ -1,0 +1,27 @@
+{
+  "frames": 768,
+  "plants": 48,
+  "split_plants": {
+    "test": 12,
+    "train": 24,
+    "val": 12
+  },
+  "split_frames": {
+    "test": 192,
+    "train": 384,
+    "val": 192
+  },
+  "coordinate_unit": "metres; retained centre and scale in metres",
+  "semantic_mapping": {
+    "0": "taproot",
+    "1": "core",
+    "2": "leaf"
+  },
+  "nonleaf_instance_policy": "negative IDs never become leaves; all taproot/core points have separate semantic supervision; no leaf embedding loss",
+  "leaf_policy": "frame-local contiguous 0..K-1; raw temporal identities excluded from model and cache inputs",
+  "small_leaf_fraction_threshold_train_q25": 0.04588683197817431,
+  "pool_size": 32768,
+  "pool_lost_leaves": 0,
+  "sampling_uses_labels": false,
+  "future_inputs": false
+}

@@ -1,0 +1,5 @@
+{
+  "train_frames": 384,
+  "train_plants": 24,
+  "no_validation_test_training": true
+}
