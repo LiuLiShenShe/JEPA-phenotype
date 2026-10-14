@@ -1,0 +1,41 @@
+{
+  "decision": {
+    "outcome": "DATA-LIMITED",
+    "next_stage": "STOP",
+    "chosen": "C2",
+    "validation_mean_birth_F1": 0.33287150299855023,
+    "validation_mean_IDF1": 0.8765000420940682,
+    "IDF1_paired": {
+      "mean": 0.026917537836775102,
+      "lower": -0.0067667675335149865,
+      "upper": 0.06013167538180496,
+      "plants": 12
+    },
+    "birth_F1_paired": {
+      "mean": 0.01910286422991148,
+      "lower": -0.025702853258179052,
+      "upper": 0.0689546128230973,
+      "plants": 12
+    },
+    "small_birth_recall_paired": {
+      "mean": 0.05732323232323233,
+      "lower": 0.0080808080808081,
+      "upper": 0.12071338383838376,
+      "plants": 12
+    },
+    "correct_link_coverage_paired": {
+      "mean": -0.017636613944865136,
+      "lower": -0.03288787356543569,
+      "upper": -0.004148075088908639,
+      "plants": 12
+    },
+    "birth_positive_plants": 6,
+    "birth_gates_pass": false,
+    "tracking_gates_pass": false,
+    "absolute_measurements_certified": false
+  },
+  "validation_only": true,
+  "test_evaluation_still_in_progress": true,
+  "system_selection_sha256": "98309d7df57fc9ef68a035a84ed41830f84e6f9f155c5113c711332aac87b366",
+  "tracking_val_sha256": "213d9429fd80ccba0a8e4fa52e9cb418e9c1c69947f98eeb796f25eb01b299de"
+}

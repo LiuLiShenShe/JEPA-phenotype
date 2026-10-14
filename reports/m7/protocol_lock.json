@@ -1,0 +1,11 @@
+{
+  "utc_before_training": "2026-10-13T10:19:58.189775+00:00",
+  "sha256": {
+    "configs/m7/protocol.json": "193a7caee9c93f30fd6f7448a5a1202f5f3e358435fb031be8dbd808fa9f9cc0",
+    "reports/m3/plant_splits.json": "b3d675218a85bf2f2aece4c455260336a58be9d176331e832ab31aac5870d55f",
+    "outputs/m6_b/S2/seed_17/best.pth": "8db0a5246c5b50a5bc755efdf7e973c4813c6815bc42845d38aa2e692ba30328",
+    "outputs/m6_b/S2/seed_17/postprocessing_selection.json": "6684b6713095d1662f73c68936599e54b1a15dac17d6ad0e209adc0bef84ce39",
+    "reports/m6_b/delivery_manifest.json": "3b111c7076c30c6f9fcb7dc5b4eb0d70359b17b3be15ecb7fe260764bd8308c8"
+  },
+  "training_started": false
+}

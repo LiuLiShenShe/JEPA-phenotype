@@ -1,0 +1,12 @@
+{
+  "C1": {
+    "threshold": 0.35,
+    "mean_validation_IDF1": 0.860331647028179
+  },
+  "C2": {
+    "threshold": 0.35,
+    "mean_validation_IDF1": 0.8765000420940683
+  },
+  "selection_split": "val",
+  "chosen_method": "C2"
+}

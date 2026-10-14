@@ -1,0 +1,5 @@
+usage: evaluate_birth.py [-h] [--split {val,test}]
+
+options:
+  -h, --help          show this help message and exit
+  --split {val,test}

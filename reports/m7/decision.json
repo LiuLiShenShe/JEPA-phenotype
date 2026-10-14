@@ -1,0 +1,35 @@
+{
+  "outcome": "DATA-LIMITED",
+  "next_stage": "STOP",
+  "chosen": "C2",
+  "validation_mean_birth_F1": 0.33287150299855023,
+  "validation_mean_IDF1": 0.8765000420940682,
+  "IDF1_paired": {
+    "mean": 0.026917537836775113,
+    "lower": -0.006766767533514977,
+    "upper": 0.06013167538180498,
+    "plants": 12
+  },
+  "birth_F1_paired": {
+    "mean": 0.019102864229911448,
+    "lower": -0.025702853258179083,
+    "upper": 0.06895461282309726,
+    "plants": 12
+  },
+  "small_birth_recall_paired": {
+    "mean": 0.05732323232323233,
+    "lower": 0.0080808080808081,
+    "upper": 0.12071338383838376,
+    "plants": 12
+  },
+  "correct_link_coverage_paired": {
+    "mean": -0.017636613944865136,
+    "lower": -0.03288787356543567,
+    "upper": -0.004148075088908622,
+    "plants": 12
+  },
+  "birth_positive_plants": 6,
+  "birth_gates_pass": false,
+  "tracking_gates_pass": false,
+  "absolute_measurements_certified": false
+}

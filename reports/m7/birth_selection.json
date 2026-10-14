@@ -1,0 +1,21 @@
+{
+  "single_RF": {
+    "threshold": 0.35,
+    "validation_mean_seed_plant_F1": 0.3574557080638861
+  },
+  "history_RF": {
+    "threshold": 0.35,
+    "validation_mean_seed_plant_F1": 0.3708592290381337
+  },
+  "single_PointNet": {
+    "threshold": 0.2,
+    "validation_mean_seed_plant_F1": 0.31952326066542563
+  },
+  "PointNet_GRU": {
+    "threshold": 0.2,
+    "validation_mean_seed_plant_F1": 0.37443840129598643
+  },
+  "selection_split": "val",
+  "representative_seed": 17,
+  "chosen_method": "PointNet_GRU"
+}

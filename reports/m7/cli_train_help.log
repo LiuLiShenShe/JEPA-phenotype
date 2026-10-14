@@ -1,0 +1,9 @@
+usage: train_birth_detector.py [-h] --method
+                               {history_RF,single_RF,PointNet_GRU,single_PointNet,C1,C2,forecast_RF}
+                               --seed SEED [--device DEVICE]
+
+options:
+  -h, --help            show this help message and exit
+  --method {history_RF,single_RF,PointNet_GRU,single_PointNet,C1,C2,forecast_RF}
+  --seed SEED
+  --device DEVICE

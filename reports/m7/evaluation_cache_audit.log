@@ -1,0 +1,9 @@
+{'method': 'candidate_oracle', 'seed': 17, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'difference', 'seed': 17, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'history_RF', 'seed': 17, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'history_RF', 'seed': 29, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'history_RF', 'seed': 43, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'single_PointNet', 'seed': 17, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'single_RF', 'seed': 17, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'single_RF', 'seed': 29, 'plants': 12, 'equal_direct_and_cached': True}
+{'method': 'single_RF', 'seed': 43, 'plants': 12, 'equal_direct_and_cached': True}

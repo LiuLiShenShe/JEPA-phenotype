@@ -1,0 +1,102 @@
+### Test for asymmetric errorbars on polar plot
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/tests/test_axes.py
+
+Test case demonstrating asymmetric errorbars with xerr and yerr as lists of two arrays (lower, upper bounds).
+
+```python
+# asymmetric errorbars
+th_asym = [4*np.pi/3 + .1, 5*np.pi/3 + .1, 2*np.pi-0.1]
+r_asym = [1.1]*3
+xerr = [[.3, .3, .2], [.2, .3, .3]]
+yerr = [[.35, .5, .5], [.5, .35, .5]]
+ax.errorbar(th_asym, r_asym, xerr=xerr, yerr=yerr, fmt="o")
+```
+
+--------------------------------
+
+### Asymmetric errorbar usage example with subplots
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/galleries/examples/statistics/errorbar_features.py
+
+Complete working example showing asymmetric errorbars using shape (2, N) arrays with subplots and log scale, which can be saved to pdf/svg/png via savefig.
+
+```python
+fig, (ax0, ax1) = plt.subplots(nrows=2, sharex=True)
+ax0.errorbar(x, y, yerr=error, fmt='-o')
+ax0.set_title('variable, symmetric error')
+
+# error bar values w/ different -/+ errors that
+# also vary with the x-position
+lower_error = 0.4 * error
+upper_error = error
+asymmetric_error = [lower_error, upper_error]
+
+ax1.errorbar(x, y, xerr=asymmetric_error, fmt='o')
+ax1.set_title('variable, asymmetric error')
+ax1.set_yscale('log')
+plt.show()
+```
+
+--------------------------------
+
+### Asymmetric errorbar parameter specification
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/axes/_axes.py
+
+The errorbar method accepts xerr/yerr with shape (2, N) where the first row is lower errors and second row is upper errors, enabling asymmetric confidence intervals.
+
+```python
+xerr, yerr : float or array-like, shape(N,) or shape(2, N), optional
+    The errorbar sizes:
+
+    - scalar: Symmetric +/- values for all data points.
+    - shape(N,): Symmetric +/-values for each data point.
+    - shape(2, N): Separate - and + values for each bar. First row
+      contains the lower errors, the second row contains the upper
+      errors.
+    - *None*: No errorbar.
+
+    All values must be >= 0.
+```
+
+--------------------------------
+
+### Create a 3D surface plot with mouse rotation
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/doc/api/toolkits/mplot3d/view_angles.rst
+
+Creates a 3D surface plot using the current mouse rotation style. The example uses a meshgrid and the coolwarm colormap.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import cm
+
+ax = plt.figure().add_subplot(projection='3d')
+
+X = np.arange(-5, 5, 0.25)
+Y = np.arange(-5, 5, 0.25)
+X, Y = np.meshgrid(X, Y)
+R = np.sqrt(X**2 + Y**2)
+Z = np.sin(R)
+
+surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
+                       linewidth=0, antialiased=False)
+
+plt.show()
+```
+
+--------------------------------
+
+### Set view angles with ax.view_init
+
+Source: https://github.com/matplotlib/matplotlib/blob/main/doc/api/toolkits/mplot3d/view_angles.rst
+
+Sets the elevation, azimuth, and roll angles of a 3D plot's camera using the view_init method. The example creates a 3D subplot and sets the view to elev=30, azim=45, and roll=15.
+
+```python
+import matplotlib.pyplot as plt
+ax = plt.figure().add_subplot(projection='3d')
+ax.view_init(elev=30, azim=45, roll=15)
+```

@@ -1,0 +1,16 @@
+{
+  "python": "Python 3.11.15",
+  "historical_environment_modified": false,
+  "reuse": ".venv-m6-b read-only; PYTHONDONTWRITEBYTECODE=1",
+  "torch_cuda": "12.8",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "pytest": "8.4.2"
+  },
+  "GPU": "0, NVIDIA RTX A6000, 3573 MiB, 94 %\n1, NVIDIA RTX A6000, 9823 MiB, 97 %\n"
+}

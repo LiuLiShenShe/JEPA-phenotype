@@ -1,0 +1,22 @@
+{
+  "frames": 768,
+  "plants": 48,
+  "splits": {
+    "test": 12,
+    "train": 24,
+    "val": 12
+  },
+  "events": 675,
+  "non_left_censored_events": 477,
+  "candidates": 13535,
+  "Train_predictions_in_sample": true,
+  "no_GT_features": true,
+  "future_inputs": false,
+  "train_trackable_annotation_unavailable": true,
+  "segmentation_checkpoint_sha256": "8db0a5246c5b50a5bc755efdf7e973c4813c6815bc42845d38aa2e692ba30328",
+  "feature_dimensions": {
+    "temporal": 110,
+    "single": 54
+  },
+  "single_frame_control": "descriptor+confidence+semantic_fraction+current_local_statistics+timing; proposal source and novelty columns excluded"
+}

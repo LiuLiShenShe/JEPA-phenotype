@@ -1,0 +1,9 @@
+{
+  "selection_split": "val",
+  "chosen_method": "C2",
+  "mean_validation_IDF1": 0.8765000420940683,
+  "mean_validation_event_F1": 0.33287150299855023,
+  "baseline_imported_IDF1": 0.8495825042572932,
+  "birth_model": "PointNet_GRU",
+  "no_test_selection": true
+}

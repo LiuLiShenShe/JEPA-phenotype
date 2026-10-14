@@ -1,0 +1,398 @@
+{
+  "passed": true,
+  "real_training_runs": 21,
+  "training": [
+    {
+      "path": "outputs/m7/forecast/seed_43/completed.json",
+      "seed": 43,
+      "trees": 200,
+      "training_plants": 24,
+      "training_transitions": 360,
+      "target": "plant-level presence of next scheduled scan new visible organ; localization not claimed",
+      "input_max_time": "DAS <= current DAS",
+      "checkpoint_sha256": "dbe93d462c521e92761669d1969bb420f290c696adb8addfda8800bff5e77da6"
+    },
+    {
+      "path": "outputs/m7/forecast/seed_29/completed.json",
+      "seed": 29,
+      "trees": 200,
+      "training_plants": 24,
+      "training_transitions": 360,
+      "target": "plant-level presence of next scheduled scan new visible organ; localization not claimed",
+      "input_max_time": "DAS <= current DAS",
+      "checkpoint_sha256": "efaf56072acaf75b742d08aad1e747055b267f5282d00ac91dc42f56b874170c"
+    },
+    {
+      "path": "outputs/m7/forecast/seed_17/completed.json",
+      "seed": 17,
+      "trees": 200,
+      "training_plants": 24,
+      "training_transitions": 360,
+      "target": "plant-level presence of next scheduled scan new visible organ; localization not claimed",
+      "input_max_time": "DAS <= current DAS",
+      "checkpoint_sha256": "050395bc7d018e4f268598b4861744604509603b689b2fb63c282e4201ae550a"
+    },
+    {
+      "path": "outputs/m7/matching/C2/seed_43/completed.json",
+      "method": "C2",
+      "seed": 43,
+      "train_plants": 24,
+      "training_pairs": 54626,
+      "positive_pairs": 5299,
+      "epochs": 40,
+      "updates": 8560,
+      "parameters": 17569,
+      "seconds": 147.950419110246,
+      "GT_ID_supervision_train_only": true,
+      "JEPA": false,
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "checkpoint_sha256": "fc4bff48b354130ea291635d3239a7fd22842d4b85e573c57d47e281c3422703"
+    },
+    {
+      "path": "outputs/m7/matching/C2/seed_29/completed.json",
+      "method": "C2",
+      "seed": 29,
+      "train_plants": 24,
+      "training_pairs": 54626,
+      "positive_pairs": 5299,
+      "epochs": 40,
+      "updates": 8560,
+      "parameters": 17569,
+      "seconds": 154.69432134460658,
+      "GT_ID_supervision_train_only": true,
+      "JEPA": false,
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "checkpoint_sha256": "efc29d94d1c3e00fedd0c107d9e94a73b1821c7edffda1f96f71651b3169dbee"
+    },
+    {
+      "path": "outputs/m7/matching/C2/seed_17/completed.json",
+      "method": "C2",
+      "seed": 17,
+      "train_plants": 24,
+      "training_pairs": 54626,
+      "positive_pairs": 5299,
+      "epochs": 40,
+      "updates": 8560,
+      "parameters": 17569,
+      "seconds": 153.24719492346048,
+      "GT_ID_supervision_train_only": true,
+      "JEPA": false,
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "checkpoint_sha256": "0d3acf6dc13d18f1a0104aa73b7844fae49c501cf037a1fd9567bb6d2923fe17"
+    },
+    {
+      "path": "outputs/m7/matching/C1/seed_43/completed.json",
+      "method": "C1",
+      "seed": 43,
+      "train_plants": 24,
+      "training_pairs": 54626,
+      "positive_pairs": 5299,
+      "epochs": 40,
+      "updates": 8560,
+      "parameters": 12001,
+      "seconds": 45.73815831914544,
+      "GT_ID_supervision_train_only": true,
+      "JEPA": false,
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "checkpoint_sha256": "fed04fbc4a0cc55995309fd842437cb0c9b6708e283a84c099a51c3d41bc70ed"
+    },
+    {
+      "path": "outputs/m7/matching/C1/seed_29/completed.json",
+      "method": "C1",
+      "seed": 29,
+      "train_plants": 24,
+      "training_pairs": 54626,
+      "positive_pairs": 5299,
+      "epochs": 40,
+      "updates": 8560,
+      "parameters": 12001,
+      "seconds": 42.72496823966503,
+      "GT_ID_supervision_train_only": true,
+      "JEPA": false,
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "checkpoint_sha256": "25add8c030a5f75e8f898d70a2f81b29c9e7a91b8409715943172da29df413b8"
+    },
+    {
+      "path": "outputs/m7/matching/C1/seed_17/completed.json",
+      "method": "C1",
+      "seed": 17,
+      "train_plants": 24,
+      "training_pairs": 54626,
+      "positive_pairs": 5299,
+      "epochs": 40,
+      "updates": 8560,
+      "parameters": 12001,
+      "seconds": 44.76334258168936,
+      "GT_ID_supervision_train_only": true,
+      "JEPA": false,
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "checkpoint_sha256": "45bcd16359aeb129d737dd55d1d0d0c259a60c6ac78704a05390ae2e49998eea"
+    },
+    {
+      "path": "outputs/m7/birth/history_RF/seed_43/completed.json",
+      "method": "history_RF",
+      "seed": 43,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "trees": 200,
+      "checkpoint_sha256": "7ae747e66635647623762624b13a5f08f12bf398e8a3efac133863f2acd19d24",
+      "seconds": 1.3580203149467707
+    },
+    {
+      "path": "outputs/m7/birth/history_RF/seed_29/completed.json",
+      "method": "history_RF",
+      "seed": 29,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "trees": 200,
+      "checkpoint_sha256": "21ded6d210b616012f1f534aee85fb516b345d76141164250fa5195027be0747",
+      "seconds": 1.4530160864815116
+    },
+    {
+      "path": "outputs/m7/birth/history_RF/seed_17/completed.json",
+      "method": "history_RF",
+      "seed": 17,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "trees": 200,
+      "checkpoint_sha256": "c99f397a6ea5c58b36ffc37a7537d794165f9ffad0ddc01a596a9a125575d7ea",
+      "seconds": 1.3895659940317273
+    },
+    {
+      "path": "outputs/m7/birth/single_RF/seed_43/completed.json",
+      "method": "single_RF",
+      "seed": 43,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "trees": 200,
+      "checkpoint_sha256": "56c943dc40c19e98de96a4643e594aeb6192eb7b74e2960e1e56f67b390016cb",
+      "seconds": 1.1627638954669237
+    },
+    {
+      "path": "outputs/m7/birth/single_RF/seed_29/completed.json",
+      "method": "single_RF",
+      "seed": 29,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "trees": 200,
+      "checkpoint_sha256": "743779faa7efc29497abee581f7a84dd3d9bacdd76b08adea850403639bd5fd8",
+      "seconds": 1.0896304789930582
+    },
+    {
+      "path": "outputs/m7/birth/single_RF/seed_17/completed.json",
+      "method": "single_RF",
+      "seed": 17,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "trees": 200,
+      "checkpoint_sha256": "465684158f7b5f88ea71f3a86c84f5afdb403d40ad0f2fb16d3761cfed06dcba",
+      "seconds": 1.1315795434638858
+    },
+    {
+      "path": "outputs/m7/birth/single_PointNet/seed_43/completed.json",
+      "method": "single_PointNet",
+      "seed": 43,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "epochs": 40,
+      "updates": 2120,
+      "parameters": 18241,
+      "checkpoint_sha256": "9a327d13b5bac534970d8737a1f203499b954c7c7dbc454953a126eee07d8f61",
+      "seconds": 24.564569887705147
+    },
+    {
+      "path": "outputs/m7/birth/single_PointNet/seed_29/completed.json",
+      "method": "single_PointNet",
+      "seed": 29,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "epochs": 40,
+      "updates": 2120,
+      "parameters": 18241,
+      "checkpoint_sha256": "21d5c5f2ae581031bf4b61d2f3b32bd197389b04c41359fb50a833d7a65023fd",
+      "seconds": 23.990184541791677
+    },
+    {
+      "path": "outputs/m7/birth/single_PointNet/seed_17/completed.json",
+      "method": "single_PointNet",
+      "seed": 17,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "epochs": 40,
+      "updates": 2120,
+      "parameters": 18241,
+      "checkpoint_sha256": "fac8c6e714688f15fd91cf10c598f98fe82af057da156cc85da4cb960881b26b",
+      "seconds": 26.28859077580273
+    },
+    {
+      "path": "outputs/m7/birth/PointNet_GRU/seed_43/completed.json",
+      "method": "PointNet_GRU",
+      "seed": 43,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "epochs": 40,
+      "updates": 2120,
+      "parameters": 47169,
+      "checkpoint_sha256": "de28e812b22434187c0db814b4c5659e9e3327f4f954b6f06aafc0acb96bbd72",
+      "seconds": 30.112141706049442
+    },
+    {
+      "path": "outputs/m7/birth/PointNet_GRU/seed_29/completed.json",
+      "method": "PointNet_GRU",
+      "seed": 29,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "epochs": 40,
+      "updates": 2120,
+      "parameters": 47169,
+      "checkpoint_sha256": "7612e3e30503206d6a60c5d86d455cd2d1e9e467364dcd837f19b62372ede4a1",
+      "seconds": 33.253525730222464
+    },
+    {
+      "path": "outputs/m7/birth/PointNet_GRU/seed_17/completed.json",
+      "method": "PointNet_GRU",
+      "seed": 17,
+      "split": "train",
+      "plants": 24,
+      "training_candidates": 6707,
+      "positive_candidates": 139,
+      "target": "current scan visible birth, not next-scan forecast",
+      "GT_identity_input": false,
+      "candidate_pool": "shared causal proposals; single-feature controls do not remove proposal-level temporal information",
+      "code_sha256": {
+        "src/birth_detection/training.py": "8f75b891a50561d96f7b9442d074934544646c348e31a05a875fb0621c7e6db5",
+        "src/temporal_encoder/models.py": "0ce106271848e49ef43b58704b1ca51d1a3fe2c1dc5bc6e5f680441a17a7df89"
+      },
+      "epochs": 40,
+      "updates": 2120,
+      "parameters": 47169,
+      "checkpoint_sha256": "c64b7b0b1ad0e3a22b2cec76932dae6b3a7733b065ef469346b7b8d5eb128cd3",
+      "seconds": 30.76778404880315
+    }
+  ],
+  "full_resolution_prediction_frames": 4608,
+  "frames": 768,
+  "events": 675,
+  "candidates": 13535,
+  "historical_unchanged": true,
+  "Test_after_validation_selection": true,
+  "recommendation": "DATA-LIMITED",
+  "next_stage": "STOP"
+}

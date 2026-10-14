@@ -1,0 +1,22 @@
+method,seed,epochs,trees,parameters,training_plants,training_examples,positive_examples,optimizer_updates,final_train_loss,elapsed_seconds,checkpoint_sha256,pretraining,path
+C1,17,40.0,,12001.0,24,54626,5299.0,8560.0,0.0140332612869298,44.76334258168936,45bcd16359aeb129d737dd55d1d0d0c259a60c6ac78704a05390ae2e49998eea,none; frozen S2 proposals shared,outputs/m7/matching/C1/seed_17
+C1,29,40.0,,12001.0,24,54626,5299.0,8560.0,0.0084163056613319,42.72496823966503,25add8c030a5f75e8f898d70a2f81b29c9e7a91b8409715943172da29df413b8,none; frozen S2 proposals shared,outputs/m7/matching/C1/seed_29
+C1,43,40.0,,12001.0,24,54626,5299.0,8560.0,0.0113459236236619,45.73815831914544,fed04fbc4a0cc55995309fd842437cb0c9b6708e283a84c099a51c3d41bc70ed,none; frozen S2 proposals shared,outputs/m7/matching/C1/seed_43
+C2,17,40.0,,17569.0,24,54626,5299.0,8560.0,0.0177933790048619,153.24719492346048,0d3acf6dc13d18f1a0104aa73b7844fae49c501cf037a1fd9567bb6d2923fe17,none; frozen S2 proposals shared,outputs/m7/matching/C2/seed_17
+C2,29,40.0,,17569.0,24,54626,5299.0,8560.0,0.013041126078308,154.69432134460658,efc29d94d1c3e00fedd0c107d9e94a73b1821c7edffda1f96f71651b3169dbee,none; frozen S2 proposals shared,outputs/m7/matching/C2/seed_29
+C2,43,40.0,,17569.0,24,54626,5299.0,8560.0,0.0154942170549271,147.950419110246,fc4bff48b354130ea291635d3239a7fd22842d4b85e573c57d47e281c3422703,none; frozen S2 proposals shared,outputs/m7/matching/C2/seed_43
+PointNet_GRU,17,40.0,,47169.0,24,6707,139.0,2120.0,0.0268530924814118,30.76778404880315,c64b7b0b1ad0e3a22b2cec76932dae6b3a7733b065ef469346b7b8d5eb128cd3,none; frozen S2 proposals shared,outputs/m7/birth/PointNet_GRU/seed_17
+PointNet_GRU,29,40.0,,47169.0,24,6707,139.0,2120.0,0.0227934682704969,33.253525730222464,7612e3e30503206d6a60c5d86d455cd2d1e9e467364dcd837f19b62372ede4a1,none; frozen S2 proposals shared,outputs/m7/birth/PointNet_GRU/seed_29
+PointNet_GRU,43,40.0,,47169.0,24,6707,139.0,2120.0,0.0221094007797117,30.112141706049442,de28e812b22434187c0db814b4c5659e9e3327f4f954b6f06aafc0acb96bbd72,none; frozen S2 proposals shared,outputs/m7/birth/PointNet_GRU/seed_43
+forecast_RF,17,,200.0,,24,360,,,,,050395bc7d018e4f268598b4861744604509603b689b2fb63c282e4201ae550a,none; frozen S2 proposals shared,outputs/m7/forecast/seed_17
+forecast_RF,29,,200.0,,24,360,,,,,efaf56072acaf75b742d08aad1e747055b267f5282d00ac91dc42f56b874170c,none; frozen S2 proposals shared,outputs/m7/forecast/seed_29
+forecast_RF,43,,200.0,,24,360,,,,,dbe93d462c521e92761669d1969bb420f290c696adb8addfda8800bff5e77da6,none; frozen S2 proposals shared,outputs/m7/forecast/seed_43
+history_RF,17,,200.0,,24,6707,139.0,,,1.3895659940317273,c99f397a6ea5c58b36ffc37a7537d794165f9ffad0ddc01a596a9a125575d7ea,none; frozen S2 proposals shared,outputs/m7/birth/history_RF/seed_17
+history_RF,29,,200.0,,24,6707,139.0,,,1.4530160864815116,21ded6d210b616012f1f534aee85fb516b345d76141164250fa5195027be0747,none; frozen S2 proposals shared,outputs/m7/birth/history_RF/seed_29
+history_RF,43,,200.0,,24,6707,139.0,,,1.3580203149467707,7ae747e66635647623762624b13a5f08f12bf398e8a3efac133863f2acd19d24,none; frozen S2 proposals shared,outputs/m7/birth/history_RF/seed_43
+single_PointNet,17,40.0,,18241.0,24,6707,139.0,2120.0,0.0492376824928763,26.28859077580273,fac8c6e714688f15fd91cf10c598f98fe82af057da156cc85da4cb960881b26b,none; frozen S2 proposals shared,outputs/m7/birth/single_PointNet/seed_17
+single_PointNet,29,40.0,,18241.0,24,6707,139.0,2120.0,0.0661220631544601,23.990184541791677,21d5c5f2ae581031bf4b61d2f3b32bd197389b04c41359fb50a833d7a65023fd,none; frozen S2 proposals shared,outputs/m7/birth/single_PointNet/seed_29
+single_PointNet,43,40.0,,18241.0,24,6707,139.0,2120.0,0.0601951212727658,24.564569887705147,9a327d13b5bac534970d8737a1f203499b954c7c7dbc454953a126eee07d8f61,none; frozen S2 proposals shared,outputs/m7/birth/single_PointNet/seed_43
+single_RF,17,,200.0,,24,6707,139.0,,,1.1315795434638858,465684158f7b5f88ea71f3a86c84f5afdb403d40ad0f2fb16d3761cfed06dcba,none; frozen S2 proposals shared,outputs/m7/birth/single_RF/seed_17
+single_RF,29,,200.0,,24,6707,139.0,,,1.0896304789930582,743779faa7efc29497abee581f7a84dd3d9bacdd76b08adea850403639bd5fd8,none; frozen S2 proposals shared,outputs/m7/birth/single_RF/seed_29
+single_RF,43,,200.0,,24,6707,139.0,,,1.1627638954669237,56c943dc40c19e98de96a4643e594aeb6192eb7b74e2960e1e56f67b390016cb,none; frozen S2 proposals shared,outputs/m7/birth/single_RF/seed_43

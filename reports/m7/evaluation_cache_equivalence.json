@@ -1,0 +1,61 @@
+{
+  "metric_rules_unchanged": true,
+  "records": [
+    {
+      "method": "candidate_oracle",
+      "seed": 17,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "difference",
+      "seed": 17,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "history_RF",
+      "seed": 17,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "history_RF",
+      "seed": 29,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "history_RF",
+      "seed": 43,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "single_PointNet",
+      "seed": 17,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "single_RF",
+      "seed": 17,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "single_RF",
+      "seed": 29,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    },
+    {
+      "method": "single_RF",
+      "seed": 43,
+      "plants": 12,
+      "equal_direct_and_cached": true
+    }
+  ],
+  "validation_selection_unchanged": true,
+  "test_not_run_before_selection": true
+}

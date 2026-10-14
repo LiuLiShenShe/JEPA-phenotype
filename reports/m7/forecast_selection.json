@@ -1,0 +1,6 @@
+{
+  "threshold": 0.35,
+  "mean_F1": 0.6534429787332265,
+  "selection_split": "val",
+  "target": "next-scan plant event, not current-scan localization"
+}

@@ -1,0 +1,7 @@
+method,split,F1,Brier
+next_scan_always_new,test,0.7168765614417788,0.43333333333333335
+next_scan_always_new,val,0.6272350837568229,0.5388888888888889
+next_scan_never_new,test,0.0,0.5666666666666667
+next_scan_never_new,val,0.0,0.4611111111111111
+next_scan_plant_forecast_RF,test,0.7288937595809314,0.21121873739089492
+next_scan_plant_forecast_RF,val,0.6534429787332264,0.2201836137055414

@@ -1,0 +1,7 @@
+{
+  "source": "reports/m6_b/tracking_per_plant.csv",
+  "sha256": "8b6e8399129d814f9e0f736ecb1014e82fce1fbcd1244c70c295fda0db7e29cc",
+  "new_method_evaluation_of_old_segmenter": false,
+  "old_tracking_reexecution": false,
+  "M6B_F1_semantics_unchanged": true
+}

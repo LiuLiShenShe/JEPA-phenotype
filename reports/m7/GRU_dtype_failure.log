@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/fj/JEPA-表型/scripts/train_birth_detector.py", line 21, in <module>
+    train_birth(ROOT, arguments.method, arguments.seed, arguments.device)
+  File "/fj/JEPA-表型/src/birth_detection/training.py", line 91, in train_birth
+    logits = model(patch, timing, feature)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/src/temporal_encoder/models.py", line 32, in forward
+    unused_output, hidden = self.gru(sequence)
+                            ^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/rnn.py", line 1389, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/rnn.py", line 364, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/fj/JEPA-表型/.venv-m6-b/lib/python3.11/site-packages/torch/nn/modules/rnn.py", line 306, in check_input
+    raise ValueError(
+ValueError: input must have the type torch.float32, got type torch.float64

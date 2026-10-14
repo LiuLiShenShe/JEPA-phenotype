@@ -1,0 +1,13 @@
+{
+  "source": "actual M7 CSV and original point clouds",
+  "formats": [
+    "SVG",
+    "PDF",
+    "PNG"
+  ],
+  "backend": "Python matplotlib",
+  "SVG_text_editable": true,
+  "display_subsampling_disclosed": true,
+  "synthetic_data": false,
+  "human_signoff": false
+}

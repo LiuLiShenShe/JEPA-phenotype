@@ -1,0 +1,8 @@
+{
+  "invalid_artifact": "outputs/m7/invalid_source_novel_leak_birth_dataset.npz",
+  "reason": "pre-patch cache retained candidate source and novelty columns in single-frame control",
+  "invalid_single_dimensions": 56,
+  "corrected_single_dimensions": 54,
+  "reconstruction": "temporal[0:25]+temporal[27:29]+temporal[79:104]+temporal[108:110]",
+  "proposal_source_novel_excluded": true
+}

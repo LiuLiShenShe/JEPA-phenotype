@@ -1,0 +1,27 @@
+{
+  "stage": "M7",
+  "seeds": [17, 29, 43],
+  "split_source": "reports/m3/plant_splits.json",
+  "segmentation": {"method": "S2", "seed": 17, "frozen_checkpoint": "outputs/m6_b/S2/seed_17/best.pth", "training_predictions": "in_sample_frozen_model_not_out_of_fold"},
+  "events": {
+    "visible": "first released PLY leaf-semantic nonnegative temporal instance observation; first scan is left-censored",
+    "segmentable": "first strict IoU>0.5 match in the frozen S2 predictions; model-dependent operational proxy, not intrinsic segmentability",
+    "trackable": "first of three consecutive matched observations with the same frozen TrackPlant3D track; retrospective benchmark annotation only",
+    "right_censoring": "never segmentable/trackable is missing, not the last scan",
+    "evaluation": "exact current-scan event matching by strict mask IoU>0.5; first scan excluded; no biological birth claim",
+    "area": "official measured leaf area at first PLY observation, cm2, evaluation only",
+    "small": "M6B Train-derived leaf point fraction <=0.04588683197817431",
+    "core_adjacent": "GT leaf-to-core point distance p10<=0.005m, evaluation proxy only"
+  },
+  "causality": {"window": 3, "padding": "repeat earliest available scan with explicit availability and actual DAS gaps", "forecast": "separate one-step plant event prediction using only frames <=t, target next scheduled scan", "runtime_GT_inputs": false, "future_frame_inputs": false},
+  "candidates": {"voxel_m": 0.004, "novel_distance_m": 0.007, "density_radius_m": 0.012, "density_ratio": 2.0, "dbscan_eps_m": 0.012, "dbscan_min_samples": 4, "minimum_region_points": 24, "patch_radius_m": 0.06, "patch_points": 128, "patch_scale_m": 0.12, "GT_guided_proposals": false, "sources": ["all_frozen_predicted_leaf_instances", "voxel_novelty_or_density_change_clusters"]},
+  "birth_training": {"epochs": 40, "batch_size": 128, "learning_rate": 0.001, "weight_decay": 0.0001, "random_forest_trees": 200, "random_forest_max_depth": 12, "thresholds": [0.2, 0.35, 0.5, 0.65, 0.8], "selection": "mean of three seed plant-macro exact-event F1 on Validation; deterministic tie higher threshold", "controls": ["single_frame_RF", "single_frame_PointNet"]},
+  "tracking_training": {"epochs": 40, "batch_size": 256, "learning_rate": 0.001, "weight_decay": 0.0001, "maximum_gap_scans": 2, "pair_thresholds": [0.35, 0.5, 0.65, 0.8], "metric_dimensions": 32, "metric_loss_weight": 0.2, "selection": "mean three-seed Validation plant IDF1; higher threshold tie", "same_lifecycle_C1_C2": true, "GT_ID_use": "Train labels and evaluator only"},
+  "system_selection": "select birth detector and C1/C2 using Validation only; force selected explicit birth regions to new tracks; select maximum mean plant birth F1 among systems with mean IDF1>=imported B0, otherwise report best identity system without claiming birth success",
+  "statistics": {"unit": "plant", "bootstrap": 10000, "seed": 20261013, "confidence": 0.95, "paired": true, "random_seeds_not_independent_plants": true},
+  "success": {"birth_f1_strictly_greater": 0.5, "small_recall_paired_CI_lower_strictly_greater": 0.0, "IDF1_mean_no_decrease": true, "positive_plant_fraction": 0.75, "tracking_IDF1_delta": 0.02, "tracking_coverage_delta": 0.02},
+  "decision": {"A": "BIRTH-SUCCESS if all birth gates pass", "B": "otherwise TRACKING-SUCCESS if paired IDF1 lower CI>0 and mean delta>=0.02 and correct-link coverage delta>=0.02", "C": "otherwise DATA-LIMITED: bounded models do not establish stable useful improvement; describe actual event scarcity, interval uncertainty, candidate identifiability and annotation limitations, not a proof of universal data insufficiency"},
+  "measurement": {"function": "unchanged m6a.metrics.geometry_measure", "oracle": "GT masks and GT identities, evaluator only", "perform_if": "at least one locked A/B success gate; otherwise descriptive failure/coverage audit only, no claimed reliable recovery", "include_missing_wrong_links": true},
+  "test": "already reused exploratory fixed replication; no threshold, architecture, seed or model selection; run three seeds only after Validation selection",
+  "historical": "reuse M6B B3 and oracle outputs; never rerun, overwrite or retune old methods"
+}

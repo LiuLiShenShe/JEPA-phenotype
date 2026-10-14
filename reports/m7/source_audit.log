@@ -1,0 +1,16 @@
+[
+  {
+    "name": "sugar4d_official",
+    "url": "https://www.ipb.uni-bonn.de/data/sugar4d/index.html",
+    "HTTP": 200,
+    "bytes": 21269,
+    "sha256": "c6c20a33a8515ec22935047671101052428a963a4c40ceab4d4489494b4b25af"
+  },
+  {
+    "name": "sugar4d_dataverse",
+    "url": "https://bonndata.uni-bonn.de/api/datasets/:persistentId/?persistentId=doi:10.60507/FK2/IS8YBZ",
+    "HTTP": 200,
+    "bytes": 13976,
+    "sha256": "d08e777daefbaef9086e011ae2925dbb7985679c5659675e846a80a7e9171080"
+  }
+]

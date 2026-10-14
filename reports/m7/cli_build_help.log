@@ -1,0 +1,5 @@
+usage: build_birth_dataset.py [-h] [--device DEVICE]
+
+options:
+  -h, --help       show this help message and exit
+  --device DEVICE

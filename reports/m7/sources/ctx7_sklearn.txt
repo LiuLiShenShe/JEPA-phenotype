@@ -1,0 +1,98 @@
+### Fit a RandomForestClassifier on training samples
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/main/doc/modules/ensemble.rst
+
+Fit a RandomForestClassifier with 10 estimators using a 2D sample array and target class labels. Forest classifiers support both sparse and dense sample arrays of shape (n_samples, n_features) and target arrays of shape (n_samples,).
+
+```python
+>>> from sklearn.ensemble import RandomForestClassifier
+>>> X = [[0, 0], [1, 1]]
+>>> Y = [0, 1]
+>>> clf = RandomForestClassifier(n_estimators=10)
+>>> clf = clf.fit(X, Y)
+```
+
+--------------------------------
+
+### Fit a RandomForestClassifier on Training Data
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/main/doc/getting_started.rst
+
+Initializes and fits a RandomForestClassifier on sample feature matrix X and target labels y. The fit method expects array-like inputs representing sample rows and feature columns.
+
+```python
+>>> from sklearn.ensemble import RandomForestClassifier
+>>> clf = RandomForestClassifier(random_state=0)
+>>> X = [[ 1,  2,  3],  # 2 samples, 3 features
+...      [11, 12, 13]]
+>>> y = [0, 1]  # classes of each sample
+>>> clf.fit(X, y)
+RandomForestClassifier(random_state=0)
+```
+
+--------------------------------
+
+### Prevent data leakage by splitting data before feature selection (correct)
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/main/doc/common_pitfalls.rst
+
+Splits data into train and test subsets first and fits SelectKBest only on training data, yielding expected chance-level accuracy.
+
+```python
+>>> X_train, X_test, y_train, y_test = train_test_split(
+...     X, y, random_state=42)
+>>> select = SelectKBest(k=25)
+>>> X_train_selected = select.fit_transform(X_train, y_train)
+
+>>> gbc = HistGradientBoostingClassifier(random_state=1)
+>>> gbc.fit(X_train_selected, y_train)
+HistGradientBoostingClassifier(random_state=1)
+
+>>> X_test_selected = select.transform(X_test)
+>>> y_pred = gbc.predict(X_test_selected)
+>>> accuracy_score(y_test, y_pred)
+0.5
+```
+
+--------------------------------
+
+### Cluster string data using custom Levenshtein metric with dbscan
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/main/doc/faq.rst
+
+Index strings by integer array and compute pairwise edit distances using a custom metric function. Specify algorithm='brute' because DBSCAN defaults to assuming a continuous feature space.
+
+```python
+    >>> import numpy as np
+    >>> from leven import levenshtein  # doctest: +SKIP
+    >>> from sklearn.cluster import dbscan
+    >>> data = ["ACCTCCTAGAAG", "ACCTACTAGAAGTT", "GAATATTAGGCCGA"]
+    >>> def lev_metric(x, y):
+    ...     i, j = int(x[0]), int(y[0])  # extract indices
+    ...     return levenshtein(data[i], data[j])
+    ...
+    >>> X = np.arange(len(data)).reshape(-1, 1)
+    >>> X
+    array([[0],
+           [1],
+           [2]])
+    >>> # We need to specify algorithm='brute' as the default assumes
+    >>> # a continuous feature space.
+    >>> dbscan(X, metric=lev_metric, eps=5, min_samples=2, algorithm='brute')  # doctest: +SKIP
+    (array([0, 1]), array([ 0,  0, -1]))
+```
+
+### Glossary
+
+Source: https://github.com/scikit-learn/scikit-learn/blob/main/doc/glossary.rst
+
+leakage
+data leakage
+    A problem in cross validation where generalization performance can be
+    over-estimated since knowledge of the test data was inadvertently
+    included in training a model.  This is a risk, for instance, when
+    applying a :term:`transformer` to the entirety of a dataset rather
+    than each training portion in a cross validation split.
+
+    We aim to provide interfaces (such as :mod:`~sklearn.pipeline` and
+    :mod:`~sklearn.model_selection`) that shield the user from data leakage.

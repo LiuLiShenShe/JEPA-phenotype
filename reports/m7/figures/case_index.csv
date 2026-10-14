@@ -1,0 +1,3 @@
+plant_id,DAS,leaf_instance_id,failure,selection,source_points,display_points,full_GT_target_preserved_in_display
+plant_011,82,12,detection_failure,"median initial point count within failure type, Validation seed17",426425,13953,True
+plant_036,40,4,identity_failure,"median initial point count within failure type, Validation seed17",133346,27015,True

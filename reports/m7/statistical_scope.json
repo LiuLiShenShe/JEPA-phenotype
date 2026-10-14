@@ -1,0 +1,10 @@
+{
+  "unit": "plant",
+  "three_seed_average_before_resampling": true,
+  "confidence": 0.95,
+  "bootstrap_repetitions": 10000,
+  "tests": "two-sided exact plant sign flips; Holm for two Validation F1 contrasts",
+  "post_selection_bias": "Validation thresholds and methods were selected on these plants; confidence intervals and p values are exploratory, not unbiased confirmatory inference",
+  "Test_already_used_in_history": true,
+  "new_external_independent_test": false
+}
